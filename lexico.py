@@ -15,6 +15,22 @@ reserved = {
     'class': 'CLASS',
     'new': 'NEW',
     #Fin Cindy
+
+    #Johanna
+    'extends': 'EXTENDS',
+    'int': 'INTEGER',
+    'string': 'STRING',
+    'bool': 'BOOLEAN',
+    'float': 'FLOAT',
+    'null': 'NULL',
+    'true': 'TRUE',
+    'false': 'FALSE',
+    'compare': 'COMPARE',
+    'current': 'CURRENT',
+    'list': 'LIST',
+    'empty': 'EMPTY'
+    #Fin Johanna
+    
 }
 tokens = [
     #Cindy
@@ -37,11 +53,34 @@ tokens = [
     'OPERLOGICO_NOT',
     'OPERASIG_ARRAY',
     #Fin Cindy
+
+    #Johanna
+    'BOOLEANO',
+    'MAYORQUE',
+    'MENORQUE',
+    'CADENA',
+    'ENTERO',
+    'FLOTANTE',
+    'COMENTARIO_UNA_LINEA',
+    'COMENTARIO_LARGO',
+    'NOMBRE',
+    'VARIABLE_PHP',
+    'OPERAMAPA',
+    'OPERALOGICO_MAP',
+    'OPERACIONSUM',
+    'OPERAPUT',
+    'ECHO',
+    'PUBLIC',
+    'PROTECTED',
+    'PRIVATE',
+    'TEXTOSENCILLO',
+    'ESPACIOENBLANCO'
+    #Fin Johanna
  ] + list(reserved.values())
  
  #Cindy
- t_MENOS = r'\-'
- t_MULTIPLICA = r'\*'
+t_MENOS = r'\-'
+t_MULTIPLICA = r'\*'
 t_DIVIDE = r'/'
 t_MODULO = r'%'
 t_EXPONENCIACION = r'\*\*'
