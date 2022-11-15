@@ -113,8 +113,7 @@ tokens = [
     'ESPACIOENBLANCO'
     #Fin Johanna
  ] + list(reserved.values())
-     
-   
+
  #Viviana
 t_PUNTOYCOMA = r';'
 t_SALTO_DE_LINEA = r'\\n'
@@ -181,7 +180,7 @@ t_ignore  = ' \t'
 def t_OPERLOGICO_OR(t):
     r'or'
     return t
-    
+     
 def t_OPERLOGICO_AND(t):
     r'and'
     return t
@@ -258,8 +257,7 @@ def t_PRIVATE(t):
     r'private'
     return t
 
-# Fin Johanna          
-        
+# Fin Johanna
 #Cindy
 resultados = []
 
