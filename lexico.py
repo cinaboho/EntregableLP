@@ -148,6 +148,17 @@ t_DOBLEASTERISCOIGUAL = r'\*\*\='
 t_OPERCOMPARACION = r'=='
  #Fin Cindy
 
+ #Johanna
+t_MAYORQUE=r'>'
+t_MENORQUE = r'<'
+t_OPERAMAPA = r'array\_map'
+t_OPERALOGICO_MAP = r'\->'
+t_OPERACIONSUM = r'sum\(\)'
+t_OPERAPUT = r'put'
+t_COMENTARIO_UNA_LINEA =r'//'+'.*'
+t_COMENTARIO_LARGO = r'\/\*(.|\n)*?\*\/|\/\/([^?%\n]|[?%](?!>))*\n?|\#([^?%\n]|[?%](?!>))*\n?'
+#Fin Johanna
+
  #Viviana
 def t_INICIO(t):
     r'<[?%](([Pp][Hh][Pp][ \t\r\n]?)|=)?'
@@ -187,16 +198,8 @@ def t_OPERASIG_ARRAY(t):
 
 #Fin Cindy    
 
-#Johanna
-t_MAYORQUE=r'>'
-t_MENORQUE = r'<'
-t_OPERAMAPA = r'array\_map'
-t_OPERALOGICO_MAP = r'\->'
-t_OPERACIONSUM = r'sum\(\)'
-t_OPERAPUT = r'put'
-t_COMENTARIO_UNA_LINEA =r'//'+'.*'
-t_COMENTARIO_LARGO = r'\/\*(.|\n)*?\*\/|\/\/([^?%\n]|[?%](?!>))*\n?|\#([^?%\n]|[?%](?!>))*\n?'
 
+# Johanna
 def t_BOOLEANO(t):
     r'True|False'
     return t
