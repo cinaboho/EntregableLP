@@ -161,12 +161,18 @@ t_COMENTARIO_LARGO = r'\/\*(.|\n)*?\*\/|\/\/([^?%\n]|[?%](?!>))*\n?|\#([^?%\n]|[
 
  #Viviana
 def t_INICIO(t):
-    r'<[?%](([Pp][Hh][Pp][ \t\r\n]?)|=)?'
+    r'<[?%](([Pp][Hh][Pp][\r]?)|=)?'
     return t
 
 def t_FIN(t):
     r'[?%]>\r?\n?'
     return t
+
+def t_newline(t):
+    r'\n+'
+    t.lexer.lineno += len(t.value)
+t_ignore  = ' \t'
+
 #'OPEN_TAG_WITH_ECHO',
 #Fin Viviana
 
@@ -259,9 +265,10 @@ resultados = []
 
 
 def t_error(t):
-    lineae="Caracter no reconocido {t.value[0]} en línea {t.lineno}"
-    print(lineae)
-    resultados.append(lineae)
+    #lineae="Caracter no reconocido {t.value[0]} en línea {t.lineno}"
+    print("Caracter no reconocido'%s'" % t.value[0])
+    #print(lineae)
+    #resultados.append(lineae)
     t.lexer.skip(1)
 
 
