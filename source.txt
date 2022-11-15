@@ -1,3 +1,4 @@
+// ALGORITMO-VIVIANA MUÑOZ
 <?php
 $dest = "destinatario@gmail.com"; //Email de destino
 $asunto = "Asunto"; //Asunto
@@ -8,4 +9,62 @@ $headers .= "X-Mailer: PHP5\n";
 $headers .= 'MIME-Version: 1.0' . "\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //
 mail($dest,$asunto,$cuerpo,$headers);
+?>
+// ALGORITMO-JOHANNA LOPEZ
+<?php
+function recoge($var, $m = "")
+{
+    if (!isset($_REQUEST[$var])) {
+        $tmp = is_array($m) [] : "";
+    } elseif (!is_array($_REQUEST[$var])) {
+        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
+    } else {
+        $tmp = $_REQUEST[$var];
+        array_walk_recursive($tmp, function (&$valor) {
+            $valor = trim(htmlspecialchars($valor));
+        });
+    }
+    return $tmp;
+}
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{  
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
 ?>
