@@ -1,6 +1,21 @@
 import ply.lex as lex
 
 reserved = {
+     #Viviana
+    'if': 'IF',
+    'else': 'ELSE',
+    'do': 'DO',
+    'while': 'WHILE',
+    'end_while': 'END_WHILE',
+    'for': 'FOR',
+    'switch': 'SWITCH',
+    'case': 'CASE',
+    'end_switch': 'END_SWITCH',
+    'break': 'BREAK',
+    'continue': 'CONTINUE',
+    'default': 'DEFAULT',
+    #Fin Viviana
+
     #Cindy
     'as': 'AS',
     'rsort': 'RSORT',
@@ -33,6 +48,27 @@ reserved = {
     
 }
 tokens = [
+     #Viviana
+    'INICIO',
+    'FIN',
+    'OPEN_TAG_WITH_ECHO',
+    'SALTO_DE_LINEA',
+    'PUNTOYCOMA',
+    'PUNTO',
+    'COMA',
+    'COMDOB',
+    'DOSPUNTOS',
+    'PARENIZQ',
+    'PARENDER',
+    'LLAVEIZQ',
+    'LLAVEDER',
+    'CORCHIZQ',
+    'CORCHDER',
+    'AMPERSAND',
+    'IGUAL',
+    'MAS',
+    #Fin Viviana
+
     #Cindy
     'MENOS',
     'MULTIPLICA',
@@ -77,7 +113,26 @@ tokens = [
     'ESPACIOENBLANCO'
     #Fin Johanna
  ] + list(reserved.values())
- 
+     
+   
+ #Viviana
+t_PUNTOYCOMA = r';'
+t_SALTO_DE_LINEA = r'\\n'
+t_PUNTO = r'\.'
+t_COMA = r','
+t_COMDOB = r'\"'
+t_DOSPUNTOS = r':'
+t_PARENIZQ = r'\('
+t_PARENDER = r'\)'
+t_LLAVEIZQ = r'\{'
+t_LLAVEDER = r'\}'
+t_CORCHIZQ = r'\['
+t_CORCHDER = r'\]'
+t_AMPERSAND = r'\&'
+t_IGUAL = r'='
+t_MAS = r'\+'
+#Fin Viviana
+    
  #Cindy
 t_MENOS = r'\-'
 t_MULTIPLICA = r'\*'
@@ -91,6 +146,20 @@ t_BARRAIGUAL = r'\/\='
 t_PORCENTAJEIGUAL = r'\%\='
 t_DOBLEASTERISCOIGUAL = r'\*\*\='
 t_OPERCOMPARACION = r'=='
+ #Fin Cindy
+
+ #Viviana
+def t_INICIO(t):
+    r'<[?%](([Pp][Hh][Pp][ \t\r\n]?)|=)?'
+    return t
+
+def t_FIN(t):
+    r'[?%]>\r?\n?'
+    return t
+#'OPEN_TAG_WITH_ECHO',
+#Fin Viviana
+
+ #Cindy
 
 def t_OPERLOGICO_OR(t):
     r'or'
