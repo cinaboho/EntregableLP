@@ -68,3 +68,29 @@ print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
 print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
 ?>
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+class NombreClase {
+    // Declaración de una propiedad
+    public $variable = 'Un valor cualquiera';
+    // Declaración de un método
+    public function mostrarVariable(){
+        echo $this->variable;
+    }
+}
+//instanciar clase
+$a = new nombreClase();
+
+//operadores
+$a = (false && foo());
+$b = (true  || foo());
+$c = (false and foo());
+$d = (true  or  foo());
+
+//asignacion, operaciones
+$a = 3;
+$a += 5; 
+$b = "Hola ";
+$b .= "ahí!"; 
+
+
