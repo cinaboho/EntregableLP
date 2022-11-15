@@ -116,7 +116,71 @@ def t_OPERLOGICO_NOT(t):
 def t_OPERASIG_ARRAY(t):
     r'(\=){1}(\>){1}'
 
-#Fin Cindy             
+#Fin Cindy    
+
+#Johanna
+t_MAYORQUE=r'>'
+t_MENORQUE = r'<'
+t_OPERAMAPA = r'array\_map'
+t_OPERALOGICO_MAP = r'\->'
+t_OPERACIONSUM = r'sum\(\)'
+t_OPERAPUT = r'put'
+t_COMENTARIO_UNA_LINEA =r'//'+'.*'
+t_COMENTARIO_LARGO = r'\/\*(.|\n)*?\*\/|\/\/([^?%\n]|[?%](?!>))*\n?|\#([^?%\n]|[?%](?!>))*\n?'
+
+def t_BOOLEANO(t):
+    r'True|False'
+    return t
+
+
+def t_CADENA(t):
+    r'\"(.)+\"|\'(.)+\''
+    return t
+
+
+def t_ENTERO(t):
+    r'\d+'
+    t.value = int(t.value)
+    return t
+
+
+def t_FLOTANTE(t):
+    r'\d+\.\d+'
+    t.value = float(t.value)
+    return t
+
+
+def t_NOMBRE(t):
+    r'[a-zA-Z_][a-zA-Z0-9_]*'
+    t.type = reserved.get(t.value, "NOMBRE")
+    return t
+
+
+def t_ECHO(t):
+    r'echo'
+    return t
+
+
+def t_VARIABLE_PHP(t):  
+    r'\$[A-Za-z_][\w_]*'
+    return t
+    
+
+def t_PUBLIC(t):
+    r'public'
+    return t
+
+
+def t_PROTECTED(t):
+    r'protected'
+    return t
+
+
+def t_PRIVATE(t):
+    r'private'
+    return t
+
+# Fin Johanna          
         
 #Cindy
 resultados = []
