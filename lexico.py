@@ -222,7 +222,8 @@ def t_ENTERO(t):
 
 
 def t_FLOTANTE(t):
-    r'\d+\.\d+'
+    #r'\d+\.\d+'
+    r'[+|-]?[0-9]*\.[0-9]+'
     t.value = float(t.value)
     return t
 
