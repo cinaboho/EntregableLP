@@ -18,6 +18,7 @@ reserved = {
 
     #Cindy
     'as': 'AS',
+    'foreach': 'FOREACH',
     'rsort': 'RSORT',
     'count': 'COUNT',
     'array': 'ARRAY',
@@ -135,7 +136,7 @@ t_MAS = r'\+'
  #Cindy
 t_MENOS = r'\-'
 t_MULTIPLICA = r'\*'
-t_DIVIDE = r'/'
+t_DIVIDE = r'\/'
 t_MODULO = r'%'
 t_EXPONENCIACION = r'\*\*'
 t_MASIGUAL = r'\+\='
@@ -211,7 +212,7 @@ def t_BOOLEANO(t):
 
 
 def t_CADENA(t):
-    r'\"(.)+\"|\'(.)+\''
+    r'\"(.)+\" | \'(.)+\''
     return t
 
 
@@ -270,23 +271,26 @@ def t_error(t):
     #resultados.append(lineae)
     t.lexer.skip(1)
 
+lexer = lex.lex()
+#----para validar con source.txt
+# validador = lex.lex()
+# def getTokens(lex):
+#     while True:
+#         tok = lex.token()
+#         if not tok:
+#             break
+#         print(tok)
 
-validador = lex.lex()
-def getTokens(lex):
-    while True:
-        tok = lex.token()
-        if not tok:
-            break
-        print(tok)
 
+# linea = " "
+# codigo = open("source.txt")
+# for linea in codigo:
+#     validador.input(linea)
+#     getTokens(validador)
+# codigo.close()
 
-linea = " "
-codigo = open("source.txt")
-for linea in codigo:
-    validador.input(linea)
-    getTokens(validador)
-codigo.close()
-
-print("Analisis Terminado: ")
+# print("Analisis Terminado: ")
+#-----fin para validar con source.txt
 
 #FinCindy
+
