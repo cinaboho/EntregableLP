@@ -43,8 +43,6 @@ Unused terminals:
     MAYORQUE
     MENORQUE
     MENOSIGUAL
-    NEW
-    NOMBRE
     OPEN_TAG_WITH_ECHO
     OPERACIONSUM
     OPERALOGICO_MAP
@@ -82,41 +80,45 @@ Rule 4     sentencias -> foreach
 Rule 5     sentencias -> arraymaps
 Rule 6     sentencias -> tipoDeDato
 Rule 7     sentencias -> parametros
-Rule 8     operador -> MAS
-Rule 9     operador -> MENOS
-Rule 10    operador -> MULTIPLICA
-Rule 11    operador -> DIVIDE
-Rule 12    operador -> MODULO
-Rule 13    operador -> EXPONENCIACION
-Rule 14    operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
-Rule 15    operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
-Rule 16    tipoDevalorNumerico -> ENTERO
-Rule 17    tipoDevalorNumerico -> FLOTANTE
-Rule 18    tipoDeDato -> ENTERO
-Rule 19    tipoDeDato -> FLOTANTE
-Rule 20    tipoDeDato -> CADENA
-Rule 21    tipoDeDato -> VARIABLE_PHP
-Rule 22    tipoDeDato -> BOOLEANO
-Rule 23    tipoDeDato -> NULL
-Rule 24    parametros -> tipoDeDato
-Rule 25    parametros -> tipoDeDato COMA parametros
-Rule 26    foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
-Rule 27    arraymaps -> OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
-Rule 28    arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
+Rule 8     sentencias -> funcion
+Rule 9     sentencias -> monticuloHEAP
+Rule 10    operador -> MAS
+Rule 11    operador -> MENOS
+Rule 12    operador -> MULTIPLICA
+Rule 13    operador -> DIVIDE
+Rule 14    operador -> MODULO
+Rule 15    operador -> EXPONENCIACION
+Rule 16    operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
+Rule 17    operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
+Rule 18    tipoDevalorNumerico -> ENTERO
+Rule 19    tipoDevalorNumerico -> FLOTANTE
+Rule 20    tipoDeDato -> ENTERO
+Rule 21    tipoDeDato -> FLOTANTE
+Rule 22    tipoDeDato -> CADENA
+Rule 23    tipoDeDato -> VARIABLE_PHP
+Rule 24    tipoDeDato -> BOOLEANO
+Rule 25    tipoDeDato -> NULL
+Rule 26    parametros -> tipoDeDato
+Rule 27    parametros -> tipoDeDato COMA parametros
+Rule 28    foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
+Rule 29    arraymaps -> OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
+Rule 30    arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
+Rule 31    funcion -> NEW NOMBRE PARENIZQ PARENDER PUNTOYCOMA
+Rule 32    monticuloHEAP -> HEAP IGUAL funcion
 
 Terminals, with rules where they appear
 
-AMPERSAND            : 26
+AMPERSAND            : 28
 ARRAY                : 
-AS                   : 26
+AS                   : 28
 ASTERISCOIGUAL       : 
 BARRAIGUAL           : 
-BOOLEANO             : 22
+BOOLEANO             : 24
 BREAK                : 
-CADENA               : 20
+CADENA               : 22
 CASE                 : 
 CLASS                : 
-COMA                 : 25
+COMA                 : 27
 COMDOB               : 
 COMENTARIO_LARGO     : 
 COMENTARIO_UNA_LINEA : 
@@ -128,7 +130,7 @@ CORCHIZQ             :
 COUNT                : 
 CURRENT              : 
 DEFAULT              : 
-DIVIDE               : 11
+DIVIDE               : 13
 DO                   : 
 DOBLEASTERISCOIGUAL  : 
 DOSPUNTOS            : 
@@ -137,40 +139,41 @@ ELSE                 :
 EMPTY                : 
 END_SWITCH           : 
 END_WHILE            : 
-ENTERO               : 16 18
+ENTERO               : 18 20
 ESPACIOENBLANCO      : 
-EXPONENCIACION       : 13
+EXPONENCIACION       : 15
 EXTENDS              : 
 FALSE                : 
 FIN                  : 
 FLOAT                : 
-FLOTANTE             : 17 19
+FLOTANTE             : 19 21
 FOR                  : 
-FOREACH              : 26
+FOREACH              : 28
 FUNCTION             : 
 GLOBAL               : 
+HEAP                 : 32
 IF                   : 
-IGUAL                : 14 15 28
+IGUAL                : 16 17 30 32
 INICIO               : 
 INTEGER              : 
 LIST                 : 
-LLAVEDER             : 26
-LLAVEIZQ             : 26
-MAS                  : 8
+LLAVEDER             : 28
+LLAVEIZQ             : 28
+MAS                  : 10
 MASIGUAL             : 
 MAYORQUE             : 
 MENORQUE             : 
-MENOS                : 9
+MENOS                : 11
 MENOSIGUAL           : 
-MODULO               : 12
-MULTIPLICA           : 10
-NEW                  : 
-NOMBRE               : 
-NULL                 : 23
+MODULO               : 14
+MULTIPLICA           : 12
+NEW                  : 31
+NOMBRE               : 31
+NULL                 : 25
 OPEN_TAG_WITH_ECHO   : 
 OPERACIONSUM         : 
 OPERALOGICO_MAP      : 
-OPERAMAPA            : 27 28
+OPERAMAPA            : 29 30
 OPERAPUT             : 
 OPERASIG_ARRAY       : 
 OPERCOMPARACION      : 
@@ -179,15 +182,15 @@ OPERLOGICO_NOT       :
 OPERLOGICO_OR        : 
 OPERLOGICO_OREXCLUSIVO : 
 OPERLOGICO_XOR       : 
-PARENDER             : 26 27 28
-PARENIZQ             : 26 27 28
+PARENDER             : 28 29 30 31
+PARENIZQ             : 28 29 30 31
 PORCENTAJEIGUAL      : 
 PRINT                : 
 PRIVATE              : 
 PROTECTED            : 
 PUBLIC               : 
 PUNTO                : 
-PUNTOYCOMA           : 14 15 27 28
+PUNTOYCOMA           : 16 17 29 30 31
 RETURN               : 
 RSORT                : 
 SALTO_DE_LINEA       : 
@@ -196,7 +199,7 @@ STRING               :
 SWITCH               : 
 TEXTOSENCILLO        : 
 TRUE                 : 
-VARIABLE_PHP         : 14 14 14 15 15 21 26 26 28
+VARIABLE_PHP         : 16 16 16 17 17 23 28 28 30
 WHILE                : 
 error                : 
 
@@ -204,12 +207,14 @@ Nonterminals, with rules where they appear
 
 arraymaps            : 5
 foreach              : 4
-operacionMatematica  : 1 26
-operador             : 2 14 15
-parametros           : 7 25 27 28
+funcion              : 8 32
+monticuloHEAP        : 9
+operacionMatematica  : 1 28
+operador             : 2 16 17
+parametros           : 7 27 29 30
 sentencias           : 0
-tipoDeDato           : 6 24 25
-tipoDevalorNumerico  : 3 15
+tipoDeDato           : 6 26 27
+tipoDevalorNumerico  : 3 17
 
 Parsing method: LALR
 
@@ -223,42 +228,48 @@ state 0
     (5) sentencias -> . arraymaps
     (6) sentencias -> . tipoDeDato
     (7) sentencias -> . parametros
-    (14) operacionMatematica -> . VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
-    (15) operacionMatematica -> . VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
-    (8) operador -> . MAS
-    (9) operador -> . MENOS
-    (10) operador -> . MULTIPLICA
-    (11) operador -> . DIVIDE
-    (12) operador -> . MODULO
-    (13) operador -> . EXPONENCIACION
-    (16) tipoDevalorNumerico -> . ENTERO
-    (17) tipoDevalorNumerico -> . FLOTANTE
-    (26) foreach -> . FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
-    (27) arraymaps -> . OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
-    (28) arraymaps -> . VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
-    (18) tipoDeDato -> . ENTERO
-    (19) tipoDeDato -> . FLOTANTE
-    (20) tipoDeDato -> . CADENA
-    (21) tipoDeDato -> . VARIABLE_PHP
-    (22) tipoDeDato -> . BOOLEANO
-    (23) tipoDeDato -> . NULL
-    (24) parametros -> . tipoDeDato
-    (25) parametros -> . tipoDeDato COMA parametros
+    (8) sentencias -> . funcion
+    (9) sentencias -> . monticuloHEAP
+    (16) operacionMatematica -> . VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
+    (17) operacionMatematica -> . VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
+    (10) operador -> . MAS
+    (11) operador -> . MENOS
+    (12) operador -> . MULTIPLICA
+    (13) operador -> . DIVIDE
+    (14) operador -> . MODULO
+    (15) operador -> . EXPONENCIACION
+    (18) tipoDevalorNumerico -> . ENTERO
+    (19) tipoDevalorNumerico -> . FLOTANTE
+    (28) foreach -> . FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
+    (29) arraymaps -> . OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
+    (30) arraymaps -> . VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
+    (20) tipoDeDato -> . ENTERO
+    (21) tipoDeDato -> . FLOTANTE
+    (22) tipoDeDato -> . CADENA
+    (23) tipoDeDato -> . VARIABLE_PHP
+    (24) tipoDeDato -> . BOOLEANO
+    (25) tipoDeDato -> . NULL
+    (26) parametros -> . tipoDeDato
+    (27) parametros -> . tipoDeDato COMA parametros
+    (31) funcion -> . NEW NOMBRE PARENIZQ PARENDER PUNTOYCOMA
+    (32) monticuloHEAP -> . HEAP IGUAL funcion
 
-    VARIABLE_PHP    shift and go to state 9
-    MAS             shift and go to state 10
-    MENOS           shift and go to state 11
-    MULTIPLICA      shift and go to state 12
-    DIVIDE          shift and go to state 13
-    MODULO          shift and go to state 14
-    EXPONENCIACION  shift and go to state 15
-    ENTERO          shift and go to state 16
-    FLOTANTE        shift and go to state 17
-    FOREACH         shift and go to state 18
-    OPERAMAPA       shift and go to state 19
-    CADENA          shift and go to state 20
-    BOOLEANO        shift and go to state 21
-    NULL            shift and go to state 22
+    VARIABLE_PHP    shift and go to state 11
+    MAS             shift and go to state 12
+    MENOS           shift and go to state 13
+    MULTIPLICA      shift and go to state 14
+    DIVIDE          shift and go to state 15
+    MODULO          shift and go to state 16
+    EXPONENCIACION  shift and go to state 17
+    ENTERO          shift and go to state 18
+    FLOTANTE        shift and go to state 19
+    FOREACH         shift and go to state 20
+    OPERAMAPA       shift and go to state 21
+    CADENA          shift and go to state 22
+    BOOLEANO        shift and go to state 23
+    NULL            shift and go to state 24
+    NEW             shift and go to state 25
+    HEAP            shift and go to state 26
 
     sentencias                     shift and go to state 1
     operacionMatematica            shift and go to state 2
@@ -268,6 +279,8 @@ state 0
     arraymaps                      shift and go to state 6
     tipoDeDato                     shift and go to state 7
     parametros                     shift and go to state 8
+    funcion                        shift and go to state 9
+    monticuloHEAP                  shift and go to state 10
 
 state 1
 
@@ -313,14 +326,14 @@ state 6
 state 7
 
     (6) sentencias -> tipoDeDato .
-    (24) parametros -> tipoDeDato .
-    (25) parametros -> tipoDeDato . COMA parametros
+    (26) parametros -> tipoDeDato .
+    (27) parametros -> tipoDeDato . COMA parametros
 
   ! reduce/reduce conflict for $end resolved using rule 6 (sentencias -> tipoDeDato .)
     $end            reduce using rule 6 (sentencias -> tipoDeDato .)
-    COMA            shift and go to state 23
+    COMA            shift and go to state 27
 
-  ! $end            [ reduce using rule 24 (parametros -> tipoDeDato .) ]
+  ! $end            [ reduce using rule 26 (parametros -> tipoDeDato .) ]
 
 
 state 8
@@ -332,475 +345,547 @@ state 8
 
 state 9
 
-    (14) operacionMatematica -> VARIABLE_PHP . IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
-    (15) operacionMatematica -> VARIABLE_PHP . IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
-    (28) arraymaps -> VARIABLE_PHP . IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
-    (21) tipoDeDato -> VARIABLE_PHP .
+    (8) sentencias -> funcion .
 
-    IGUAL           shift and go to state 24
-    COMA            reduce using rule 21 (tipoDeDato -> VARIABLE_PHP .)
-    $end            reduce using rule 21 (tipoDeDato -> VARIABLE_PHP .)
+    $end            reduce using rule 8 (sentencias -> funcion .)
 
 
 state 10
 
-    (8) operador -> MAS .
+    (9) sentencias -> monticuloHEAP .
 
-    $end            reduce using rule 8 (operador -> MAS .)
-    VARIABLE_PHP    reduce using rule 8 (operador -> MAS .)
-    ENTERO          reduce using rule 8 (operador -> MAS .)
-    FLOTANTE        reduce using rule 8 (operador -> MAS .)
+    $end            reduce using rule 9 (sentencias -> monticuloHEAP .)
 
 
 state 11
 
-    (9) operador -> MENOS .
+    (16) operacionMatematica -> VARIABLE_PHP . IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
+    (17) operacionMatematica -> VARIABLE_PHP . IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
+    (30) arraymaps -> VARIABLE_PHP . IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
+    (23) tipoDeDato -> VARIABLE_PHP .
 
-    $end            reduce using rule 9 (operador -> MENOS .)
-    VARIABLE_PHP    reduce using rule 9 (operador -> MENOS .)
-    ENTERO          reduce using rule 9 (operador -> MENOS .)
-    FLOTANTE        reduce using rule 9 (operador -> MENOS .)
+    IGUAL           shift and go to state 28
+    COMA            reduce using rule 23 (tipoDeDato -> VARIABLE_PHP .)
+    $end            reduce using rule 23 (tipoDeDato -> VARIABLE_PHP .)
 
 
 state 12
 
-    (10) operador -> MULTIPLICA .
+    (10) operador -> MAS .
 
-    $end            reduce using rule 10 (operador -> MULTIPLICA .)
-    VARIABLE_PHP    reduce using rule 10 (operador -> MULTIPLICA .)
-    ENTERO          reduce using rule 10 (operador -> MULTIPLICA .)
-    FLOTANTE        reduce using rule 10 (operador -> MULTIPLICA .)
+    $end            reduce using rule 10 (operador -> MAS .)
+    VARIABLE_PHP    reduce using rule 10 (operador -> MAS .)
+    ENTERO          reduce using rule 10 (operador -> MAS .)
+    FLOTANTE        reduce using rule 10 (operador -> MAS .)
 
 
 state 13
 
-    (11) operador -> DIVIDE .
+    (11) operador -> MENOS .
 
-    $end            reduce using rule 11 (operador -> DIVIDE .)
-    VARIABLE_PHP    reduce using rule 11 (operador -> DIVIDE .)
-    ENTERO          reduce using rule 11 (operador -> DIVIDE .)
-    FLOTANTE        reduce using rule 11 (operador -> DIVIDE .)
+    $end            reduce using rule 11 (operador -> MENOS .)
+    VARIABLE_PHP    reduce using rule 11 (operador -> MENOS .)
+    ENTERO          reduce using rule 11 (operador -> MENOS .)
+    FLOTANTE        reduce using rule 11 (operador -> MENOS .)
 
 
 state 14
 
-    (12) operador -> MODULO .
+    (12) operador -> MULTIPLICA .
 
-    $end            reduce using rule 12 (operador -> MODULO .)
-    VARIABLE_PHP    reduce using rule 12 (operador -> MODULO .)
-    ENTERO          reduce using rule 12 (operador -> MODULO .)
-    FLOTANTE        reduce using rule 12 (operador -> MODULO .)
+    $end            reduce using rule 12 (operador -> MULTIPLICA .)
+    VARIABLE_PHP    reduce using rule 12 (operador -> MULTIPLICA .)
+    ENTERO          reduce using rule 12 (operador -> MULTIPLICA .)
+    FLOTANTE        reduce using rule 12 (operador -> MULTIPLICA .)
 
 
 state 15
 
-    (13) operador -> EXPONENCIACION .
+    (13) operador -> DIVIDE .
 
-    $end            reduce using rule 13 (operador -> EXPONENCIACION .)
-    VARIABLE_PHP    reduce using rule 13 (operador -> EXPONENCIACION .)
-    ENTERO          reduce using rule 13 (operador -> EXPONENCIACION .)
-    FLOTANTE        reduce using rule 13 (operador -> EXPONENCIACION .)
+    $end            reduce using rule 13 (operador -> DIVIDE .)
+    VARIABLE_PHP    reduce using rule 13 (operador -> DIVIDE .)
+    ENTERO          reduce using rule 13 (operador -> DIVIDE .)
+    FLOTANTE        reduce using rule 13 (operador -> DIVIDE .)
 
 
 state 16
 
-    (16) tipoDevalorNumerico -> ENTERO .
-    (18) tipoDeDato -> ENTERO .
+    (14) operador -> MODULO .
 
-  ! reduce/reduce conflict for $end resolved using rule 16 (tipoDevalorNumerico -> ENTERO .)
-    $end            reduce using rule 16 (tipoDevalorNumerico -> ENTERO .)
-    COMA            reduce using rule 18 (tipoDeDato -> ENTERO .)
-
-  ! $end            [ reduce using rule 18 (tipoDeDato -> ENTERO .) ]
+    $end            reduce using rule 14 (operador -> MODULO .)
+    VARIABLE_PHP    reduce using rule 14 (operador -> MODULO .)
+    ENTERO          reduce using rule 14 (operador -> MODULO .)
+    FLOTANTE        reduce using rule 14 (operador -> MODULO .)
 
 
 state 17
 
-    (17) tipoDevalorNumerico -> FLOTANTE .
-    (19) tipoDeDato -> FLOTANTE .
+    (15) operador -> EXPONENCIACION .
 
-  ! reduce/reduce conflict for $end resolved using rule 17 (tipoDevalorNumerico -> FLOTANTE .)
-    $end            reduce using rule 17 (tipoDevalorNumerico -> FLOTANTE .)
-    COMA            reduce using rule 19 (tipoDeDato -> FLOTANTE .)
-
-  ! $end            [ reduce using rule 19 (tipoDeDato -> FLOTANTE .) ]
+    $end            reduce using rule 15 (operador -> EXPONENCIACION .)
+    VARIABLE_PHP    reduce using rule 15 (operador -> EXPONENCIACION .)
+    ENTERO          reduce using rule 15 (operador -> EXPONENCIACION .)
+    FLOTANTE        reduce using rule 15 (operador -> EXPONENCIACION .)
 
 
 state 18
 
-    (26) foreach -> FOREACH . PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
+    (18) tipoDevalorNumerico -> ENTERO .
+    (20) tipoDeDato -> ENTERO .
 
-    PARENIZQ        shift and go to state 25
+  ! reduce/reduce conflict for $end resolved using rule 18 (tipoDevalorNumerico -> ENTERO .)
+    $end            reduce using rule 18 (tipoDevalorNumerico -> ENTERO .)
+    COMA            reduce using rule 20 (tipoDeDato -> ENTERO .)
+
+  ! $end            [ reduce using rule 20 (tipoDeDato -> ENTERO .) ]
 
 
 state 19
 
-    (27) arraymaps -> OPERAMAPA . PARENIZQ parametros PARENDER PUNTOYCOMA
+    (19) tipoDevalorNumerico -> FLOTANTE .
+    (21) tipoDeDato -> FLOTANTE .
 
-    PARENIZQ        shift and go to state 26
+  ! reduce/reduce conflict for $end resolved using rule 19 (tipoDevalorNumerico -> FLOTANTE .)
+    $end            reduce using rule 19 (tipoDevalorNumerico -> FLOTANTE .)
+    COMA            reduce using rule 21 (tipoDeDato -> FLOTANTE .)
+
+  ! $end            [ reduce using rule 21 (tipoDeDato -> FLOTANTE .) ]
 
 
 state 20
 
-    (20) tipoDeDato -> CADENA .
+    (28) foreach -> FOREACH . PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
 
-    COMA            reduce using rule 20 (tipoDeDato -> CADENA .)
-    $end            reduce using rule 20 (tipoDeDato -> CADENA .)
-    PARENDER        reduce using rule 20 (tipoDeDato -> CADENA .)
+    PARENIZQ        shift and go to state 29
 
 
 state 21
 
-    (22) tipoDeDato -> BOOLEANO .
+    (29) arraymaps -> OPERAMAPA . PARENIZQ parametros PARENDER PUNTOYCOMA
 
-    COMA            reduce using rule 22 (tipoDeDato -> BOOLEANO .)
-    $end            reduce using rule 22 (tipoDeDato -> BOOLEANO .)
-    PARENDER        reduce using rule 22 (tipoDeDato -> BOOLEANO .)
+    PARENIZQ        shift and go to state 30
 
 
 state 22
 
-    (23) tipoDeDato -> NULL .
+    (22) tipoDeDato -> CADENA .
 
-    COMA            reduce using rule 23 (tipoDeDato -> NULL .)
-    $end            reduce using rule 23 (tipoDeDato -> NULL .)
-    PARENDER        reduce using rule 23 (tipoDeDato -> NULL .)
+    COMA            reduce using rule 22 (tipoDeDato -> CADENA .)
+    $end            reduce using rule 22 (tipoDeDato -> CADENA .)
+    PARENDER        reduce using rule 22 (tipoDeDato -> CADENA .)
 
 
 state 23
 
-    (25) parametros -> tipoDeDato COMA . parametros
-    (24) parametros -> . tipoDeDato
-    (25) parametros -> . tipoDeDato COMA parametros
-    (18) tipoDeDato -> . ENTERO
-    (19) tipoDeDato -> . FLOTANTE
-    (20) tipoDeDato -> . CADENA
-    (21) tipoDeDato -> . VARIABLE_PHP
-    (22) tipoDeDato -> . BOOLEANO
-    (23) tipoDeDato -> . NULL
+    (24) tipoDeDato -> BOOLEANO .
 
-    ENTERO          shift and go to state 29
-    FLOTANTE        shift and go to state 30
-    CADENA          shift and go to state 20
-    VARIABLE_PHP    shift and go to state 31
-    BOOLEANO        shift and go to state 21
-    NULL            shift and go to state 22
+    COMA            reduce using rule 24 (tipoDeDato -> BOOLEANO .)
+    $end            reduce using rule 24 (tipoDeDato -> BOOLEANO .)
+    PARENDER        reduce using rule 24 (tipoDeDato -> BOOLEANO .)
 
-    tipoDeDato                     shift and go to state 27
-    parametros                     shift and go to state 28
 
 state 24
 
-    (14) operacionMatematica -> VARIABLE_PHP IGUAL . VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
-    (15) operacionMatematica -> VARIABLE_PHP IGUAL . VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
-    (28) arraymaps -> VARIABLE_PHP IGUAL . OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
+    (25) tipoDeDato -> NULL .
 
-    VARIABLE_PHP    shift and go to state 32
-    OPERAMAPA       shift and go to state 33
+    COMA            reduce using rule 25 (tipoDeDato -> NULL .)
+    $end            reduce using rule 25 (tipoDeDato -> NULL .)
+    PARENDER        reduce using rule 25 (tipoDeDato -> NULL .)
 
 
 state 25
 
-    (26) foreach -> FOREACH PARENIZQ . VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
+    (31) funcion -> NEW . NOMBRE PARENIZQ PARENDER PUNTOYCOMA
 
-    VARIABLE_PHP    shift and go to state 34
+    NOMBRE          shift and go to state 31
 
 
 state 26
 
-    (27) arraymaps -> OPERAMAPA PARENIZQ . parametros PARENDER PUNTOYCOMA
-    (24) parametros -> . tipoDeDato
-    (25) parametros -> . tipoDeDato COMA parametros
-    (18) tipoDeDato -> . ENTERO
-    (19) tipoDeDato -> . FLOTANTE
-    (20) tipoDeDato -> . CADENA
-    (21) tipoDeDato -> . VARIABLE_PHP
-    (22) tipoDeDato -> . BOOLEANO
-    (23) tipoDeDato -> . NULL
+    (32) monticuloHEAP -> HEAP . IGUAL funcion
 
-    ENTERO          shift and go to state 29
-    FLOTANTE        shift and go to state 30
-    CADENA          shift and go to state 20
-    VARIABLE_PHP    shift and go to state 31
-    BOOLEANO        shift and go to state 21
-    NULL            shift and go to state 22
+    IGUAL           shift and go to state 32
 
-    parametros                     shift and go to state 35
-    tipoDeDato                     shift and go to state 27
 
 state 27
 
-    (24) parametros -> tipoDeDato .
-    (25) parametros -> tipoDeDato . COMA parametros
+    (27) parametros -> tipoDeDato COMA . parametros
+    (26) parametros -> . tipoDeDato
+    (27) parametros -> . tipoDeDato COMA parametros
+    (20) tipoDeDato -> . ENTERO
+    (21) tipoDeDato -> . FLOTANTE
+    (22) tipoDeDato -> . CADENA
+    (23) tipoDeDato -> . VARIABLE_PHP
+    (24) tipoDeDato -> . BOOLEANO
+    (25) tipoDeDato -> . NULL
 
-    $end            reduce using rule 24 (parametros -> tipoDeDato .)
-    PARENDER        reduce using rule 24 (parametros -> tipoDeDato .)
-    COMA            shift and go to state 23
+    ENTERO          shift and go to state 35
+    FLOTANTE        shift and go to state 36
+    CADENA          shift and go to state 22
+    VARIABLE_PHP    shift and go to state 37
+    BOOLEANO        shift and go to state 23
+    NULL            shift and go to state 24
 
+    tipoDeDato                     shift and go to state 33
+    parametros                     shift and go to state 34
 
 state 28
 
-    (25) parametros -> tipoDeDato COMA parametros .
+    (16) operacionMatematica -> VARIABLE_PHP IGUAL . VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
+    (17) operacionMatematica -> VARIABLE_PHP IGUAL . VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
+    (30) arraymaps -> VARIABLE_PHP IGUAL . OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
 
-    $end            reduce using rule 25 (parametros -> tipoDeDato COMA parametros .)
-    PARENDER        reduce using rule 25 (parametros -> tipoDeDato COMA parametros .)
+    VARIABLE_PHP    shift and go to state 38
+    OPERAMAPA       shift and go to state 39
 
 
 state 29
 
-    (18) tipoDeDato -> ENTERO .
+    (28) foreach -> FOREACH PARENIZQ . VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
 
-    COMA            reduce using rule 18 (tipoDeDato -> ENTERO .)
-    $end            reduce using rule 18 (tipoDeDato -> ENTERO .)
-    PARENDER        reduce using rule 18 (tipoDeDato -> ENTERO .)
+    VARIABLE_PHP    shift and go to state 40
 
 
 state 30
 
-    (19) tipoDeDato -> FLOTANTE .
+    (29) arraymaps -> OPERAMAPA PARENIZQ . parametros PARENDER PUNTOYCOMA
+    (26) parametros -> . tipoDeDato
+    (27) parametros -> . tipoDeDato COMA parametros
+    (20) tipoDeDato -> . ENTERO
+    (21) tipoDeDato -> . FLOTANTE
+    (22) tipoDeDato -> . CADENA
+    (23) tipoDeDato -> . VARIABLE_PHP
+    (24) tipoDeDato -> . BOOLEANO
+    (25) tipoDeDato -> . NULL
 
-    COMA            reduce using rule 19 (tipoDeDato -> FLOTANTE .)
-    $end            reduce using rule 19 (tipoDeDato -> FLOTANTE .)
-    PARENDER        reduce using rule 19 (tipoDeDato -> FLOTANTE .)
+    ENTERO          shift and go to state 35
+    FLOTANTE        shift and go to state 36
+    CADENA          shift and go to state 22
+    VARIABLE_PHP    shift and go to state 37
+    BOOLEANO        shift and go to state 23
+    NULL            shift and go to state 24
 
+    parametros                     shift and go to state 41
+    tipoDeDato                     shift and go to state 33
 
 state 31
 
-    (21) tipoDeDato -> VARIABLE_PHP .
+    (31) funcion -> NEW NOMBRE . PARENIZQ PARENDER PUNTOYCOMA
 
-    COMA            reduce using rule 21 (tipoDeDato -> VARIABLE_PHP .)
-    $end            reduce using rule 21 (tipoDeDato -> VARIABLE_PHP .)
-    PARENDER        reduce using rule 21 (tipoDeDato -> VARIABLE_PHP .)
+    PARENIZQ        shift and go to state 42
 
 
 state 32
 
-    (14) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP . operador VARIABLE_PHP PUNTOYCOMA
-    (15) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP . operador tipoDevalorNumerico PUNTOYCOMA
-    (8) operador -> . MAS
-    (9) operador -> . MENOS
-    (10) operador -> . MULTIPLICA
-    (11) operador -> . DIVIDE
-    (12) operador -> . MODULO
-    (13) operador -> . EXPONENCIACION
+    (32) monticuloHEAP -> HEAP IGUAL . funcion
+    (31) funcion -> . NEW NOMBRE PARENIZQ PARENDER PUNTOYCOMA
 
-    MAS             shift and go to state 10
-    MENOS           shift and go to state 11
-    MULTIPLICA      shift and go to state 12
-    DIVIDE          shift and go to state 13
-    MODULO          shift and go to state 14
-    EXPONENCIACION  shift and go to state 15
+    NEW             shift and go to state 25
 
-    operador                       shift and go to state 36
+    funcion                        shift and go to state 43
 
 state 33
 
-    (28) arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA . PARENIZQ parametros PARENDER PUNTOYCOMA
+    (26) parametros -> tipoDeDato .
+    (27) parametros -> tipoDeDato . COMA parametros
 
-    PARENIZQ        shift and go to state 37
+    $end            reduce using rule 26 (parametros -> tipoDeDato .)
+    PARENDER        reduce using rule 26 (parametros -> tipoDeDato .)
+    COMA            shift and go to state 27
 
 
 state 34
 
-    (26) foreach -> FOREACH PARENIZQ VARIABLE_PHP . AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
+    (27) parametros -> tipoDeDato COMA parametros .
 
-    AS              shift and go to state 38
+    $end            reduce using rule 27 (parametros -> tipoDeDato COMA parametros .)
+    PARENDER        reduce using rule 27 (parametros -> tipoDeDato COMA parametros .)
 
 
 state 35
 
-    (27) arraymaps -> OPERAMAPA PARENIZQ parametros . PARENDER PUNTOYCOMA
+    (20) tipoDeDato -> ENTERO .
 
-    PARENDER        shift and go to state 39
+    COMA            reduce using rule 20 (tipoDeDato -> ENTERO .)
+    $end            reduce using rule 20 (tipoDeDato -> ENTERO .)
+    PARENDER        reduce using rule 20 (tipoDeDato -> ENTERO .)
 
 
 state 36
 
-    (14) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador . VARIABLE_PHP PUNTOYCOMA
-    (15) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador . tipoDevalorNumerico PUNTOYCOMA
-    (16) tipoDevalorNumerico -> . ENTERO
-    (17) tipoDevalorNumerico -> . FLOTANTE
+    (21) tipoDeDato -> FLOTANTE .
 
-    VARIABLE_PHP    shift and go to state 40
-    ENTERO          shift and go to state 42
-    FLOTANTE        shift and go to state 43
+    COMA            reduce using rule 21 (tipoDeDato -> FLOTANTE .)
+    $end            reduce using rule 21 (tipoDeDato -> FLOTANTE .)
+    PARENDER        reduce using rule 21 (tipoDeDato -> FLOTANTE .)
 
-    tipoDevalorNumerico            shift and go to state 41
 
 state 37
 
-    (28) arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ . parametros PARENDER PUNTOYCOMA
-    (24) parametros -> . tipoDeDato
-    (25) parametros -> . tipoDeDato COMA parametros
-    (18) tipoDeDato -> . ENTERO
-    (19) tipoDeDato -> . FLOTANTE
-    (20) tipoDeDato -> . CADENA
-    (21) tipoDeDato -> . VARIABLE_PHP
-    (22) tipoDeDato -> . BOOLEANO
-    (23) tipoDeDato -> . NULL
+    (23) tipoDeDato -> VARIABLE_PHP .
 
-    ENTERO          shift and go to state 29
-    FLOTANTE        shift and go to state 30
-    CADENA          shift and go to state 20
-    VARIABLE_PHP    shift and go to state 31
-    BOOLEANO        shift and go to state 21
-    NULL            shift and go to state 22
+    COMA            reduce using rule 23 (tipoDeDato -> VARIABLE_PHP .)
+    $end            reduce using rule 23 (tipoDeDato -> VARIABLE_PHP .)
+    PARENDER        reduce using rule 23 (tipoDeDato -> VARIABLE_PHP .)
 
-    parametros                     shift and go to state 44
-    tipoDeDato                     shift and go to state 27
 
 state 38
 
-    (26) foreach -> FOREACH PARENIZQ VARIABLE_PHP AS . AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
+    (16) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP . operador VARIABLE_PHP PUNTOYCOMA
+    (17) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP . operador tipoDevalorNumerico PUNTOYCOMA
+    (10) operador -> . MAS
+    (11) operador -> . MENOS
+    (12) operador -> . MULTIPLICA
+    (13) operador -> . DIVIDE
+    (14) operador -> . MODULO
+    (15) operador -> . EXPONENCIACION
 
-    AMPERSAND       shift and go to state 45
+    MAS             shift and go to state 12
+    MENOS           shift and go to state 13
+    MULTIPLICA      shift and go to state 14
+    DIVIDE          shift and go to state 15
+    MODULO          shift and go to state 16
+    EXPONENCIACION  shift and go to state 17
 
+    operador                       shift and go to state 44
 
 state 39
 
-    (27) arraymaps -> OPERAMAPA PARENIZQ parametros PARENDER . PUNTOYCOMA
+    (30) arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA . PARENIZQ parametros PARENDER PUNTOYCOMA
 
-    PUNTOYCOMA      shift and go to state 46
+    PARENIZQ        shift and go to state 45
 
 
 state 40
 
-    (14) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP . PUNTOYCOMA
+    (28) foreach -> FOREACH PARENIZQ VARIABLE_PHP . AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
 
-    PUNTOYCOMA      shift and go to state 47
+    AS              shift and go to state 46
 
 
 state 41
 
-    (15) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico . PUNTOYCOMA
+    (29) arraymaps -> OPERAMAPA PARENIZQ parametros . PARENDER PUNTOYCOMA
 
-    PUNTOYCOMA      shift and go to state 48
+    PARENDER        shift and go to state 47
 
 
 state 42
 
-    (16) tipoDevalorNumerico -> ENTERO .
+    (31) funcion -> NEW NOMBRE PARENIZQ . PARENDER PUNTOYCOMA
 
-    PUNTOYCOMA      reduce using rule 16 (tipoDevalorNumerico -> ENTERO .)
+    PARENDER        shift and go to state 48
 
 
 state 43
 
-    (17) tipoDevalorNumerico -> FLOTANTE .
+    (32) monticuloHEAP -> HEAP IGUAL funcion .
 
-    PUNTOYCOMA      reduce using rule 17 (tipoDevalorNumerico -> FLOTANTE .)
+    $end            reduce using rule 32 (monticuloHEAP -> HEAP IGUAL funcion .)
 
 
 state 44
 
-    (28) arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros . PARENDER PUNTOYCOMA
+    (16) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador . VARIABLE_PHP PUNTOYCOMA
+    (17) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador . tipoDevalorNumerico PUNTOYCOMA
+    (18) tipoDevalorNumerico -> . ENTERO
+    (19) tipoDevalorNumerico -> . FLOTANTE
 
-    PARENDER        shift and go to state 49
+    VARIABLE_PHP    shift and go to state 49
+    ENTERO          shift and go to state 51
+    FLOTANTE        shift and go to state 52
 
+    tipoDevalorNumerico            shift and go to state 50
 
 state 45
 
-    (26) foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND . VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
+    (30) arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ . parametros PARENDER PUNTOYCOMA
+    (26) parametros -> . tipoDeDato
+    (27) parametros -> . tipoDeDato COMA parametros
+    (20) tipoDeDato -> . ENTERO
+    (21) tipoDeDato -> . FLOTANTE
+    (22) tipoDeDato -> . CADENA
+    (23) tipoDeDato -> . VARIABLE_PHP
+    (24) tipoDeDato -> . BOOLEANO
+    (25) tipoDeDato -> . NULL
 
-    VARIABLE_PHP    shift and go to state 50
+    ENTERO          shift and go to state 35
+    FLOTANTE        shift and go to state 36
+    CADENA          shift and go to state 22
+    VARIABLE_PHP    shift and go to state 37
+    BOOLEANO        shift and go to state 23
+    NULL            shift and go to state 24
 
+    parametros                     shift and go to state 53
+    tipoDeDato                     shift and go to state 33
 
 state 46
 
-    (27) arraymaps -> OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA .
+    (28) foreach -> FOREACH PARENIZQ VARIABLE_PHP AS . AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
 
-    $end            reduce using rule 27 (arraymaps -> OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA .)
+    AMPERSAND       shift and go to state 54
 
 
 state 47
 
-    (14) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA .
+    (29) arraymaps -> OPERAMAPA PARENIZQ parametros PARENDER . PUNTOYCOMA
 
-    $end            reduce using rule 14 (operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA .)
-    LLAVEDER        reduce using rule 14 (operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA .)
+    PUNTOYCOMA      shift and go to state 55
 
 
 state 48
 
-    (15) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA .
+    (31) funcion -> NEW NOMBRE PARENIZQ PARENDER . PUNTOYCOMA
 
-    $end            reduce using rule 15 (operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA .)
-    LLAVEDER        reduce using rule 15 (operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA .)
+    PUNTOYCOMA      shift and go to state 56
 
 
 state 49
 
-    (28) arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER . PUNTOYCOMA
+    (16) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP . PUNTOYCOMA
 
-    PUNTOYCOMA      shift and go to state 51
+    PUNTOYCOMA      shift and go to state 57
 
 
 state 50
 
-    (26) foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP . PARENDER LLAVEIZQ operacionMatematica LLAVEDER
+    (17) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico . PUNTOYCOMA
 
-    PARENDER        shift and go to state 52
+    PUNTOYCOMA      shift and go to state 58
 
 
 state 51
 
-    (28) arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA .
+    (18) tipoDevalorNumerico -> ENTERO .
 
-    $end            reduce using rule 28 (arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA .)
+    PUNTOYCOMA      reduce using rule 18 (tipoDevalorNumerico -> ENTERO .)
 
 
 state 52
 
-    (26) foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER . LLAVEIZQ operacionMatematica LLAVEDER
+    (19) tipoDevalorNumerico -> FLOTANTE .
 
-    LLAVEIZQ        shift and go to state 53
+    PUNTOYCOMA      reduce using rule 19 (tipoDevalorNumerico -> FLOTANTE .)
 
 
 state 53
 
-    (26) foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ . operacionMatematica LLAVEDER
-    (14) operacionMatematica -> . VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
-    (15) operacionMatematica -> . VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
+    (30) arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros . PARENDER PUNTOYCOMA
 
-    VARIABLE_PHP    shift and go to state 54
+    PARENDER        shift and go to state 59
 
-    operacionMatematica            shift and go to state 55
 
 state 54
 
-    (14) operacionMatematica -> VARIABLE_PHP . IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
-    (15) operacionMatematica -> VARIABLE_PHP . IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
+    (28) foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND . VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
 
-    IGUAL           shift and go to state 56
+    VARIABLE_PHP    shift and go to state 60
 
 
 state 55
 
-    (26) foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica . LLAVEDER
+    (29) arraymaps -> OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA .
 
-    LLAVEDER        shift and go to state 57
+    $end            reduce using rule 29 (arraymaps -> OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA .)
 
 
 state 56
 
-    (14) operacionMatematica -> VARIABLE_PHP IGUAL . VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
-    (15) operacionMatematica -> VARIABLE_PHP IGUAL . VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
+    (31) funcion -> NEW NOMBRE PARENIZQ PARENDER PUNTOYCOMA .
 
-    VARIABLE_PHP    shift and go to state 32
+    $end            reduce using rule 31 (funcion -> NEW NOMBRE PARENIZQ PARENDER PUNTOYCOMA .)
 
 
 state 57
 
-    (26) foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER .
+    (16) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA .
 
-    $end            reduce using rule 26 (foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER .)
+    $end            reduce using rule 16 (operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA .)
+    LLAVEDER        reduce using rule 16 (operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA .)
+
+
+state 58
+
+    (17) operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA .
+
+    $end            reduce using rule 17 (operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA .)
+    LLAVEDER        reduce using rule 17 (operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA .)
+
+
+state 59
+
+    (30) arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER . PUNTOYCOMA
+
+    PUNTOYCOMA      shift and go to state 61
+
+
+state 60
+
+    (28) foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP . PARENDER LLAVEIZQ operacionMatematica LLAVEDER
+
+    PARENDER        shift and go to state 62
+
+
+state 61
+
+    (30) arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA .
+
+    $end            reduce using rule 30 (arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA .)
+
+
+state 62
+
+    (28) foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER . LLAVEIZQ operacionMatematica LLAVEDER
+
+    LLAVEIZQ        shift and go to state 63
+
+
+state 63
+
+    (28) foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ . operacionMatematica LLAVEDER
+    (16) operacionMatematica -> . VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
+    (17) operacionMatematica -> . VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
+
+    VARIABLE_PHP    shift and go to state 64
+
+    operacionMatematica            shift and go to state 65
+
+state 64
+
+    (16) operacionMatematica -> VARIABLE_PHP . IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
+    (17) operacionMatematica -> VARIABLE_PHP . IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
+
+    IGUAL           shift and go to state 66
+
+
+state 65
+
+    (28) foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica . LLAVEDER
+
+    LLAVEDER        shift and go to state 67
+
+
+state 66
+
+    (16) operacionMatematica -> VARIABLE_PHP IGUAL . VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
+    (17) operacionMatematica -> VARIABLE_PHP IGUAL . VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
+
+    VARIABLE_PHP    shift and go to state 38
+
+
+state 67
+
+    (28) foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER .
+
+    $end            reduce using rule 28 (foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER .)
 
 WARNING: 
 WARNING: Conflicts:
 WARNING: 
 WARNING: reduce/reduce conflict in state 7 resolved using rule (sentencias -> tipoDeDato)
 WARNING: rejected rule (parametros -> tipoDeDato) in state 7
-WARNING: reduce/reduce conflict in state 16 resolved using rule (tipoDevalorNumerico -> ENTERO)
-WARNING: rejected rule (tipoDeDato -> ENTERO) in state 16
-WARNING: reduce/reduce conflict in state 17 resolved using rule (tipoDevalorNumerico -> FLOTANTE)
-WARNING: rejected rule (tipoDeDato -> FLOTANTE) in state 17
+WARNING: reduce/reduce conflict in state 18 resolved using rule (tipoDevalorNumerico -> ENTERO)
+WARNING: rejected rule (tipoDeDato -> ENTERO) in state 18
+WARNING: reduce/reduce conflict in state 19 resolved using rule (tipoDevalorNumerico -> FLOTANTE)
+WARNING: rejected rule (tipoDeDato -> FLOTANTE) in state 19

@@ -89,6 +89,7 @@ tokens = [
     'OPERLOGICO_OREXCLUSIVO',
     'OPERLOGICO_NOT',
     'OPERASIG_ARRAY',
+    'HEAP',
     #Fin Cindy
 
     #Johanna
@@ -204,7 +205,11 @@ def t_OPERLOGICO_NOT(t):
     
 def t_OPERASIG_ARRAY(t):
     r'(\=){1}(\>){1}'
+    return t
 
+def t_HEAP(t):
+    r'\$heap'
+    return t
 #Fin Cindy    
 
 
@@ -233,10 +238,10 @@ def t_FLOTANTE(t):
 
 
 def t_NOMBRE(t):
-    r'[a-zA-Z_][a-zA-Z0-9_]*'
+    #r'[a-zA-Z_][a-zA-Z0-9_]*'
+    r'[a-z][a-zA-Z0-9_]*'
     t.type = reserved.get(t.value, "NOMBRE")
     return t
-
 
 def t_ECHO(t):
     r'echo'

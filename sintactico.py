@@ -8,11 +8,12 @@ def p_sentencias(p):
                   | foreach
                   | arraymaps
                   | tipoDeDato
-                  | parametros 
+                  | parametros
+                  | funcion
+                  | monticuloHEAP
     '''
 
-
-
+#----------------------- Inicio Cindy
 def p_operador(p):
     '''operador : MAS
                 | MENOS
@@ -24,7 +25,6 @@ def p_operador(p):
 
 # #     $valor = $valor * $valor;
 # #     $valor = $valor * 2;
-
 def p_operacionMatematica(p):
     '''operacionMatematica : VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
                             | VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
@@ -35,7 +35,7 @@ def p_tipoDevalorNumerico(p):
                            | FLOTANTE
     '''
 
-    #tipoDeDato para poner dentro de una estructura ej: array{var1, var2, var3}
+#tipoDeDato para poner dentro de una estructura ej: array{var1, var2, var3}
 def p_tipoDeDato(p):
     '''tipoDeDato : ENTERO
                   | FLOTANTE
@@ -60,12 +60,31 @@ def p_foreach(p):
 
 # $b = array_map("cubo", $a);
 # array_map("cubo", $a);
-
 def p_arraymaps(p):
     '''arraymaps : OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
                  | VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
     '''
 
+#new jupilerLeague();
+def p_funcion(p):
+    '''funcion : NEW NOMBRE PARENIZQ PARENDER PUNTOYCOMA
+    '''
+
+#$heap = new JupilerLeague();
+def p_monticuloHEAP(p):
+  '''monticuloHEAP : HEAP IGUAL funcion
+  '''
+#----------------------- Fin Cindy
+#
+#----------------------- Inicio Johanna
+#...escribir su parte
+#----------------------- Fin Johanna
+#
+#----------------------- Inicio Viviana
+#...escribir su parte
+#----------------------- Fin Viviana
+#
+#----------------------- error
 def p_error(p):
   if p:
     print(
@@ -76,9 +95,8 @@ def p_error(p):
     print("Error de sintaxis Fin de Linea")
 
 
-# Build the parser
+#----------------------- Build the parser
 parser = yacc.yacc()
-
 
 def validaRegla(s):
   result = parser.parse(s)
