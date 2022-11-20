@@ -6,9 +6,9 @@ _tabversion = '3.10'
 
 _lr_method = 'LALR'
 
-_lr_signature = 'AMPERSAND ARRAY AS ASTERISCOIGUAL BARRAIGUAL BOOLEAN BOOLEANO BREAK CADENA CASE CLASS COMA COMDOB COMENTARIO_LARGO COMENTARIO_UNA_LINEA COMPARE CONST CONTINUE CORCHDER CORCHIZQ COUNT CURRENT DEFAULT DIVIDE DO DOBLEASTERISCOIGUAL DOSPUNTOS ECHO ELSE EMPTY END_SWITCH END_WHILE ENTERO ESPACIOENBLANCO EXPONENCIACION EXTENDS FALSE FIN FLOAT FLOTANTE FOR FOREACH FUNCTION GLOBAL IF IGUAL INICIO INTEGER LIST LLAVEDER LLAVEIZQ MAS MASIGUAL MAYORQUE MENORQUE MENOS MENOSIGUAL MODULO MULTIPLICA NEW NOMBRE NULL OPEN_TAG_WITH_ECHO OPERACIONSUM OPERALOGICO_MAP OPERAMAPA OPERAPUT OPERASIG_ARRAY OPERCOMPARACION OPERLOGICO_AND OPERLOGICO_NOT OPERLOGICO_OR OPERLOGICO_OREXCLUSIVO OPERLOGICO_XOR PARENDER PARENIZQ PORCENTAJEIGUAL PRINT PRIVATE PROTECTED PUBLIC PUNTO PUNTOYCOMA RETURN RSORT SALTO_DE_LINEA STATIC STRING SWITCH TEXTOSENCILLO TRUE VARIABLE_PHP WHILEsentencias : operacionMatematica\n                  | operador\n                  | tipoDevalorNumerico\n                  | foreach\n    operador : MAS\n                | MENOS\n                | MULTIPLICA\n                | DIVIDE\n                | MODULO\n                | EXPONENCIACION\n    operacionMatematica : VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA\n                            | VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA\n    tipoDevalorNumerico : ENTERO\n                           | FLOTANTE\n    foreach : FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER\n    '
+_lr_signature = 'AMPERSAND ARRAY AS ASTERISCOIGUAL BARRAIGUAL BOOLEANO BREAK CADENA CASE CLASS COMA COMDOB COMENTARIO_LARGO COMENTARIO_UNA_LINEA COMPARE CONST CONTINUE CORCHDER CORCHIZQ COUNT CURRENT DEFAULT DIVIDE DO DOBLEASTERISCOIGUAL DOSPUNTOS ECHO ELSE EMPTY END_SWITCH END_WHILE ENTERO ESPACIOENBLANCO EXPONENCIACION EXTENDS FALSE FIN FLOAT FLOTANTE FOR FOREACH FUNCTION GLOBAL IF IGUAL INICIO INTEGER LIST LLAVEDER LLAVEIZQ MAS MASIGUAL MAYORQUE MENORQUE MENOS MENOSIGUAL MODULO MULTIPLICA NEW NOMBRE NULL OPEN_TAG_WITH_ECHO OPERACIONSUM OPERALOGICO_MAP OPERAMAPA OPERAPUT OPERASIG_ARRAY OPERCOMPARACION OPERLOGICO_AND OPERLOGICO_NOT OPERLOGICO_OR OPERLOGICO_OREXCLUSIVO OPERLOGICO_XOR PARENDER PARENIZQ PORCENTAJEIGUAL PRINT PRIVATE PROTECTED PUBLIC PUNTO PUNTOYCOMA RETURN RSORT SALTO_DE_LINEA STATIC STRING SWITCH TEXTOSENCILLO TRUE VARIABLE_PHP WHILEsentencias : operacionMatematica\n                  | operador\n                  | tipoDevalorNumerico\n                  | foreach\n                  | arraymaps\n                  | tipoDeDato\n                  | parametros \n    operador : MAS\n                | MENOS\n                | MULTIPLICA\n                | DIVIDE\n                | MODULO\n                | EXPONENCIACION\n    operacionMatematica : VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA\n                            | VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA\n    tipoDevalorNumerico : ENTERO\n                           | FLOTANTE\n    tipoDeDato : ENTERO\n                  | FLOTANTE\n                  | CADENA\n                  | VARIABLE_PHP\n                  | BOOLEANO\n                  | NULL\n    parametros : tipoDeDato\n                  | tipoDeDato COMA parametros\n    foreach : FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER\n    arraymaps : OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA\n                 | VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA\n    '
     
-_lr_action_items = {'VARIABLE_PHP':([0,7,8,9,10,11,12,16,17,20,24,29,],[6,-5,-6,-7,-8,-9,-10,18,19,22,27,6,]),'MAS':([0,18,],[7,7,]),'MENOS':([0,18,],[8,8,]),'MULTIPLICA':([0,18,],[9,9,]),'DIVIDE':([0,18,],[10,10,]),'MODULO':([0,18,],[11,11,]),'EXPONENCIACION':([0,18,],[12,12,]),'ENTERO':([0,7,8,9,10,11,12,20,],[13,-5,-6,-7,-8,-9,-10,13,]),'FLOTANTE':([0,7,8,9,10,11,12,20,],[14,-5,-6,-7,-8,-9,-10,14,]),'FOREACH':([0,],[15,]),'$end':([1,2,3,4,5,7,8,9,10,11,12,13,14,25,26,31,],[0,-1,-2,-3,-4,-5,-6,-7,-8,-9,-10,-13,-14,-11,-12,-15,]),'IGUAL':([6,],[16,]),'PUNTOYCOMA':([13,14,22,23,],[-13,-14,25,26,]),'PARENIZQ':([15,],[17,]),'AS':([19,],[21,]),'AMPERSAND':([21,],[24,]),'LLAVEDER':([25,26,30,],[-11,-12,31,]),'PARENDER':([27,],[28,]),'LLAVEIZQ':([28,],[29,]),}
+_lr_action_items = {'VARIABLE_PHP':([0,10,11,12,13,14,15,23,24,25,26,36,37,45,53,56,],[9,-8,-9,-10,-11,-12,-13,31,32,34,31,40,31,50,54,32,]),'MAS':([0,32,],[10,10,]),'MENOS':([0,32,],[11,11,]),'MULTIPLICA':([0,32,],[12,12,]),'DIVIDE':([0,32,],[13,13,]),'MODULO':([0,32,],[14,14,]),'EXPONENCIACION':([0,32,],[15,15,]),'ENTERO':([0,10,11,12,13,14,15,23,26,36,37,],[16,-8,-9,-10,-11,-12,-13,29,29,42,29,]),'FLOTANTE':([0,10,11,12,13,14,15,23,26,36,37,],[17,-8,-9,-10,-11,-12,-13,30,30,43,30,]),'FOREACH':([0,],[18,]),'OPERAMAPA':([0,24,],[19,33,]),'CADENA':([0,23,26,37,],[20,20,20,20,]),'BOOLEANO':([0,23,26,37,],[21,21,21,21,]),'NULL':([0,23,26,37,],[22,22,22,22,]),'$end':([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,20,21,22,27,28,29,30,31,46,47,48,51,57,],[0,-1,-2,-3,-4,-5,-6,-7,-21,-8,-9,-10,-11,-12,-13,-16,-17,-20,-22,-23,-24,-25,-18,-19,-21,-27,-14,-15,-28,-26,]),'COMA':([7,9,16,17,20,21,22,27,29,30,31,],[23,-21,-18,-19,-20,-22,-23,23,-18,-19,-21,]),'IGUAL':([9,54,],[24,56,]),'PARENIZQ':([18,19,33,],[25,26,37,]),'PARENDER':([20,21,22,27,28,29,30,31,35,44,50,],[-20,-22,-23,-24,-25,-18,-19,-21,39,49,52,]),'AS':([34,],[38,]),'AMPERSAND':([38,],[45,]),'PUNTOYCOMA':([39,40,41,42,43,49,],[46,47,48,-16,-17,51,]),'LLAVEDER':([47,48,55,],[-14,-15,57,]),'LLAVEIZQ':([52,],[53,]),}
 
 _lr_action = {}
 for _k, _v in _lr_action_items.items():
@@ -17,7 +17,7 @@ for _k, _v in _lr_action_items.items():
       _lr_action[_x][_k] = _y
 del _lr_action_items
 
-_lr_goto_items = {'sentencias':([0,],[1,]),'operacionMatematica':([0,29,],[2,30,]),'operador':([0,18,],[3,20,]),'tipoDevalorNumerico':([0,20,],[4,23,]),'foreach':([0,],[5,]),}
+_lr_goto_items = {'sentencias':([0,],[1,]),'operacionMatematica':([0,53,],[2,55,]),'operador':([0,32,],[3,36,]),'tipoDevalorNumerico':([0,36,],[4,41,]),'foreach':([0,],[5,]),'arraymaps':([0,],[6,]),'tipoDeDato':([0,23,26,37,],[7,27,27,27,]),'parametros':([0,23,26,37,],[8,28,35,44,]),}
 
 _lr_goto = {}
 for _k, _v in _lr_goto_items.items():
@@ -27,19 +27,32 @@ for _k, _v in _lr_goto_items.items():
 del _lr_goto_items
 _lr_productions = [
   ("S' -> sentencias","S'",1,None,None,None),
-  ('sentencias -> operacionMatematica','sentencias',1,'p_sentencias','sintactico.py',6),
-  ('sentencias -> operador','sentencias',1,'p_sentencias','sintactico.py',7),
-  ('sentencias -> tipoDevalorNumerico','sentencias',1,'p_sentencias','sintactico.py',8),
-  ('sentencias -> foreach','sentencias',1,'p_sentencias','sintactico.py',9),
-  ('operador -> MAS','operador',1,'p_operador','sintactico.py',13),
-  ('operador -> MENOS','operador',1,'p_operador','sintactico.py',14),
-  ('operador -> MULTIPLICA','operador',1,'p_operador','sintactico.py',15),
-  ('operador -> DIVIDE','operador',1,'p_operador','sintactico.py',16),
-  ('operador -> MODULO','operador',1,'p_operador','sintactico.py',17),
-  ('operador -> EXPONENCIACION','operador',1,'p_operador','sintactico.py',18),
-  ('operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA','operacionMatematica',6,'p_operacionMatematica','sintactico.py',25),
-  ('operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA','operacionMatematica',6,'p_operacionMatematica','sintactico.py',26),
-  ('tipoDevalorNumerico -> ENTERO','tipoDevalorNumerico',1,'p_tipoDevalorNumerico','sintactico.py',30),
-  ('tipoDevalorNumerico -> FLOTANTE','tipoDevalorNumerico',1,'p_tipoDevalorNumerico','sintactico.py',31),
-  ('foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER','foreach',10,'p_foreach','sintactico.py',38),
+  ('sentencias -> operacionMatematica','sentencias',1,'p_sentencias','sintactico.py',5),
+  ('sentencias -> operador','sentencias',1,'p_sentencias','sintactico.py',6),
+  ('sentencias -> tipoDevalorNumerico','sentencias',1,'p_sentencias','sintactico.py',7),
+  ('sentencias -> foreach','sentencias',1,'p_sentencias','sintactico.py',8),
+  ('sentencias -> arraymaps','sentencias',1,'p_sentencias','sintactico.py',9),
+  ('sentencias -> tipoDeDato','sentencias',1,'p_sentencias','sintactico.py',10),
+  ('sentencias -> parametros','sentencias',1,'p_sentencias','sintactico.py',11),
+  ('operador -> MAS','operador',1,'p_operador','sintactico.py',17),
+  ('operador -> MENOS','operador',1,'p_operador','sintactico.py',18),
+  ('operador -> MULTIPLICA','operador',1,'p_operador','sintactico.py',19),
+  ('operador -> DIVIDE','operador',1,'p_operador','sintactico.py',20),
+  ('operador -> MODULO','operador',1,'p_operador','sintactico.py',21),
+  ('operador -> EXPONENCIACION','operador',1,'p_operador','sintactico.py',22),
+  ('operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA','operacionMatematica',6,'p_operacionMatematica','sintactico.py',29),
+  ('operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA','operacionMatematica',6,'p_operacionMatematica','sintactico.py',30),
+  ('tipoDevalorNumerico -> ENTERO','tipoDevalorNumerico',1,'p_tipoDevalorNumerico','sintactico.py',34),
+  ('tipoDevalorNumerico -> FLOTANTE','tipoDevalorNumerico',1,'p_tipoDevalorNumerico','sintactico.py',35),
+  ('tipoDeDato -> ENTERO','tipoDeDato',1,'p_tipoDeDato','sintactico.py',40),
+  ('tipoDeDato -> FLOTANTE','tipoDeDato',1,'p_tipoDeDato','sintactico.py',41),
+  ('tipoDeDato -> CADENA','tipoDeDato',1,'p_tipoDeDato','sintactico.py',42),
+  ('tipoDeDato -> VARIABLE_PHP','tipoDeDato',1,'p_tipoDeDato','sintactico.py',43),
+  ('tipoDeDato -> BOOLEANO','tipoDeDato',1,'p_tipoDeDato','sintactico.py',44),
+  ('tipoDeDato -> NULL','tipoDeDato',1,'p_tipoDeDato','sintactico.py',45),
+  ('parametros -> tipoDeDato','parametros',1,'p_parametros','sintactico.py',50),
+  ('parametros -> tipoDeDato COMA parametros','parametros',3,'p_parametros','sintactico.py',51),
+  ('foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER','foreach',10,'p_foreach','sintactico.py',58),
+  ('arraymaps -> OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA','arraymaps',5,'p_arraymaps','sintactico.py',64),
+  ('arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA','arraymaps',7,'p_arraymaps','sintactico.py',65),
 ]

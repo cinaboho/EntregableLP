@@ -36,7 +36,7 @@ reserved = {
     'extends': 'EXTENDS',
     'int': 'INTEGER',
     'string': 'STRING',
-    'bool': 'BOOLEAN',
+    #'bool': 'BOOLEAN',
     'float': 'FLOAT',
     'null': 'NULL',
     'true': 'TRUE',
@@ -151,7 +151,6 @@ t_OPERCOMPARACION = r'=='
  #Johanna
 t_MAYORQUE=r'>'
 t_MENORQUE = r'<'
-t_OPERAMAPA = r'array\_map'
 t_OPERALOGICO_MAP = r'\->'
 t_OPERACIONSUM = r'sum\(\)'
 t_OPERAPUT = r'put'
@@ -186,6 +185,10 @@ def t_OPERLOGICO_AND(t):
     r'and'
     return t
     
+def t_OPERAMAPA(t):
+    r'array\_map'
+    return t
+
 def t_OPERLOGICO_XOR(t):
     r'xor'
     return t
@@ -207,7 +210,7 @@ def t_OPERASIG_ARRAY(t):
 
 # Johanna
 def t_BOOLEANO(t):
-    r'True|False'
+    r'True|False|true|false|TRUE|FALSE'
     return t
 
 
