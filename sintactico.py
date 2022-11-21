@@ -17,6 +17,8 @@ def p_sentencias(p):
                   | comentarios
                   | impresion
                   | programabasico
+                  | for
+                  | SplHeap
 
     '''
 
@@ -108,6 +110,26 @@ def p_impresion(p):
 def p_programabasico(p):
     '''programabasico : INICIO operacionMatematica FIN
     | INICIO operacionMatematica impresion FIN '''
+
+def  p_incdec(p):
+    '''incdec : MAYORQUEI
+     | MENORQUEI'''
+
+def p_incdecfor(p):
+    '''incdecfor : MAS MAS
+     | MENOS MENOS'''
+
+#for ($i = 1; $i <= 10; $i++) { echo $i; } por ahora solo sirve con impresion dentro
+def  p_for(p):
+    '''for : FOR PARENIZQ VARIABLE_PHP IGUAL ENTERO PUNTOYCOMA VARIABLE_PHP incdec ENTERO PUNTOYCOMA VARIABLE_PHP incdecfor PARENDER LLAVEIZQ impresion LLAVEDER'''
+
+def p_SplHeap(p):
+    '''SplHeap : CLASS NOMBRE EXTENDS SPLHEAP LLAVEIZQ PUBLIC FUNCTION COMPARE PARENIZQ parametros PARENDER LLAVEIZQ impresion LLAVEDER LLAVEDER '''
+
+#class JupilerLeague extends SplHeap { public function compare($array1, $array2) { echo "a es mayor que b"; } }
+#POR AHORA funciona solo con impresion dentro
+
+
 #----------------------- Fin Viviana
 #
 #----------------------- error

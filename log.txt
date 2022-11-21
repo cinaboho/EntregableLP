@@ -179,3 +179,55 @@ FECHA Y HORA -> Mon Nov 21 12:36:35 2022
 
 <?php $resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 ); ?>
 FECHA Y HORA -> Mon Nov 21 12:37:50 2022
+
+
+<?php $resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 ); echo $resultado; ?>
+FECHA Y HORA -> Mon Nov 21 12:38:55 2022
+
+
+$resultado += 1;
+FECHA Y HORA -> Mon Nov 21 12:40:53 2022
+
+
+$resultado += 1 ;
+FECHA Y HORA -> Mon Nov 21 12:41:13 2022
+
+
+for ($i = 1; $i <= 10; $i++) {
+FECHA Y HORA -> Mon Nov 21 12:51:17 2022
+
+
+echo $i;
+FECHA Y HORA -> Mon Nov 21 12:51:17 2022
+
+
+}
+FECHA Y HORA -> Mon Nov 21 12:51:17 2022
+
+
+ for ($i = 1; $i <= 10; $i++) {  echo $i; }
+FECHA Y HORA -> Mon Nov 21 12:51:28 2022
+
+
+for ($i = 1; $i <= 10; $i++) {  echo $i; }
+FECHA Y HORA -> Mon Nov 21 12:51:42 2022
+
+
+for ($i = 1; $i <= 10; $i++) {  echo $i; }
+FECHA Y HORA -> Mon Nov 21 12:53:11 2022
+
+
+for ($i = 1; $i <= 10; $i++) { echo $i; }
+FECHA Y HORA -> Mon Nov 21 12:57:44 2022
+
+
+for ($i = 1; $i <= 10; $i++) { echo $i; }
+FECHA Y HORA -> Mon Nov 21 12:59:13 2022
+
+
+for ($i = 1; $i <= 10; $i++) { echo $i; }
+FECHA Y HORA -> Mon Nov 21 13:00:04 2022
+
+
+class JupilerLeague extends SplHeap { public function compare($array1, $array2) { echo "a es mayor que b"; }
+FECHA Y HORA -> Mon Nov 21 13:14:08 2022

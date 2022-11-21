@@ -16,6 +16,7 @@ reserved = {
     'default': 'DEFAULT',
 	'echo' : 'ECHO',
     'define': 'DEFINE',
+    'SplHeap': 'SPLHEAP',
     #Fin Viviana
 
     #Cindy
@@ -39,6 +40,9 @@ reserved = {
     #'int': 'INTEGER',
     #'string': 'STRING',
     #'float': 'FLOAT',
+    'protected': 'PROTECTED',
+    'public' :'PUBLIC',
+    'private':'PRIVATE',
     'null': 'NULL',
     'compare': 'COMPARE',
     'current': 'CURRENT',
@@ -68,6 +72,8 @@ tokens = [
     'IGUAL',
     'PUNTOIGUAL',
     'MAS',
+    'MAYORQUEI',
+    'MENORQUEI',
     #'STRING',
     #Fin Viviana
 
@@ -129,7 +135,6 @@ t_LLAVEDER = r'\}'
 t_CORCHIZQ = r'\['
 t_CORCHDER = r'\]'
 t_AMPERSAND = r'\&'
-t_IGUAL = r'='
 t_PUNTOIGUAL = r'\.='
 t_MAS = r'\+'
 #Fin Viviana
@@ -147,6 +152,10 @@ t_BARRAIGUAL = r'\/\='
 t_PORCENTAJEIGUAL = r'\%\='
 t_DOBLEASTERISCOIGUAL = r'\*\*\='
 t_OPERCOMPARACION = r'=='
+t_MAYORQUEI = r'<='
+t_MENORQUEI= r'>='
+t_IGUAL = r'='
+
  #Fin Cindy
 
  #Johanna
@@ -245,21 +254,7 @@ def t_NOMBRE(t):
 def t_VARIABLE_PHP(t):  
     r'\$[A-Za-z_][\w_]*'
     return t
-    
 
-def t_PUBLIC(t):
-    r'public'
-    return t
-
-
-def t_PROTECTED(t):
-    r'protected'
-    return t
-
-
-def t_PRIVATE(t):
-    r'private'
-    return t
 
 # Fin Johanna
 #Cindy
