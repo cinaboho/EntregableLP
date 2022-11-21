@@ -35,9 +35,9 @@ reserved = {
 
     #Johanna
     'extends': 'EXTENDS',
-    'int': 'INTEGER',
-    'string': 'STRING',
-    'float': 'FLOAT',
+    #'int': 'INTEGER',
+    #'string': 'STRING',
+    #'float': 'FLOAT',
     'null': 'NULL',
     'compare': 'COMPARE',
     'current': 'CURRENT',

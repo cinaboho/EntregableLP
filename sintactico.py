@@ -1,5 +1,8 @@
 import ply.yacc as yacc
+import os
+import time
 from lexico import tokens
+
 
 def p_sentencias(p):
     '''sentencias : operacionMatematica
@@ -58,8 +61,8 @@ def p_foreach(p):
     '''foreach : FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
     '''
 
-# $b = array_map("cubo", $a);
-# array_map("cubo", $a);
+# $b=array_map("cubo",$a);
+# array_map("cubo",$a);
 def p_arraymaps(p):
     '''arraymaps : OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
                  | VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
@@ -85,6 +88,8 @@ def p_monticuloHEAP(p):
 #----------------------- Fin Viviana
 #
 #----------------------- error
+file = open("log.txt", "a")
+
 def p_error(p):
   if p:
     print(
@@ -94,12 +99,17 @@ def p_error(p):
   else:
     print("Error de sintaxis Fin de Linea")
 
-
 #----------------------- Build the parser
 parser = yacc.yacc()
 
+
 def validaRegla(s):
   result = parser.parse(s)
+  file.write("\n\n")
+  file.write(s+os.linesep)
+  file.write("FECHA Y HORA -> ")
+  ahora = time.strftime("%c")
+  file.write(ahora+ os.linesep)
   print(result)
 
 
@@ -110,3 +120,5 @@ while True:
     break
   if not s: continue
   validaRegla(s)
+
+file.close()

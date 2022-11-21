@@ -1,0 +1,17 @@
+
+
+
+$valor = $valor * $valor;
+FECHA Y HORA -> Sun Nov 20 21:57:06 2022
+
+
+foreach ($array as &$valor) {  $valor = $valor * 2;}
+FECHA Y HORA -> Sun Nov 20 21:57:19 2022
+
+
+array_map("cubo",$a);
+FECHA Y HORA -> Sun Nov 20 21:57:37 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Sun Nov 20 21:57:45 2022

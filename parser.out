@@ -30,13 +30,11 @@ Unused terminals:
     ESPACIOENBLANCO
     EXTENDS
     FIN
-    FLOAT
     FOR
     FUNCTION
     GLOBAL
     IF
     INICIO
-    INTEGER
     LIST
     MASIGUAL
     MAYORQUE
@@ -64,7 +62,6 @@ Unused terminals:
     RSORT
     SALTO_DE_LINEA
     STATIC
-    STRING
     SWITCH
     TEXTOSENCILLO
     WHILE
@@ -143,7 +140,6 @@ ESPACIOENBLANCO      :
 EXPONENCIACION       : 15
 EXTENDS              : 
 FIN                  : 
-FLOAT                : 
 FLOTANTE             : 19 21
 FOR                  : 
 FOREACH              : 28
@@ -153,7 +149,6 @@ HEAP                 : 32
 IF                   : 
 IGUAL                : 16 17 30 32
 INICIO               : 
-INTEGER              : 
 LIST                 : 
 LLAVEDER             : 28
 LLAVEIZQ             : 28
@@ -194,7 +189,6 @@ RETURN               :
 RSORT                : 
 SALTO_DE_LINEA       : 
 STATIC               : 
-STRING               : 
 SWITCH               : 
 TEXTOSENCILLO        : 
 VARIABLE_PHP         : 16 16 16 17 17 23 28 28 30
