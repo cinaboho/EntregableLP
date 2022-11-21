@@ -29,7 +29,6 @@ Unused terminals:
     END_WHILE
     ESPACIOENBLANCO
     EXTENDS
-    FALSE
     FIN
     FLOAT
     FOR
@@ -60,6 +59,7 @@ Unused terminals:
     PROTECTED
     PUBLIC
     PUNTO
+    PUNTOIGUAL
     RETURN
     RSORT
     SALTO_DE_LINEA
@@ -67,7 +67,6 @@ Unused terminals:
     STRING
     SWITCH
     TEXTOSENCILLO
-    TRUE
     WHILE
 
 Grammar
@@ -143,7 +142,6 @@ ENTERO               : 18 20
 ESPACIOENBLANCO      : 
 EXPONENCIACION       : 15
 EXTENDS              : 
-FALSE                : 
 FIN                  : 
 FLOAT                : 
 FLOTANTE             : 19 21
@@ -190,6 +188,7 @@ PRIVATE              :
 PROTECTED            : 
 PUBLIC               : 
 PUNTO                : 
+PUNTOIGUAL           : 
 PUNTOYCOMA           : 16 17 29 30 31
 RETURN               : 
 RSORT                : 
@@ -198,7 +197,6 @@ STATIC               :
 STRING               : 
 SWITCH               : 
 TEXTOSENCILLO        : 
-TRUE                 : 
 VARIABLE_PHP         : 16 16 16 17 17 23 28 28 30
 WHILE                : 
 error                : 
