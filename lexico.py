@@ -114,9 +114,6 @@ tokens = [
     'OPERALOGICO_MAP',
     'OPERACIONSUM',
     'OPERAPUT',
-    'PUBLIC',
-    'PROTECTED',
-    'PRIVATE',
     'TEXTOSENCILLO',
     'ESPACIOENBLANCO'
     #Fin Johanna
