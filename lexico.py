@@ -14,6 +14,7 @@ reserved = {
     'break': 'BREAK',
     'continue': 'CONTINUE',
     'default': 'DEFAULT',
+	'echo' : 'ECHO',
     #Fin Viviana
 
     #Cindy
@@ -36,11 +37,8 @@ reserved = {
     'extends': 'EXTENDS',
     'int': 'INTEGER',
     'string': 'STRING',
-    #'bool': 'BOOLEAN',
     'float': 'FLOAT',
     'null': 'NULL',
-    'true': 'TRUE',
-    'false': 'FALSE',
     'compare': 'COMPARE',
     'current': 'CURRENT',
     'list': 'LIST',
@@ -67,6 +65,7 @@ tokens = [
     'CORCHDER',
     'AMPERSAND',
     'IGUAL',
+    'PUNTOIGUAL',
     'MAS',
     #Fin Viviana
 
@@ -107,7 +106,6 @@ tokens = [
     'OPERALOGICO_MAP',
     'OPERACIONSUM',
     'OPERAPUT',
-    'ECHO',
     'PUBLIC',
     'PROTECTED',
     'PRIVATE',
@@ -119,7 +117,6 @@ tokens = [
  #Viviana
 t_PUNTOYCOMA = r';'
 t_SALTO_DE_LINEA = r'\\n'
-t_PUNTO = r'\.'
 t_COMA = r','
 t_COMDOB = r'\"'
 t_DOSPUNTOS = r':'
@@ -131,6 +128,7 @@ t_CORCHIZQ = r'\['
 t_CORCHDER = r'\]'
 t_AMPERSAND = r'\&'
 t_IGUAL = r'='
+t_PUNTOIGUAL = r'\.='
 t_MAS = r'\+'
 #Fin Viviana
     
@@ -223,30 +221,24 @@ def t_CADENA(t):
     r'\"(.)+\" | \'(.)+\''
     return t
 
-
-def t_ENTERO(t):
-    r'\d+'
-    t.value = int(t.value)
-    return t
-
-
 def t_FLOTANTE(t):
     #r'\d+\.\d+'
     r'[+|-]?[0-9]*\.[0-9]+'
     t.value = float(t.value)
     return t
 
+def t_ENTERO(t):
+    r'\d+'
+    t.value = int(t.value)
+    return t
+
+t_PUNTO = r'\.'
 
 def t_NOMBRE(t):
     #r'[a-zA-Z_][a-zA-Z0-9_]*'
-    r'[a-z][a-zA-Z0-9_]*'
+    r'[a-zA-Z][a-zA-Z0-9_]*'
     t.type = reserved.get(t.value, "NOMBRE")
     return t
-
-def t_ECHO(t):
-    r'echo'
-    return t
-
 
 def t_VARIABLE_PHP(t):  
     r'\$[A-Za-z_][\w_]*'
@@ -281,23 +273,23 @@ def t_error(t):
 
 lexer = lex.lex()
 #----para validar con source.txt
-# validador = lex.lex()
-# def getTokens(lex):
-#     while True:
-#         tok = lex.token()
-#         if not tok:
-#             break
-#         print(tok)
+validador = lex.lex()
+#def getTokens(lex):
+#    while True:
+#        tok = lex.token()
+#        if not tok:
+#            break
+#        print(tok)
 
 
-# linea = " "
-# codigo = open("source.txt")
-# for linea in codigo:
-#     validador.input(linea)
-#     getTokens(validador)
-# codigo.close()
+#linea = " "
+#codigo = open("source.txt")
+#for linea in codigo:
+#    validador.input(linea)
+#    getTokens(validador)
+#codigo.close()
 
-# print("Analisis Terminado: ")
+#print("Analisis Terminado: ")
 #-----fin para validar con source.txt
 
 #FinCindy
