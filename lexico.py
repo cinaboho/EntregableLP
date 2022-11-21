@@ -15,6 +15,7 @@ reserved = {
     'continue': 'CONTINUE',
     'default': 'DEFAULT',
 	'echo' : 'ECHO',
+    'define': 'DEFINE',
     #Fin Viviana
 
     #Cindy
@@ -67,6 +68,7 @@ tokens = [
     'IGUAL',
     'PUNTOIGUAL',
     'MAS',
+    #'STRING',
     #Fin Viviana
 
     #Cindy

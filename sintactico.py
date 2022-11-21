@@ -14,6 +14,10 @@ def p_sentencias(p):
                   | parametros
                   | funcion
                   | monticuloHEAP
+                  | comentarios
+                  | impresion
+                  | programabasico
+
     '''
 
 #----------------------- Inicio Cindy
@@ -31,8 +35,17 @@ def p_operador(p):
 def p_operacionMatematica(p):
     '''operacionMatematica : VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
                             | VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
-    '''
-
+                            | VARIABLE_PHP IGUAL tipoDevalorNumerico operador tipoDevalorNumerico PUNTOYCOMA
+                            | VARIABLE_PHP IGUAL tipoDevalorNumerico operador tipoDevalorNumerico operaciones PUNTOYCOMA
+                               '''
+def p_operaciones(p):
+    '''operaciones : tipoDevalorNumerico operador tipoDevalorNumerico
+                            | tipoDevalorNumerico operador tipoDevalorNumerico operador tipoDevalorNumerico
+                            | PARENIZQ operaciones PARENDER
+                            | operador PARENIZQ operaciones PARENDER operaciones
+                            | PARENIZQ operaciones PARENDER operaciones
+                            | operador PARENIZQ operaciones PARENDER
+        '''
 def p_tipoDevalorNumerico(p):
     '''tipoDevalorNumerico : ENTERO
                            | FLOTANTE
@@ -84,7 +97,17 @@ def p_monticuloHEAP(p):
 #----------------------- Fin Johanna
 #
 #----------------------- Inicio Viviana
-#...escribir su parte
+def p_comentarios(p):
+    '''comentarios : COMENTARIO_UNA_LINEA
+                | COMENTARIO_LARGO'''
+def p_impresion(p):
+    '''impresion : ECHO tipoDeDato PUNTOYCOMA
+        | PRINT tipoDeDato PUNTOYCOMA
+        | ECHO VARIABLE_PHP PUNTOYCOMA
+        | PRINT VARIABLE_PHP PUNTOYCOMA'''
+def p_programabasico(p):
+    '''programabasico : INICIO operacionMatematica FIN
+    | INICIO operacionMatematica impresion FIN '''
 #----------------------- Fin Viviana
 #
 #----------------------- error

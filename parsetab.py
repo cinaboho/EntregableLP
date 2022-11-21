@@ -6,9 +6,9 @@ _tabversion = '3.10'
 
 _lr_method = 'LALR'
 
-_lr_signature = 'AMPERSAND ARRAY AS ASTERISCOIGUAL BARRAIGUAL BOOLEANO BREAK CADENA CASE CLASS COMA COMDOB COMENTARIO_LARGO COMENTARIO_UNA_LINEA COMPARE CONST CONTINUE CORCHDER CORCHIZQ COUNT CURRENT DEFAULT DIVIDE DO DOBLEASTERISCOIGUAL DOSPUNTOS ECHO ELSE EMPTY END_SWITCH END_WHILE ENTERO ESPACIOENBLANCO EXPONENCIACION EXTENDS FIN FLOTANTE FOR FOREACH FUNCTION GLOBAL HEAP IF IGUAL INICIO LIST LLAVEDER LLAVEIZQ MAS MASIGUAL MAYORQUE MENORQUE MENOS MENOSIGUAL MODULO MULTIPLICA NEW NOMBRE NULL OPEN_TAG_WITH_ECHO OPERACIONSUM OPERALOGICO_MAP OPERAMAPA OPERAPUT OPERASIG_ARRAY OPERCOMPARACION OPERLOGICO_AND OPERLOGICO_NOT OPERLOGICO_OR OPERLOGICO_OREXCLUSIVO OPERLOGICO_XOR PARENDER PARENIZQ PORCENTAJEIGUAL PRINT PRIVATE PROTECTED PUBLIC PUNTO PUNTOIGUAL PUNTOYCOMA RETURN RSORT SALTO_DE_LINEA STATIC SWITCH TEXTOSENCILLO VARIABLE_PHP WHILEsentencias : operacionMatematica\n                  | operador\n                  | tipoDevalorNumerico\n                  | foreach\n                  | arraymaps\n                  | tipoDeDato\n                  | parametros\n                  | funcion\n                  | monticuloHEAP\n    operador : MAS\n                | MENOS\n                | MULTIPLICA\n                | DIVIDE\n                | MODULO\n                | EXPONENCIACION\n    operacionMatematica : VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA\n                            | VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA\n    tipoDevalorNumerico : ENTERO\n                           | FLOTANTE\n    tipoDeDato : ENTERO\n                  | FLOTANTE\n                  | CADENA\n                  | VARIABLE_PHP\n                  | BOOLEANO\n                  | NULL\n    parametros : tipoDeDato\n                  | tipoDeDato COMA parametros\n    foreach : FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER\n    arraymaps : OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA\n                 | VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA\n    funcion : NEW NOMBRE PARENIZQ PARENDER PUNTOYCOMA\n    monticuloHEAP : HEAP IGUAL funcion\n  '
+_lr_signature = 'AMPERSAND ARRAY AS ASTERISCOIGUAL BARRAIGUAL BOOLEANO BREAK CADENA CASE CLASS COMA COMDOB COMENTARIO_LARGO COMENTARIO_UNA_LINEA COMPARE CONST CONTINUE CORCHDER CORCHIZQ COUNT CURRENT DEFAULT DEFINE DIVIDE DO DOBLEASTERISCOIGUAL DOSPUNTOS ECHO ELSE EMPTY END_SWITCH END_WHILE ENTERO ESPACIOENBLANCO EXPONENCIACION EXTENDS FIN FLOTANTE FOR FOREACH FUNCTION GLOBAL HEAP IF IGUAL INICIO LIST LLAVEDER LLAVEIZQ MAS MASIGUAL MAYORQUE MENORQUE MENOS MENOSIGUAL MODULO MULTIPLICA NEW NOMBRE NULL OPEN_TAG_WITH_ECHO OPERACIONSUM OPERALOGICO_MAP OPERAMAPA OPERAPUT OPERASIG_ARRAY OPERCOMPARACION OPERLOGICO_AND OPERLOGICO_NOT OPERLOGICO_OR OPERLOGICO_OREXCLUSIVO OPERLOGICO_XOR PARENDER PARENIZQ PORCENTAJEIGUAL PRINT PRIVATE PROTECTED PUBLIC PUNTO PUNTOIGUAL PUNTOYCOMA RETURN RSORT SALTO_DE_LINEA STATIC SWITCH TEXTOSENCILLO VARIABLE_PHP WHILEsentencias : operacionMatematica\n                  | operador\n                  | tipoDevalorNumerico\n                  | foreach\n                  | arraymaps\n                  | tipoDeDato\n                  | parametros\n                  | funcion\n                  | monticuloHEAP\n                  | comentarios\n                  | impresion\n                  | programabasico\n\n    operador : MAS\n                | MENOS\n                | MULTIPLICA\n                | DIVIDE\n                | MODULO\n                | EXPONENCIACION\n    operacionMatematica : VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA\n                            | VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA\n                            | VARIABLE_PHP IGUAL tipoDevalorNumerico operador tipoDevalorNumerico PUNTOYCOMA\n                            | VARIABLE_PHP IGUAL tipoDevalorNumerico operador tipoDevalorNumerico operaciones PUNTOYCOMA\n                               operaciones : tipoDevalorNumerico operador tipoDevalorNumerico\n                            | tipoDevalorNumerico operador tipoDevalorNumerico operador tipoDevalorNumerico\n                            | PARENIZQ operaciones PARENDER\n                            | operador PARENIZQ operaciones PARENDER operaciones\n                            | PARENIZQ operaciones PARENDER operaciones\n                            | operador PARENIZQ operaciones PARENDER\n        tipoDevalorNumerico : ENTERO\n                           | FLOTANTE\n    tipoDeDato : ENTERO\n                  | FLOTANTE\n                  | CADENA\n                  | VARIABLE_PHP\n                  | BOOLEANO\n                  | NULL\n    parametros : tipoDeDato\n                  | tipoDeDato COMA parametros\n    foreach : FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER\n    arraymaps : OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA\n                 | VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA\n    funcion : NEW NOMBRE PARENIZQ PARENDER PUNTOYCOMA\n    monticuloHEAP : HEAP IGUAL funcion\n  comentarios : COMENTARIO_UNA_LINEA\n                | COMENTARIO_LARGOimpresion : ECHO tipoDeDato PUNTOYCOMA\n        | PRINT tipoDeDato PUNTOYCOMA\n        | ECHO VARIABLE_PHP PUNTOYCOMA\n        | PRINT VARIABLE_PHP PUNTOYCOMAprogramabasico : INICIO operacionMatematica FIN\n    | INICIO operacionMatematica impresion FIN '
     
-_lr_action_items = {'VARIABLE_PHP':([0,12,13,14,15,16,17,27,28,29,30,44,45,54,63,66,],[11,-10,-11,-12,-13,-14,-15,37,38,40,37,49,37,60,64,38,]),'MAS':([0,38,],[12,12,]),'MENOS':([0,38,],[13,13,]),'MULTIPLICA':([0,38,],[14,14,]),'DIVIDE':([0,38,],[15,15,]),'MODULO':([0,38,],[16,16,]),'EXPONENCIACION':([0,38,],[17,17,]),'ENTERO':([0,12,13,14,15,16,17,27,30,44,45,],[18,-10,-11,-12,-13,-14,-15,35,35,51,35,]),'FLOTANTE':([0,12,13,14,15,16,17,27,30,44,45,],[19,-10,-11,-12,-13,-14,-15,36,36,52,36,]),'FOREACH':([0,],[20,]),'OPERAMAPA':([0,28,],[21,39,]),'CADENA':([0,27,30,45,],[22,22,22,22,]),'BOOLEANO':([0,27,30,45,],[23,23,23,23,]),'NULL':([0,27,30,45,],[24,24,24,24,]),'NEW':([0,32,],[25,25,]),'HEAP':([0,],[26,]),'$end':([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,22,23,24,33,34,35,36,37,43,55,56,57,58,61,67,],[0,-1,-2,-3,-4,-5,-6,-7,-8,-9,-23,-10,-11,-12,-13,-14,-15,-18,-19,-22,-24,-25,-26,-27,-20,-21,-23,-32,-29,-31,-16,-17,-30,-28,]),'COMA':([7,11,18,19,22,23,24,33,35,36,37,],[27,-23,-20,-21,-22,-24,-25,27,-20,-21,-23,]),'IGUAL':([11,26,64,],[28,32,66,]),'PARENIZQ':([20,21,31,39,],[29,30,42,45,]),'PARENDER':([22,23,24,33,34,35,36,37,41,42,53,60,],[-22,-24,-25,-26,-27,-20,-21,-23,47,48,59,62,]),'NOMBRE':([25,],[31,]),'AS':([40,],[46,]),'AMPERSAND':([46,],[54,]),'PUNTOYCOMA':([47,48,49,50,51,52,59,],[55,56,57,58,-18,-19,61,]),'LLAVEDER':([57,58,65,],[-16,-17,67,]),'LLAVEIZQ':([62,],[63,]),}
+_lr_action_items = {'VARIABLE_PHP':([0,15,16,17,18,19,20,32,33,34,35,36,37,38,67,68,70,79,100,],[14,-13,-14,-15,-16,-17,-18,42,46,48,51,52,57,51,52,75,51,90,48,]),'MAS':([0,52,53,55,56,77,84,88,92,97,99,102,],[15,15,15,-29,-30,15,15,15,15,15,15,15,]),'MENOS':([0,52,53,55,56,77,84,88,92,97,99,102,],[16,16,16,-29,-30,16,16,16,16,16,16,16,]),'MULTIPLICA':([0,52,53,55,56,77,84,88,92,97,99,102,],[17,17,17,-29,-30,17,17,17,17,17,17,17,]),'DIVIDE':([0,52,53,55,56,77,84,88,92,97,99,102,],[18,18,18,-29,-30,18,18,18,18,18,18,18,]),'MODULO':([0,52,53,55,56,77,84,88,92,97,99,102,],[19,19,19,-29,-30,19,19,19,19,19,19,19,]),'EXPONENCIACION':([0,52,53,55,56,77,84,88,92,97,99,102,],[20,20,20,-29,-30,20,20,20,20,20,20,20,]),'ENTERO':([0,15,16,17,18,19,20,32,33,35,36,38,55,56,67,68,69,70,77,88,91,92,99,101,102,],[21,-13,-14,-15,-16,-17,-18,43,43,43,55,43,-29,-30,55,55,55,43,55,55,55,55,55,55,55,]),'FLOTANTE':([0,15,16,17,18,19,20,32,33,35,36,38,55,56,67,68,69,70,77,88,91,92,99,101,102,],[22,-13,-14,-15,-16,-17,-18,44,44,44,56,44,-29,-30,56,56,56,44,56,56,56,56,56,56,56,]),'FOREACH':([0,],[23,]),'OPERAMAPA':([0,36,],[24,54,]),'CADENA':([0,32,33,35,38,70,],[25,25,25,25,25,25,]),'BOOLEANO':([0,32,33,35,38,70,],[26,26,26,26,26,26,]),'NULL':([0,32,33,35,38,70,],[27,27,27,27,27,27,]),'NEW':([0,40,],[28,28,]),'HEAP':([0,],[29,]),'COMENTARIO_UNA_LINEA':([0,],[30,]),'COMENTARIO_LARGO':([0,],[31,]),'ECHO':([0,47,82,83,86,93,],[32,32,-19,-20,-21,-22,]),'PRINT':([0,47,82,83,86,93,],[33,33,-19,-20,-21,-22,]),'INICIO':([0,],[34,]),'$end':([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,25,26,27,30,31,43,44,49,50,51,60,61,62,63,64,65,74,80,81,82,83,86,93,95,107,],[0,-1,-2,-3,-4,-5,-6,-7,-8,-9,-10,-11,-12,-34,-13,-14,-15,-16,-17,-18,-29,-30,-33,-35,-36,-44,-45,-31,-32,-37,-38,-34,-43,-46,-48,-47,-49,-50,-51,-40,-42,-19,-20,-21,-22,-41,-39,]),'COMA':([7,14,21,22,25,26,27,43,44,49,51,],[35,-34,-31,-32,-33,-35,-36,-31,-32,35,-34,]),'IGUAL':([14,29,48,],[36,40,67,]),'PARENIZQ':([15,16,17,18,19,20,23,24,39,54,55,56,77,85,88,92,99,102,],[-13,-14,-15,-16,-17,-18,37,38,59,70,-29,-30,88,92,88,88,88,88,]),'PUNTOYCOMA':([25,26,27,41,42,43,44,45,46,55,56,72,73,75,76,77,87,89,97,99,102,103,105,106,],[-33,-35,-36,61,62,-31,-32,63,64,-29,-30,80,81,82,83,86,93,95,-23,-25,-28,-27,-24,-26,]),'PARENDER':([25,26,27,43,44,49,50,51,55,56,58,59,78,90,94,97,98,99,102,103,105,106,],[-33,-35,-36,-31,-32,-37,-38,-34,-29,-30,72,73,89,96,99,-23,102,-25,-28,-27,-24,-26,]),'NOMBRE':([28,],[39,]),'FIN':([47,61,62,63,64,66,82,83,86,93,],[65,-46,-48,-47,-49,74,-19,-20,-21,-22,]),'AS':([57,],[71,]),'AMPERSAND':([71,],[79,]),'LLAVEDER':([82,83,86,93,104,],[-19,-20,-21,-22,107,]),'LLAVEIZQ':([96,],[100,]),}
 
 _lr_action = {}
 for _k, _v in _lr_action_items.items():
@@ -17,7 +17,7 @@ for _k, _v in _lr_action_items.items():
       _lr_action[_x][_k] = _y
 del _lr_action_items
 
-_lr_goto_items = {'sentencias':([0,],[1,]),'operacionMatematica':([0,63,],[2,65,]),'operador':([0,38,],[3,44,]),'tipoDevalorNumerico':([0,44,],[4,50,]),'foreach':([0,],[5,]),'arraymaps':([0,],[6,]),'tipoDeDato':([0,27,30,45,],[7,33,33,33,]),'parametros':([0,27,30,45,],[8,34,41,53,]),'funcion':([0,32,],[9,43,]),'monticuloHEAP':([0,],[10,]),}
+_lr_goto_items = {'sentencias':([0,],[1,]),'operacionMatematica':([0,34,100,],[2,47,104,]),'operador':([0,52,53,77,84,88,92,97,99,102,],[3,68,69,85,91,85,85,101,85,85,]),'tipoDevalorNumerico':([0,36,67,68,69,77,88,91,92,99,101,102,],[4,53,53,76,77,84,84,97,84,84,105,84,]),'foreach':([0,],[5,]),'arraymaps':([0,],[6,]),'tipoDeDato':([0,32,33,35,38,70,],[7,41,45,49,49,49,]),'parametros':([0,35,38,70,],[8,50,58,78,]),'funcion':([0,40,],[9,60,]),'monticuloHEAP':([0,],[10,]),'comentarios':([0,],[11,]),'impresion':([0,47,],[12,66,]),'programabasico':([0,],[13,]),'operaciones':([77,88,92,99,102,],[87,94,98,103,106,]),}
 
 _lr_goto = {}
 for _k, _v in _lr_goto_items.items():
@@ -27,36 +27,55 @@ for _k, _v in _lr_goto_items.items():
 del _lr_goto_items
 _lr_productions = [
   ("S' -> sentencias","S'",1,None,None,None),
-  ('sentencias -> operacionMatematica','sentencias',1,'p_sentencias','sintactico.py',5),
-  ('sentencias -> operador','sentencias',1,'p_sentencias','sintactico.py',6),
-  ('sentencias -> tipoDevalorNumerico','sentencias',1,'p_sentencias','sintactico.py',7),
-  ('sentencias -> foreach','sentencias',1,'p_sentencias','sintactico.py',8),
-  ('sentencias -> arraymaps','sentencias',1,'p_sentencias','sintactico.py',9),
-  ('sentencias -> tipoDeDato','sentencias',1,'p_sentencias','sintactico.py',10),
-  ('sentencias -> parametros','sentencias',1,'p_sentencias','sintactico.py',11),
-  ('sentencias -> funcion','sentencias',1,'p_sentencias','sintactico.py',12),
-  ('sentencias -> monticuloHEAP','sentencias',1,'p_sentencias','sintactico.py',13),
-  ('operador -> MAS','operador',1,'p_operador','sintactico.py',18),
-  ('operador -> MENOS','operador',1,'p_operador','sintactico.py',19),
-  ('operador -> MULTIPLICA','operador',1,'p_operador','sintactico.py',20),
-  ('operador -> DIVIDE','operador',1,'p_operador','sintactico.py',21),
-  ('operador -> MODULO','operador',1,'p_operador','sintactico.py',22),
-  ('operador -> EXPONENCIACION','operador',1,'p_operador','sintactico.py',23),
-  ('operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA','operacionMatematica',6,'p_operacionMatematica','sintactico.py',29),
-  ('operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA','operacionMatematica',6,'p_operacionMatematica','sintactico.py',30),
-  ('tipoDevalorNumerico -> ENTERO','tipoDevalorNumerico',1,'p_tipoDevalorNumerico','sintactico.py',34),
-  ('tipoDevalorNumerico -> FLOTANTE','tipoDevalorNumerico',1,'p_tipoDevalorNumerico','sintactico.py',35),
-  ('tipoDeDato -> ENTERO','tipoDeDato',1,'p_tipoDeDato','sintactico.py',40),
-  ('tipoDeDato -> FLOTANTE','tipoDeDato',1,'p_tipoDeDato','sintactico.py',41),
-  ('tipoDeDato -> CADENA','tipoDeDato',1,'p_tipoDeDato','sintactico.py',42),
-  ('tipoDeDato -> VARIABLE_PHP','tipoDeDato',1,'p_tipoDeDato','sintactico.py',43),
-  ('tipoDeDato -> BOOLEANO','tipoDeDato',1,'p_tipoDeDato','sintactico.py',44),
-  ('tipoDeDato -> NULL','tipoDeDato',1,'p_tipoDeDato','sintactico.py',45),
-  ('parametros -> tipoDeDato','parametros',1,'p_parametros','sintactico.py',50),
-  ('parametros -> tipoDeDato COMA parametros','parametros',3,'p_parametros','sintactico.py',51),
-  ('foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER','foreach',10,'p_foreach','sintactico.py',58),
-  ('arraymaps -> OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA','arraymaps',5,'p_arraymaps','sintactico.py',64),
-  ('arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA','arraymaps',7,'p_arraymaps','sintactico.py',65),
-  ('funcion -> NEW NOMBRE PARENIZQ PARENDER PUNTOYCOMA','funcion',5,'p_funcion','sintactico.py',70),
-  ('monticuloHEAP -> HEAP IGUAL funcion','monticuloHEAP',3,'p_monticuloHEAP','sintactico.py',75),
+  ('sentencias -> operacionMatematica','sentencias',1,'p_sentencias','sintactico.py',8),
+  ('sentencias -> operador','sentencias',1,'p_sentencias','sintactico.py',9),
+  ('sentencias -> tipoDevalorNumerico','sentencias',1,'p_sentencias','sintactico.py',10),
+  ('sentencias -> foreach','sentencias',1,'p_sentencias','sintactico.py',11),
+  ('sentencias -> arraymaps','sentencias',1,'p_sentencias','sintactico.py',12),
+  ('sentencias -> tipoDeDato','sentencias',1,'p_sentencias','sintactico.py',13),
+  ('sentencias -> parametros','sentencias',1,'p_sentencias','sintactico.py',14),
+  ('sentencias -> funcion','sentencias',1,'p_sentencias','sintactico.py',15),
+  ('sentencias -> monticuloHEAP','sentencias',1,'p_sentencias','sintactico.py',16),
+  ('sentencias -> comentarios','sentencias',1,'p_sentencias','sintactico.py',17),
+  ('sentencias -> impresion','sentencias',1,'p_sentencias','sintactico.py',18),
+  ('sentencias -> programabasico','sentencias',1,'p_sentencias','sintactico.py',19),
+  ('operador -> MAS','operador',1,'p_operador','sintactico.py',25),
+  ('operador -> MENOS','operador',1,'p_operador','sintactico.py',26),
+  ('operador -> MULTIPLICA','operador',1,'p_operador','sintactico.py',27),
+  ('operador -> DIVIDE','operador',1,'p_operador','sintactico.py',28),
+  ('operador -> MODULO','operador',1,'p_operador','sintactico.py',29),
+  ('operador -> EXPONENCIACION','operador',1,'p_operador','sintactico.py',30),
+  ('operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA','operacionMatematica',6,'p_operacionMatematica','sintactico.py',36),
+  ('operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA','operacionMatematica',6,'p_operacionMatematica','sintactico.py',37),
+  ('operacionMatematica -> VARIABLE_PHP IGUAL tipoDevalorNumerico operador tipoDevalorNumerico PUNTOYCOMA','operacionMatematica',6,'p_operacionMatematica','sintactico.py',38),
+  ('operacionMatematica -> VARIABLE_PHP IGUAL tipoDevalorNumerico operador tipoDevalorNumerico operaciones PUNTOYCOMA','operacionMatematica',7,'p_operacionMatematica','sintactico.py',39),
+  ('operaciones -> tipoDevalorNumerico operador tipoDevalorNumerico','operaciones',3,'p_operaciones','sintactico.py',42),
+  ('operaciones -> tipoDevalorNumerico operador tipoDevalorNumerico operador tipoDevalorNumerico','operaciones',5,'p_operaciones','sintactico.py',43),
+  ('operaciones -> PARENIZQ operaciones PARENDER','operaciones',3,'p_operaciones','sintactico.py',44),
+  ('operaciones -> operador PARENIZQ operaciones PARENDER operaciones','operaciones',5,'p_operaciones','sintactico.py',45),
+  ('operaciones -> PARENIZQ operaciones PARENDER operaciones','operaciones',4,'p_operaciones','sintactico.py',46),
+  ('operaciones -> operador PARENIZQ operaciones PARENDER','operaciones',4,'p_operaciones','sintactico.py',47),
+  ('tipoDevalorNumerico -> ENTERO','tipoDevalorNumerico',1,'p_tipoDevalorNumerico','sintactico.py',50),
+  ('tipoDevalorNumerico -> FLOTANTE','tipoDevalorNumerico',1,'p_tipoDevalorNumerico','sintactico.py',51),
+  ('tipoDeDato -> ENTERO','tipoDeDato',1,'p_tipoDeDato','sintactico.py',56),
+  ('tipoDeDato -> FLOTANTE','tipoDeDato',1,'p_tipoDeDato','sintactico.py',57),
+  ('tipoDeDato -> CADENA','tipoDeDato',1,'p_tipoDeDato','sintactico.py',58),
+  ('tipoDeDato -> VARIABLE_PHP','tipoDeDato',1,'p_tipoDeDato','sintactico.py',59),
+  ('tipoDeDato -> BOOLEANO','tipoDeDato',1,'p_tipoDeDato','sintactico.py',60),
+  ('tipoDeDato -> NULL','tipoDeDato',1,'p_tipoDeDato','sintactico.py',61),
+  ('parametros -> tipoDeDato','parametros',1,'p_parametros','sintactico.py',66),
+  ('parametros -> tipoDeDato COMA parametros','parametros',3,'p_parametros','sintactico.py',67),
+  ('foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER','foreach',10,'p_foreach','sintactico.py',74),
+  ('arraymaps -> OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA','arraymaps',5,'p_arraymaps','sintactico.py',80),
+  ('arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA','arraymaps',7,'p_arraymaps','sintactico.py',81),
+  ('funcion -> NEW NOMBRE PARENIZQ PARENDER PUNTOYCOMA','funcion',5,'p_funcion','sintactico.py',86),
+  ('monticuloHEAP -> HEAP IGUAL funcion','monticuloHEAP',3,'p_monticuloHEAP','sintactico.py',91),
+  ('comentarios -> COMENTARIO_UNA_LINEA','comentarios',1,'p_comentarios','sintactico.py',101),
+  ('comentarios -> COMENTARIO_LARGO','comentarios',1,'p_comentarios','sintactico.py',102),
+  ('impresion -> ECHO tipoDeDato PUNTOYCOMA','impresion',3,'p_impresion','sintactico.py',104),
+  ('impresion -> PRINT tipoDeDato PUNTOYCOMA','impresion',3,'p_impresion','sintactico.py',105),
+  ('impresion -> ECHO VARIABLE_PHP PUNTOYCOMA','impresion',3,'p_impresion','sintactico.py',106),
+  ('impresion -> PRINT VARIABLE_PHP PUNTOYCOMA','impresion',3,'p_impresion','sintactico.py',107),
+  ('programabasico -> INICIO operacionMatematica FIN','programabasico',3,'p_programabasico','sintactico.py',109),
+  ('programabasico -> INICIO operacionMatematica impresion FIN','programabasico',4,'p_programabasico','sintactico.py',110),
 ]
