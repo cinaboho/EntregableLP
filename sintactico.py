@@ -147,6 +147,12 @@ def p_error(p):
 #----------------------- Build the parser
 parser = yacc.yacc()
 
+linea = " "
+codigo = open("source.txt")
+for linea in codigo:
+    print(str(linea))
+    parser.parse(linea)
+codigo.close()
 
 def validaRegla(s):
   result = parser.parse(s)
