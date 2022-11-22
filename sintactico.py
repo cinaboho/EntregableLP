@@ -20,6 +20,32 @@ def p_sentencias(p):
                   | for
                   | SplHeap
                   | instrucciones
+                  | operaciones
+                  | instruccion
+                  | valores
+                  | booleanos
+                  | o_logicos
+                  | comparacion
+                  | o_comparar
+                  | asignacion
+                  | operadores_aritmeticos
+                  | aritmetica
+                  | crearArray
+                  | valoresArray
+                  | repite_valoresSeparadosComa
+                  | repite_claveValorSeparadosComa
+                  | switchCase
+                  | caso_switch
+                  | casos_switch
+                  | incdec
+                  | incdecfor
+
+
+
+
+
+
+
 
     '''
 
@@ -70,9 +96,7 @@ def p_parametros(p):
                   | tipoDeDato COMA parametros
     '''
 
-# foreach ($array as &$valor) {
-#     $valor = $valor * 2;
-# }
+# foreach ($array as &$valor) {$valor = $valor * 2;}
 def p_foreach(p):
     '''foreach : FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
     '''

@@ -275,7 +275,7 @@ def t_error(t):
 
 lexer = lex.lex()
 #----para validar con source.txt
-validador = lex.lex()
+#validador = lex.lex()
 #def getTokens(lex):
 #    while True:
 #        tok = lex.token()
