@@ -10,7 +10,7 @@ reserved = {
     'for': 'FOR',
     'switch': 'SWITCH',
     'case': 'CASE',
-    'end_switch': 'END_SWITCH',
+    'endswitch': 'ENDSWITCH',
     'break': 'BREAK',
     'continue': 'CONTINUE',
     'default': 'DEFAULT',
@@ -101,8 +101,12 @@ tokens = [
 
     #Johanna
     'BOOLEANO',
+    'IGUALIGUAL',
+    'NOIGUAL', 
     'MAYORQUE',
     'MENORQUE',
+    'MAYORIGUAL',
+    'MENORIGUAL',
     'CADENA',
     'ENTERO',
     'FLOTANTE',
@@ -156,8 +160,12 @@ t_IGUAL = r'='
  #Fin Cindy
 
  #Johanna
+t_IGUALIGUAL = r'=='
+t_NOIGUAL = r'!='
 t_MAYORQUE=r'>'
 t_MENORQUE = r'<'
+t_MAYORIGUAL = r'>='
+t_MENORIGUAL = r'<='
 t_OPERALOGICO_MAP = r'\->'
 t_OPERACIONSUM = r'sum\(\)'
 t_OPERAPUT = r'put'

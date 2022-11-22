@@ -19,6 +19,7 @@ def p_sentencias(p):
                   | programabasico
                   | for
                   | SplHeap
+                  | instrucciones
 
     '''
 
@@ -95,7 +96,107 @@ def p_monticuloHEAP(p):
 #----------------------- Fin Cindy
 #
 #----------------------- Inicio Johanna
-#...escribir su parte
+def p_instrucciones(p):
+    '''instrucciones : instruccion instrucciones
+                     | instruccion
+                     '''
+def p_instruccion(p):
+    '''instruccion : asignacion                     
+                    | switchCase
+                     '''
+def p_valores(p):
+    '''valores : ENTERO
+                  | FLOTANTE
+                  | CADENA
+                  | VARIABLE_PHP
+                  | BOOLEANO  
+                  | aritmetica
+                  | booleanos
+                  | NOMBRE PARENIZQ  PARENDER
+                  | NOMBRE PARENIZQ valores PARENDER                  
+                  | crearArray
+     '''
+
+def p_booleano(p):
+    '''booleano : BOOLEANO                
+                | comparacion
+                | OPERLOGICO_NOT booleanos
+    '''
+
+def p_booleanos(p):
+    '''booleanos : booleano
+                 | booleanos o_logicos booleanos
+    '''
+
+def p_o_logicos(p):
+    '''o_logicos : OPERLOGICO_AND
+                 | OPERLOGICO_OR'''
+
+def p_comparacion(p):
+    ''' comparacion : valores o_comparar valores '''
+
+def p_o_comparar(p):
+    '''o_comparar : IGUALIGUAL
+                  | NOIGUAL
+                  | MENORQUE
+                  | MAYORQUE
+                  | MAYORIGUAL
+                  | MENORIGUAL '''
+
+def p_asignacion(p):
+    '''asignacion : VARIABLE_PHP IGUAL valores PUNTOYCOMA
+                '''
+
+def p_operadores_aritmeticos(p):
+    '''operadores_aritmeticos : MAS
+                   | MENOS
+                   | MULTIPLICA
+                   | DIVIDE                   
+    '''
+
+def p_aritmetica(p):
+    '''aritmetica : valores operadores_aritmeticos valores
+                  | aritmetica operadores_aritmeticos valores'''
+    
+
+
+def p_crearArray(p):
+  #'''crearArray :  VARIABLE_PHP IGUAL ARRAY PARENIZQ valoresArray PARENDER PUNTOYCOMA
+  '''crearArray :  ARRAY PARENIZQ valoresArray PARENDER
+  '''
+
+def p_valoresArray(p):
+    '''valoresArray : valores 
+                | valores OPERASIG_ARRAY valores 
+                | valores repite_valores
+                | valores OPERASIG_ARRAY valores  repite_claveValor
+                '''
+  
+def p_repite_valoresSeparadosComa(p):
+    '''
+    repite_valores : COMA valores
+                  | COMA valores repite_valores
+    '''
+def p_repite_claveValorSeparadosComa(p):
+    '''repite_claveValor : COMA valores OPERASIG_ARRAY valores
+                        | COMA valores OPERASIG_ARRAY valores repite_claveValor
+    '''
+def p_switchCase(p):  
+  '''switchCase : SWITCH PARENIZQ valores PARENDER LLAVEIZQ casos_switch LLAVEDER                
+                | SWITCH PARENIZQ valores PARENDER LLAVEIZQ casos_switch DEFAULT DOSPUNTOS LLAVEIZQ instrucciones LLAVEDER LLAVEDER
+                | SWITCH PARENIZQ valores PARENDER DOSPUNTOS casos_switch ENDSWITCH PUNTOYCOMA
+  '''
+
+def p_caso_switch(p):
+    '''caso_switch : CASE valores DOSPUNTOS LLAVEIZQ instrucciones LLAVEDER
+                    | CASE valores DOSPUNTOS LLAVEIZQ instrucciones BREAK PUNTOYCOMA LLAVEDER
+                    | CASE valores DOSPUNTOS instrucciones
+                    | CASE valores DOSPUNTOS instrucciones BREAK PUNTOYCOMA
+    '''    
+
+def p_casos_switch(p):
+    '''casos_switch : caso_switch casos_switch
+                    | caso_switch '''
 #----------------------- Fin Johanna
 #
 #----------------------- Inicio Viviana
