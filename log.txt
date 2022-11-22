@@ -402,5 +402,12 @@ FECHA Y HORA -> Mon Nov 21 21:09:59 2022
 
 
 
-$var=array("a"=>5,"b"=>6);
-FECHA Y HORA -> Mon Nov 21 21:30:07 2022
+$var=array("a"=>5,"b"=>6);
+
+FECHA Y HORA -> Mon Nov 21 21:30:07 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+array_map("cubo",$a);
+$b=array_map("cubo",$a);
+$heap = new JupilerLeague();
