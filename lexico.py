@@ -276,22 +276,22 @@ def t_error(t):
 lexer = lex.lex()
 #----para validar con source.txt
 validador = lex.lex()
-#def getTokens(lex):
-#    while True:
-#        tok = lex.token()
-#        if not tok:
-#            break
-#        print(tok)
+def getTokens(lex):
+    while True:
+        tok = lex.token()
+        if not tok:
+            break
+        print(tok)
 
 
-#linea = " "
-#codigo = open("source.txt")
-#for linea in codigo:
-#    validador.input(linea)
-#    getTokens(validador)
-#codigo.close()
+linea = " "
+codigo = open("source.txt")
+for linea in codigo:
+    validador.input(linea)
+    getTokens(validador)
+codigo.close()
 
-#print("Analisis Terminado: ")
+print("Analisis Terminado: ")
 #-----fin para validar con source.txt
 
 #FinCindy

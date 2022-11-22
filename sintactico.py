@@ -145,8 +145,17 @@ def p_o_comparar(p):
 
 def p_asignacion(p):
     '''asignacion : VARIABLE_PHP IGUAL valores PUNTOYCOMA
+                    | VARIABLE_PHP IGUAL valores PUNTOYCOMA comentarios
+                    | VARIABLE_PHP difigual valores PUNTOYCOMA
+                    | VARIABLE_PHP difigual valores PUNTO valores PUNTOYCOMA comentarios
+                    | VARIABLE_PHP difigual valores PUNTO valores PUNTOYCOMA
+                    | asignacion
                 '''
-
+def p_difigual(p):
+    '''difigual : PUNTOIGUAL
+                      | MASIGUAL
+                      | MENOSIGUAL
+       '''
 def p_operadores_aritmeticos(p):
     '''operadores_aritmeticos : MAS
                    | MENOS
@@ -210,7 +219,8 @@ def p_impresion(p):
         | PRINT VARIABLE_PHP PUNTOYCOMA'''
 def p_programabasico(p):
     '''programabasico : INICIO operacionMatematica FIN
-    | INICIO operacionMatematica impresion FIN '''
+    | INICIO operacionMatematica impresion FIN
+    | INICIO asignacion FIN'''
 
 def  p_incdec(p):
     '''incdec : MAYORQUEI
@@ -230,6 +240,9 @@ def p_SplHeap(p):
 #class JupilerLeague extends SplHeap { public function compare($array1, $array2) { echo "a es mayor que b"; } }
 #POR AHORA funciona solo con impresion dentro
 
+#def p_newline(p):
+#    'newline : \n+'
+
 
 #----------------------- Fin Viviana
 #
@@ -248,11 +261,14 @@ def p_error(p):
 #----------------------- Build the parser
 parser = yacc.yacc()
 
+programa=""
 linea = " "
 codigo = open("source.txt")
 for linea in codigo:
-    print(str(linea))
-    parser.parse(linea)
+    programa += linea.rstrip('\n')
+print(programa)
+resultado=parser.parse(programa)
+print(resultado)
 codigo.close()
 
 def validaRegla(s):
