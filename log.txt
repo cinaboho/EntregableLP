@@ -243,3 +243,23 @@ FECHA Y HORA -> Mon Nov 21 13:15:27 2022
 
 class JupilerLeague extends SplHeap { public function compare($array1, $array2) { echo "a es mayor que b"; } }
 FECHA Y HORA -> Mon Nov 21 13:15:40 2022
+
+
+$var=array(5,4,3);
+FECHA Y HORA -> Mon Nov 21 20:51:01 2022
+
+
+$var=array(a->5, b->6);
+FECHA Y HORA -> Mon Nov 21 20:51:33 2022
+
+
+$var=(a=>5,b=>6);
+FECHA Y HORA -> Mon Nov 21 20:53:54 2022
+
+
+$var=array(a=>5,b=>6);
+FECHA Y HORA -> Mon Nov 21 21:03:12 2022
+
+
+$var=array('a'=>5,'b'=>6);
+FECHA Y HORA -> Mon Nov 21 21:09:59 2022
