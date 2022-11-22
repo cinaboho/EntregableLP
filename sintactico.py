@@ -20,25 +20,6 @@ def p_sentencias(p):
                   | for
                   | SplHeap
                   | instrucciones
-                  | operaciones
-                  | instruccion
-                  | valores
-                  | booleanos
-                  | o_logicos
-                  | comparacion
-                  | o_comparar
-                  | asignacion
-                  | operadores_aritmeticos
-                  | aritmetica
-                  | crearArray
-                  | valoresArray
-                  | repite_claveValorSeparadosComa
-                  | switchCase
-                  | caso_switch
-                  | casos_switch
-                  | incdec
-                  | incdecfor
-
     '''
 
 #----------------------- Inicio Cindy

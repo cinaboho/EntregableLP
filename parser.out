@@ -56,7 +56,6 @@ Rule 12    sentencias -> programabasico
 Rule 13    sentencias -> for
 Rule 14    sentencias -> SplHeap
 Rule 15    sentencias -> instrucciones
-<<<<<<< HEAD
 Rule 16    operador -> MAS
 Rule 17    operador -> MENOS
 Rule 18    operador -> MULTIPLICA
@@ -182,149 +181,12 @@ COMDOB               :
 COMENTARIO_LARGO     : 109
 COMENTARIO_UNA_LINEA : 108
 COMPARE              : 122
-=======
-Rule 16    sentencias -> operaciones
-Rule 17    sentencias -> instruccion
-Rule 18    sentencias -> valores
-Rule 19    sentencias -> booleanos
-Rule 20    sentencias -> o_logicos
-Rule 21    sentencias -> comparacion
-Rule 22    sentencias -> o_comparar
-Rule 23    sentencias -> asignacion
-Rule 24    sentencias -> operadores_aritmeticos
-Rule 25    sentencias -> aritmetica
-Rule 26    sentencias -> crearArray
-Rule 27    sentencias -> valoresArray
-Rule 28    sentencias -> repite_claveValorSeparadosComa
-Rule 29    sentencias -> switchCase
-Rule 30    sentencias -> caso_switch
-Rule 31    sentencias -> casos_switch
-Rule 32    sentencias -> incdec
-Rule 33    sentencias -> incdecfor
-Rule 34    operador -> MAS
-Rule 35    operador -> MENOS
-Rule 36    operador -> MULTIPLICA
-Rule 37    operador -> DIVIDE
-Rule 38    operador -> MODULO
-Rule 39    operador -> EXPONENCIACION
-Rule 40    operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
-Rule 41    operacionMatematica -> VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
-Rule 42    operacionMatematica -> VARIABLE_PHP IGUAL tipoDevalorNumerico operador tipoDevalorNumerico PUNTOYCOMA
-Rule 43    operacionMatematica -> VARIABLE_PHP IGUAL tipoDevalorNumerico operador tipoDevalorNumerico operaciones PUNTOYCOMA
-Rule 44    operaciones -> tipoDevalorNumerico operador tipoDevalorNumerico
-Rule 45    operaciones -> tipoDevalorNumerico operador tipoDevalorNumerico operador tipoDevalorNumerico
-Rule 46    operaciones -> PARENIZQ operaciones PARENDER
-Rule 47    operaciones -> operador PARENIZQ operaciones PARENDER operaciones
-Rule 48    operaciones -> PARENIZQ operaciones PARENDER operaciones
-Rule 49    operaciones -> operador PARENIZQ operaciones PARENDER
-Rule 50    tipoDevalorNumerico -> ENTERO
-Rule 51    tipoDevalorNumerico -> FLOTANTE
-Rule 52    tipoDeDato -> ENTERO
-Rule 53    tipoDeDato -> FLOTANTE
-Rule 54    tipoDeDato -> CADENA
-Rule 55    tipoDeDato -> VARIABLE_PHP
-Rule 56    tipoDeDato -> BOOLEANO
-Rule 57    tipoDeDato -> NULL
-Rule 58    parametros -> tipoDeDato
-Rule 59    parametros -> tipoDeDato COMA parametros
-Rule 60    foreach -> FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
-Rule 61    arraymaps -> OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
-Rule 62    arraymaps -> VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
-Rule 63    funcion -> NEW NOMBRE PARENIZQ PARENDER PUNTOYCOMA
-Rule 64    monticuloHEAP -> HEAP IGUAL funcion
-Rule 65    instrucciones -> instruccion instrucciones
-Rule 66    instrucciones -> instruccion
-Rule 67    instruccion -> asignacion
-Rule 68    instruccion -> switchCase
-Rule 69    valores -> ENTERO
-Rule 70    valores -> FLOTANTE
-Rule 71    valores -> CADENA
-Rule 72    valores -> VARIABLE_PHP
-Rule 73    valores -> BOOLEANO
-Rule 74    valores -> aritmetica
-Rule 75    valores -> booleanos
-Rule 76    valores -> NOMBRE PARENIZQ PARENDER
-Rule 77    valores -> NOMBRE PARENIZQ valores PARENDER
-Rule 78    valores -> crearArray
-Rule 79    booleano -> BOOLEANO
-Rule 80    booleano -> comparacion
-Rule 81    booleano -> OPERLOGICO_NOT booleanos
-Rule 82    booleanos -> booleano
-Rule 83    booleanos -> booleanos o_logicos booleanos
-Rule 84    o_logicos -> OPERLOGICO_AND
-Rule 85    o_logicos -> OPERLOGICO_OR
-Rule 86    comparacion -> valores o_comparar valores
-Rule 87    o_comparar -> IGUALIGUAL
-Rule 88    o_comparar -> NOIGUAL
-Rule 89    o_comparar -> MENORQUE
-Rule 90    o_comparar -> MAYORQUE
-Rule 91    o_comparar -> MAYORIGUAL
-Rule 92    o_comparar -> MENORIGUAL
-Rule 93    asignacion -> VARIABLE_PHP IGUAL valores PUNTOYCOMA
-Rule 94    operadores_aritmeticos -> MAS
-Rule 95    operadores_aritmeticos -> MENOS
-Rule 96    operadores_aritmeticos -> MULTIPLICA
-Rule 97    operadores_aritmeticos -> DIVIDE
-Rule 98    aritmetica -> valores operadores_aritmeticos valores
-Rule 99    aritmetica -> aritmetica operadores_aritmeticos valores
-Rule 100   crearArray -> ARRAY PARENIZQ valoresArray PARENDER
-Rule 101   valoresArray -> valores
-Rule 102   valoresArray -> valores OPERASIG_ARRAY valores
-Rule 103   valoresArray -> valores repite_valores
-Rule 104   valoresArray -> valores OPERASIG_ARRAY valores repite_claveValor
-Rule 105   repite_valores -> COMA valores
-Rule 106   repite_valores -> COMA valores repite_valores
-Rule 107   repite_claveValor -> COMA valores OPERASIG_ARRAY valores
-Rule 108   repite_claveValor -> COMA valores OPERASIG_ARRAY valores repite_claveValor
-Rule 109   switchCase -> SWITCH PARENIZQ valores PARENDER LLAVEIZQ casos_switch LLAVEDER
-Rule 110   switchCase -> SWITCH PARENIZQ valores PARENDER LLAVEIZQ casos_switch DEFAULT DOSPUNTOS LLAVEIZQ instrucciones LLAVEDER LLAVEDER
-Rule 111   switchCase -> SWITCH PARENIZQ valores PARENDER DOSPUNTOS casos_switch ENDSWITCH PUNTOYCOMA
-Rule 112   caso_switch -> CASE valores DOSPUNTOS LLAVEIZQ instrucciones LLAVEDER
-Rule 113   caso_switch -> CASE valores DOSPUNTOS LLAVEIZQ instrucciones BREAK PUNTOYCOMA LLAVEDER
-Rule 114   caso_switch -> CASE valores DOSPUNTOS instrucciones
-Rule 115   caso_switch -> CASE valores DOSPUNTOS instrucciones BREAK PUNTOYCOMA
-Rule 116   casos_switch -> caso_switch casos_switch
-Rule 117   casos_switch -> caso_switch
-Rule 118   comentarios -> COMENTARIO_UNA_LINEA
-Rule 119   comentarios -> COMENTARIO_LARGO
-Rule 120   impresion -> ECHO tipoDeDato PUNTOYCOMA
-Rule 121   impresion -> PRINT tipoDeDato PUNTOYCOMA
-Rule 122   impresion -> ECHO VARIABLE_PHP PUNTOYCOMA
-Rule 123   impresion -> PRINT VARIABLE_PHP PUNTOYCOMA
-Rule 124   programabasico -> INICIO operacionMatematica FIN
-Rule 125   programabasico -> INICIO operacionMatematica impresion FIN
-Rule 126   incdec -> MAYORQUEI
-Rule 127   incdec -> MENORQUEI
-Rule 128   incdecfor -> MAS MAS
-Rule 129   incdecfor -> MENOS MENOS
-Rule 130   for -> FOR PARENIZQ VARIABLE_PHP IGUAL ENTERO PUNTOYCOMA VARIABLE_PHP incdec ENTERO PUNTOYCOMA VARIABLE_PHP incdecfor PARENDER LLAVEIZQ impresion LLAVEDER
-Rule 131   SplHeap -> CLASS NOMBRE EXTENDS SPLHEAP LLAVEIZQ PUBLIC FUNCTION COMPARE PARENIZQ parametros PARENDER LLAVEIZQ impresion LLAVEDER LLAVEDER
-
-Terminals, with rules where they appear
-
-AMPERSAND            : 60
-ARRAY                : 100
-AS                   : 60
-ASTERISCOIGUAL       : 
-BARRAIGUAL           : 
-BOOLEANO             : 56 73 79
-BREAK                : 113 115
-CADENA               : 54 71
-CASE                 : 112 113 114 115
-CLASS                : 131
-COMA                 : 59 105 106 107 108
-COMDOB               : 
-COMENTARIO_LARGO     : 119
-COMENTARIO_UNA_LINEA : 118
-COMPARE              : 131
->>>>>>> 060320a8685c7859c12aba0f7ac5b082bb10d7ae
 CONST                : 
 CONTINUE             : 
 CORCHDER             : 
 CORCHIZQ             : 
 COUNT                : 
 CURRENT              : 
-<<<<<<< HEAD
 DEFAULT              : 100
 DEFINE               : 
 DIVIDE               : 19 87
@@ -345,32 +207,9 @@ FLOTANTE             : 33 35 52
 FOR                  : 121
 FOREACH              : 42
 FUNCTION             : 122
-=======
-DEFAULT              : 110
-DEFINE               : 
-DIVIDE               : 37 97
-DO                   : 
-DOBLEASTERISCOIGUAL  : 
-DOSPUNTOS            : 110 111 112 113 114 115
-ECHO                 : 120 122
-ELSE                 : 
-EMPTY                : 
-ENDSWITCH            : 111
-END_WHILE            : 
-ENTERO               : 50 52 69 130 130
-ESPACIOENBLANCO      : 
-EXPONENCIACION       : 39
-EXTENDS              : 131
-FIN                  : 124 125
-FLOTANTE             : 51 53 70
-FOR                  : 130
-FOREACH              : 60
-FUNCTION             : 131
->>>>>>> 060320a8685c7859c12aba0f7ac5b082bb10d7ae
 GLOBAL               : 
-HEAP                 : 64
+HEAP                 : 46
 IF                   : 
-<<<<<<< HEAD
 IGUAL                : 22 23 24 25 44 46 75 76 121
 IGUALIGUAL           : 69
 INICIO               : 114 115 116
@@ -393,47 +232,18 @@ NEW                  : 45
 NOIGUAL              : 70
 NOMBRE               : 45 58 59 122
 NULL                 : 39
-=======
-IGUAL                : 40 41 42 43 62 64 93 130
-IGUALIGUAL           : 87
-INICIO               : 124 125
-LIST                 : 
-LLAVEDER             : 60 109 110 110 112 113 130 131 131
-LLAVEIZQ             : 60 109 110 110 112 113 130 131 131
-MAS                  : 34 94 128 128
-MASIGUAL             : 
-MAYORIGUAL           : 91
-MAYORQUE             : 90
-MAYORQUEI            : 126
-MENORIGUAL           : 92
-MENORQUE             : 89
-MENORQUEI            : 127
-MENOS                : 35 95 129 129
-MENOSIGUAL           : 
-MODULO               : 38
-MULTIPLICA           : 36 96
-NEW                  : 63
-NOIGUAL              : 88
-NOMBRE               : 63 76 77 131
-NULL                 : 57
->>>>>>> 060320a8685c7859c12aba0f7ac5b082bb10d7ae
 OPEN_TAG_WITH_ECHO   : 
 OPERACIONSUM         : 
 OPERALOGICO_MAP      : 
-OPERAMAPA            : 61 62
+OPERAMAPA            : 43 44
 OPERAPUT             : 
-<<<<<<< HEAD
 OPERASIG_ARRAY       : 92 94 97 98
-=======
-OPERASIG_ARRAY       : 102 104 107 108
->>>>>>> 060320a8685c7859c12aba0f7ac5b082bb10d7ae
 OPERCOMPARACION      : 
-OPERLOGICO_AND       : 84
-OPERLOGICO_NOT       : 81
-OPERLOGICO_OR        : 85
+OPERLOGICO_AND       : 66
+OPERLOGICO_NOT       : 63
+OPERLOGICO_OR        : 67
 OPERLOGICO_OREXCLUSIVO : 
 OPERLOGICO_XOR       : 
-<<<<<<< HEAD
 PARENDER             : 28 29 30 31 42 43 44 45 58 59 90 99 100 101 121 122
 PARENIZQ             : 28 29 30 31 42 43 44 45 58 59 90 99 100 101 121 122
 PORCENTAJEIGUAL      : 
@@ -452,33 +262,12 @@ STATIC               :
 SWITCH               : 99 100 101
 TEXTOSENCILLO        : 
 VARIABLE_PHP         : 22 22 22 23 23 24 25 37 42 42 44 54 75 76 77 78 79 112 113 121 121 121
-=======
-PARENDER             : 46 47 48 49 60 61 62 63 76 77 100 109 110 111 130 131
-PARENIZQ             : 46 47 48 49 60 61 62 63 76 77 100 109 110 111 130 131
-PORCENTAJEIGUAL      : 
-PRINT                : 121 123
-PRIVATE              : 
-PROTECTED            : 
-PUBLIC               : 131
-PUNTO                : 
-PUNTOIGUAL           : 
-PUNTOYCOMA           : 40 41 42 43 61 62 63 93 111 113 115 120 121 122 123 130 130
-RETURN               : 
-RSORT                : 
-SALTO_DE_LINEA       : 
-SPLHEAP              : 131
-STATIC               : 
-SWITCH               : 109 110 111
-TEXTOSENCILLO        : 
-VARIABLE_PHP         : 40 40 40 41 41 42 43 55 60 60 62 72 93 122 123 130 130 130
->>>>>>> 060320a8685c7859c12aba0f7ac5b082bb10d7ae
 WHILE                : 
 error                : 
 
 Nonterminals, with rules where they appear
 
 SplHeap              : 14
-<<<<<<< HEAD
 aritmetica           : 56 89
 arraymaps            : 5
 asignacion           : 49 80 116
@@ -4993,42 +4782,3 @@ WARNING: rejected rule (booleano -> BOOLEANO) in state 130
 WARNING: reduce/reduce conflict in state 151 resolved using rule (valores -> booleanos)
 WARNING: rejected rule (booleanos -> booleanos o_logicos booleanos) in state 151
 WARNING: Rule (asignacion -> asignacion) is never reduced
-=======
-aritmetica           : 25 74 99
-arraymaps            : 5
-asignacion           : 23 67
-booleano             : 82
-booleanos            : 19 75 81 83 83
-caso_switch          : 30 116 117
-casos_switch         : 31 109 110 111 116
-comentarios          : 10
-comparacion          : 21 80
-crearArray           : 26 78
-for                  : 13
-foreach              : 4
-funcion              : 8 64
-impresion            : 11 125 130 131
-incdec               : 32 130
-incdecfor            : 33 130
-instruccion          : 17 65 66
-instrucciones        : 15 65 110 112 113 114 115
-monticuloHEAP        : 9
-o_comparar           : 22 86
-o_logicos            : 20 83
-operacionMatematica  : 1 60 124 125
-operaciones          : 16 43 46 47 47 48 48 49
-operador             : 2 40 41 42 43 44 45 45 47 49
-operadores_aritmeticos : 24 98 99
-parametros           : 7 59 61 62 131
-programabasico       : 12
-repite_claveValor    : 104 108
-repite_claveValorSeparadosComa : 28
-repite_valores       : 103 106
-sentencias           : 0
-switchCase           : 29 68
-tipoDeDato           : 6 58 59 120 121
-tipoDevalorNumerico  : 3 41 42 42 43 43 44 44 45 45 45
-valores              : 18 77 86 86 93 98 98 99 101 102 102 103 104 104 105 106 107 107 108 108 109 110 111 112 113 114 115
-valoresArray         : 27 100
-
->>>>>>> 060320a8685c7859c12aba0f7ac5b082bb10d7ae
