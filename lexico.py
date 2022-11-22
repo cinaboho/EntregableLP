@@ -275,7 +275,7 @@ def t_error(t):
 
 lexer = lex.lex()
 #----para validar con source.txt
-<<<<<<< HEAD
+
 validador = lex.lex()
 def getTokens(lex):
     while True:
@@ -283,7 +283,6 @@ def getTokens(lex):
         if not tok:
             break
         print(tok)
-=======
 #validador = lex.lex()
 #def getTokens(lex):
 #    while True:
@@ -291,7 +290,6 @@ def getTokens(lex):
 #        if not tok:
 #            break
 #        print(tok)
->>>>>>> 060320a8685c7859c12aba0f7ac5b082bb10d7ae
 
 
 linea = " "
