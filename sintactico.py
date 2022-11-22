@@ -32,20 +32,12 @@ def p_sentencias(p):
                   | aritmetica
                   | crearArray
                   | valoresArray
-                  | repite_valoresSeparadosComa
                   | repite_claveValorSeparadosComa
                   | switchCase
                   | caso_switch
                   | casos_switch
                   | incdec
                   | incdecfor
-
-
-
-
-
-
-
 
     '''
 
