@@ -244,7 +244,6 @@ def p_SplHeap(p):
 #----------------------- Fin Viviana
 #
 #----------------------- error
-file = open("log.txt", "a")
 
 def p_error(p):
   if p:
@@ -254,7 +253,6 @@ def p_error(p):
     parser.errok()
   else:
     print("Error de sintaxis Fin de Linea")
-
 #----------------------- Build the parser
 parser = yacc.yacc()
 
@@ -269,21 +267,24 @@ print(resultado)
 codigo.close()
 
 def validaRegla(s):
+  file = open("log.txt", "a")
   result = parser.parse(s)
   file.write("\n\n")
   file.write(s+os.linesep)
   file.write("FECHA Y HORA -> ")
   ahora = time.strftime("%c")
   file.write(ahora+ os.linesep)
+  file.close()
   print(result)
 
 
-while True:
-  try:
-    s = input('calc > ')
-  except EOFError:
-    break
-  if not s: continue
-  validaRegla(s)
+#while True:
+  #try:
+    #s = input('calc > ')
+  #except EOFError:
+    #break
+  #if not s: continue
+  #validaRegla(s)
 
-file.close()
+
+
