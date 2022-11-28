@@ -275,6 +275,14 @@ def validaRegla(s):
   ahora = time.strftime("%c")
   file.write(ahora+ os.linesep)
   file.close()
+  #---Semantico
+  #result.imprimir(" ")
+  #print result.traducir()
+
+  #graphfile = open('graphviztrhee.vz','w')
+  #graphfile.write(result.traducir())
+  #graphFile.close()
+
   print(result)
 
 
