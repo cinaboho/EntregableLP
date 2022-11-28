@@ -38,6 +38,7 @@ texto.grid(row=1,column=2,padx=5,ipadx=2,ipady=1)
 
 
 
+#----------------------- Inicio Johanna    
 def botonLexico():
     input=codigo.get("1.0",'end-1c')
     texto.delete("1.0", "end")
@@ -48,12 +49,19 @@ def botonLexico():
     texto.insert(END,textoError)
     print(input)
 
+
+botonLexico=Button(raiz,text="LEXICO",command=botonLexico)
+botonLexico.pack()
+#----------------------- Fin Johanna    
+
+
+
+#modificacion Johanna para mostrar en el txt del sintactico
 def boton():
     input=codigo.get("1.0",'end-1c')
     texto.delete("1.0", "end")
     validacion(input.rstrip('\n'))
-    textoError=""
-    
+    textoError=""    
     for x in log_sintactico_array:
        textoError=textoError+x+" \n"               
     for x in arrayErrores:
@@ -61,11 +69,14 @@ def boton():
     texto.insert(END,textoError)
     print(input)
 
-
-botonLexico=Button(raiz,text="LEXICO",command=botonLexico)
-botonLexico.pack()
+    
 boton2=Button(raiz,text="SINTACTICO",command=boton)
 boton2.pack()
+
+
+
+
+
 
 
 
