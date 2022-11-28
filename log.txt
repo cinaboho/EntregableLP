@@ -812,3 +812,463 @@ FECHA Y HORA -> Mon Nov 28 03:19:48 2022
 
 $hola=array("a","b")
 FECHA Y HORA -> Mon Nov 28 03:19:51 2022
+
+
+$hola=array("a","b")
+FECHA Y HORA -> Mon Nov 28 10:13:07 2022
+
+
+$hola=array("a","b");
+FECHA Y HORA -> Mon Nov 28 10:13:12 2022
+
+
+echo "hola";
+FECHA Y HORA -> Mon Nov 28 10:30:04 2022
+
+
+$variable = 23.2;
+FECHA Y HORA -> Mon Nov 28 10:30:25 2022
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+$_123 = "hola";
+$_ = "hola";
+$_var155_3 = "hola";
+Var1 = "hola";
+$1var = "hola";
+$g frh = "hola";
+$ = "hola";
+FECHA Y HORA -> Mon Nov 28 10:32:36 2022
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+$_123 = "hola";
+$_ = "hola";
+$_var155_3 = "hola";
+Var1 = "hola";
+$1var = "hola";
+$g frh = "hola";
+$ = "hola";
+FECHA Y HORA -> Mon Nov 28 10:35:32 2022
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+$_123 = "hola";
+FECHA Y HORA -> Mon Nov 28 10:36:23 2022
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+$_123 = "hola";
+$_ = "hola";
+$_var155_3 = "hola";
+Var1 = "hola";
+$1var = "hola";
+$g frh = "hola";
+FECHA Y HORA -> Mon Nov 28 10:40:31 2022
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+$_123 = "hola";
+$_ = "hola";
+$_var155_3 = "hola";
+Var1 = "hola";
+$1var = "hola";
+$g frh = "hola";
+FECHA Y HORA -> Mon Nov 28 10:40:31 2022
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+$_123 = "hola";
+$_ = "hola";
+$_var155_3 = "hola";
+FECHA Y HORA -> Mon Nov 28 10:40:49 2022
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+$_123 = "hola";
+$_ = "hola";
+FECHA Y HORA -> Mon Nov 28 10:40:57 2022
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+FECHA Y HORA -> Mon Nov 28 10:41:08 2022
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+$_123 = "hola";
+FECHA Y HORA -> Mon Nov 28 10:41:13 2022
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+$_123 = "hola";
+$_ = "hola";
+FECHA Y HORA -> Mon Nov 28 10:41:19 2022
+
+
+$var =2; 
+$VAR=2; 
+$var123=2; 
+$_123=2; 
+$_=2; 
+$_var155_3=2; 
+Var1=2; 
+$1var=2; 
+$g frh=2; 
+$=2; 
+FECHA Y HORA -> Mon Nov 28 10:42:35 2022
+
+
+$var =1;
+$VAR=1;
+$var123=1;
+$_123=1;
+$_=1;
+$_var155_3=1;
+Var1=1;
+$1var=1;
+$g frh=1;
+$=1;
+FECHA Y HORA -> Mon Nov 28 10:44:34 2022
+
+
+$var =1;
+$VAR=1;
+$var123=1;
+$_123=1;
+$_=1;
+$_var155_3=1;
+FECHA Y HORA -> Mon Nov 28 10:44:52 2022
+
+
+Var1=1;
+$1var=1;
+$g frh=1;
+$=1;
+FECHA Y HORA -> Mon Nov 28 10:44:59 2022
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+$1var=1;
+$g frh=1;
+$=1;
+FECHA Y HORA -> Mon Nov 28 10:45:32 2022
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+$1var=1;
+$g frh=1;
+$=1;
+FECHA Y HORA -> Mon Nov 28 10:46:07 2022
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+$1var=1;
+$g frh=1;
+$=1;
+FECHA Y HORA -> Mon Nov 28 10:47:17 2022
+
+
+$var =2;
+FECHA Y HORA -> Mon Nov 28 10:48:01 2022
+
+
+$var =2;
+$VAR =2;
+FECHA Y HORA -> Mon Nov 28 10:48:07 2022
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+FECHA Y HORA -> Mon Nov 28 10:48:16 2022
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+FECHA Y HORA -> Mon Nov 28 10:48:21 2022
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+FECHA Y HORA -> Mon Nov 28 10:48:28 2022
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+FECHA Y HORA -> Mon Nov 28 10:48:33 2022
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+FECHA Y HORA -> Mon Nov 28 10:48:39 2022
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+$1var=1;
+FECHA Y HORA -> Mon Nov 28 10:48:45 2022
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+$1var=1;
+$g frh=1;
+FECHA Y HORA -> Mon Nov 28 10:48:51 2022
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+$1var=1;
+$g frh=1;
+$=1;
+FECHA Y HORA -> Mon Nov 28 10:51:46 2022
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+FECHA Y HORA -> Mon Nov 28 10:52:08 2022
+
+
+class Prueba{};
+class _miPrueba{};
+class clase123{};
+FECHA Y HORA -> Mon Nov 28 10:52:20 2022
+
+
+class Prueba{};
+class _miPrueba{};
+class clase123{};
+FECHA Y HORA -> Mon Nov 28 10:56:38 2022
+
+
+class Prueba{};
+class _miPrueba{};
+class clase123{};
+FECHA Y HORA -> Mon Nov 28 10:57:24 2022
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+FECHA Y HORA -> Mon Nov 28 10:57:34 2022
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+FECHA Y HORA -> Mon Nov 28 10:57:46 2022
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+FECHA Y HORA -> Mon Nov 28 10:58:15 2022
+
+
+class Prueba{};
+class _miPrueba{};
+class clase123{};
+FECHA Y HORA -> Mon Nov 28 10:59:22 2022
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+FECHA Y HORA -> Mon Nov 28 10:59:27 2022
+
+
+class Prueba{}
+FECHA Y HORA -> Mon Nov 28 10:59:41 2022
+
+
+class Prueba{}
+FECHA Y HORA -> Mon Nov 28 10:59:44 2022
+
+
+class _miPrueba{}
+FECHA Y HORA -> Mon Nov 28 10:59:51 2022
+
+
+class _miPrueba{}
+FECHA Y HORA -> Mon Nov 28 10:59:53 2022
+
+
+class clase123{}
+FECHA Y HORA -> Mon Nov 28 10:59:59 2022
+
+
+class clase123{}
+class clase123{}
+FECHA Y HORA -> Mon Nov 28 11:01:43 2022
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+FECHA Y HORA -> Mon Nov 28 11:02:21 2022
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+FECHA Y HORA -> Mon Nov 28 11:04:48 2022
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+FECHA Y HORA -> Mon Nov 28 11:05:39 2022
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+FECHA Y HORA -> Mon Nov 28 11:08:47 2022
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+FECHA Y HORA -> Mon Nov 28 11:11:24 2022
+
+
+class Prueba{}
+FECHA Y HORA -> Mon Nov 28 11:11:28 2022
+
+
+class {}
+FECHA Y HORA -> Mon Nov 28 11:14:11 2022
+
+
+ClaseB{}
+FECHA Y HORA -> Mon Nov 28 11:14:22 2022
+
+
+claseB{}
+FECHA Y HORA -> Mon Nov 28 11:14:26 2022
+
+
+Class const{}
+FECHA Y HORA -> Mon Nov 28 11:14:34 2022
+
+
+class const{}
+FECHA Y HORA -> Mon Nov 28 11:15:05 2022
+
+
+function operaciones{}
+FECHA Y HORA -> Mon Nov 28 11:16:09 2022
+
+
+
+function operaciones{}
+FECHA Y HORA -> Mon Nov 28 11:18:05 2022
+
+
+
+function operaciones{}
+FECHA Y HORA -> Mon Nov 28 11:18:38 2022
+
+
+function mostrarTexto{}
+FECHA Y HORA -> Mon Nov 28 11:18:47 2022
+
+
+function foo123{}
+FECHA Y HORA -> Mon Nov 28 11:18:52 2022
+
+
+function _dias2{}
+FECHA Y HORA -> Mon Nov 28 11:18:56 2022
+
+
+function {}
+FECHA Y HORA -> Mon Nov 28 11:19:20 2022
+
+
+function 1foo{}
+FECHA Y HORA -> Mon Nov 28 11:19:26 2022
+
+
+function foo{}
+FECHA Y HORA -> Mon Nov 28 11:20:12 2022
+
+
+function 1foo{}
+FECHA Y HORA -> Mon Nov 28 11:20:18 2022
+
+
+function 13foo{}
+FECHA Y HORA -> Mon Nov 28 11:21:10 2022
+
+
+function 13foo{}
+FECHA Y HORA -> Mon Nov 28 11:21:14 2022

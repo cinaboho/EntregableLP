@@ -138,7 +138,7 @@ t_LLAVEDER = r'\}'
 t_CORCHIZQ = r'\['
 t_CORCHDER = r'\]'
 t_AMPERSAND = r'\&'
-t_PUNTOIGUAL = r'\.='
+t_PUNTOIGUAL = r'\.\='
 t_MAS = r'\+'
 #Fin Viviana
     
@@ -193,7 +193,7 @@ t_ignore  = ' \t'
 #Johanna puse al inicio para que identifique estos token de variable y nombre de metodo
 def t_VARIABLE_PHP(t):  
     #r'\$[A-Za-z_][\w_]*'
-    r'((\$|\$_)[a-zA-Z][a-zA-Z0-9_]*)'
+    r'((\$|\$_)[a-zA-Z_][a-zA-Z0-9_]*)'
     t.type = reserved.get(t.value, "VARIABLE_PHP")
     return t
 
