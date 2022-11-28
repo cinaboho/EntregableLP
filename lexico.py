@@ -196,6 +196,9 @@ def t_VARIABLE_PHP(t):
     r'((\$|\$_)[a-zA-Z_][a-zA-Z0-9_]*)'
     t.type = reserved.get(t.value, "VARIABLE_PHP")
     return t
+def t_BOOLEANO(t):
+    r'True|False|true|false|TRUE|FALSE'
+    return t
 
 def t_NOMBRE(t):
    r'([a-zA-Z][a-zA-Z0-9_]*)'
@@ -243,15 +246,12 @@ def t_HEAP(t):
 
 
 # Johanna
-def t_BOOLEANO(t):
-    r'True|False|true|false|TRUE|FALSE'
-    return t
-
 
 def t_CADENA(t):
     #r'\"(.)+\" | \'(.)+\''
     #r'(\')(?:\\.|\'(?=\w)|[^\'])*(\')'
-    r'(\"(.)*\") | (\'(.)*\')'
+    #r'(\"(.)*\") | (\'(.)*\')'
+    r'\"[a-zA-Z0-9\w\s\.]*\" | \'[a-zA-Z0-9\w\s\.]*\''
     return t
 
 def t_FLOTANTE(t):

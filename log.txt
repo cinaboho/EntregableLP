@@ -2416,3 +2416,148 @@ $1var=1;
 $g frh=1;
 $=1;
 FECHA Y HORA -> Mon Nov 28 11:35:18 2022
+
+
+$array = [
+    "foo" => "bar",
+    "bar" => "foo",
+];
+FECHA Y HORA -> Mon Nov 28 11:36:47 2022
+
+
+$foo = True;
+FECHA Y HORA -> Mon Nov 28 11:37:23 2022
+
+
+$foo = True;
+FECHA Y HORA -> Mon Nov 28 11:38:35 2022
+
+
+$foo = True;
+FECHA Y HORA -> Mon Nov 28 11:39:21 2022
+
+
+$num = 1234;
+FECHA Y HORA -> Mon Nov 28 11:39:29 2022
+
+
+$a = 1.234; $b = 1.2e3; $c = 7E-10;
+FECHA Y HORA -> Mon Nov 28 11:39:42 2022
+
+
+$cadena='Esto es una cadena sencilla';
+$saludo=” Bienvenidos”;
+FECHA Y HORA -> Mon Nov 28 11:40:49 2022
+
+
+$cadena='Esto es una cadena sencilla';
+$saludo='Bienvenidos';
+FECHA Y HORA -> Mon Nov 28 11:41:00 2022
+
+
+$array = array( "foo" => "bar", "bar" => "foo", );
+FECHA Y HORA -> Mon Nov 28 11:41:12 2022
+
+
+$array = array( "foo" => "bar", "bar" => "foo" );
+FECHA Y HORA -> Mon Nov 28 11:44:39 2022
+
+
+$objEmployee = new Employee('Bob', 'Smith', 30);
+FECHA Y HORA -> Mon Nov 28 11:44:57 2022
+
+
+$objEmployee = new Employee('Bob', 'Smith', 30);
+FECHA Y HORA -> Mon Nov 28 11:45:03 2022
+
+
+$objEmployee = new Employee('Bob', 'Smith', 30);
+FECHA Y HORA -> Mon Nov 28 11:47:32 2022
+
+
+function llamada_retorno() { echo '¡hola mundo!'; }
+FECHA Y HORA -> Mon Nov 28 11:47:46 2022
+
+
+function llamada_retorno() { echo '¡hola mundo!'; }
+FECHA Y HORA -> Mon Nov 28 11:48:43 2022
+
+
+function llamada_retorno() { echo '¡hola mundo!'; }
+FECHA Y HORA -> Mon Nov 28 11:52:02 2022
+
+
+function llamada_retorno() { echo '¡hola mundo!'; }
+FECHA Y HORA -> Mon Nov 28 11:52:19 2022
+
+
+function llamada_retorno() { echo '¡hola mundo!'; }
+FECHA Y HORA -> Mon Nov 28 11:52:44 2022
+
+
+function llamada_retorno { echo '¡hola mundo!'; }
+FECHA Y HORA -> Mon Nov 28 11:52:49 2022
+
+
+function llamada_retorno {}
+FECHA Y HORA -> Mon Nov 28 11:52:54 2022
+
+
+$var=fopen(“C: \ \movies \ \matrix.txt”,” r”);
+FECHA Y HORA -> Mon Nov 28 11:53:16 2022
+
+
+$var=fopen("C: \ \movies \ \matrix.txt"," r");
+FECHA Y HORA -> Mon Nov 28 11:53:31 2022
+
+
+$var = NULL;
+FECHA Y HORA -> Mon Nov 28 11:54:01 2022
+
+
+#HOLA
+FECHA Y HORA -> Mon Nov 28 11:54:53 2022
+
+
+#HOLA
+FECHA Y HORA -> Mon Nov 28 11:54:58 2022
+
+
+define(´numeroPi´, ´3.14´);
+FECHA Y HORA -> Mon Nov 28 11:55:22 2022
+
+
+define(´numeroPi´, ´3.14´);
+FECHA Y HORA -> Mon Nov 28 11:59:00 2022
+
+
+define("numeroPi", "3.14");
+FECHA Y HORA -> Mon Nov 28 11:59:32 2022
+
+
+define("numeroPi", "3.14").
+FECHA Y HORA -> Mon Nov 28 12:07:43 2022
+
+
+define("numeroPi", "3.14").
+FECHA Y HORA -> Mon Nov 28 12:07:51 2022
+
+
+define("numeroP", "3.14");
+FECHA Y HORA -> Mon Nov 28 12:08:38 2022
+
+
+define("numeroP", "3.14");
+FECHA Y HORA -> Mon Nov 28 12:08:57 2022
+
+
+define("numeroP", "3.14");
+FECHA Y HORA -> Mon Nov 28 12:11:04 2022
+
+
+define("numeroP", "3.14");
+FECHA Y HORA -> Mon Nov 28 12:12:23 2022
+
+
+define("numeroP", "3.14");
+FECHA Y HORA -> Mon Nov 28 12:12:23 2022

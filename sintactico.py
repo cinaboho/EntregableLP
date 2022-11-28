@@ -114,7 +114,7 @@ def p_arraymaps(p):
 
 #new jupilerLeague();
 def p_funcion(p):
-    '''funcion : NEW NOMBRE PARENIZQ PARENDER PUNTOYCOMA
+    '''funcion : NEW NOMBRE PARENIZQ parametros PARENDER PUNTOYCOMA
     '''
 
 #$heap = new JupilerLeague();
@@ -181,6 +181,10 @@ def p_asignacion(p):
                     | VARIABLE_PHP difigual valores PUNTOYCOMA
                     | VARIABLE_PHP difigual valores PUNTO valores PUNTOYCOMA comentarios
                     | VARIABLE_PHP difigual valores PUNTO valores PUNTOYCOMA
+                    | VARIABLE_PHP IGUAL BOOLEANO PUNTOYCOMA
+                    | VARIABLE_PHP IGUAL BOOLEANO PUNTOYCOMA comentarios
+                    | VARIABLE_PHP IGUAL funcion
+                    | VARIABLE_PHP IGUAL NULL
                     | asignacion
                 '''
     log_sintactico_array.append("asignacion")
@@ -198,8 +202,14 @@ def p_clases(p):
 
 def p_function(p):
     '''clases : FUNCTION NOMBRE LLAVEIZQ LLAVEDER
-            '''
+    |  FUNCTION NOMBRE  PARENIZQ PARENDER LLAVEIZQ impresion LLAVEDER
+          '''
     log_sintactico_array.append("function")
+
+def p_define(p):
+    '''define : DEFINE PARENIZQ CADENA COMA valores PARENDER PUNTOYCOMA'''
+    log_sintactico_array.append("define")
+
 
 #def p_paramclases(p):
  #   '''paramclases :           '''
