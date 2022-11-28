@@ -413,41 +413,59 @@ $b=array_map("cubo",$a);
 $heap = new JupilerLeague();
 
 ssssssssssssssss
-ssssssssss
-FECHA Y HORA -> Sun Nov 27 00:39:22 2022
+ssssssssss
+
+FECHA Y HORA -> Sun Nov 27 00:39:22 2022
 
 
-echo "como estas";
-FECHA Y HORA -> Sun Nov 27 00:39:40 2022
+
+echo "como estas";
+
+FECHA Y HORA -> Sun Nov 27 00:39:40 2022
+
 
 
 $dest = "destinatario@gmail.com"; //Email de destino
-
-FECHA Y HORA -> Sun Nov 27 00:40:19 2022
 
 
-$dest = "destinatario@gmail.com"; //Email de destino
-FECHA Y HORA -> Sun Nov 27 00:40:21 2022
+FECHA Y HORA -> Sun Nov 27 00:40:19 2022
 
 
-hola
-FECHA Y HORA -> Sun Nov 27 00:40:37 2022
+
+$dest = "destinatario@gmail.com"; //Email de destino
+
+FECHA Y HORA -> Sun Nov 27 00:40:21 2022
 
 
-hola
-FECHA Y HORA -> Sun Nov 27 00:42:59 2022
+
+hola
+
+FECHA Y HORA -> Sun Nov 27 00:40:37 2022
 
 
-echo hola
-FECHA Y HORA -> Sun Nov 27 00:26:00 2022
+
+hola
+
+FECHA Y HORA -> Sun Nov 27 00:42:59 2022
 
 
-echo "hola"
-FECHA Y HORA -> Sun Nov 27 00:26:08 2022
+
+echo hola
+
+FECHA Y HORA -> Sun Nov 27 00:26:00 2022
 
 
-echo "hola";
-FECHA Y HORA -> Sun Nov 27 00:26:15 2022
+
+echo "hola"
+
+FECHA Y HORA -> Sun Nov 27 00:26:08 2022
+
+
+
+echo "hola";
+
+FECHA Y HORA -> Sun Nov 27 00:26:15 2022
+
 
 
 function calcularFondoReserva($var)
@@ -455,8 +473,10 @@ function calcularFondoReserva($var)
   $fondo=8.33;
   $tmp=$var*$fondo/100;
   return round($tmp,2);
-}
-FECHA Y HORA -> Sun Nov 27 00:46:38 2022
+}
+
+FECHA Y HORA -> Sun Nov 27 00:46:38 2022
+
 
 
 function calcularFondoReserva()
@@ -464,384 +484,541 @@ function calcularFondoReserva()
   $fondo=8.33;
   $tmp=$var*$fondo/100;
   return round($tmp,2);
-}
-FECHA Y HORA -> Sun Nov 27 00:48:20 2022
+}
 
+FECHA Y HORA -> Sun Nov 27 00:48:20 2022
 
-function calcularFondoReserva()
-{
-  $fondo=8.33;
-}
-FECHA Y HORA -> Sun Nov 27 00:48:27 2022
 
 
 function calcularFondoReserva()
 {
   $fondo=8.33;
-};
-FECHA Y HORA -> Sun Nov 27 00:48:43 2022
+}
+
+FECHA Y HORA -> Sun Nov 27 00:48:27 2022
+
+
+
+function calcularFondoReserva()
+{
+  $fondo=8.33;
+};
+
+FECHA Y HORA -> Sun Nov 27 00:48:43 2022
+
 
 
 function calcularFondoReserva()
 {
 
-};
-FECHA Y HORA -> Sun Nov 27 00:48:47 2022
+};
 
+FECHA Y HORA -> Sun Nov 27 00:48:47 2022
 
-function calcularFondoReserva()
-{};
-FECHA Y HORA -> Sun Nov 27 00:48:58 2022
 
 
 function calcularFondoReserva()
-{
-};
-FECHA Y HORA -> Sun Nov 27 00:49:50 2022
+{};
+
+FECHA Y HORA -> Sun Nov 27 00:48:58 2022
+
 
 
 function calcularFondoReserva()
 {
-};
-FECHA Y HORA -> Sun Nov 27 00:49:57 2022
+};
+
+FECHA Y HORA -> Sun Nov 27 00:49:50 2022
+
 
 
 function calcularFondoReserva()
 {
-};
-FECHA Y HORA -> Sun Nov 27 00:50:54 2022
+};
+
+FECHA Y HORA -> Sun Nov 27 00:49:57 2022
 
 
-function calcularFondoReserva()
-FECHA Y HORA -> Sun Nov 27 00:51:24 2022
+
+function calcularFondoReserva()
+{
+};
+
+FECHA Y HORA -> Sun Nov 27 00:50:54 2022
 
 
-function calcularFondoReserva(){};
-FECHA Y HORA -> Sun Nov 27 00:51:30 2022
+
+function calcularFondoReserva()
+
+FECHA Y HORA -> Sun Nov 27 00:51:24 2022
 
 
-echo "hola";
-FECHA Y HORA -> Sun Nov 27 00:51:56 2022
+
+function calcularFondoReserva(){};
+
+FECHA Y HORA -> Sun Nov 27 00:51:30 2022
 
 
-for ($i = 1; $i <= 10; $i++) { echo $i; }
-FECHA Y HORA -> Sun Nov 27 00:52:18 2022
+
+echo "hola";
+
+FECHA Y HORA -> Sun Nov 27 00:51:56 2022
+
+
+
+for ($i = 1; $i <= 10; $i++) { echo $i; }
+
+FECHA Y HORA -> Sun Nov 27 00:52:18 2022
+
 
 
 for ($i = 1; $i <= 10; $i++) { echo $i; 
-}
-FECHA Y HORA -> Sun Nov 27 00:52:25 2022
+}
+
+FECHA Y HORA -> Sun Nov 27 00:52:25 2022
+
 
 
 for ($i = 1; $i <= 10; $i++) { 
 echo $i; 
-}
-FECHA Y HORA -> Sun Nov 27 00:52:29 2022
+}
+
+FECHA Y HORA -> Sun Nov 27 00:52:29 2022
+
 
 
 for ($i = 1; $i <= 10; $i++) { 
 
-}
-FECHA Y HORA -> Sun Nov 27 00:52:40 2022
+}
+
+FECHA Y HORA -> Sun Nov 27 00:52:40 2022
+
 
 
 print("hola")
 FECHA Y HORA -> Sun Nov 27 14:42:15 2022
 
 
-a
-FECHA Y HORA -> Mon Nov 28 00:13:16 2022
+a
 
+FECHA Y HORA -> Mon Nov 28 00:13:16 2022
 
-a<<
-FECHA Y HORA -> Mon Nov 28 00:13:20 2022
-
-
-az
-FECHA Y HORA -> Mon Nov 28 00:14:05 2022
-
-
-a<
-FECHA Y HORA -> Mon Nov 28 00:14:12 2022
-
-
-a<<
-FECHA Y HORA -> Mon Nov 28 00:23:48 2022
-
-
-a<
-FECHA Y HORA -> Mon Nov 28 00:24:47 2022
-
-
-a<
-FECHA Y HORA -> Mon Nov 28 00:28:00 2022
-
-
-a<<
-FECHA Y HORA -> Mon Nov 28 00:28:08 2022
-
-
-
-FECHA Y HORA -> Mon Nov 28 00:32:49 2022
-
-
-A<<
-FECHA Y HORA -> Mon Nov 28 00:39:40 2022
-
-
-A
-FECHA Y HORA -> Mon Nov 28 00:39:53 2022
-
-
-A
-FECHA Y HORA -> Mon Nov 28 00:39:55 2022
-
-
-A
-FECHA Y HORA -> Mon Nov 28 00:39:56 2022
-
-
-A
-FECHA Y HORA -> Mon Nov 28 00:39:56 2022
-
-
-A
-FECHA Y HORA -> Mon Nov 28 00:39:57 2022
-
-
-A
-FECHA Y HORA -> Mon Nov 28 00:39:57 2022
-
-
-A
-FECHA Y HORA -> Mon Nov 28 00:39:57 2022
-
-
-A
-FECHA Y HORA -> Mon Nov 28 00:39:57 2022
-
-
-A<<<
-FECHA Y HORA -> Mon Nov 28 00:41:21 2022
-
-
-A<<<
-FECHA Y HORA -> Mon Nov 28 00:41:23 2022
-
-
-A<<<
-FECHA Y HORA -> Mon Nov 28 00:41:24 2022
-
-
-A<<<
-FECHA Y HORA -> Mon Nov 28 00:41:25 2022
-
-
-A<<<
-FECHA Y HORA -> Mon Nov 28 00:41:25 2022
-
-
-A<<<
-FECHA Y HORA -> Mon Nov 28 00:41:26 2022
-
-
-A<<<
-FECHA Y HORA -> Mon Nov 28 00:41:26 2022
-
-
-A<<<
-FECHA Y HORA -> Mon Nov 28 00:41:26 2022
-
-
-A<
-FECHA Y HORA -> Mon Nov 28 00:41:48 2022
-
-
-
-FECHA Y HORA -> Mon Nov 28 00:45:21 2022
-
-
-A
-FECHA Y HORA -> Mon Nov 28 00:45:28 2022
-
-
-azz<
-FECHA Y HORA -> Mon Nov 28 01:12:07 2022
-
-
-azz<
-FECHA Y HORA -> Mon Nov 28 01:12:10 2022
-
-
-a<<
-FECHA Y HORA -> Mon Nov 28 01:20:35 2022
-
-
-a<<
-FECHA Y HORA -> Mon Nov 28 01:21:48 2022
 
 
 a<<
-q<<
-FECHA Y HORA -> Mon Nov 28 01:22:06 2022
 
+FECHA Y HORA -> Mon Nov 28 00:13:20 2022
 
-$1_a
-FECHA Y HORA -> Mon Nov 28 02:35:12 2022
 
 
-$_a
-FECHA Y HORA -> Mon Nov 28 02:35:51 2022
+az
 
+FECHA Y HORA -> Mon Nov 28 00:14:05 2022
 
-$_a=5;
-FECHA Y HORA -> Mon Nov 28 02:36:01 2022
 
 
-$a=5;
-FECHA Y HORA -> Mon Nov 28 02:36:05 2022
+a<
 
+FECHA Y HORA -> Mon Nov 28 00:14:12 2022
 
-$a=5;
-FECHA Y HORA -> Mon Nov 28 02:36:13 2022
 
 
-$1a=5;
-FECHA Y HORA -> Mon Nov 28 02:37:38 2022
+a<<
 
+FECHA Y HORA -> Mon Nov 28 00:23:48 2022
 
-$a=5;
-FECHA Y HORA -> Mon Nov 28 02:37:45 2022
 
 
-$_a=5;
-FECHA Y HORA -> Mon Nov 28 02:37:55 2022
+a<
 
+FECHA Y HORA -> Mon Nov 28 00:24:47 2022
 
-$_hola
-FECHA Y HORA -> Mon Nov 28 02:39:34 2022
 
 
-$_hola=5;
-FECHA Y HORA -> Mon Nov 28 02:39:39 2022
+a<
 
+FECHA Y HORA -> Mon Nov 28 00:28:00 2022
 
-$_hola=5;
-FECHA Y HORA -> Mon Nov 28 02:39:40 2022
 
 
-$hola=5;
-FECHA Y HORA -> Mon Nov 28 02:44:09 2022
+a<<
 
+FECHA Y HORA -> Mon Nov 28 00:28:08 2022
 
-$123hola=5;
-FECHA Y HORA -> Mon Nov 28 02:44:14 2022
 
 
-$hola=5;
-FECHA Y HORA -> Mon Nov 28 02:44:54 2022
 
 
-$hola=5;
-FECHA Y HORA -> Mon Nov 28 02:49:44 2022
+FECHA Y HORA -> Mon Nov 28 00:32:49 2022
 
 
-$hola=array("a","b");
-FECHA Y HORA -> Mon Nov 28 02:50:45 2022
 
+A<<
 
-$hola=array("a","b");
-FECHA Y HORA -> Mon Nov 28 03:00:18 2022
+FECHA Y HORA -> Mon Nov 28 00:39:40 2022
 
 
-$hola=array("a","b");
-FECHA Y HORA -> Mon Nov 28 03:01:11 2022
 
+A
 
-$hola=array("a","b");
-FECHA Y HORA -> Mon Nov 28 03:02:03 2022
+FECHA Y HORA -> Mon Nov 28 00:39:53 2022
 
 
-$hola=array("a","b");
-FECHA Y HORA -> Mon Nov 28 03:04:38 2022
 
+A
 
-$hola=array("a","b");
-FECHA Y HORA -> Mon Nov 28 03:06:33 2022
+FECHA Y HORA -> Mon Nov 28 00:39:55 2022
 
 
-$hola=array("a","b");
-FECHA Y HORA -> Mon Nov 28 03:16:54 2022
 
+A
 
-$hola=array("a","b");
-FECHA Y HORA -> Mon Nov 28 03:18:05 2022
+FECHA Y HORA -> Mon Nov 28 00:39:56 2022
 
 
-$hola=array("a","b")
-FECHA Y HORA -> Mon Nov 28 03:18:09 2022
 
+A
 
-$hola=array("a","b")
-FECHA Y HORA -> Mon Nov 28 03:18:12 2022
+FECHA Y HORA -> Mon Nov 28 00:39:56 2022
 
 
-$hola=array("a","b"
-FECHA Y HORA -> Mon Nov 28 03:18:21 2022
 
+A
 
-$hola=array("a","b"
-FECHA Y HORA -> Mon Nov 28 03:18:30 2022
+FECHA Y HORA -> Mon Nov 28 00:39:57 2022
 
 
-$hola=array(
-FECHA Y HORA -> Mon Nov 28 03:18:37 2022
 
+A
 
-$hola=array("a","b");
-FECHA Y HORA -> Mon Nov 28 03:18:45 2022
+FECHA Y HORA -> Mon Nov 28 00:39:57 2022
 
 
-$hola=array("a","b")
-FECHA Y HORA -> Mon Nov 28 03:18:58 2022
 
+A
 
-$hola=array("a","b");
-FECHA Y HORA -> Mon Nov 28 03:19:48 2022
+FECHA Y HORA -> Mon Nov 28 00:39:57 2022
 
 
-$hola=array("a","b")
-FECHA Y HORA -> Mon Nov 28 03:19:51 2022
+
+A
+
+FECHA Y HORA -> Mon Nov 28 00:39:57 2022
+
+
+
+A<<<
+
+FECHA Y HORA -> Mon Nov 28 00:41:21 2022
+
+
+
+A<<<
+
+FECHA Y HORA -> Mon Nov 28 00:41:23 2022
+
+
+
+A<<<
+
+FECHA Y HORA -> Mon Nov 28 00:41:24 2022
+
+
+
+A<<<
+
+FECHA Y HORA -> Mon Nov 28 00:41:25 2022
+
+
+
+A<<<
+
+FECHA Y HORA -> Mon Nov 28 00:41:25 2022
+
+
+
+A<<<
+
+FECHA Y HORA -> Mon Nov 28 00:41:26 2022
+
+
+
+A<<<
+
+FECHA Y HORA -> Mon Nov 28 00:41:26 2022
+
+
+
+A<<<
+
+FECHA Y HORA -> Mon Nov 28 00:41:26 2022
+
+
+
+A<
+
+FECHA Y HORA -> Mon Nov 28 00:41:48 2022
+
+
+
+
+
+FECHA Y HORA -> Mon Nov 28 00:45:21 2022
+
+
+
+A
+
+FECHA Y HORA -> Mon Nov 28 00:45:28 2022
+
+
+
+azz<
+
+FECHA Y HORA -> Mon Nov 28 01:12:07 2022
+
+
+
+azz<
+
+FECHA Y HORA -> Mon Nov 28 01:12:10 2022
+
+
+
+a<<
+
+FECHA Y HORA -> Mon Nov 28 01:20:35 2022
+
+
+
+a<<
+
+FECHA Y HORA -> Mon Nov 28 01:21:48 2022
+
+
+
+a<<
+q<<
+
+FECHA Y HORA -> Mon Nov 28 01:22:06 2022
+
+
+
+$1_a
+
+FECHA Y HORA -> Mon Nov 28 02:35:12 2022
+
+
+
+$_a
+
+FECHA Y HORA -> Mon Nov 28 02:35:51 2022
+
+
+
+$_a=5;
+
+FECHA Y HORA -> Mon Nov 28 02:36:01 2022
+
+
+
+$a=5;
+
+FECHA Y HORA -> Mon Nov 28 02:36:05 2022
+
+
+
+$a=5;
+
+FECHA Y HORA -> Mon Nov 28 02:36:13 2022
+
+
+
+$1a=5;
+
+FECHA Y HORA -> Mon Nov 28 02:37:38 2022
+
+
+
+$a=5;
+
+FECHA Y HORA -> Mon Nov 28 02:37:45 2022
+
+
+
+$_a=5;
+
+FECHA Y HORA -> Mon Nov 28 02:37:55 2022
+
+
+
+$_hola
+
+FECHA Y HORA -> Mon Nov 28 02:39:34 2022
+
+
+
+$_hola=5;
+
+FECHA Y HORA -> Mon Nov 28 02:39:39 2022
+
+
+
+$_hola=5;
+
+FECHA Y HORA -> Mon Nov 28 02:39:40 2022
+
+
+
+$hola=5;
+
+FECHA Y HORA -> Mon Nov 28 02:44:09 2022
+
+
+
+$123hola=5;
+
+FECHA Y HORA -> Mon Nov 28 02:44:14 2022
+
+
+
+$hola=5;
+
+FECHA Y HORA -> Mon Nov 28 02:44:54 2022
+
+
+
+$hola=5;
+
+FECHA Y HORA -> Mon Nov 28 02:49:44 2022
+
+
+
+$hola=array("a","b");
+
+FECHA Y HORA -> Mon Nov 28 02:50:45 2022
+
+
+
+$hola=array("a","b");
+
+FECHA Y HORA -> Mon Nov 28 03:00:18 2022
+
+
+
+$hola=array("a","b");
+
+FECHA Y HORA -> Mon Nov 28 03:01:11 2022
+
+
+
+$hola=array("a","b");
+
+FECHA Y HORA -> Mon Nov 28 03:02:03 2022
+
+
+
+$hola=array("a","b");
+
+FECHA Y HORA -> Mon Nov 28 03:04:38 2022
+
+
+
+$hola=array("a","b");
+
+FECHA Y HORA -> Mon Nov 28 03:06:33 2022
+
+
+
+$hola=array("a","b");
+
+FECHA Y HORA -> Mon Nov 28 03:16:54 2022
+
+
+
+$hola=array("a","b");
+
+FECHA Y HORA -> Mon Nov 28 03:18:05 2022
+
+
+
+$hola=array("a","b")
+
+FECHA Y HORA -> Mon Nov 28 03:18:09 2022
+
+
+
+$hola=array("a","b")
+
+FECHA Y HORA -> Mon Nov 28 03:18:12 2022
+
+
+
+$hola=array("a","b"
+
+FECHA Y HORA -> Mon Nov 28 03:18:21 2022
+
+
+
+$hola=array("a","b"
+
+FECHA Y HORA -> Mon Nov 28 03:18:30 2022
+
+
+
+$hola=array(
+
+FECHA Y HORA -> Mon Nov 28 03:18:37 2022
+
+
+
+$hola=array("a","b");
+
+FECHA Y HORA -> Mon Nov 28 03:18:45 2022
+
+
+
+$hola=array("a","b")
+
+FECHA Y HORA -> Mon Nov 28 03:18:58 2022
+
+
+
+$hola=array("a","b");
+
+FECHA Y HORA -> Mon Nov 28 03:19:48 2022
+
+
+
+$hola=array("a","b")
+
+FECHA Y HORA -> Mon Nov 28 03:19:51 2022
+
 
 
 <<<<<<< HEAD
-$hola=array("a","b")
-FECHA Y HORA -> Mon Nov 28 10:13:07 2022
+$hola=array("a","b")
+
+FECHA Y HORA -> Mon Nov 28 10:13:07 2022
 
 
-$hola=array("a","b");
-FECHA Y HORA -> Mon Nov 28 10:13:12 2022
+
+$hola=array("a","b");
+
+FECHA Y HORA -> Mon Nov 28 10:13:12 2022
 
 
-echo "hola";
-FECHA Y HORA -> Mon Nov 28 10:30:04 2022
+
+echo "hola";
+
+FECHA Y HORA -> Mon Nov 28 10:30:04 2022
 
 
-$variable = 23.2;
-FECHA Y HORA -> Mon Nov 28 10:30:25 2022
 
+$variable = 23.2;
 
-$var = "hola";
-$VAR = "hola";
-$var123 = "hola";
-$_123 = "hola";
-$_ = "hola";
-$_var155_3 = "hola";
-Var1 = "hola";
-$1var = "hola";
-$g frh = "hola";
-$ = "hola";
-FECHA Y HORA -> Mon Nov 28 10:32:36 2022
+FECHA Y HORA -> Mon Nov 28 10:30:25 2022
+
 
 
 $var = "hola";
@@ -853,15 +1030,10 @@ $_var155_3 = "hola";
 Var1 = "hola";
 $1var = "hola";
 $g frh = "hola";
-$ = "hola";
-FECHA Y HORA -> Mon Nov 28 10:35:32 2022
+$ = "hola";
 
+FECHA Y HORA -> Mon Nov 28 10:32:36 2022
 
-$var = "hola";
-$VAR = "hola";
-$var123 = "hola";
-$_123 = "hola";
-FECHA Y HORA -> Mon Nov 28 10:36:23 2022
 
 
 $var = "hola";
@@ -872,8 +1044,20 @@ $_ = "hola";
 $_var155_3 = "hola";
 Var1 = "hola";
 $1var = "hola";
-$g frh = "hola";
-FECHA Y HORA -> Mon Nov 28 10:40:31 2022
+$g frh = "hola";
+$ = "hola";
+
+FECHA Y HORA -> Mon Nov 28 10:35:32 2022
+
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+$_123 = "hola";
+
+FECHA Y HORA -> Mon Nov 28 10:36:23 2022
+
 
 
 $var = "hola";
@@ -884,8 +1068,10 @@ $_ = "hola";
 $_var155_3 = "hola";
 Var1 = "hola";
 $1var = "hola";
-$g frh = "hola";
-FECHA Y HORA -> Mon Nov 28 10:40:31 2022
+$g frh = "hola";
+
+FECHA Y HORA -> Mon Nov 28 10:40:31 2022
+
 
 
 $var = "hola";
@@ -893,37 +1079,61 @@ $VAR = "hola";
 $var123 = "hola";
 $_123 = "hola";
 $_ = "hola";
-$_var155_3 = "hola";
-FECHA Y HORA -> Mon Nov 28 10:40:49 2022
+$_var155_3 = "hola";
+Var1 = "hola";
+$1var = "hola";
+$g frh = "hola";
 
+FECHA Y HORA -> Mon Nov 28 10:40:31 2022
 
-$var = "hola";
-$VAR = "hola";
-$var123 = "hola";
-$_123 = "hola";
-$_ = "hola";
-FECHA Y HORA -> Mon Nov 28 10:40:57 2022
-
-
-$var = "hola";
-$VAR = "hola";
-$var123 = "hola";
-FECHA Y HORA -> Mon Nov 28 10:41:08 2022
-
-
-$var = "hola";
-$VAR = "hola";
-$var123 = "hola";
-$_123 = "hola";
-FECHA Y HORA -> Mon Nov 28 10:41:13 2022
 
 
 $var = "hola";
 $VAR = "hola";
 $var123 = "hola";
 $_123 = "hola";
-$_ = "hola";
-FECHA Y HORA -> Mon Nov 28 10:41:19 2022
+$_ = "hola";
+$_var155_3 = "hola";
+
+FECHA Y HORA -> Mon Nov 28 10:40:49 2022
+
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+$_123 = "hola";
+$_ = "hola";
+
+FECHA Y HORA -> Mon Nov 28 10:40:57 2022
+
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+
+FECHA Y HORA -> Mon Nov 28 10:41:08 2022
+
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+$_123 = "hola";
+
+FECHA Y HORA -> Mon Nov 28 10:41:13 2022
+
+
+
+$var = "hola";
+$VAR = "hola";
+$var123 = "hola";
+$_123 = "hola";
+$_ = "hola";
+
+FECHA Y HORA -> Mon Nov 28 10:41:19 2022
+
 
 
 $var =2; 
@@ -935,8 +1145,10 @@ $_var155_3=2;
 Var1=2; 
 $1var=2; 
 $g frh=2; 
-$=2; 
-FECHA Y HORA -> Mon Nov 28 10:42:35 2022
+$=2; 
+
+FECHA Y HORA -> Mon Nov 28 10:42:35 2022
+
 
 
 $var =1;
@@ -948,8 +1160,10 @@ $_var155_3=1;
 Var1=1;
 $1var=1;
 $g frh=1;
-$=1;
-FECHA Y HORA -> Mon Nov 28 10:44:34 2022
+$=1;
+
+FECHA Y HORA -> Mon Nov 28 10:44:34 2022
+
 
 
 $var =1;
@@ -957,28 +1171,19 @@ $VAR=1;
 $var123=1;
 $_123=1;
 $_=1;
-$_var155_3=1;
-FECHA Y HORA -> Mon Nov 28 10:44:52 2022
+$_var155_3=1;
+
+FECHA Y HORA -> Mon Nov 28 10:44:52 2022
+
 
 
 Var1=1;
 $1var=1;
 $g frh=1;
-$=1;
-FECHA Y HORA -> Mon Nov 28 10:44:59 2022
+$=1;
 
+FECHA Y HORA -> Mon Nov 28 10:44:59 2022
 
-$var =2;
-$VAR =2;
-$var123 =2;
-$_123 =2;
-$_ =2;
-$_var155_3 =2;
-Var1=1;
-$1var=1;
-$g frh=1;
-$=1;
-FECHA Y HORA -> Mon Nov 28 10:45:32 2022
 
 
 $var =2;
@@ -990,93 +1195,10 @@ $_var155_3 =2;
 Var1=1;
 $1var=1;
 $g frh=1;
-$=1;
-FECHA Y HORA -> Mon Nov 28 10:46:07 2022
+$=1;
 
+FECHA Y HORA -> Mon Nov 28 10:45:32 2022
 
-$var =2;
-$VAR =2;
-$var123 =2;
-$_123 =2;
-$_ =2;
-$_var155_3 =2;
-Var1=1;
-$1var=1;
-$g frh=1;
-$=1;
-FECHA Y HORA -> Mon Nov 28 10:47:17 2022
-
-
-$var =2;
-FECHA Y HORA -> Mon Nov 28 10:48:01 2022
-
-
-$var =2;
-$VAR =2;
-FECHA Y HORA -> Mon Nov 28 10:48:07 2022
-
-
-$var =2;
-$VAR =2;
-$var123 =2;
-FECHA Y HORA -> Mon Nov 28 10:48:16 2022
-
-
-$var =2;
-$VAR =2;
-$var123 =2;
-$_123 =2;
-FECHA Y HORA -> Mon Nov 28 10:48:21 2022
-
-
-$var =2;
-$VAR =2;
-$var123 =2;
-$_123 =2;
-$_ =2;
-FECHA Y HORA -> Mon Nov 28 10:48:28 2022
-
-
-$var =2;
-$VAR =2;
-$var123 =2;
-$_123 =2;
-$_ =2;
-$_var155_3 =2;
-FECHA Y HORA -> Mon Nov 28 10:48:33 2022
-
-
-$var =2;
-$VAR =2;
-$var123 =2;
-$_123 =2;
-$_ =2;
-$_var155_3 =2;
-Var1=1;
-FECHA Y HORA -> Mon Nov 28 10:48:39 2022
-
-
-$var =2;
-$VAR =2;
-$var123 =2;
-$_123 =2;
-$_ =2;
-$_var155_3 =2;
-Var1=1;
-$1var=1;
-FECHA Y HORA -> Mon Nov 28 10:48:45 2022
-
-
-$var =2;
-$VAR =2;
-$var123 =2;
-$_123 =2;
-$_ =2;
-$_var155_3 =2;
-Var1=1;
-$1var=1;
-$g frh=1;
-FECHA Y HORA -> Mon Nov 28 10:48:51 2022
 
 
 $var =2;
@@ -1088,214 +1210,424 @@ $_var155_3 =2;
 Var1=1;
 $1var=1;
 $g frh=1;
-$=1;
-FECHA Y HORA -> Mon Nov 28 10:51:46 2022
+$=1;
+
+FECHA Y HORA -> Mon Nov 28 10:46:07 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+$1var=1;
+$g frh=1;
+$=1;
+
+FECHA Y HORA -> Mon Nov 28 10:47:17 2022
+
+
+
+$var =2;
+
+FECHA Y HORA -> Mon Nov 28 10:48:01 2022
+
+
+
+$var =2;
+$VAR =2;
+
+FECHA Y HORA -> Mon Nov 28 10:48:07 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+
+FECHA Y HORA -> Mon Nov 28 10:48:16 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+
+FECHA Y HORA -> Mon Nov 28 10:48:21 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+
+FECHA Y HORA -> Mon Nov 28 10:48:28 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+FECHA Y HORA -> Mon Nov 28 10:48:33 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+
+FECHA Y HORA -> Mon Nov 28 10:48:39 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+$1var=1;
+
+FECHA Y HORA -> Mon Nov 28 10:48:45 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+$1var=1;
+$g frh=1;
+
+FECHA Y HORA -> Mon Nov 28 10:48:51 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+$1var=1;
+$g frh=1;
+$=1;
+
+FECHA Y HORA -> Mon Nov 28 10:51:46 2022
+
 
 
 class Prueba{}
 class _miPrueba{}
-class clase123{}
-FECHA Y HORA -> Mon Nov 28 10:52:08 2022
+class clase123{}
+
+FECHA Y HORA -> Mon Nov 28 10:52:08 2022
+
 
 
 class Prueba{};
 class _miPrueba{};
-class clase123{};
-FECHA Y HORA -> Mon Nov 28 10:52:20 2022
+class clase123{};
 
+FECHA Y HORA -> Mon Nov 28 10:52:20 2022
 
-class Prueba{};
-class _miPrueba{};
-class clase123{};
-FECHA Y HORA -> Mon Nov 28 10:56:38 2022
 
 
 class Prueba{};
 class _miPrueba{};
-class clase123{};
-FECHA Y HORA -> Mon Nov 28 10:57:24 2022
+class clase123{};
 
+FECHA Y HORA -> Mon Nov 28 10:56:38 2022
 
-class Prueba{}
-class _miPrueba{}
-class clase123{}
-FECHA Y HORA -> Mon Nov 28 10:57:34 2022
-
-
-class Prueba{}
-class _miPrueba{}
-class clase123{}
-FECHA Y HORA -> Mon Nov 28 10:57:46 2022
-
-
-class Prueba{}
-class _miPrueba{}
-class clase123{}
-FECHA Y HORA -> Mon Nov 28 10:58:15 2022
 
 
 class Prueba{};
 class _miPrueba{};
-class clase123{};
-FECHA Y HORA -> Mon Nov 28 10:59:22 2022
+class clase123{};
+
+FECHA Y HORA -> Mon Nov 28 10:57:24 2022
+
 
 
 class Prueba{}
 class _miPrueba{}
-class clase123{}
-FECHA Y HORA -> Mon Nov 28 10:59:27 2022
+class clase123{}
+
+FECHA Y HORA -> Mon Nov 28 10:57:34 2022
 
 
-class Prueba{}
-FECHA Y HORA -> Mon Nov 28 10:59:41 2022
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+FECHA Y HORA -> Mon Nov 28 10:57:46 2022
 
 
-class Prueba{}
-FECHA Y HORA -> Mon Nov 28 10:59:44 2022
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+FECHA Y HORA -> Mon Nov 28 10:58:15 2022
 
 
-class _miPrueba{}
-FECHA Y HORA -> Mon Nov 28 10:59:51 2022
+
+class Prueba{};
+class _miPrueba{};
+class clase123{};
+
+FECHA Y HORA -> Mon Nov 28 10:59:22 2022
 
 
-class _miPrueba{}
-FECHA Y HORA -> Mon Nov 28 10:59:53 2022
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+FECHA Y HORA -> Mon Nov 28 10:59:27 2022
 
 
-class clase123{}
-FECHA Y HORA -> Mon Nov 28 10:59:59 2022
+
+class Prueba{}
+
+FECHA Y HORA -> Mon Nov 28 10:59:41 2022
+
+
+
+class Prueba{}
+
+FECHA Y HORA -> Mon Nov 28 10:59:44 2022
+
+
+
+class _miPrueba{}
+
+FECHA Y HORA -> Mon Nov 28 10:59:51 2022
+
+
+
+class _miPrueba{}
+
+FECHA Y HORA -> Mon Nov 28 10:59:53 2022
+
 
 
 class clase123{}
-class clase123{}
-FECHA Y HORA -> Mon Nov 28 11:01:43 2022
+
+FECHA Y HORA -> Mon Nov 28 10:59:59 2022
+
+
+
+class clase123{}
+class clase123{}
+
+FECHA Y HORA -> Mon Nov 28 11:01:43 2022
+
 
 
 class Prueba{}
 class _miPrueba{}
-class clase123{}
-FECHA Y HORA -> Mon Nov 28 11:02:21 2022
+class clase123{}
+
+FECHA Y HORA -> Mon Nov 28 11:02:21 2022
+
 
 
 class Prueba{}
 class _miPrueba{}
-class clase123{}
-FECHA Y HORA -> Mon Nov 28 11:04:48 2022
+class clase123{}
+
+FECHA Y HORA -> Mon Nov 28 11:04:48 2022
+
 
 
 class Prueba{}
 class _miPrueba{}
-class clase123{}
-FECHA Y HORA -> Mon Nov 28 11:05:39 2022
+class clase123{}
+
+FECHA Y HORA -> Mon Nov 28 11:05:39 2022
+
 
 
 class Prueba{}
 class _miPrueba{}
-class clase123{}
-FECHA Y HORA -> Mon Nov 28 11:08:47 2022
+class clase123{}
+
+FECHA Y HORA -> Mon Nov 28 11:08:47 2022
+
 
 
 class Prueba{}
 class _miPrueba{}
-class clase123{}
-FECHA Y HORA -> Mon Nov 28 11:11:24 2022
+class clase123{}
 
-
-class Prueba{}
-FECHA Y HORA -> Mon Nov 28 11:11:28 2022
-
-
-class {}
-FECHA Y HORA -> Mon Nov 28 11:14:11 2022
-
-
-ClaseB{}
-FECHA Y HORA -> Mon Nov 28 11:14:22 2022
-
-
-claseB{}
-FECHA Y HORA -> Mon Nov 28 11:14:26 2022
-
-
-Class const{}
-FECHA Y HORA -> Mon Nov 28 11:14:34 2022
-
-
-class const{}
-FECHA Y HORA -> Mon Nov 28 11:15:05 2022
-
-
-function operaciones{}
-FECHA Y HORA -> Mon Nov 28 11:16:09 2022
+FECHA Y HORA -> Mon Nov 28 11:11:24 2022
 
 
 
-function operaciones{}
-FECHA Y HORA -> Mon Nov 28 11:18:05 2022
+class Prueba{}
+
+FECHA Y HORA -> Mon Nov 28 11:11:28 2022
 
 
 
-function operaciones{}
-FECHA Y HORA -> Mon Nov 28 11:18:38 2022
+class {}
+
+FECHA Y HORA -> Mon Nov 28 11:14:11 2022
 
 
-function mostrarTexto{}
-FECHA Y HORA -> Mon Nov 28 11:18:47 2022
+
+ClaseB{}
+
+FECHA Y HORA -> Mon Nov 28 11:14:22 2022
 
 
-function foo123{}
-FECHA Y HORA -> Mon Nov 28 11:18:52 2022
+
+claseB{}
+
+FECHA Y HORA -> Mon Nov 28 11:14:26 2022
 
 
-function _dias2{}
-FECHA Y HORA -> Mon Nov 28 11:18:56 2022
+
+Class const{}
+
+FECHA Y HORA -> Mon Nov 28 11:14:34 2022
 
 
-function {}
-FECHA Y HORA -> Mon Nov 28 11:19:20 2022
+
+class const{}
+
+FECHA Y HORA -> Mon Nov 28 11:15:05 2022
 
 
-function 1foo{}
-FECHA Y HORA -> Mon Nov 28 11:19:26 2022
+
+function operaciones{}
+
+FECHA Y HORA -> Mon Nov 28 11:16:09 2022
 
 
-function foo{}
-FECHA Y HORA -> Mon Nov 28 11:20:12 2022
 
 
-function 1foo{}
-FECHA Y HORA -> Mon Nov 28 11:20:18 2022
+function operaciones{}
+
+FECHA Y HORA -> Mon Nov 28 11:18:05 2022
 
 
-function 13foo{}
-FECHA Y HORA -> Mon Nov 28 11:21:10 2022
 
 
-function 13foo{}
-FECHA Y HORA -> Mon Nov 28 11:21:14 2022
+function operaciones{}
+
+FECHA Y HORA -> Mon Nov 28 11:18:38 2022
+
+
+
+function mostrarTexto{}
+
+FECHA Y HORA -> Mon Nov 28 11:18:47 2022
+
+
+
+function foo123{}
+
+FECHA Y HORA -> Mon Nov 28 11:18:52 2022
+
+
+
+function _dias2{}
+
+FECHA Y HORA -> Mon Nov 28 11:18:56 2022
+
+
+
+function {}
+
+FECHA Y HORA -> Mon Nov 28 11:19:20 2022
+
+
+
+function 1foo{}
+
+FECHA Y HORA -> Mon Nov 28 11:19:26 2022
+
+
+
+function foo{}
+
+FECHA Y HORA -> Mon Nov 28 11:20:12 2022
+
+
+
+function 1foo{}
+
+FECHA Y HORA -> Mon Nov 28 11:20:18 2022
+
+
+
+function 13foo{}
+
+FECHA Y HORA -> Mon Nov 28 11:21:10 2022
+
+
+
+function 13foo{}
+
+FECHA Y HORA -> Mon Nov 28 11:21:14 2022
+
 =======
-$hola=5;
-FECHA Y HORA -> Mon Nov 28 09:01:10 2022
+$hola=5;
+
+FECHA Y HORA -> Mon Nov 28 09:01:10 2022
 
 
-$hola=5
-FECHA Y HORA -> Mon Nov 28 09:01:17 2022
+
+$hola=5
+
+FECHA Y HORA -> Mon Nov 28 09:01:17 2022
 
 
-$_hola=5
-FECHA Y HORA -> Mon Nov 28 09:01:32 2022
+
+$_hola=5
+
+FECHA Y HORA -> Mon Nov 28 09:01:32 2022
 
 
-$_hola=5;
-FECHA Y HORA -> Mon Nov 28 09:01:36 2022
+
+$_hola=5;
+
+FECHA Y HORA -> Mon Nov 28 09:01:36 2022
 
 
-$hola=5;
-FECHA Y HORA -> Mon Nov 28 10:06:32 2022
+
+$hola=5;
+
+FECHA Y HORA -> Mon Nov 28 10:06:32 2022
 
 
-$hola=5;
-FECHA Y HORA -> Mon Nov 28 10:07:27 2022
+
+$hola=5;
+
+FECHA Y HORA -> Mon Nov 28 10:07:27 2022
+
 
 
 switch ($i) {
@@ -1308,8 +1640,10 @@ switch ($i) {
     case 2:
         echo "i es igual a 2";
         break;
-}
-FECHA Y HORA -> Mon Nov 28 10:08:10 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 10:08:10 2022
+
 
 
 switch ($i) {
@@ -1322,8 +1656,10 @@ switch ($i) {
     case 2:
 	$a=2;
         break;
-}
-FECHA Y HORA -> Mon Nov 28 10:08:54 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 10:08:54 2022
+
 
 
 switch ($i) {
@@ -1336,36 +1672,10 @@ switch ($i) {
     case 2:
 	$a=2;
         break;
-}
-FECHA Y HORA -> Mon Nov 28 10:10:10 2022
+}
 
+FECHA Y HORA -> Mon Nov 28 10:10:10 2022
 
-switch ($i) {
-    case 0:
-        echo "i es igual a 0";
-        break;
-    case 1:
-        echo "i es igual a 1";
-        break;
-    case 2:
-        echo "i es igual a 2";
-        break;
-}
-FECHA Y HORA -> Mon Nov 28 10:14:55 2022
-
-
-switch ($i) {
-    case 0:
-        $a=0;
-        break;
-    case 1:
-        $a=0;
-        break;
-    case 2:
-        $a=0;
-        break;
-}
-FECHA Y HORA -> Mon Nov 28 10:15:15 2022
 
 
 switch ($i) {
@@ -1378,8 +1688,10 @@ switch ($i) {
     case 2:
         echo "i es igual a 2";
         break;
-}               
-FECHA Y HORA -> Mon Nov 28 10:16:19 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 10:14:55 2022
+
 
 
 switch ($i) {
@@ -1392,22 +1704,10 @@ switch ($i) {
     case 2:
         $a=0;
         break;
-}               
-FECHA Y HORA -> Mon Nov 28 10:16:36 2022
+}
 
+FECHA Y HORA -> Mon Nov 28 10:15:15 2022
 
-switch ($i) {
-    case 0:
-        echo "i es igual a 0";
-        break;
-    case 1:
-        echo "i es igual a 1";
-        break;
-    case 2:
-        echo "i es igual a 2";
-        break;
-}
-FECHA Y HORA -> Mon Nov 28 10:22:51 2022
 
 
 switch ($i) {
@@ -1420,8 +1720,26 @@ switch ($i) {
     case 2:
         echo "i es igual a 2";
         break;
-}
-FECHA Y HORA -> Mon Nov 28 10:24:46 2022
+}               
+
+FECHA Y HORA -> Mon Nov 28 10:16:19 2022
+
+
+
+switch ($i) {
+    case 0:
+        $a=0;
+        break;
+    case 1:
+        $a=0;
+        break;
+    case 2:
+        $a=0;
+        break;
+}               
+
+FECHA Y HORA -> Mon Nov 28 10:16:36 2022
+
 
 
 switch ($i) {
@@ -1434,20 +1752,10 @@ switch ($i) {
     case 2:
         echo "i es igual a 2";
         break;
-}
-FECHA Y HORA -> Mon Nov 28 10:26:07 2022
+}
 
+FECHA Y HORA -> Mon Nov 28 10:22:51 2022
 
-echo $a;
-FECHA Y HORA -> Mon Nov 28 10:39:41 2022
-
-
-echo $a
-FECHA Y HORA -> Mon Nov 28 10:40:14 2022
-
-
-echo $a;
-FECHA Y HORA -> Mon Nov 28 10:40:19 2022
 
 
 switch ($i) {
@@ -1460,13 +1768,15 @@ switch ($i) {
     case 2:
         echo "i es igual a 2";
         break;
-}
-FECHA Y HORA -> Mon Nov 28 10:40:51 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 10:24:46 2022
+
 
 
 switch ($i) {
     case 0:
-        echo $a;
+        echo "i es igual a 0";
         break;
     case 1:
         echo "i es igual a 1";
@@ -1474,62 +1784,28 @@ switch ($i) {
     case 2:
         echo "i es igual a 2";
         break;
-}
-FECHA Y HORA -> Mon Nov 28 10:41:01 2022
+}
 
+FECHA Y HORA -> Mon Nov 28 10:26:07 2022
 
-switch ($i) {
-    case 0:
-        echo $a;
-        break;
-    case 1:
-        echo "i es igual a 1";
-        break;
-    case 2:
-        echo "i es igual a 2";
-        break;
-}
-FECHA Y HORA -> Mon Nov 28 10:41:02 2022
-
-
-switch ($i) {
-    case 0:
-        echo $a;
-        break;
-    case 1:
-        echo "i es igual a 1";
-        break;
-    case 2:
-        echo "i es igual a 2";
-        break;
-}
-FECHA Y HORA -> Mon Nov 28 10:41:03 2022
 
 
 echo $a;
-echo "i es igual a 1";
-FECHA Y HORA -> Mon Nov 28 10:41:19 2022
+
+FECHA Y HORA -> Mon Nov 28 10:39:41 2022
+
+
+
+echo $a
+
+FECHA Y HORA -> Mon Nov 28 10:40:14 2022
+
 
 
 echo $a;
-echo "i es igual a 1";
-FECHA Y HORA -> Mon Nov 28 10:41:29 2022
 
+FECHA Y HORA -> Mon Nov 28 10:40:19 2022
 
- echo "i es igual a 0";
-FECHA Y HORA -> Mon Nov 28 10:44:15 2022
-
-
-echo "i es igual a 0";
-FECHA Y HORA -> Mon Nov 28 10:44:19 2022
-
-
-echo "i es igual a 0";
-FECHA Y HORA -> Mon Nov 28 10:44:20 2022
-
-
-echo "i es igual a 0";
-FECHA Y HORA -> Mon Nov 28 10:44:23 2022
 
 
 switch ($i) {
@@ -1543,8 +1819,95 @@ switch ($i) {
         echo "i es igual a 2";
         break;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 10:46:52 2022
+
+FECHA Y HORA -> Mon Nov 28 10:40:51 2022
+
+
+
+switch ($i) {
+    case 0:
+        echo $a;
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+
+FECHA Y HORA -> Mon Nov 28 10:41:01 2022
+
+
+
+switch ($i) {
+    case 0:
+        echo $a;
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+
+FECHA Y HORA -> Mon Nov 28 10:41:02 2022
+
+
+
+switch ($i) {
+    case 0:
+        echo $a;
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+
+FECHA Y HORA -> Mon Nov 28 10:41:03 2022
+
+
+
+echo $a;
+echo "i es igual a 1";
+
+FECHA Y HORA -> Mon Nov 28 10:41:19 2022
+
+
+
+echo $a;
+echo "i es igual a 1";
+
+FECHA Y HORA -> Mon Nov 28 10:41:29 2022
+
+
+
+ echo "i es igual a 0";
+
+FECHA Y HORA -> Mon Nov 28 10:44:15 2022
+
+
+
+echo "i es igual a 0";
+
+FECHA Y HORA -> Mon Nov 28 10:44:19 2022
+
+
+
+echo "i es igual a 0";
+
+FECHA Y HORA -> Mon Nov 28 10:44:20 2022
+
+
+
+echo "i es igual a 0";
+
+FECHA Y HORA -> Mon Nov 28 10:44:23 2022
+
 
 
 switch ($i) {
@@ -1557,13 +1920,34 @@ switch ($i) {
     case 2:
         echo "i es igual a 2";
         break;
-}
-FECHA Y HORA -> Mon Nov 28 10:46:57 2022
+}
+?>
+
+FECHA Y HORA -> Mon Nov 28 10:46:52 2022
+
+
+
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+
+FECHA Y HORA -> Mon Nov 28 10:46:57 2022
+
 
 
 echo "i es igual a 0";
-echo $a;
-FECHA Y HORA -> Mon Nov 28 10:47:17 2022
+echo $a;
+
+FECHA Y HORA -> Mon Nov 28 10:47:17 2022
+
 
 
 <?php
@@ -1586,78 +1970,10 @@ switch ($i) {
         echo "i es igual a 2";
         break;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 10:48:25 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 10:48:25 2022
 
-<?php
-if ($i == 0) {
-    echo "i es igual a 0";
-} elseif ($i == 1) {
-    echo "i es igual a 1";
-} elseif ($i == 2) {
-    echo "i es igual a 2";
-}
-
-switch ($i) {
-    case 0:
-        echo "i es igual a 0";
-        break;
-    case 1:
-        echo "i es igual a 1";
-        break;
-    case 2:
-        echo "i es igual a 2";
-        break;
-}
-?>
-FECHA Y HORA -> Mon Nov 28 10:48:49 2022
-
-
-<?php
-switch ($i) {
-    case 0:
-        echo "i es igual a 0";
-        break;
-    case 1:
-        echo "i es igual a 1";
-        break;
-    case 2:
-        echo "i es igual a 2";
-        break;
-}
-?>
-FECHA Y HORA -> Mon Nov 28 10:48:59 2022
-
-
-<?php
-switch ($i) {
-    case 0:
-        echo "i es igual a 0";
-        break;
-    case 1:
-        echo "i es igual a 1";
-        break;
-    case 2:
-        echo "i es igual a 2";
-        break;
-}
-?>
-FECHA Y HORA -> Mon Nov 28 10:49:01 2022
-
-
-switch ($i) {
-    case 0:
-        echo "i es igual a 0";
-        break;
-    case 1:
-        echo "i es igual a 1";
-        break;
-    case 2:
-        echo "i es igual a 2";
-        break;
-}
-FECHA Y HORA -> Mon Nov 28 10:49:19 2022
 
 
 <?php
@@ -1680,8 +1996,88 @@ switch ($i) {
         echo "i es igual a 2";
         break;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 10:51:55 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 10:48:49 2022
+
+
+
+<?php
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+?>
+
+FECHA Y HORA -> Mon Nov 28 10:48:59 2022
+
+
+
+<?php
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+?>
+
+FECHA Y HORA -> Mon Nov 28 10:49:01 2022
+
+
+
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+
+FECHA Y HORA -> Mon Nov 28 10:49:19 2022
+
+
+
+<?php
+if ($i == 0) {
+    echo "i es igual a 0";
+} elseif ($i == 1) {
+    echo "i es igual a 1";
+} elseif ($i == 2) {
+    echo "i es igual a 2";
+}
+
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+?>
+
+FECHA Y HORA -> Mon Nov 28 10:51:55 2022
+
 
 
 <?php
@@ -1697,8 +2093,10 @@ switch ($i) {
         echo "i es igual a 2";
         break;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 10:52:01 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 10:52:01 2022
+
 
 
 <?php
@@ -1713,36 +2111,26 @@ switch ($i) {
         echo "i es igual a 2";
         break;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 10:52:04 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 10:52:04 2022
+
 
 
 <?php
 echo "i es igual a 0";
-?>
-FECHA Y HORA -> Mon Nov 28 10:54:14 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 10:54:14 2022
+
 
 
 <?php
 echo "i es igual a 0";
-?>
-FECHA Y HORA -> Mon Nov 28 10:54:18 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 10:54:18 2022
 
-<?php
-switch ($i) {
-    case 0:
-        echo "i es igual a 0";
-        break;
-    case 1:
-        echo "i es igual a 1";
-        break;
-    case 2:
-        echo "i es igual a 2";
-        break;
-}
-?>
-FECHA Y HORA -> Mon Nov 28 10:54:31 2022
 
 
 <?php
@@ -1757,9 +2145,29 @@ switch ($i) {
         echo "i es igual a 2";
         break;
 }
+?>
 
-?>
-FECHA Y HORA -> Mon Nov 28 10:54:48 2022
+FECHA Y HORA -> Mon Nov 28 10:54:31 2022
+
+
+
+<?php
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+
+?>
+
+FECHA Y HORA -> Mon Nov 28 10:54:48 2022
+
 
 
 <?php
@@ -1774,8 +2182,10 @@ switch ($i) {
         echo "i es un pastel";
         break;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 10:56:33 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 10:56:33 2022
+
 
 
 <?php
@@ -1790,8 +2200,10 @@ switch ($i) {
         echo "i es un pastel";
         break;
 }
-?
-FECHA Y HORA -> Mon Nov 28 10:56:46 2022
+?
+
+FECHA Y HORA -> Mon Nov 28 10:56:46 2022
+
 
 
 <?php
@@ -1805,8 +2217,10 @@ switch ($i) {
     case "pastel":
         echo "i es un pastel";
         break;
-}
-FECHA Y HORA -> Mon Nov 28 10:56:52 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 10:56:52 2022
+
 
 
 <?
@@ -1820,8 +2234,10 @@ switch ($i) {
     case "pastel":
         echo "i es un pastel";
         break;
-}
-FECHA Y HORA -> Mon Nov 28 10:59:32 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 10:59:32 2022
+
 
 
 <?
@@ -1836,8 +2252,10 @@ switch ($i) {
         echo "i es un pastel";
         break;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 10:59:45 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 10:59:45 2022
+
 
 
 <?php
@@ -1851,8 +2269,10 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?>
-FECHA Y HORA -> Mon Nov 28 11:00:59 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 11:00:59 2022
+
 
 
 <?php
@@ -1865,8 +2285,10 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?>
-FECHA Y HORA -> Mon Nov 28 11:01:08 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 11:01:08 2022
+
 
 
 <?php
@@ -1874,8 +2296,10 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?>
-FECHA Y HORA -> Mon Nov 28 11:01:16 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 11:01:16 2022
+
 
 
 <?php
@@ -1883,8 +2307,10 @@ $array = array(
     "foo" => "bar",
     "bar" => "foo",
 );
-?>
-FECHA Y HORA -> Mon Nov 28 11:01:57 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 11:01:57 2022
+
 
 
 <?php
@@ -1892,34 +2318,10 @@ $array = array(
     "foo" => "bar",
     "bar" => "foo"
 );
-?>
-FECHA Y HORA -> Mon Nov 28 11:02:10 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 11:02:10 2022
 
-<?php
-$array = array(
-    "foo" => "bar",
-    "bar" => "foo",
-);
-FECHA Y HORA -> Mon Nov 28 11:03:48 2022
-
-
-<?php
-$array = array(
-    "foo" => "bar",
-    "bar" => "foo",
-);
-?>
-FECHA Y HORA -> Mon Nov 28 11:03:57 2022
-
-
-<?php
-$array = [
-    "foo" => "bar",
-    "bar" => "foo",
-];
-?>
-FECHA Y HORA -> Mon Nov 28 11:04:19 2022
 
 
 <?php
@@ -1928,13 +2330,30 @@ $array = array(
     "bar" => "foo",
 );
 
-// a partir de PHP 5.4
+FECHA Y HORA -> Mon Nov 28 11:03:48 2022
+
+
+
+<?php
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+?>
+
+FECHA Y HORA -> Mon Nov 28 11:03:57 2022
+
+
+
+<?php
 $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?>
-FECHA Y HORA -> Mon Nov 28 11:08:45 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 11:04:19 2022
+
 
 
 <?php
@@ -1948,8 +2367,10 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?>
-FECHA Y HORA -> Mon Nov 28 11:09:39 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 11:08:45 2022
+
 
 
 <?php
@@ -1963,6 +2384,35 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?
-FECHA Y HORA -> Mon Nov 28 11:10:26 2022
->>>>>>> 9c6b98af7e056cc8cc5457c9b020bd871225a728
+?>
+
+FECHA Y HORA -> Mon Nov 28 11:09:39 2022
+
+
+
+<?php
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+    "foo" => "bar",
+    "bar" => "foo",
+];
+?
+
+FECHA Y HORA -> Mon Nov 28 11:10:26 2022
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+$1var=1;
+$g frh=1;
+$=1;
+FECHA Y HORA -> Mon Nov 28 11:35:18 2022
