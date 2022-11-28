@@ -3,6 +3,18 @@ import os
 import time
 from lexico import tokens
 
+#----------------------- Inicio Cindy
+procedence = (
+			  ('right', 'IGUAL'),
+			  ('left','MENORQUE','MENORQUEI','MAYORQUE','MAYORQUEI'),
+              ('left','ENTERO','DIVIDE'),
+			  ('left', 'PARENIZQ', 'PARENDER'),
+              ('left', 'LLAVEIZQ','LLAVEDER'),
+              ('left', 'CORCHIZQ','CORCHDER')
+
+)
+#----------------------- Fin Cindy
+nombres= {}
 
 def p_sentencias(p):
     '''sentencias : operacionMatematica
@@ -31,6 +43,8 @@ def p_operador(p):
                 | MODULO
                 | EXPONENCIACION
     '''
+#----------------------- Semantico Cindy
+    p[0]=nombres[p[1], p[2], p[3], p[4], p[5], p[6]]
 
 # #     $valor = $valor * $valor;
 # #     $valor = $valor * 2;
@@ -39,6 +53,7 @@ def p_operacionMatematica(p):
                             | VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
                             | VARIABLE_PHP IGUAL tipoDevalorNumerico operador tipoDevalorNumerico PUNTOYCOMA
                             | VARIABLE_PHP IGUAL tipoDevalorNumerico operador tipoDevalorNumerico operaciones PUNTOYCOMA
+    
                                '''
 def p_operaciones(p):
     '''operaciones : tipoDevalorNumerico operador tipoDevalorNumerico
@@ -52,6 +67,8 @@ def p_tipoDevalorNumerico(p):
     '''tipoDevalorNumerico : ENTERO
                            | FLOTANTE
     '''
+    #----------------------- Semantico Cindy
+    p[0]=nombres[p[1],p[2]]
 
 #tipoDeDato para poner dentro de una estructura ej: array{var1, var2, var3}
 def p_tipoDeDato(p):
@@ -62,7 +79,8 @@ def p_tipoDeDato(p):
                   | BOOLEANO
                   | NULL
     '''
-
+    #----------------------- Semantico Cindy
+    p[0] = nombres[p[1], p[2], p[3], p[4], p[5], p[6]]
 
 def p_parametros(p):
     '''parametros : tipoDeDato
@@ -73,6 +91,9 @@ def p_parametros(p):
 def p_foreach(p):
     '''foreach : FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
     '''
+    #----------------------- Semantico Cindy
+    p[0] = nombres[p[9]]
+
 
 # $b=array_map("cubo",$a);
 # array_map("cubo",$a);
@@ -80,6 +101,8 @@ def p_arraymaps(p):
     '''arraymaps : OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
                  | VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
     '''
+    #----------------------- Semantico Cindy
+    p[0] = nombres[p[3], p[5]]
 
 #new jupilerLeague();
 def p_funcion(p):
@@ -90,6 +113,8 @@ def p_funcion(p):
 def p_monticuloHEAP(p):
   '''monticuloHEAP : HEAP IGUAL funcion
   '''
+  #----------------------- Semantico Cindy
+  p[0] = nombres[p[3]]
 #----------------------- Fin Cindy
 #
 #----------------------- Inicio Johanna
