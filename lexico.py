@@ -1,5 +1,7 @@
 import ply.lex as lex
 
+log_lexico_array=[]
+
 reserved = {
      #Viviana
     'if': 'IF',
@@ -187,6 +189,18 @@ def t_newline(t):
     t.lexer.lineno += len(t.value)
 t_ignore  = ' \t'
 
+
+def t_VARIABLE_PHP(t):  
+    #r'\$[A-Za-z_][\w_]*'
+    r'((\$|\$_)[a-zA-Z][a-zA-Z0-9_]*)'
+    t.type = reserved.get(t.value, "VARIABLE_PHP")
+    return t
+
+def t_NOMBRE(t):
+   r'([a-zA-Z][a-zA-Z0-9_]*)'
+   t.type = reserved.get(t.value, "NOMBRE")
+   return t
+
 #'OPEN_TAG_WITH_ECHO',
 #Fin Viviana
 
@@ -233,32 +247,28 @@ def t_BOOLEANO(t):
     return t
 
 
-def t_CADENA(t):
-    r'\"(.)+\" | \'(.)+\''
+def t_CADENAº(t):
+    #r'\"(.)+\" | \'(.)+\''
+    #r'(\')(?:\\.|\'(?=\w)|[^\'])*(\')'
+    r'(\"(.)*\") | (\'(.)*\')'
     return t
 
 def t_FLOTANTE(t):
     #r'\d+\.\d+'
-    r'[+|-]?[0-9]*\.[0-9]+'
+    r'[-+]?([1-9][0-9]*|0)(\.([1-9][0-9]*|0+[1-9]|0))'
     t.value = float(t.value)
     return t
 
 def t_ENTERO(t):
-    r'\d+'
+    r'([-+]?[1-9][0-9]*)|(0)'
     t.value = int(t.value)
     return t
 
 t_PUNTO = r'\.'
 
-def t_NOMBRE(t):
-    #r'[a-zA-Z_][a-zA-Z0-9_]*'
-    r'[a-zA-Z][a-zA-Z0-9_]*'
-    t.type = reserved.get(t.value, "NOMBRE")
-    return t
 
-def t_VARIABLE_PHP(t):  
-    r'\$[A-Za-z_][\w_]*'
-    return t
+
+
 
 
 # Fin Johanna
@@ -268,7 +278,7 @@ resultados = []
 
 def t_error(t):
     #lineae="Caracter no reconocido {t.value[0]} en línea {t.lineno}"
-    print("Caracter no reconocido'%s'" % t.value[0])
+    print(f"Caracter no reconocido {t.value[0]} en línea {t.lineno}" + "\n")
     #print(lineae)
     #resultados.append(lineae)
     t.lexer.skip(1)
@@ -277,12 +287,13 @@ lexer = lex.lex()
 #----para validar con source.txt
 
 validador = lex.lex()
-def getTokens(lex):
-    while True:
-        tok = lex.token()
-        if not tok:
-            break
-        print(tok)
+#def getTokens(lex1):
+#    while True:
+ #       tok = lex1.token()
+ #       if not tok:
+ #           break
+ #       log_lexico_array.append(str(tok))
+ #       print(tok)
 #validador = lex.lex()
 #def getTokens(lex):
 #    while True:
@@ -293,11 +304,24 @@ def getTokens(lex):
 
 
 linea = " "
-codigo = open("source.txt")
-for linea in codigo:
-    validador.input(linea)
-    getTokens(validador)
-codigo.close()
+
+#codigo = open("source.txt")
+#for linea in codigo:
+#    validador.input(linea)
+#    getTokens(validador)
+#codigo.close()
+
+def validaReglaLexico(data):
+    log_lexico_array.clear()
+    validador.input(data)
+    while True:
+        tok = validador.token()
+        if not tok:
+            break
+        print (tok)
+        log_lexico_array.append(str(tok))
+    
+
 
 print("Analisis Terminado: ")
 #-----fin para validar con source.txt

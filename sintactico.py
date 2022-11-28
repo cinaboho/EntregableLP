@@ -3,6 +3,8 @@ import os
 import time
 from lexico import tokens
 
+arrayErrores=[]
+log_sintactico_array=[]
 
 def p_sentencias(p):
     '''sentencias : operacionMatematica
@@ -148,6 +150,8 @@ def p_asignacion(p):
                     | VARIABLE_PHP difigual valores PUNTO valores PUNTOYCOMA
                     | asignacion
                 '''
+    log_sintactico_array.append("asignacion")
+
 def p_difigual(p):
     '''difigual : PUNTOIGUAL
                       | MASIGUAL
@@ -170,6 +174,7 @@ def p_crearArray(p):
   #'''crearArray :  VARIABLE_PHP IGUAL ARRAY PARENIZQ valoresArray PARENDER PUNTOYCOMA
   '''crearArray :  ARRAY PARENIZQ valoresArray PARENDER
   '''
+  log_sintactico_array.append("Crear Array")
 
 def p_valoresArray(p):
     '''valoresArray : valores 
@@ -192,6 +197,7 @@ def p_switchCase(p):
                 | SWITCH PARENIZQ valores PARENDER LLAVEIZQ casos_switch DEFAULT DOSPUNTOS LLAVEIZQ instrucciones LLAVEDER LLAVEDER
                 | SWITCH PARENIZQ valores PARENDER DOSPUNTOS casos_switch ENDSWITCH PUNTOYCOMA
   '''
+  log_sintactico_array.append("Switch")
 
 def p_caso_switch(p):
     '''caso_switch : CASE valores DOSPUNTOS LLAVEIZQ instrucciones LLAVEDER
@@ -247,8 +253,10 @@ def p_SplHeap(p):
 
 def p_error(p):
   if p:
-    print(
-      f"Error de sintaxis - Token: {p.type}, Línea: {p.lineno}, Col: {p.lexpos}"
+    res=f"Error de sintaxis - Token: {p.type}, Línea: {p.lineno}, Col: {p.lexpos}"
+    arrayErrores.append(res)
+    print(res
+      
     )
     parser.errok()
   else:
@@ -267,6 +275,8 @@ print(resultado)
 codigo.close()
 
 def validaRegla(s):
+  arrayErrores.clear()
+  log_sintactico_array.clear()
   file = open("log.txt", "a")
   result = parser.parse(s)
   file.write("\n\n")
