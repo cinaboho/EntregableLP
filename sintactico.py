@@ -132,6 +132,9 @@ def p_instruccion(p):
     '''instruccion : asignacion                     
                     | echo
                     | switchCase
+                    | funcion_argumento_opcional
+                    | verificacion_if
+                    | retornoValor
                      '''
 def p_valores(p):
     '''valores : ENTERO
@@ -143,6 +146,7 @@ def p_valores(p):
                   | booleanos
                   | NOMBRE PARENIZQ  PARENDER
                   | NOMBRE PARENIZQ valores PARENDER  
+                  | NOMBRE PARENIZQ valoresParametros PARENDER
                   | crearArrayCorta                
                   | crearArrayLarga
      '''
@@ -200,7 +204,8 @@ def p_aritmetica(p):
                   | aritmetica operadores_aritmeticos valores'''
 
 def p_echo(p):
-    '''echo : ECHO CADENA PUNTOYCOMA
+    '''echo : ECHO NOMBRE PARENIZQ valores PARENDER PUNTOYCOMA
+            | ECHO CADENA PUNTOYCOMA
             | ECHO VARIABLE_PHP PUNTOYCOMA
             | ECHO aritmetica PUNTOYCOMA
     '''
@@ -252,6 +257,51 @@ def p_caso_switch(p):
 def p_casos_switch(p):
     '''casos_switch : caso_switch casos_switch
                     | caso_switch '''
+
+
+def p_funcion_argumento_opcional(p):  
+  '''funcion_argumento_opcional :  FUNCTION NOMBRE PARENIZQ valoresParametros PARENDER LLAVEIZQ instrucciones LLAVEDER
+  '''
+  log_sintactico_array.append("Funcion Argumento Opcional")
+
+def p_valoresParametros(p):
+    '''valoresParametros : valores                 
+                        | valores repite_valores_parametro                
+                        | VARIABLE_PHP IGUAL valores
+                        | VARIABLE_PHP IGUAL valores repite_valores_parametro
+    '''
+  
+def p_repite_valoresParametros(p):
+    '''
+    repite_valores_parametro : COMA valores
+                            | COMA VARIABLE_PHP IGUAL valores                  
+                            | COMA valores repite_valores_parametro
+                            | COMA VARIABLE_PHP IGUAL valores repite_valores_parametro
+    '''
+
+def p_repite_valoresParametros(p):
+    '''
+    repite_valores_parametro : COMA valores
+                            | COMA VARIABLE_PHP IGUAL valores                  
+                            | COMA valores repite_valores_parametro
+                            | COMA VARIABLE_PHP IGUAL valores repite_valores_parametro
+    '''
+
+def p_verificacion_if(p):
+    '''
+    verificacion_if : IF PARENIZQ valores PARENDER LLAVEIZQ instrucciones LLAVEDER
+                      | IF PARENIZQ valores PARENDER instruccion
+                      | IF PARENIZQ valores PARENDER LLAVEIZQ instrucciones LLAVEDER ELSE LLAVEIZQ instrucciones LLAVEDER
+                      | IF PARENIZQ valores PARENDER instruccion ELSE instruccion
+    '''
+    log_sintactico_array.append("IF")
+
+def p_retornoValor(p):
+    '''
+    retornoValor : RETURN valores PUNTOYCOMA
+    '''
+    log_sintactico_array.append("RETURN")
+
 #----------------------- Fin Johanna
 #
 #----------------------- Inicio Viviana

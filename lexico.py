@@ -190,6 +190,11 @@ def t_newline(t):
 t_ignore  = ' \t'
 
 
+# Johanna
+def t_BOOLEANO(t):
+    r'True|False|true|false|TRUE|FALSE'
+    return t
+
 #Johanna puse al inicio para que identifique estos token de variable y nombre de metodo
 def t_VARIABLE_PHP(t):  
     #r'\$[A-Za-z_][\w_]*'
@@ -240,12 +245,6 @@ def t_HEAP(t):
     r'\$heap'
     return t
 #Fin Cindy    
-
-
-# Johanna
-def t_BOOLEANO(t):
-    r'True|False|true|false|TRUE|FALSE'
-    return t
 
 
 def t_CADENA(t):
@@ -316,7 +315,7 @@ linea = " "
 
 #Funcion llamada desde UI
 #----------------------- Inicio Johanna    
-def validaReglaLexico(data):
+def validaReglaLexico(data):    
     log_lexico_array.clear()
     validador.input(data)
     while True:

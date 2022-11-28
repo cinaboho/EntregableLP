@@ -1505,3 +1505,559 @@ $array = [
 ];
 ?
 FECHA Y HORA -> Mon Nov 28 11:10:26 2022
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 11:57:19 2022
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 11:57:22 2022
+
+
+<?
+$a=5;
+?>
+FECHA Y HORA -> Mon Nov 28 12:00:57 2022
+
+
+<?
+$a=5;
+?>
+FECHA Y HORA -> Mon Nov 28 12:00:59 2022
+
+
+<?
+$a=5;
+?>
+FECHA Y HORA -> Mon Nov 28 12:00:59 2022
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:03:55 2022
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:04:10 2022
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:04:50 2022
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	$a=5;
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:05:43 2022
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	$a=5;
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:08:41 2022
+
+
+<?
+function hacer_yogurt($sabor)
+{
+	$a=5;
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:10:28 2022
+
+
+<?
+function hacer_yogurt($sabor=false)
+{
+	$a=5;
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:10:34 2022
+
+
+<?
+function hacer_yogurt($sabor=false)
+{
+	$a=5;
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:10:35 2022
+
+
+<?
+function hacer_yogurt($sabor=false,$sabor)
+{
+	$a=5;
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:10:47 2022
+
+
+<?
+function hacer_yogurt($sabor=false,$sabor)
+{
+	$a=5;
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:10:49 2022
+
+
+<?
+function hacer_yogurt($sabor,$tipo=false)
+{
+	$a=5;
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:11:16 2022
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	$a=5;
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:13:43 2022
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	$a=5;
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:15:21 2022
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:15:43 2022
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:22:43 2022
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:25:58 2022
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:29:08 2022
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:29:36 2022
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:29:37 2022
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:29:38 2022
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:29:40 2022
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:29:51 2022
+
+
+<?
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+
+?>
+FECHA Y HORA -> Mon Nov 28 15:30:19 2022
+
+
+<?
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:30:51 2022
+
+
+<?
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:35:33 2022
+
+
+<?
+echo hacer_yogurt("frambruesa");
+?>
+FECHA Y HORA -> Mon Nov 28 15:36:58 2022
+
+
+<?
+echo hacer_yogurt("frambruesa");
+?>
+FECHA Y HORA -> Mon Nov 28 15:37:56 2022
+
+
+<?
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:38:16 2022
+
+
+<?
+echo hacer_yogurt("frambruesa")
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:38:32 2022
+
+
+<?
+echo hacer_yogurt("frambruesa")
+echo hacer_yogurt("frambruesa","mesofilo")
+?>
+FECHA Y HORA -> Mon Nov 28 15:38:43 2022
+
+
+<?
+echo hacer_yogurt("frambruesa")
+echo hacer_yogurt("frambruesa","mesofilo")
+FECHA Y HORA -> Mon Nov 28 15:38:49 2022
+
+
+<?
+echo hacer_yogurt("frambruesa")
+echo hacer_yogurt("frambruesa","mesofilo")
+?>
+FECHA Y HORA -> Mon Nov 28 15:39:05 2022
+
+
+<?
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:39:15 2022
+
+
+<?
+echo hacer_yogurt("frambruesa");
+?>
+FECHA Y HORA -> Mon Nov 28 15:42:01 2022
+
+
+<?
+echo hacer_yogurt("frambruesa")
+?>
+FECHA Y HORA -> Mon Nov 28 15:42:49 2022
+
+
+<?
+echo hacer_yogurt("frambruesa");
+?>
+FECHA Y HORA -> Mon Nov 28 15:43:00 2022
+
+
+<?
+echo hacer_yogurt("frambruesa")
+?>
+FECHA Y HORA -> Mon Nov 28 15:43:03 2022
+
+
+<?
+echo hacer_yogurt("frambruesa")
+?>
+FECHA Y HORA -> Mon Nov 28 15:43:51 2022
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:44:53 2022
+
+
+<?
+echo hacer_yogurt("frambruesa");
+?>
+FECHA Y HORA -> Mon Nov 28 15:45:08 2022
+
+
+<?
+echo hacer_yogurt("frambruesa")
+?>
+FECHA Y HORA -> Mon Nov 28 15:45:10 2022
+
+
+<?
+echo hacer_yogurt("frambruesa");
+?>
+FECHA Y HORA -> Mon Nov 28 15:46:10 2022
+
+
+<?
+echo hacer_yogurt("frambruesa")
+?>
+FECHA Y HORA -> Mon Nov 28 15:47:19 2022
+
+
+<?
+echo hacer_yogurt("frambruesa");
+?>
+FECHA Y HORA -> Mon Nov 28 15:47:23 2022
+
+
+<?
+echo hacer_yogurt("frambruesa","aa");
+?>
+FECHA Y HORA -> Mon Nov 28 15:47:32 2022
+
+
+<?
+echo hacer_yogurt("frambruesa","aa");
+?>
+FECHA Y HORA -> Mon Nov 28 15:47:34 2022
+
+
+<?
+echo hacer_yogurt("frambruesa");
+?>
+FECHA Y HORA -> Mon Nov 28 15:50:00 2022
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+FECHA Y HORA -> Mon Nov 28 15:50:06 2022
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+?>
+FECHA Y HORA -> Mon Nov 28 15:53:23 2022
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+    "foo" => "bar",
+    "bar" => "foo",
+];
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+    "foo" => "bar",
+    "bar" => "foo",
+];
+?>
+FECHA Y HORA -> Mon Nov 28 15:54:34 2022
