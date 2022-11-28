@@ -37,6 +37,8 @@ def p_sentencias(p):
                   | programabasico
                   | for
                   | SplHeap
+                  | instrucciones
+                  | clases
                   | INICIO instrucciones FIN
     '''
 
@@ -50,7 +52,7 @@ def p_operador(p):
                 | EXPONENCIACION
     '''
 #----------------------- Semantico Cindy
-    p[0]=nombres[p[1], p[2], p[3], p[4], p[5], p[6]]
+    #p[0]=nombres[p[1], p[2], p[3], p[4], p[5], p[6]]
 
 # #     $valor = $valor * $valor;
 # #     $valor = $valor * 2;
@@ -74,7 +76,7 @@ def p_tipoDevalorNumerico(p):
                            | FLOTANTE
     '''
     #----------------------- Semantico Cindy
-    p[0]=nombres[p[1],p[2]]
+    #p[0]=nombres[p[1],p[2]]
 
 #tipoDeDato para poner dentro de una estructura ej: array{var1, var2, var3}
 def p_tipoDeDato(p):
@@ -86,7 +88,7 @@ def p_tipoDeDato(p):
                   | NULL
     '''
     #----------------------- Semantico Cindy
-    p[0] = nombres[p[1], p[2], p[3], p[4], p[5], p[6]]
+    #p[0] = nombres[p[1], p[2], p[3], p[4], p[5], p[6]]
 
 def p_parametros(p):
     '''parametros : tipoDeDato
@@ -98,7 +100,7 @@ def p_foreach(p):
     '''foreach : FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
     '''
     #----------------------- Semantico Cindy
-    p[0] = nombres[p[9]]
+    #p[0] = nombres[p[9]]
 
 
 # $b=array_map("cubo",$a);
@@ -108,11 +110,11 @@ def p_arraymaps(p):
                  | VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
     '''
     #----------------------- Semantico Cindy
-    p[0] = nombres[p[3], p[5]]
+    #p[0] = nombres[p[3], p[5]]
 
 #new jupilerLeague();
 def p_funcion(p):
-    '''funcion : NEW NOMBRE PARENIZQ PARENDER PUNTOYCOMA
+    '''funcion : NEW NOMBRE PARENIZQ parametros PARENDER PUNTOYCOMA
     '''
 
 #$heap = new JupilerLeague();
@@ -120,7 +122,7 @@ def p_monticuloHEAP(p):
   '''monticuloHEAP : HEAP IGUAL funcion
   '''
   #----------------------- Semantico Cindy
-  p[0] = nombres[p[3]]
+  #p[0] = nombres[p[3]]
 #----------------------- Fin Cindy
 #
 #----------------------- Inicio Johanna
@@ -183,6 +185,10 @@ def p_asignacion(p):
                     | VARIABLE_PHP difigual valores PUNTOYCOMA
                     | VARIABLE_PHP difigual valores PUNTO valores PUNTOYCOMA comentarios
                     | VARIABLE_PHP difigual valores PUNTO valores PUNTOYCOMA
+                    | VARIABLE_PHP IGUAL BOOLEANO PUNTOYCOMA
+                    | VARIABLE_PHP IGUAL BOOLEANO PUNTOYCOMA comentarios
+                    | VARIABLE_PHP IGUAL funcion
+                    | VARIABLE_PHP IGUAL NULL
                     | asignacion
                 '''
     log_sintactico_array.append("asignacion")
@@ -192,6 +198,25 @@ def p_difigual(p):
                       | MASIGUAL
                       | MENOSIGUAL
        '''
+
+def p_clases(p):
+    '''clases : CLASS NOMBRE LLAVEIZQ LLAVEDER
+        '''
+    log_sintactico_array.append("clases")
+
+def p_function(p):
+    '''clases : FUNCTION NOMBRE LLAVEIZQ LLAVEDER
+    |  FUNCTION NOMBRE  PARENIZQ PARENDER LLAVEIZQ impresion LLAVEDER
+          '''
+    log_sintactico_array.append("function")
+
+def p_define(p):
+    '''define : DEFINE PARENIZQ CADENA COMA valores PARENDER PUNTOYCOMA'''
+    log_sintactico_array.append("define")
+
+
+#def p_paramclases(p):
+ #   '''paramclases :           '''
 def p_operadores_aritmeticos(p):
     '''operadores_aritmeticos : MAS
                    | MENOS

@@ -138,7 +138,7 @@ t_LLAVEDER = r'\}'
 t_CORCHIZQ = r'\['
 t_CORCHDER = r'\]'
 t_AMPERSAND = r'\&'
-t_PUNTOIGUAL = r'\.='
+t_PUNTOIGUAL = r'\.\='
 t_MAS = r'\+'
 #Fin Viviana
     
@@ -198,8 +198,11 @@ def t_BOOLEANO(t):
 #Johanna puse al inicio para que identifique estos token de variable y nombre de metodo
 def t_VARIABLE_PHP(t):  
     #r'\$[A-Za-z_][\w_]*'
-    r'((\$|\$_)[a-zA-Z][a-zA-Z0-9_]*)'
+    r'((\$|\$_)[a-zA-Z_][a-zA-Z0-9_]*)'
     t.type = reserved.get(t.value, "VARIABLE_PHP")
+    return t
+def t_BOOLEANO(t):
+    r'True|False|true|false|TRUE|FALSE'
     return t
 
 def t_NOMBRE(t):
@@ -247,10 +250,13 @@ def t_HEAP(t):
 #Fin Cindy    
 
 
+# Johanna
+
 def t_CADENA(t):
     #r'\"(.)+\" | \'(.)+\''
     #r'(\')(?:\\.|\'(?=\w)|[^\'])*(\')'
-    r'(\"(.)*\") | (\'(.)*\')'
+    #r'(\"(.)*\") | (\'(.)*\')'
+    r'\"[a-zA-Z0-9\w\s\.]*\" | \'[a-zA-Z0-9\w\s\.]*\''
     return t
 
 def t_FLOTANTE(t):
