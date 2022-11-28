@@ -37,8 +37,12 @@ def p_sentencias(p):
                   | programabasico
                   | for
                   | SplHeap
+<<<<<<< HEAD
                   | instrucciones
                   | clases
+=======
+                  | INICIO instrucciones FIN
+>>>>>>> 9c6b98af7e056cc8cc5457c9b020bd871225a728
     '''
 
 #----------------------- Inicio Cindy
@@ -131,6 +135,7 @@ def p_instrucciones(p):
                      '''
 def p_instruccion(p):
     '''instruccion : asignacion                     
+                    | echo
                     | switchCase
                      '''
 def p_valores(p):
@@ -142,8 +147,9 @@ def p_valores(p):
                   | aritmetica
                   | booleanos
                   | NOMBRE PARENIZQ  PARENDER
-                  | NOMBRE PARENIZQ valores PARENDER                  
-                  | crearArray
+                  | NOMBRE PARENIZQ valores PARENDER  
+                  | crearArrayCorta                
+                  | crearArrayLarga
      '''
 
 def p_booleano(p):
@@ -210,14 +216,25 @@ def p_operadores_aritmeticos(p):
 def p_aritmetica(p):
     '''aritmetica : valores operadores_aritmeticos valores
                   | aritmetica operadores_aritmeticos valores'''
-    
 
+def p_echo(p):
+    '''echo : ECHO CADENA PUNTOYCOMA
+            | ECHO VARIABLE_PHP PUNTOYCOMA
+            | ECHO aritmetica PUNTOYCOMA
+    '''
+    log_sintactico_array.append("ECHO")
 
-def p_crearArray(p):
-  #'''crearArray :  VARIABLE_PHP IGUAL ARRAY PARENIZQ valoresArray PARENDER PUNTOYCOMA
-  '''crearArray :  ARRAY PARENIZQ valoresArray PARENDER
+def p_crearArrayCorta(p):
+  #'''crearArrayCorta :  VARIABLE_PHP IGUAL ARRAY PARENIZQ valoresArray PARENDER PUNTOYCOMA
+  '''crearArrayCorta :  CORCHIZQ valoresArray CORCHDER
   '''
-  log_sintactico_array.append("Crear Array")
+  log_sintactico_array.append("Crear Array Corta")
+
+def p_crearArrayLarga(p):
+  #'''crearArrayLarga :  VARIABLE_PHP IGUAL ARRAY PARENIZQ valoresArray PARENDER PUNTOYCOMA
+  '''crearArrayLarga :  ARRAY PARENIZQ valoresArray PARENDER
+  '''
+  log_sintactico_array.append("Crear Array larga")
 
 def p_valoresArray(p):
     '''valoresArray : valores 
@@ -229,6 +246,7 @@ def p_valoresArray(p):
 def p_repite_valoresSeparadosComa(p):
     '''
     repite_valores : COMA valores
+                  | COMA valores COMA
                   | COMA valores repite_valores
     '''
 def p_repite_claveValorSeparadosComa(p):
