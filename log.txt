@@ -5534,3 +5534,35 @@ function calcularDCS()
 
 ?>
 FECHA Y HORA -> Tue Nov 29 15:28:57 2022
+
+
+new funcion()
+FECHA Y HORA -> Tue Nov 29 16:08:54 2022
+
+
+new funcion()
+FECHA Y HORA -> Tue Nov 29 16:09:01 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+FECHA Y HORA -> Tue Nov 29 16:09:28 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+FECHA Y HORA -> Tue Nov 29 16:09:29 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+FECHA Y HORA -> Tue Nov 29 16:09:30 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+FECHA Y HORA -> Tue Nov 29 16:48:46 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 17:20:07 2022
+
+
+$heap->insert(2);
+FECHA Y HORA -> Tue Nov 29 17:20:20 2022
