@@ -36,8 +36,7 @@ def p_sentencias(p):
                   | impresion
                   | programabasico
                   | for
-                  | SplHeap
-                  | instrucciones
+                  | SplHeap                  
                   | clases
                   | INICIO instrucciones FIN
                   | final
@@ -142,8 +141,7 @@ def p_instrucciones(p):
 def p_instruccion(p):
     '''instruccion : asignacion                     
                     | echo
-                    | switchCase
-                    | funcion_argumento_opcional
+                    | switchCase                    
                     | verificacion_if
                     | retornoValor
                     | comentarios
@@ -151,7 +149,7 @@ def p_instruccion(p):
                     | impresion
                     | for
                     | SplHeap
-                    | funcion
+                    | function2
                      '''
 def p_valores(p):
     '''valores : ENTERO
@@ -227,10 +225,12 @@ def p_clases(p):
     log_sintactico_array.append("clases")
 
 def p_function(p):
-    '''function : FUNCTION NOMBRE LLAVEIZQ LLAVEDER
-    |  FUNCTION NOMBRE  PARENIZQ PARENDER LLAVEIZQ instrucciones LLAVEDER
-    | PUBLIC FUNCTION COMPARE PARENIZQ parametros PARENDER LLAVEIZQ instrucciones LLAVEDER
-    | FUNCTION NOMBRE PARENIZQ parametros PARENDER LLAVEIZQ instrucciones LLAVEDER     '''
+    '''function2 : FUNCTION NOMBRE LLAVEIZQ LLAVEDER
+                | FUNCTION NOMBRE PARENIZQ PARENDER LLAVEIZQ instrucciones LLAVEDER
+                | PUBLIC FUNCTION COMPARE PARENIZQ parametros PARENDER LLAVEIZQ instrucciones LLAVEDER
+                | FUNCTION NOMBRE PARENIZQ parametros PARENDER LLAVEIZQ instrucciones LLAVEDER
+                | FUNCTION NOMBRE PARENIZQ valoresParametros PARENDER LLAVEIZQ instrucciones LLAVEDER
+    '''
     log_sintactico_array.append("function")
 
 def p_define(p):
@@ -286,6 +286,7 @@ def p_repite_valoresSeparadosComa(p):
     '''
 def p_repite_claveValorSeparadosComa(p):
     '''repite_claveValor : COMA valores OPERASIG_ARRAY valores
+                        | COMA valores OPERASIG_ARRAY valores COMA
                         | COMA valores OPERASIG_ARRAY valores repite_claveValor
     '''
 def p_switchCase(p):  
@@ -305,12 +306,6 @@ def p_caso_switch(p):
 def p_casos_switch(p):
     '''casos_switch : caso_switch casos_switch
                     | caso_switch '''
-
-
-def p_funcion_argumento_opcional(p):  
-  '''funcion_argumento_opcional :  FUNCTION NOMBRE PARENIZQ valoresParametros PARENDER LLAVEIZQ instrucciones LLAVEDER
-  '''
-  log_sintactico_array.append("Funcion Argumento Opcional")
 
 def p_valoresParametros(p):
     '''valoresParametros : valores                 
@@ -391,7 +386,7 @@ def  p_for(p):
     log_sintactico_array.append("bucle for")
 
 def p_SplHeap(p):
-    '''SplHeap : CLASS NOMBRE EXTENDS SPLHEAP LLAVEIZQ function LLAVEDER '''
+    '''SplHeap : CLASS NOMBRE EXTENDS SPLHEAP LLAVEIZQ function2 LLAVEDER '''
     log_sintactico_array.append("Splheap")
 
 #class JupilerLeague extends SplHeap { public function compare($array1, $array2) { echo "a es mayor que b"; } }
