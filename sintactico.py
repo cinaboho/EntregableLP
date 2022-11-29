@@ -23,7 +23,8 @@ procedence = (
 nombres= {}
 
 def p_sentencias(p):
-    '''sentencias : operacionMatematica
+    '''sentencias : final
+                  | operacionMatematica
                   | operador
                   | tipoDevalorNumerico
                   | foreach
@@ -38,8 +39,7 @@ def p_sentencias(p):
                   | for
                   | SplHeap                  
                   | clases
-                  | INICIO instrucciones FIN
-                  | final
+                  | instrucciones
     '''
 
 #----------------------- Inicio Cindy
@@ -150,6 +150,7 @@ def p_instruccion(p):
                     | for
                     | SplHeap
                     | function2
+                    | final
                      '''
 def p_valores(p):
     '''valores : ENTERO
@@ -207,9 +208,12 @@ def p_asignacion(p):
                     | VARIABLE_PHP IGUAL funcion PUNTOYCOMA
                     | VARIABLE_PHP IGUAL NULL PUNTOYCOMA
                     | VARIABLE_PHP IGUAL NOMBRE PARENIZQ VARIABLE_PHP PARENDER PUNTOYCOMA
+                    | VARIABLE_PHP IGUAL NOMBRE PARENIZQ valores PARENDER PUNTOYCOMA
+                    | VARIABLE_PHP IGUAL NOMBRE PARENIZQ PARENDER PUNTOYCOMA
                     | asignaSplheap
                     | VARIABLE_PHP IGUAL EXPLODE PARENIZQ CADENA COMA VARIABLE_PHP PARENDER PUNTOYCOMA
                     | VARIABLE_PHP IGUAL funcion
+                    | VARIABLE_PHP o_comparar NOMBRE PUNTOYCOMA
                 '''
     log_sintactico_array.append("asignacion")
 
@@ -367,12 +371,8 @@ def p_programabasico(p):
     | INICIO asignacion FIN'''
 
 
-def p_test(p):
-    '''test : instrucciones
-    | instrucciones test'''
-
 def p_final(p):
-    '''final : INICIO test FIN'''
+    'final : INICIO instrucciones FIN'
 def  p_incdec(p):
     '''incdec : MAYORIGUAL
      | MENORIGUAL'''

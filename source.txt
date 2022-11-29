@@ -8,7 +8,7 @@ $headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
 $headers .= "X-Mailer: PHP5\n";
 $headers .= 'MIME-Version: 1.0' . "\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
+?>
 // ALGORITMO-JOHANNA LOPEZ
 function recoge($var, $m = "")
 {
@@ -88,5 +88,5 @@ $d = (true  or  foo());
 $a = 3;
 $a += 5;
 $b = "Hola ";
-$b .= "ahí!";
+$b .= "ahi!";
 $f = 2.2;

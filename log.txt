@@ -6113,3 +6113,1492 @@ print "\n";
 print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
 ?>
 FECHA Y HORA -> Tue Nov 29 16:01:43 2022
+
+
+var =2;
+FECHA Y HORA -> Tue Nov 29 16:26:51 2022
+
+
+$var=2;
+FECHA Y HORA -> Tue Nov 29 16:27:07 2022
+
+
+$var=2;
+$var="hola";
+FECHA Y HORA -> Tue Nov 29 16:28:30 2022
+
+
+var=2;
+var="hola";
+FECHA Y HORA -> Tue Nov 29 16:29:10 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+// ALGORITMO-JOHANNA LOPEZ
+function recoge($var, $m = "")
+{
+    if (!isset($_REQUEST[$var])) {
+        $tmp = is_array($m) [] : "";
+    } elseif (!is_array($_REQUEST[$var])) {
+        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
+    } else {
+        $tmp = $_REQUEST[$var];
+        array_walk_recursive($tmp, function (&$valor) {
+            $valor = trim(htmlspecialchars($valor));
+        });
+    }
+    return $tmp;
+}
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+class NombreClase {
+    // Declaración de una propiedad
+    public $variable = 'Un valor cualquiera';
+    // Declaración de un método
+    public function mostrarVariable(){
+        echo $this->variable;
+    }
+}
+//instanciar clase
+$a = new nombreClase();
+
+//operadores
+$a = (false && foo());
+$b = (true  || foo());
+$c = (false and foo());
+$d = (true  or  foo());
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahí!";
+$f = 2.2;
+FECHA Y HORA -> Tue Nov 29 16:42:20 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+// ALGORITMO-JOHANNA LOPEZ
+function recoge($var, $m = "")
+{
+    if (!isset($_REQUEST[$var])) {
+        $tmp = is_array($m) [] : "";
+    } elseif (!is_array($_REQUEST[$var])) {
+        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
+    } else {
+        $tmp = $_REQUEST[$var];
+        array_walk_recursive($tmp, function (&$valor) {
+            $valor = trim(htmlspecialchars($valor));
+        });
+    }
+    return $tmp;
+}
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+class NombreClase {
+    // Declaración de una propiedad
+    public $variable = 'Un valor cualquiera';
+    // Declaración de un método
+    public function mostrarVariable(){
+        echo $this->variable;
+    }
+}
+//instanciar clase
+$a = new nombreClase();
+
+//operadores
+$a = (false && foo());
+$b = (true  || foo());
+$c = (false and foo());
+$d = (true  or  foo());
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahí!";
+$f = 2.2;
+FECHA Y HORA -> Tue Nov 29 16:45:17 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+// ALGORITMO-JOHANNA LOPEZ
+function recoge($var, $m = "")
+{
+    if (!isset($_REQUEST[$var])) {
+        $tmp = is_array($m) [] : "";
+    } elseif (!is_array($_REQUEST[$var])) {
+        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
+    } else {
+        $tmp = $_REQUEST[$var];
+        array_walk_recursive($tmp, function (&$valor) {
+            $valor = trim(htmlspecialchars($valor));
+        });
+    }
+    return $tmp;
+}
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+class NombreClase {
+    // Declaración de una propiedad
+    public $variable = 'Un valor cualquiera';
+    // Declaración de un método
+    public function mostrarVariable(){
+        echo $this->variable;
+    }
+}
+//instanciar clase
+$a = new nombreClase();
+
+//operadores
+$a = (false && foo());
+$b = (true  || foo());
+$c = (false and foo());
+$d = (true  or  foo());
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahí!";
+$f = 2.2;
+FECHA Y HORA -> Tue Nov 29 16:47:07 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+// ALGORITMO-JOHANNA LOPEZ
+function recoge($var, $m = "")
+{
+    if (!isset($_REQUEST[$var])) {
+        $tmp = is_array($m) [] : "";
+    } elseif (!is_array($_REQUEST[$var])) {
+        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
+    } else {
+        $tmp = $_REQUEST[$var];
+        array_walk_recursive($tmp, function (&$valor) {
+            $valor = trim(htmlspecialchars($valor));
+        });
+    }
+    return $tmp;
+}
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+class NombreClase {
+    // Declaración de una propiedad
+    public $variable = 'Un valor cualquiera';
+    // Declaración de un método
+    public function mostrarVariable(){
+        echo $this->variable;
+    }
+}
+//instanciar clase
+$a = new nombreClase();
+
+//operadores
+$a = (false && foo());
+$b = (true  || foo());
+$c = (false and foo());
+$d = (true  or  foo());
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahí!";
+$f = 2.2;
+FECHA Y HORA -> Tue Nov 29 16:53:27 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+FECHA Y HORA -> Tue Nov 29 16:54:43 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+FECHA Y HORA -> Tue Nov 29 16:56:44 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+
+?>
+FECHA Y HORA -> Tue Nov 29 16:58:19 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+
+?>
+FECHA Y HORA -> Tue Nov 29 16:59:53 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+FECHA Y HORA -> Tue Nov 29 16:59:59 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+FECHA Y HORA -> Tue Nov 29 17:00:12 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+FECHA Y HORA -> Tue Nov 29 17:01:01 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+FECHA Y HORA -> Tue Nov 29 17:03:46 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+
+?>
+FECHA Y HORA -> Tue Nov 29 17:06:03 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+?>
+FECHA Y HORA -> Tue Nov 29 17:06:05 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+FECHA Y HORA -> Tue Nov 29 17:07:56 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+FECHA Y HORA -> Tue Nov 29 17:08:56 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+// ALGORITMO-JOHANNA LOPEZ
+function recoge($var, $m = "")
+{
+    if (!isset($_REQUEST[$var])) {
+        $tmp = is_array($m) [] : "";
+    } elseif (!is_array($_REQUEST[$var])) {
+        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
+    } else {
+        $tmp = $_REQUEST[$var];
+        array_walk_recursive($tmp, function (&$valor) {
+            $valor = trim(htmlspecialchars($valor));
+        });
+    }
+    return $tmp;
+}
+FECHA Y HORA -> Tue Nov 29 17:09:12 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+FECHA Y HORA -> Tue Nov 29 17:09:48 2022
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+FECHA Y HORA -> Tue Nov 29 17:10:21 2022
+
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+FECHA Y HORA -> Tue Nov 29 17:10:35 2022
+
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+FECHA Y HORA -> Tue Nov 29 17:10:48 2022
+
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+FECHA Y HORA -> Tue Nov 29 17:10:55 2022
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+FECHA Y HORA -> Tue Nov 29 17:11:06 2022
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+FECHA Y HORA -> Tue Nov 29 17:11:09 2022
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+FECHA Y HORA -> Tue Nov 29 17:11:14 2022
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+FECHA Y HORA -> Tue Nov 29 17:11:37 2022
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+FECHA Y HORA -> Tue Nov 29 17:11:43 2022
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+FECHA Y HORA -> Tue Nov 29 17:12:29 2022
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+FECHA Y HORA -> Tue Nov 29 17:12:39 2022
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+FECHA Y HORA -> Tue Nov 29 17:12:49 2022
+
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+FECHA Y HORA -> Tue Nov 29 17:12:57 2022
+
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+FECHA Y HORA -> Tue Nov 29 17:15:04 2022
+
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+FECHA Y HORA -> Tue Nov 29 17:15:42 2022
+
+
+$nombre = recoge("nombre");
+FECHA Y HORA -> Tue Nov 29 17:15:55 2022
+
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+FECHA Y HORA -> Tue Nov 29 17:16:01 2022
+
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+FECHA Y HORA -> Tue Nov 29 17:16:06 2022
+
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+FECHA Y HORA -> Tue Nov 29 17:16:11 2022
+
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+FECHA Y HORA -> Tue Nov 29 17:16:16 2022
+
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+FECHA Y HORA -> Tue Nov 29 17:16:21 2022
+
+
+
+$rol->campo1;
+FECHA Y HORA -> Tue Nov 29 17:16:25 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+// ALGORITMO-JOHANNA LOPEZ
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+FECHA Y HORA -> Tue Nov 29 17:18:03 2022
+
+
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+class NombreClase {
+    // Declaración de una propiedad
+    public $variable = 'Un valor cualquiera';
+    // Declaración de un método
+    public function mostrarVariable(){
+        echo $this->variable;
+    }
+}
+//instanciar clase
+$a = new nombreClase();
+
+//operadores
+$a = (false && foo());
+$b = (true  || foo());
+$c = (false and foo());
+$d = (true  or  foo());
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahí!";
+$f = 2.2;
+FECHA Y HORA -> Tue Nov 29 17:18:50 2022
+
+
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+
+//instanciar clase
+$a = new nombreClase();
+
+//operadores
+$a = (false && foo());
+$b = (true  || foo());
+$c = (false and foo());
+$d = (true  or  foo());
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahí!";
+$f = 2.2;
+FECHA Y HORA -> Tue Nov 29 17:19:11 2022
+
+
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+
+
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahí!";
+$f = 2.2;
+FECHA Y HORA -> Tue Nov 29 17:19:23 2022
+
+
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+
+
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahí!";
+$f = 2.2;
+FECHA Y HORA -> Tue Nov 29 17:19:40 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+// ALGORITMO-JOHANNA LOPEZ
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+
+//instanciar clase
+$a = new nombreClase();
+
+//operadores
+$a = (false && foo());
+$b = (true  || foo());
+$c = (false and foo());
+$d = (true  or  foo());
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahí!";
+$f = 2.2;
+FECHA Y HORA -> Tue Nov 29 17:20:54 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+// ALGORITMO-JOHANNA LOPEZ
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+
+//instanciar clase
+$a = new nombreClase();
+
+//operadores
+$a = (false && foo());
+$b = (true  || foo());
+$c = (false and foo());
+$d = (true  or  foo());
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahI!";
+$f = 2.2;
+FECHA Y HORA -> Tue Nov 29 17:21:09 2022
+
+
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahi!";
+$f = 2.2;
+FECHA Y HORA -> Tue Nov 29 17:21:46 2022
+
+
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahi!";
+$f = 2.2;
+$a = new nombreClase();
+FECHA Y HORA -> Tue Nov 29 17:21:54 2022
+
+
+$a = (false && foo());
+$b = (true  || foo());
+$c = (false and foo());
+$d = (true  or  foo());
+FECHA Y HORA -> Tue Nov 29 17:22:00 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+// ALGORITMO-JOHANNA LOPEZ
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+//instanciar clase
+$a = new nombreClase();
+
+//operadores
+$a = (false && foo());
+$b = (true  || foo());
+$c = (false and foo());
+$d = (true  or  foo());
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahi!";
+$f = 2.2;
+FECHA Y HORA -> Tue Nov 29 17:22:32 2022
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+// ALGORITMO-JOHANNA LOPEZ
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+//instanciar clase
+$a = new nombreClase();
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahi!";
+$f = 2.2;
+FECHA Y HORA -> Tue Nov 29 17:22:51 2022
