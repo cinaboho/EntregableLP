@@ -19,6 +19,7 @@ reserved = {
 	'echo' : 'ECHO',
     'define': 'DEFINE',
     'SplHeap': 'SPLHEAP',
+    'insert':'INSERT',
     #Fin Viviana
 
     #Cindy
@@ -74,10 +75,7 @@ tokens = [
     'IGUAL',
     'PUNTOIGUAL',
     'MAS',
-    'MAYORQUEI',
-    'MENORQUEI',
     'INTE',
-    #'STRING',
     #Fin Viviana
 
     #Cindy
@@ -158,8 +156,6 @@ t_PORCENTAJEIGUAL = r'\%\='
 t_DOBLEASTERISCOIGUAL = r'\*\*\='
 t_OPERDCOMPARACION = r'==='
 t_OPERCOMPARACION = r'=='
-t_MAYORQUEI = r'<='
-t_MENORQUEI= r'>='
 t_IGUAL = r'='
 t_INTE = r'\?'
  #Fin Cindy

@@ -40,6 +40,7 @@ def p_sentencias(p):
                   | instrucciones
                   | clases
                   | INICIO instrucciones FIN
+                  | final
     '''
 
 #----------------------- Inicio Cindy
@@ -115,6 +116,7 @@ def p_arraymaps(p):
 #new jupilerLeague();
 def p_funcion(p):
     '''funcion : NEW NOMBRE PARENIZQ parametros PARENDER PUNTOYCOMA
+    | NEW NOMBRE PARENIZQ PARENDER
     '''
 
 #$heap = new JupilerLeague();
@@ -140,6 +142,8 @@ def p_instruccion(p):
                     | comentarios
                     | define
                     | impresion
+                    | for
+                    | SplHeap
                      '''
 def p_valores(p):
     '''valores : ENTERO
@@ -172,7 +176,8 @@ def p_o_logicos(p):
                  | OPERLOGICO_OR'''
 
 def p_comparacion(p):
-    ''' comparacion : valores o_comparar valores '''
+    ''' comparacion : valores o_comparar valores
+     '''
 
 def p_o_comparar(p):
     '''o_comparar : IGUALIGUAL
@@ -180,8 +185,11 @@ def p_o_comparar(p):
                   | MENORQUE
                   | MAYORQUE
                   | MAYORIGUAL
-                  | MENORIGUAL '''
-
+                  | MENORIGUAL
+                  | OPERALOGICO_MAP
+                  | OPERDCOMPARACION
+                  | OPERCOMPARACION
+                  | '''
 def p_asignacion(p):
     '''asignacion : VARIABLE_PHP IGUAL valores PUNTOYCOMA
                     | VARIABLE_PHP IGUAL valores PUNTOYCOMA comentarios
@@ -193,6 +201,7 @@ def p_asignacion(p):
                     | VARIABLE_PHP IGUAL funcion PUNTOYCOMA
                     | VARIABLE_PHP IGUAL NULL PUNTOYCOMA
                     | VARIABLE_PHP IGUAL NOMBRE PARENIZQ VARIABLE_PHP PARENDER PUNTOYCOMA
+                    | asignaSplheap
                 '''
     log_sintactico_array.append("asignacion")
 
@@ -314,8 +323,8 @@ def p_verificacion_if(p):
                       | IF PARENIZQ valores PARENDER instruccion
                       | IF PARENIZQ valores PARENDER LLAVEIZQ instrucciones LLAVEDER ELSE LLAVEIZQ instrucciones LLAVEDER
                       | IF PARENIZQ valores PARENDER instruccion ELSE instrucciones
-                      | IF PARENIZQ comparaciones operadorcomparacion comparaciones PARENDER instrucciones
-                      | IF PARENIZQ comparaciones operadorcomparacion comparaciones PARENDER LLAVEIZQ instrucciones LLAVEDER
+                      | IF PARENIZQ comparaciones o_comparar comparaciones PARENDER instrucciones
+                      | IF PARENIZQ comparaciones o_comparar comparaciones PARENDER LLAVEIZQ instrucciones LLAVEDER
     '''
     log_sintactico_array.append("IF")
 
@@ -323,18 +332,10 @@ def p_comparaciones(p):
     '''comparaciones : VARIABLE_PHP CORCHIZQ ENTERO CORCHDER
     '''
 
-def p_operadorcomparacion(p):
-    '''operadorcomparacion : OPERDCOMPARACION
-    | OPERCOMPARACION
-    | MENORQUEI
-    | MAYORQUEI
-    | MENORQUE
-    | MAYORQUE
-       '''
 def p_retornoValor(p):
     '''retornoValor : RETURN valores PUNTOYCOMA
-    | RETURN comparaciones operadorcomparacion comparaciones PUNTOYCOMA
-    | RETURN comparaciones operadorcomparacion comparaciones INTE ENTERO DOSPUNTOS ENTERO PUNTOYCOMA
+    | RETURN comparaciones o_comparar comparaciones PUNTOYCOMA
+    | RETURN comparaciones o_comparar comparaciones INTE ENTERO DOSPUNTOS ENTERO PUNTOYCOMA
     '''
     log_sintactico_array.append("RETURN")
 
@@ -356,9 +357,16 @@ def p_programabasico(p):
     | INICIO operacionMatematica impresion FIN
     | INICIO asignacion FIN'''
 
+
+def p_test(p):
+    '''test : instrucciones
+    | instrucciones test'''
+
+def p_final(p):
+    '''final : INICIO test FIN'''
 def  p_incdec(p):
-    '''incdec : MAYORQUEI
-     | MENORQUEI'''
+    '''incdec : MAYORIGUAL
+     | MENORIGUAL'''
 
 def p_incdecfor(p):
     '''incdecfor : MAS MAS
@@ -375,6 +383,9 @@ def p_SplHeap(p):
 
 #class JupilerLeague extends SplHeap { public function compare($array1, $array2) { echo "a es mayor que b"; } }
 #POR AHORA funciona solo con impresion dentro
+
+def p_asignaSplheap(p):
+    '''asignaSplheap : VARIABLE_PHP o_comparar INSERT PARENIZQ ARRAY PARENIZQ CADENA OPERASIG_ARRAY valores PARENDER PARENDER PUNTOYCOMA '''
 
 #def p_newline(p):
 #    'newline : \n+'
