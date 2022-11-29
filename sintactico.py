@@ -117,7 +117,14 @@ def p_arraymaps(p):
 def p_funcion(p):
     '''funcion : NEW NOMBRE PARENIZQ parametros PARENDER PUNTOYCOMA
     | NEW NOMBRE PARENIZQ PARENDER
+    | COUNT PARENIZQ parametros PARENDER PUNTOYCOMA
+    | COUNT PARENIZQ VARIABLE_PHP COMA NOMBRE PARENDER PUNTOYCOMA
+    | COUNT PARENIZQ VARIABLE_PHP PARENDER PUNTOYCOMA
+    | NOMBRE PARENIZQ parametros PARENDER PUNTOYCOMA
     '''
+    log_sintactico_array.append("Función")
+
+
 
 #$heap = new JupilerLeague();
 def p_monticuloHEAP(p):
@@ -144,6 +151,7 @@ def p_instruccion(p):
                     | impresion
                     | for
                     | SplHeap
+                    | funcion
                      '''
 def p_valores(p):
     '''valores : ENTERO
@@ -202,6 +210,8 @@ def p_asignacion(p):
                     | VARIABLE_PHP IGUAL NULL PUNTOYCOMA
                     | VARIABLE_PHP IGUAL NOMBRE PARENIZQ VARIABLE_PHP PARENDER PUNTOYCOMA
                     | asignaSplheap
+                    | VARIABLE_PHP IGUAL EXPLODE PARENIZQ CADENA COMA VARIABLE_PHP PARENDER PUNTOYCOMA
+                    | VARIABLE_PHP IGUAL funcion
                 '''
     log_sintactico_array.append("asignacion")
 
@@ -220,7 +230,7 @@ def p_function(p):
     '''function : FUNCTION NOMBRE LLAVEIZQ LLAVEDER
     |  FUNCTION NOMBRE  PARENIZQ PARENDER LLAVEIZQ instrucciones LLAVEDER
     | PUBLIC FUNCTION COMPARE PARENIZQ parametros PARENDER LLAVEIZQ instrucciones LLAVEDER
-          '''
+    | FUNCTION NOMBRE PARENIZQ parametros PARENDER LLAVEIZQ instrucciones LLAVEDER     '''
     log_sintactico_array.append("function")
 
 def p_define(p):
@@ -349,7 +359,10 @@ def p_impresion(p):
     '''impresion : ECHO tipoDeDato PUNTOYCOMA
         | PRINT tipoDeDato PUNTOYCOMA
         | ECHO VARIABLE_PHP PUNTOYCOMA
-        | PRINT VARIABLE_PHP PUNTOYCOMA'''
+        | PRINT VARIABLE_PHP PUNTOYCOMA
+        | ECHO comparaciones PUNTOYCOMA
+        | ECHO funcion
+        | ECHO VARIABLE_PHP PUNTO CADENA PUNTOYCOMA'''
     log_sintactico_array.append("imprimir")
 
 def p_programabasico(p):

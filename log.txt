@@ -4170,3 +4170,331 @@ echo $i;
 }
 ?>
 FECHA Y HORA -> Mon Nov 28 22:45:55 2022
+
+
+function operaciones($n1, $n2, $operación) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+}
+FECHA Y HORA -> Mon Nov 28 22:50:30 2022
+
+
+function operaciones($n1, $n2, $operación) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+FECHA Y HORA -> Mon Nov 28 22:52:06 2022
+
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+FECHA Y HORA -> Mon Nov 28 22:52:50 2022
+
+
+<?php
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+?>
+FECHA Y HORA -> Mon Nov 28 22:53:14 2022
+
+
+<?php
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+?>
+FECHA Y HORA -> Mon Nov 28 22:53:16 2022
+
+
+$numero3 = 0;
+echo $numero3."<br>";
+FECHA Y HORA -> Mon Nov 28 22:55:11 2022
+
+
+$numero1 = -10;
+$numero2 = -5;
+$resultado = $numero1 + $numero2;
+echo $resultado;
+FECHA Y HORA -> Mon Nov 28 22:55:35 2022
+
+
+$numero1 = -10;
+$numero2 = -5;
+$resultado = $numero1 + $numero2;
+echo $resultado;
+FECHA Y HORA -> Tue Nov 29 00:43:56 2022
+
+
+explode ( $delimitador , $string [, $limite ] )
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6"; $porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 echo $porciones[1]; // porción2
+FECHA Y HORA -> Tue Nov 29 00:44:32 2022
+
+
+explode ( $delimitador , $string [, $limite ] )
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 echo $porciones[1]; // porción2
+FECHA Y HORA -> Tue Nov 29 00:44:44 2022
+
+
+explode ( $delimitador , $string [, $limite ] )
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 echo $porciones[1]; // porción2
+count ($objeto, $modo);
+FECHA Y HORA -> Tue Nov 29 00:45:09 2022
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 echo $porciones[1]; // porción2
+count ($objeto, $modo);
+FECHA Y HORA -> Tue Nov 29 00:45:55 2022
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+FECHA Y HORA -> Tue Nov 29 00:46:08 2022
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); 
+echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+FECHA Y HORA -> Tue Nov 29 00:48:29 2022
+
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+FECHA Y HORA -> Tue Nov 29 00:50:55 2022
+
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+FECHA Y HORA -> Tue Nov 29 00:51:36 2022
+
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count($objeto, $modo);
+FECHA Y HORA -> Tue Nov 29 00:51:49 2022
+
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+FECHA Y HORA -> Tue Nov 29 00:52:08 2022
+
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count($objeto, $modo);
+FECHA Y HORA -> Tue Nov 29 00:52:11 2022
+
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+FECHA Y HORA -> Tue Nov 29 00:52:41 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 00:53:19 2022
+
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+FECHA Y HORA -> Tue Nov 29 00:53:25 2022
+
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+FECHA Y HORA -> Tue Nov 29 00:53:36 2022
+
+
+<?php
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+?>
+FECHA Y HORA -> Tue Nov 29 00:53:50 2022
+
+
+<?php
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+?>
+FECHA Y HORA -> Tue Nov 29 00:53:52 2022
+
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+FECHA Y HORA -> Tue Nov 29 00:54:29 2022
+
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+FECHA Y HORA -> Tue Nov 29 00:54:43 2022
+
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+FECHA Y HORA -> Tue Nov 29 00:56:51 2022
+
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+FECHA Y HORA -> Tue Nov 29 00:57:15 2022
+
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE);
+FECHA Y HORA -> Tue Nov 29 00:57:28 2022
+
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE);
+FECHA Y HORA -> Tue Nov 29 00:57:54 2022
+
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+FECHA Y HORA -> Tue Nov 29 00:58:38 2022
+
+
+array_push ( $array , $valor1 ):
+FECHA Y HORA -> Tue Nov 29 00:58:58 2022
+
+
+array_push( $array , $valor1 ):
+FECHA Y HORA -> Tue Nov 29 00:59:07 2022
+
+
+array_push( $array , $valor1 );
+FECHA Y HORA -> Tue Nov 29 00:59:18 2022
+
+
+array_push ( $array , $valor1 );
+FECHA Y HORA -> Tue Nov 29 01:00:19 2022
+
+
+$pila = array("naranja", "plátano"); array_push($pila, "manzana", "arándano"); print_r($pila);
+FECHA Y HORA -> Tue Nov 29 01:00:36 2022
+
+
+$pila = array("naranja", "plátano"); 
+array_push($pila, "manzana", "arándano"); 
+print_r($pila);
+FECHA Y HORA -> Tue Nov 29 01:00:45 2022
+
+
+array_search(value, array, strict);
+FECHA Y HORA -> Tue Nov 29 01:02:07 2022
+
+
+array_search($value, $array, $strict);
+FECHA Y HORA -> Tue Nov 29 01:02:20 2022
+
+
+$array = array(0 => 'azul', 1 => 'rojo', 2 => 'verde', 3 => 'rojo');
+FECHA Y HORA -> Tue Nov 29 01:02:27 2022
+
+
+$clave = array_search('verde', $array); // $clave = 2; $clave = array_search('rojo', $array); // $clave = 1;
+FECHA Y HORA -> Tue Nov 29 01:02:41 2022
+
+
+$clave = array_search('verde', $array); // 
+$clave = 2; $clave = array_search('rojo', $array); // $clave = 1;
+FECHA Y HORA -> Tue Nov 29 01:02:47 2022
+
+
+$clave = array_search('verde', $array); // 
+$clave = 2; 
+$clave = array_search('rojo', $array); // $clave = 1;
+FECHA Y HORA -> Tue Nov 29 01:02:52 2022
+
+
+$clave = array_search('verde', $array); //
+$clave = 2; 
+$clave = array_search('rojo', $array); // $clave = 1;
+FECHA Y HORA -> Tue Nov 29 01:02:59 2022
+
+
+$clave = array_search('verde', $array);
+$clave = 2; 
+$clave = array_search('rojo', $array); // $clave = 1;
+FECHA Y HORA -> Tue Nov 29 01:03:06 2022
+
+
+$clave = array_search('verde', $array);
+$clave = 2; 
+$clave = array_search('rojo', $array);
+$clave = 1;
+FECHA Y HORA -> Tue Nov 29 01:03:12 2022
+
+
+$clave = array_search('verde', $array); // $clave = 2; $clave = array_search('rojo', $array); // $clave = 1;
+FECHA Y HORA -> Tue Nov 29 01:04:05 2022
+
+
+echo $numero3."<br>";
+FECHA Y HORA -> Tue Nov 29 01:04:20 2022
+
+
+$numero3 = 0;
+echo $numero3."<br>";
+FECHA Y HORA -> Tue Nov 29 01:05:18 2022
+
+
+$numero3 = 0;
+echo $numero3."<br>";
+FECHA Y HORA -> Tue Nov 29 01:06:18 2022
+
+
+$numero3 = 0;
+echo $numero3."<br>";
+FECHA Y HORA -> Tue Nov 29 01:06:45 2022
+
+
+$numero3 = 0;
+echo $numero3."<br>";
+FECHA Y HORA -> Tue Nov 29 01:09:07 2022

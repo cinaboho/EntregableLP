@@ -20,6 +20,7 @@ reserved = {
     'define': 'DEFINE',
     'SplHeap': 'SPLHEAP',
     'insert':'INSERT',
+    'explode':'EXPLODE',
     #Fin Viviana
 
     #Cindy
@@ -63,7 +64,7 @@ tokens = [
     'PUNTOYCOMA',
     'PUNTO',
     'COMA',
-    'COMDOB',
+    #'COMDOB',
     'DOSPUNTOS',
     'PARENIZQ',
     'PARENDER',
@@ -129,7 +130,7 @@ tokens = [
 t_PUNTOYCOMA = r';'
 t_SALTO_DE_LINEA = r'\\n'
 t_COMA = r','
-t_COMDOB = r'\"'
+#t_COMDOB = r'\"'
 t_DOSPUNTOS = r':'
 t_PARENIZQ = r'\('
 t_PARENDER = r'\)'
@@ -251,7 +252,7 @@ def t_CADENA(t):
     #r'\"(.)+\" | \'(.)+\''
     #r'(\')(?:\\.|\'(?=\w)|[^\'])*(\')'
     #r'(\"(.)*\") | (\'(.)*\')'
-    r'\"[a-zA-Z0-9\w\s\.]*\" | \'[a-zA-Z0-9\w\s\.]*\''
+    r'\"[a-zA-Z0-9\w\s\.<>]*\" | \'[a-zA-Z0-9\w\s\.<>]*\''
     return t
 
 def t_FLOTANTE(t):
