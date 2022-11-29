@@ -76,6 +76,7 @@ tokens = [
     'MAS',
     'MAYORQUEI',
     'MENORQUEI',
+    'INTE',
     #'STRING',
     #Fin Viviana
 
@@ -91,6 +92,7 @@ tokens = [
     'BARRAIGUAL',
     'PORCENTAJEIGUAL',
     'DOBLEASTERISCOIGUAL',
+    'OPERDCOMPARACION',
     'OPERCOMPARACION',
     'OPERLOGICO_OR',
     'OPERLOGICO_AND',
@@ -154,11 +156,12 @@ t_ASTERISCOIGUAL = r'\*\='
 t_BARRAIGUAL = r'\/\='
 t_PORCENTAJEIGUAL = r'\%\='
 t_DOBLEASTERISCOIGUAL = r'\*\*\='
+t_OPERDCOMPARACION = r'==='
 t_OPERCOMPARACION = r'=='
 t_MAYORQUEI = r'<='
 t_MENORQUEI= r'>='
 t_IGUAL = r'='
-
+t_INTE = r'\?'
  #Fin Cindy
 
  #Johanna

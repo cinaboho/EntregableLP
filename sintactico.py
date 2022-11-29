@@ -127,8 +127,8 @@ def p_monticuloHEAP(p):
 #
 #----------------------- Inicio Johanna
 def p_instrucciones(p):
-    '''instrucciones : instruccion instrucciones
-                     | instruccion
+    '''instrucciones : instruccion
+                     | instrucciones instruccion
                      '''
 def p_instruccion(p):
     '''instruccion : asignacion                     
@@ -137,6 +137,9 @@ def p_instruccion(p):
                     | funcion_argumento_opcional
                     | verificacion_if
                     | retornoValor
+                    | comentarios
+                    | define
+                    | impresion
                      '''
 def p_valores(p):
     '''valores : ENTERO
@@ -187,9 +190,9 @@ def p_asignacion(p):
                     | VARIABLE_PHP difigual valores PUNTO valores PUNTOYCOMA
                     | VARIABLE_PHP IGUAL BOOLEANO PUNTOYCOMA
                     | VARIABLE_PHP IGUAL BOOLEANO PUNTOYCOMA comentarios
-                    | VARIABLE_PHP IGUAL funcion
-                    | VARIABLE_PHP IGUAL NULL
-                    | asignacion
+                    | VARIABLE_PHP IGUAL funcion PUNTOYCOMA
+                    | VARIABLE_PHP IGUAL NULL PUNTOYCOMA
+                    | VARIABLE_PHP IGUAL NOMBRE PARENIZQ VARIABLE_PHP PARENDER PUNTOYCOMA
                 '''
     log_sintactico_array.append("asignacion")
 
@@ -205,8 +208,9 @@ def p_clases(p):
     log_sintactico_array.append("clases")
 
 def p_function(p):
-    '''clases : FUNCTION NOMBRE LLAVEIZQ LLAVEDER
-    |  FUNCTION NOMBRE  PARENIZQ PARENDER LLAVEIZQ impresion LLAVEDER
+    '''function : FUNCTION NOMBRE LLAVEIZQ LLAVEDER
+    |  FUNCTION NOMBRE  PARENIZQ PARENDER LLAVEIZQ instrucciones LLAVEDER
+    | PUBLIC FUNCTION COMPARE PARENIZQ parametros PARENDER LLAVEIZQ instrucciones LLAVEDER
           '''
     log_sintactico_array.append("function")
 
@@ -304,26 +308,33 @@ def p_repite_valoresParametros(p):
                             | COMA VARIABLE_PHP IGUAL valores repite_valores_parametro
     '''
 
-def p_repite_valoresParametros(p):
-    '''
-    repite_valores_parametro : COMA valores
-                            | COMA VARIABLE_PHP IGUAL valores                  
-                            | COMA valores repite_valores_parametro
-                            | COMA VARIABLE_PHP IGUAL valores repite_valores_parametro
-    '''
-
 def p_verificacion_if(p):
     '''
     verificacion_if : IF PARENIZQ valores PARENDER LLAVEIZQ instrucciones LLAVEDER
                       | IF PARENIZQ valores PARENDER instruccion
                       | IF PARENIZQ valores PARENDER LLAVEIZQ instrucciones LLAVEDER ELSE LLAVEIZQ instrucciones LLAVEDER
-                      | IF PARENIZQ valores PARENDER instruccion ELSE instruccion
+                      | IF PARENIZQ valores PARENDER instruccion ELSE instrucciones
+                      | IF PARENIZQ comparaciones operadorcomparacion comparaciones PARENDER instrucciones
+                      | IF PARENIZQ comparaciones operadorcomparacion comparaciones PARENDER LLAVEIZQ instrucciones LLAVEDER
     '''
     log_sintactico_array.append("IF")
 
-def p_retornoValor(p):
+def p_comparaciones(p):
+    '''comparaciones : VARIABLE_PHP CORCHIZQ ENTERO CORCHDER
     '''
-    retornoValor : RETURN valores PUNTOYCOMA
+
+def p_operadorcomparacion(p):
+    '''operadorcomparacion : OPERDCOMPARACION
+    | OPERCOMPARACION
+    | MENORQUEI
+    | MAYORQUEI
+    | MENORQUE
+    | MAYORQUE
+       '''
+def p_retornoValor(p):
+    '''retornoValor : RETURN valores PUNTOYCOMA
+    | RETURN comparaciones operadorcomparacion comparaciones PUNTOYCOMA
+    | RETURN comparaciones operadorcomparacion comparaciones INTE ENTERO DOSPUNTOS ENTERO PUNTOYCOMA
     '''
     log_sintactico_array.append("RETURN")
 
@@ -338,6 +349,8 @@ def p_impresion(p):
         | PRINT tipoDeDato PUNTOYCOMA
         | ECHO VARIABLE_PHP PUNTOYCOMA
         | PRINT VARIABLE_PHP PUNTOYCOMA'''
+    log_sintactico_array.append("imprimir")
+
 def p_programabasico(p):
     '''programabasico : INICIO operacionMatematica FIN
     | INICIO operacionMatematica impresion FIN
@@ -353,10 +366,12 @@ def p_incdecfor(p):
 
 #for ($i = 1; $i <= 10; $i++) { echo $i; } por ahora solo sirve con impresion dentro
 def  p_for(p):
-    '''for : FOR PARENIZQ VARIABLE_PHP IGUAL ENTERO PUNTOYCOMA VARIABLE_PHP incdec ENTERO PUNTOYCOMA VARIABLE_PHP incdecfor PARENDER LLAVEIZQ impresion LLAVEDER'''
+    '''for : FOR PARENIZQ VARIABLE_PHP IGUAL ENTERO PUNTOYCOMA VARIABLE_PHP incdec ENTERO PUNTOYCOMA VARIABLE_PHP incdecfor PARENDER LLAVEIZQ instrucciones LLAVEDER'''
+    log_sintactico_array.append("bucle for")
 
 def p_SplHeap(p):
-    '''SplHeap : CLASS NOMBRE EXTENDS SPLHEAP LLAVEIZQ PUBLIC FUNCTION COMPARE PARENIZQ parametros PARENDER LLAVEIZQ impresion LLAVEDER LLAVEDER '''
+    '''SplHeap : CLASS NOMBRE EXTENDS SPLHEAP LLAVEIZQ function LLAVEDER '''
+    log_sintactico_array.append("Splheap")
 
 #class JupilerLeague extends SplHeap { public function compare($array1, $array2) { echo "a es mayor que b"; } }
 #POR AHORA funciona solo con impresion dentro

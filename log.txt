@@ -3140,3 +3140,394 @@ for ($i = 1; $i <= 10; $i++) {
 echo $i;
 }
 FECHA Y HORA -> Mon Nov 28 20:24:49 2022
+
+
+$hola=array("a","b"); 
+FECHA Y HORA -> Mon Nov 28 20:26:44 2022
+
+
+$hola=array("a","b"); 
+FECHA Y HORA -> Mon Nov 28 20:26:46 2022
+
+
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+FECHA Y HORA -> Mon Nov 28 20:28:03 2022
+
+
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+FECHA Y HORA -> Mon Nov 28 20:29:24 2022
+
+
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+FECHA Y HORA -> Mon Nov 28 20:36:26 2022
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+FECHA Y HORA -> Mon Nov 28 20:39:13 2022
+
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+FECHA Y HORA -> Mon Nov 28 20:40:00 2022
+
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+FECHA Y HORA -> Mon Nov 28 20:41:11 2022
+
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+}
+FECHA Y HORA -> Mon Nov 28 20:41:35 2022
+
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+FECHA Y HORA -> Mon Nov 28 20:43:25 2022
+
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+echo $i;
+$var=43.2;
+}
+FECHA Y HORA -> Mon Nov 28 20:43:54 2022
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+FECHA Y HORA -> Mon Nov 28 20:46:58 2022
+
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+FECHA Y HORA -> Mon Nov 28 20:47:41 2022
+
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+$var=3.4;
+}
+FECHA Y HORA -> Mon Nov 28 20:47:57 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+FECHA Y HORA -> Mon Nov 28 20:51:22 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+echo "hola";
+}
+}
+FECHA Y HORA -> Mon Nov 28 20:52:55 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+echo "hola";
+}
+}
+FECHA Y HORA -> Mon Nov 28 20:53:00 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+echo "hola";
+}
+}
+FECHA Y HORA -> Mon Nov 28 20:53:01 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{$values1 = array_values($array1);
+}
+FECHA Y HORA -> Mon Nov 28 20:54:15 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+
+}
+}
+FECHA Y HORA -> Mon Nov 28 20:56:30 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+FECHA Y HORA -> Mon Nov 28 20:56:40 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+}
+}
+FECHA Y HORA -> Mon Nov 28 20:56:48 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+FECHA Y HORA -> Mon Nov 28 20:58:32 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:00:09 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:00:13 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:25:23 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:30:18 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:30:48 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:31:28 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:31:41 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:33:48 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:35:29 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:35:34 2022
+
+
+if ($values1[0] === $values2[0]) return 0;
+FECHA Y HORA -> Mon Nov 28 21:35:50 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:37:36 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:37:53 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+if ($values1[0] === $values2[0]) return 0;
+
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:38:00 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:40:09 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:40:27 2022
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+FECHA Y HORA -> Mon Nov 28 21:49:41 2022
