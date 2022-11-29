@@ -3122,3 +3122,21 @@ FECHA Y HORA -> Mon Nov 28 12:12:23 2022
 define("numeroP", "3.14");
 FECHA Y HORA -> Mon Nov 28 12:12:23 2022
 >>>>>>> a3ad08fcceb1c4f4a0d8fa07b44415d1db127e7e
+
+
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+FECHA Y HORA -> Mon Nov 28 20:24:46 2022
+
+
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+FECHA Y HORA -> Mon Nov 28 20:24:48 2022
+
+
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+FECHA Y HORA -> Mon Nov 28 20:24:49 2022

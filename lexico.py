@@ -201,10 +201,6 @@ def t_VARIABLE_PHP(t):
     r'((\$|\$_)[a-zA-Z_][a-zA-Z0-9_]*)'
     t.type = reserved.get(t.value, "VARIABLE_PHP")
     return t
-def t_BOOLEANO(t):
-    r'True|False|true|false|TRUE|FALSE'
-    return t
-
 def t_NOMBRE(t):
    r'([a-zA-Z][a-zA-Z0-9_]*)'
    t.type = reserved.get(t.value, "NOMBRE")
