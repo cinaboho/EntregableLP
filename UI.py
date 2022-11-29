@@ -38,7 +38,15 @@ texto.grid(row=1,column=2,padx=5,ipadx=2,ipady=1)
 
 
 
-#----------------------- Inicio Johanna    
+#----------------------- Inicio Johanna 
+def botonBorrar():
+    codigo.delete("1.0",'end')
+    texto.delete("1.0", "end")    
+    
+botonBorrar=Button(raiz,text="BORRAR",command=botonBorrar)
+botonBorrar.pack() 
+ 
+   
 def botonLexico():
     input=codigo.get("1.0",'end-1c')
     texto.delete("1.0", "end")
