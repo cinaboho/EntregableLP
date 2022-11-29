@@ -265,7 +265,8 @@ def p_aritmetica(p):
                   | aritmetica operadores_aritmeticos valores'''
 
 def p_echo(p):
-    '''echo : ECHO NOMBRE PARENIZQ valores PARENDER PUNTOYCOMA
+    '''echo : ECHO valores PUNTOYCOMA
+            | ECHO NOMBRE PARENIZQ valores PARENDER PUNTOYCOMA
             | ECHO CADENA PUNTOYCOMA
             | ECHO VARIABLE_PHP PUNTOYCOMA
             | ECHO aritmetica PUNTOYCOMA

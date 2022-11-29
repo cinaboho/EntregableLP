@@ -5534,6 +5534,7 @@ function calcularDCS()
 
 ?>
 FECHA Y HORA -> Tue Nov 29 15:28:57 2022
+<<<<<<< HEAD
 
 
 new funcion()
@@ -5566,3 +5567,584 @@ FECHA Y HORA -> Tue Nov 29 17:20:07 2022
 
 $heap->insert(2);
 FECHA Y HORA -> Tue Nov 29 17:20:20 2022
+=======
+
+
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+FECHA Y HORA -> Tue Nov 29 15:43:05 2022
+
+
+<?
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+?>
+FECHA Y HORA -> Tue Nov 29 15:43:17 2022
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 15:43:47 2022
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+?>
+FECHA Y HORA -> Tue Nov 29 15:44:05 2022
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+?>
+FECHA Y HORA -> Tue Nov 29 15:44:23 2022
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 15:48:03 2022
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+
+echo "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+echo "\n";
+echo "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+echo "\n";
+echo "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+echo "\n";
+echo "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+echo "\n";
+echo "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+echo "\n";
+echo "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 15:48:38 2022
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+
+echo $nombre;
+echo "\n";
+echo $edad;
+echo "\n";
+echo $sueldo;
+echo "\n";
+echo $fondo;
+echo "\n";
+echo $dts;
+echo "\n";
+echo $dcs;
+?>
+FECHA Y HORA -> Tue Nov 29 15:49:55 2022
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+
+echo $nombre;
+echo $edad;
+echo $sueldo;
+echo $fondo;
+echo $dts;
+echo $dcs;
+?>
+FECHA Y HORA -> Tue Nov 29 15:50:12 2022
+
+
+<?
+echo "hola";
+?>
+FECHA Y HORA -> Tue Nov 29 15:56:20 2022
+
+
+<?
+echo "hola\n";
+?>
+FECHA Y HORA -> Tue Nov 29 15:56:24 2022
+
+
+<?
+$a=array("a","b");
+?>
+FECHA Y HORA -> Tue Nov 29 15:56:59 2022
+
+
+<?
+$a=array("a","b");
+?>
+FECHA Y HORA -> Tue Nov 29 15:57:49 2022
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 15:58:56 2022
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 15:58:59 2022
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 15:59:38 2022
+
+
+<?php
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 15:59:54 2022
+
+
+<?php
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 15:59:57 2022
+
+
+<?php
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+?>
+FECHA Y HORA -> Tue Nov 29 16:00:07 2022
+
+
+<?php
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+?>
+FECHA Y HORA -> Tue Nov 29 16:00:59 2022
+
+
+<?php
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 16:01:16 2022
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 16:01:39 2022
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 16:01:43 2022
+>>>>>>> 7643408c92eaa3f1d997187a0e02ce51138a1da3
