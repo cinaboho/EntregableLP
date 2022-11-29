@@ -39,7 +39,13 @@ def p_sentencias(p):
                   | for
                   | SplHeap                  
                   | clases
+<<<<<<< HEAD
                   | instrucciones
+=======
+                  | INICIO instrucciones FIN
+                  | final
+                  | insertheap
+>>>>>>> a74070c0ac28bd509f8d493ba3348a1699ba97ad
     '''
 
 #----------------------- Inicio Cindy
@@ -51,18 +57,22 @@ def p_operador(p):
                 | MODULO
                 | EXPONENCIACION
     '''
-#----------------------- Semantico Cindy
-    #p[0]=nombres[p[1], p[2], p[3], p[4], p[5], p[6]]
 
 # #     $valor = $valor * $valor;
 # #     $valor = $valor * 2;
+# #     $valor = 2 * 2;
+
 def p_operacionMatematica(p):
-    '''operacionMatematica : VARIABLE_PHP IGUAL VARIABLE_PHP operador VARIABLE_PHP PUNTOYCOMA
-                            | VARIABLE_PHP IGUAL VARIABLE_PHP operador tipoDevalorNumerico PUNTOYCOMA
+    '''operacionMatematica :  VARIABLE_PHP IGUAL VARIABLE_PHP        operador VARIABLE_PHP        PUNTOYCOMA
+                            | VARIABLE_PHP IGUAL VARIABLE_PHP        operador tipoDevalorNumerico PUNTOYCOMA
                             | VARIABLE_PHP IGUAL tipoDevalorNumerico operador tipoDevalorNumerico PUNTOYCOMA
                             | VARIABLE_PHP IGUAL tipoDevalorNumerico operador tipoDevalorNumerico operaciones PUNTOYCOMA
-    
                                '''
+    
+
+     #----------------------- Semantico Cindy
+
+
 def p_operaciones(p):
     '''operaciones : tipoDevalorNumerico operador tipoDevalorNumerico
                             | tipoDevalorNumerico operador tipoDevalorNumerico operador tipoDevalorNumerico
@@ -88,7 +98,6 @@ def p_tipoDeDato(p):
                   | NULL
     '''
     #----------------------- Semantico Cindy
-    #p[0] = nombres[p[1], p[2], p[3], p[4], p[5], p[6]]
 
 def p_parametros(p):
     '''parametros : tipoDeDato
@@ -99,8 +108,9 @@ def p_parametros(p):
 def p_foreach(p):
     '''foreach : FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
     '''
+    log_sintactico_array.append("Foreach")
     #----------------------- Semantico Cindy
-    #p[0] = nombres[p[9]]
+    p[0]=p[9]
 
 
 # $b=array_map("cubo",$a);
@@ -109,8 +119,6 @@ def p_arraymaps(p):
     '''arraymaps : OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
                  | VARIABLE_PHP IGUAL OPERAMAPA PARENIZQ parametros PARENDER PUNTOYCOMA
     '''
-    #----------------------- Semantico Cindy
-    #p[0] = nombres[p[3], p[5]]
 
 #new jupilerLeague();
 def p_funcion(p):
@@ -129,10 +137,19 @@ def p_funcion(p):
 def p_monticuloHEAP(p):
   '''monticuloHEAP : HEAP IGUAL funcion
   '''
-  #----------------------- Semantico Cindy
-  #p[0] = nombres[p[3]]
-#----------------------- Fin Cindy
-#
+  log_sintactico_array.append("Monticulo Heap")
+  p[0]=p[3]
+
+#$heap->insert($value);
+#$heap->insert(19);
+def p_insertheap(p):
+    '''insertheap : VARIABLE_PHP o_comparar INSERT PARENIZQ VARIABLE_PHP PARENDER PUNTOYCOMA
+                   | VARIABLE_PHP o_comparar INSERT PARENIZQ     ENTERO   PARENDER PUNTOYCOMA
+    '''
+    log_sintactico_array.append("Insert Heap")
+    p[0]=p[2]
+
+#----------Fin Cindy
 #----------------------- Inicio Johanna
 def p_instrucciones(p):
     '''instrucciones : instruccion
@@ -196,9 +213,10 @@ def p_o_comparar(p):
                   | OPERALOGICO_MAP
                   | OPERDCOMPARACION
                   | OPERCOMPARACION
-                  | '''
+                   '''
+
 def p_asignacion(p):
-    '''asignacion : VARIABLE_PHP IGUAL valores PUNTOYCOMA
+    '''asignacion :   VARIABLE_PHP IGUAL valores PUNTOYCOMA
                     | VARIABLE_PHP IGUAL valores PUNTOYCOMA comentarios
                     | VARIABLE_PHP difigual valores PUNTOYCOMA
                     | VARIABLE_PHP difigual valores PUNTO valores PUNTOYCOMA comentarios
@@ -276,11 +294,12 @@ def p_crearArrayLarga(p):
   '''
   log_sintactico_array.append("Crear Array larga")
 
+
 def p_valoresArray(p):
     '''valoresArray : valores 
-                | valores OPERASIG_ARRAY valores 
-                | valores repite_valores
-                | valores OPERASIG_ARRAY valores  repite_claveValor
+                    | valores OPERASIG_ARRAY valores 
+                    | valores repite_valores
+                    | valores OPERASIG_ARRAY valores  repite_claveValor
                 '''
   
 def p_repite_valoresSeparadosComa(p):
@@ -306,7 +325,8 @@ def p_caso_switch(p):
                     | CASE valores DOSPUNTOS LLAVEIZQ instrucciones BREAK PUNTOYCOMA LLAVEDER
                     | CASE valores DOSPUNTOS instrucciones
                     | CASE valores DOSPUNTOS instrucciones BREAK PUNTOYCOMA
-    '''    
+    '''
+    log_sintactico_array.append("Caso Switch")
 
 def p_casos_switch(p):
     '''casos_switch : caso_switch casos_switch
@@ -367,8 +387,8 @@ def p_impresion(p):
 
 def p_programabasico(p):
     '''programabasico : INICIO operacionMatematica FIN
-    | INICIO operacionMatematica impresion FIN
-    | INICIO asignacion FIN'''
+                      | INICIO operacionMatematica impresion FIN
+                      | INICIO asignacion FIN'''
 
 
 def p_final(p):
@@ -390,18 +410,21 @@ def p_SplHeap(p):
     '''SplHeap : CLASS NOMBRE EXTENDS SPLHEAP LLAVEIZQ function2 LLAVEDER '''
     log_sintactico_array.append("Splheap")
 
+
 #class JupilerLeague extends SplHeap { public function compare($array1, $array2) { echo "a es mayor que b"; } }
 #POR AHORA funciona solo con impresion dentro
 
 def p_asignaSplheap(p):
     '''asignaSplheap : VARIABLE_PHP o_comparar INSERT PARENIZQ ARRAY PARENIZQ CADENA OPERASIG_ARRAY valores PARENDER PARENDER PUNTOYCOMA '''
-
+    log_sintactico_array.append("asignaSplheap")
 #def p_newline(p):
 #    'newline : \n+'
-
-
 #----------------------- Fin Viviana
-#
+#-----------------------Cindy
+
+
+
+
 #----------------------- error
 
 def p_error(p):
