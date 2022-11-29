@@ -39,13 +39,8 @@ def p_sentencias(p):
                   | for
                   | SplHeap                  
                   | clases
-<<<<<<< HEAD
                   | instrucciones
-=======
-                  | INICIO instrucciones FIN
-                  | final
                   | insertheap
->>>>>>> a74070c0ac28bd509f8d493ba3348a1699ba97ad
     '''
 
 #----------------------- Inicio Cindy

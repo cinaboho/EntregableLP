@@ -996,7 +996,7 @@ FECHA Y HORA -> Mon Nov 28 03:19:51 2022
 
 
 
-<<<<<<< HEAD
+
 $hola=array("a","b")
 
 FECHA Y HORA -> Mon Nov 28 10:13:07 2022
@@ -2401,25 +2401,9 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-<<<<<<< HEAD
-?
-FECHA Y HORA -> Mon Nov 28 11:10:26 2022
 
+FECHA Y HORA -> Mon Nov 28 11:10:26 2022
 
-<?
-function hacer_yogurt($sabor, $tipo=false)
-{
-	if ($tipo){
-		return "Tenemos Argumento $tipo de $sabor.<br/>";
-	}
-	else {
-		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
-	}
-}
-echo hacer_yogurt("frambruesa");
-echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 11:57:19 2022
 
 
 <?
@@ -2434,26 +2418,52 @@ function hacer_yogurt($sabor, $tipo=false)
 }
 echo hacer_yogurt("frambruesa");
 echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 11:57:22 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 11:57:19 2022
+
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+
+FECHA Y HORA -> Mon Nov 28 11:57:22 2022
+
 
 
 <?
 $a=5;
-?>
-FECHA Y HORA -> Mon Nov 28 12:00:57 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 12:00:57 2022
 
-<?
-$a=5;
-?>
-FECHA Y HORA -> Mon Nov 28 12:00:59 2022
 
 
 <?
 $a=5;
-?>
-FECHA Y HORA -> Mon Nov 28 12:00:59 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 12:00:59 2022
+
+
+
+<?
+$a=5;
+?>
+
+FECHA Y HORA -> Mon Nov 28 12:00:59 2022
+
 
 
 <?function hacer_yogurt($sabor, $tipo=false)
@@ -2467,8 +2477,10 @@ FECHA Y HORA -> Mon Nov 28 12:00:59 2022
 }
 echo hacer_yogurt("frambruesa");
 echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:03:55 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:03:55 2022
+
 
 
 <?function hacer_yogurt($sabor, $tipo=false)
@@ -2477,8 +2489,10 @@ FECHA Y HORA -> Mon Nov 28 15:03:55 2022
 }
 echo hacer_yogurt("frambruesa");
 echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:04:10 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:04:10 2022
+
 
 
 <?function hacer_yogurt($sabor, $tipo=false)
@@ -2487,17 +2501,10 @@ FECHA Y HORA -> Mon Nov 28 15:04:10 2022
 }
 echo hacer_yogurt("frambruesa");
 echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:04:50 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 15:04:50 2022
 
-<?
-function hacer_yogurt($sabor, $tipo=false)
-{
-	$a=5;
-}
-?>
-FECHA Y HORA -> Mon Nov 28 15:05:43 2022
 
 
 <?
@@ -2505,8 +2512,21 @@ function hacer_yogurt($sabor, $tipo=false)
 {
 	$a=5;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 15:08:41 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:05:43 2022
+
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	$a=5;
+}
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:08:41 2022
+
 
 
 <?
@@ -2514,17 +2534,10 @@ function hacer_yogurt($sabor)
 {
 	$a=5;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 15:10:28 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 15:10:28 2022
 
-<?
-function hacer_yogurt($sabor=false)
-{
-	$a=5;
-}
-?>
-FECHA Y HORA -> Mon Nov 28 15:10:34 2022
 
 
 <?
@@ -2532,8 +2545,21 @@ function hacer_yogurt($sabor=false)
 {
 	$a=5;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 15:10:35 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:10:34 2022
+
+
+
+<?
+function hacer_yogurt($sabor=false)
+{
+	$a=5;
+}
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:10:35 2022
+
 
 
 <?
@@ -2541,8 +2567,10 @@ function hacer_yogurt($sabor=false,$sabor)
 {
 	$a=5;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 15:10:47 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:10:47 2022
+
 
 
 <?
@@ -2550,8 +2578,10 @@ function hacer_yogurt($sabor=false,$sabor)
 {
 	$a=5;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 15:10:49 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:10:49 2022
+
 
 
 <?
@@ -2559,17 +2589,10 @@ function hacer_yogurt($sabor,$tipo=false)
 {
 	$a=5;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 15:11:16 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 15:11:16 2022
 
-<?
-function hacer_yogurt($sabor, $tipo=false)
-{
-	$a=5;
-}
-?>
-FECHA Y HORA -> Mon Nov 28 15:13:43 2022
 
 
 <?
@@ -2577,8 +2600,21 @@ function hacer_yogurt($sabor, $tipo=false)
 {
 	$a=5;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 15:15:21 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:13:43 2022
+
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	$a=5;
+}
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:15:21 2022
+
 
 
 <?function hacer_yogurt($sabor, $tipo=false)
@@ -2592,23 +2628,10 @@ FECHA Y HORA -> Mon Nov 28 15:15:21 2022
 }
 echo hacer_yogurt("frambruesa");
 echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:15:43 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 15:15:43 2022
 
-<?function hacer_yogurt($sabor, $tipo=false)
-{
-	if ($tipo){
-		return "Tenemos Argumento $tipo de $sabor.<br/>";
-	}
-	else {
-		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
-	}
-}
-echo hacer_yogurt("frambruesa");
-echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:22:43 2022
 
 
 <?function hacer_yogurt($sabor, $tipo=false)
@@ -2622,75 +2645,10 @@ FECHA Y HORA -> Mon Nov 28 15:22:43 2022
 }
 echo hacer_yogurt("frambruesa");
 echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:25:58 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 15:22:43 2022
 
-<?function hacer_yogurt($sabor, $tipo=false)
-{
-	if ($tipo){
-		return "Tenemos Argumento $tipo de $sabor.<br/>";
-	}
-	else {
-		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
-	}
-}
-echo hacer_yogurt("frambruesa");
-echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:29:08 2022
-
-
-<?function hacer_yogurt($sabor, $tipo=false)
-{
-	if ($tipo){
-		return "Tenemos Argumento $tipo de $sabor.<br/>";
-	}
-	else {
-		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
-	}
-}
-?>
-FECHA Y HORA -> Mon Nov 28 15:29:36 2022
-
-
-<?function hacer_yogurt($sabor, $tipo=false)
-{
-	if ($tipo){
-		return "Tenemos Argumento $tipo de $sabor.<br/>";
-	}
-	else {
-		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
-	}
-}
-?>
-FECHA Y HORA -> Mon Nov 28 15:29:37 2022
-
-
-<?function hacer_yogurt($sabor, $tipo=false)
-{
-	if ($tipo){
-		return "Tenemos Argumento $tipo de $sabor.<br/>";
-	}
-	else {
-		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
-	}
-}
-?>
-FECHA Y HORA -> Mon Nov 28 15:29:38 2022
-
-
-<?function hacer_yogurt($sabor, $tipo=false)
-{
-	if ($tipo){
-		return "Tenemos Argumento $tipo de $sabor.<br/>";
-	}
-	else {
-		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
-	}
-}
-?>
-FECHA Y HORA -> Mon Nov 28 15:29:40 2022
 
 
 <?function hacer_yogurt($sabor, $tipo=false)
@@ -2704,112 +2662,240 @@ FECHA Y HORA -> Mon Nov 28 15:29:40 2022
 }
 echo hacer_yogurt("frambruesa");
 echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:29:51 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:25:58 2022
+
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:29:08 2022
+
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:29:36 2022
+
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:29:37 2022
+
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:29:38 2022
+
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:29:40 2022
+
+
+
+<?function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:29:51 2022
+
 
 
 <?
 echo hacer_yogurt("frambruesa");
 echo hacer_yogurt("frambruesa","mesofilo");
 
-?>
-FECHA Y HORA -> Mon Nov 28 15:30:19 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 15:30:19 2022
 
-<?
-echo hacer_yogurt("frambruesa");
-echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:30:51 2022
 
 
 <?
 echo hacer_yogurt("frambruesa");
 echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:35:33 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 15:30:51 2022
 
-<?
-echo hacer_yogurt("frambruesa");
-?>
-FECHA Y HORA -> Mon Nov 28 15:36:58 2022
-
-
-<?
-echo hacer_yogurt("frambruesa");
-?>
-FECHA Y HORA -> Mon Nov 28 15:37:56 2022
 
 
 <?
 echo hacer_yogurt("frambruesa");
 echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:38:16 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:35:33 2022
+
+
+
+<?
+echo hacer_yogurt("frambruesa");
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:36:58 2022
+
+
+
+<?
+echo hacer_yogurt("frambruesa");
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:37:56 2022
+
+
+
+<?
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:38:16 2022
+
 
 
 <?
 echo hacer_yogurt("frambruesa")
 echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:38:32 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:38:32 2022
+
 
 
 <?
 echo hacer_yogurt("frambruesa")
 echo hacer_yogurt("frambruesa","mesofilo")
-?>
-FECHA Y HORA -> Mon Nov 28 15:38:43 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 15:38:43 2022
 
-<?
-echo hacer_yogurt("frambruesa")
-echo hacer_yogurt("frambruesa","mesofilo")
-FECHA Y HORA -> Mon Nov 28 15:38:49 2022
 
 
 <?
 echo hacer_yogurt("frambruesa")
 echo hacer_yogurt("frambruesa","mesofilo")
-?>
-FECHA Y HORA -> Mon Nov 28 15:39:05 2022
+
+FECHA Y HORA -> Mon Nov 28 15:38:49 2022
+
+
+
+<?
+echo hacer_yogurt("frambruesa")
+echo hacer_yogurt("frambruesa","mesofilo")
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:39:05 2022
+
 
 
 <?
 echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:39:15 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 15:39:15 2022
 
-<?
-echo hacer_yogurt("frambruesa");
-?>
-FECHA Y HORA -> Mon Nov 28 15:42:01 2022
-
-
-<?
-echo hacer_yogurt("frambruesa")
-?>
-FECHA Y HORA -> Mon Nov 28 15:42:49 2022
 
 
 <?
 echo hacer_yogurt("frambruesa");
-?>
-FECHA Y HORA -> Mon Nov 28 15:43:00 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 15:42:01 2022
 
-<?
-echo hacer_yogurt("frambruesa")
-?>
-FECHA Y HORA -> Mon Nov 28 15:43:03 2022
 
 
 <?
 echo hacer_yogurt("frambruesa")
-?>
-FECHA Y HORA -> Mon Nov 28 15:43:51 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:42:49 2022
+
+
+
+<?
+echo hacer_yogurt("frambruesa");
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:43:00 2022
+
+
+
+<?
+echo hacer_yogurt("frambruesa")
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:43:03 2022
+
+
+
+<?
+echo hacer_yogurt("frambruesa")
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:43:51 2022
+
 
 
 <?function hacer_yogurt($sabor, $tipo=false)
@@ -2823,56 +2909,74 @@ FECHA Y HORA -> Mon Nov 28 15:43:51 2022
 }
 echo hacer_yogurt("frambruesa");
 echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:44:53 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:44:53 2022
+
 
 
 <?
 echo hacer_yogurt("frambruesa");
-?>
-FECHA Y HORA -> Mon Nov 28 15:45:08 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:45:08 2022
+
 
 
 <?
 echo hacer_yogurt("frambruesa")
-?>
-FECHA Y HORA -> Mon Nov 28 15:45:10 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:45:10 2022
+
 
 
 <?
 echo hacer_yogurt("frambruesa");
-?>
-FECHA Y HORA -> Mon Nov 28 15:46:10 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:46:10 2022
+
 
 
 <?
 echo hacer_yogurt("frambruesa")
-?>
-FECHA Y HORA -> Mon Nov 28 15:47:19 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 15:47:19 2022
 
-<?
-echo hacer_yogurt("frambruesa");
-?>
-FECHA Y HORA -> Mon Nov 28 15:47:23 2022
-
-
-<?
-echo hacer_yogurt("frambruesa","aa");
-?>
-FECHA Y HORA -> Mon Nov 28 15:47:32 2022
-
-
-<?
-echo hacer_yogurt("frambruesa","aa");
-?>
-FECHA Y HORA -> Mon Nov 28 15:47:34 2022
 
 
 <?
 echo hacer_yogurt("frambruesa");
-?>
-FECHA Y HORA -> Mon Nov 28 15:50:00 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:47:23 2022
+
+
+
+<?
+echo hacer_yogurt("frambruesa","aa");
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:47:32 2022
+
+
+
+<?
+echo hacer_yogurt("frambruesa","aa");
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:47:34 2022
+
+
+
+<?
+echo hacer_yogurt("frambruesa");
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:50:00 2022
+
 
 
 <?function hacer_yogurt($sabor, $tipo=false)
@@ -2886,8 +2990,10 @@ FECHA Y HORA -> Mon Nov 28 15:50:00 2022
 }
 echo hacer_yogurt("frambruesa");
 echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Mon Nov 28 15:50:06 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:50:06 2022
+
 
 
 <?
@@ -2913,8 +3019,10 @@ switch ($i) {
         echo "i es igual a 2";
         break;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 15:53:23 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:53:23 2022
+
 
 
 <?
@@ -2958,8 +3066,10 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?>
-FECHA Y HORA -> Mon Nov 28 15:54:34 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 15:54:34 2022
+
 =======
 ?
 
@@ -2974,236 +3084,334 @@ $_var155_3 =2;
 Var1=1;
 $1var=1;
 $g frh=1;
-$=1;
-FECHA Y HORA -> Mon Nov 28 11:35:18 2022
+$=1;
+
+FECHA Y HORA -> Mon Nov 28 11:35:18 2022
+
 
 
 $array = [
     "foo" => "bar",
     "bar" => "foo",
-];
-FECHA Y HORA -> Mon Nov 28 11:36:47 2022
+];
+
+FECHA Y HORA -> Mon Nov 28 11:36:47 2022
 
 
-$foo = True;
-FECHA Y HORA -> Mon Nov 28 11:37:23 2022
+
+$foo = True;
+
+FECHA Y HORA -> Mon Nov 28 11:37:23 2022
 
 
-$foo = True;
-FECHA Y HORA -> Mon Nov 28 11:38:35 2022
+
+$foo = True;
+
+FECHA Y HORA -> Mon Nov 28 11:38:35 2022
 
 
-$foo = True;
-FECHA Y HORA -> Mon Nov 28 11:39:21 2022
+
+$foo = True;
+
+FECHA Y HORA -> Mon Nov 28 11:39:21 2022
 
 
-$num = 1234;
-FECHA Y HORA -> Mon Nov 28 11:39:29 2022
+
+$num = 1234;
+
+FECHA Y HORA -> Mon Nov 28 11:39:29 2022
 
 
-$a = 1.234; $b = 1.2e3; $c = 7E-10;
-FECHA Y HORA -> Mon Nov 28 11:39:42 2022
+
+$a = 1.234; $b = 1.2e3; $c = 7E-10;
+
+FECHA Y HORA -> Mon Nov 28 11:39:42 2022
+
 
 
 $cadena='Esto es una cadena sencilla';
-$saludo=” Bienvenidos”;
-FECHA Y HORA -> Mon Nov 28 11:40:49 2022
+$saludo=” Bienvenidos”;
+
+FECHA Y HORA -> Mon Nov 28 11:40:49 2022
+
 
 
 $cadena='Esto es una cadena sencilla';
-$saludo='Bienvenidos';
-FECHA Y HORA -> Mon Nov 28 11:41:00 2022
+$saludo='Bienvenidos';
+
+FECHA Y HORA -> Mon Nov 28 11:41:00 2022
 
 
-$array = array( "foo" => "bar", "bar" => "foo", );
-FECHA Y HORA -> Mon Nov 28 11:41:12 2022
+
+$array = array( "foo" => "bar", "bar" => "foo", );
+
+FECHA Y HORA -> Mon Nov 28 11:41:12 2022
 
 
-$array = array( "foo" => "bar", "bar" => "foo" );
-FECHA Y HORA -> Mon Nov 28 11:44:39 2022
+
+$array = array( "foo" => "bar", "bar" => "foo" );
+
+FECHA Y HORA -> Mon Nov 28 11:44:39 2022
 
 
-$objEmployee = new Employee('Bob', 'Smith', 30);
-FECHA Y HORA -> Mon Nov 28 11:44:57 2022
+
+$objEmployee = new Employee('Bob', 'Smith', 30);
+
+FECHA Y HORA -> Mon Nov 28 11:44:57 2022
 
 
-$objEmployee = new Employee('Bob', 'Smith', 30);
-FECHA Y HORA -> Mon Nov 28 11:45:03 2022
+
+$objEmployee = new Employee('Bob', 'Smith', 30);
+
+FECHA Y HORA -> Mon Nov 28 11:45:03 2022
 
 
-$objEmployee = new Employee('Bob', 'Smith', 30);
-FECHA Y HORA -> Mon Nov 28 11:47:32 2022
+
+$objEmployee = new Employee('Bob', 'Smith', 30);
+
+FECHA Y HORA -> Mon Nov 28 11:47:32 2022
 
 
-function llamada_retorno() { echo '¡hola mundo!'; }
-FECHA Y HORA -> Mon Nov 28 11:47:46 2022
+
+function llamada_retorno() { echo '¡hola mundo!'; }
+
+FECHA Y HORA -> Mon Nov 28 11:47:46 2022
 
 
-function llamada_retorno() { echo '¡hola mundo!'; }
-FECHA Y HORA -> Mon Nov 28 11:48:43 2022
+
+function llamada_retorno() { echo '¡hola mundo!'; }
+
+FECHA Y HORA -> Mon Nov 28 11:48:43 2022
 
 
-function llamada_retorno() { echo '¡hola mundo!'; }
-FECHA Y HORA -> Mon Nov 28 11:52:02 2022
+
+function llamada_retorno() { echo '¡hola mundo!'; }
+
+FECHA Y HORA -> Mon Nov 28 11:52:02 2022
 
 
-function llamada_retorno() { echo '¡hola mundo!'; }
-FECHA Y HORA -> Mon Nov 28 11:52:19 2022
+
+function llamada_retorno() { echo '¡hola mundo!'; }
+
+FECHA Y HORA -> Mon Nov 28 11:52:19 2022
 
 
-function llamada_retorno() { echo '¡hola mundo!'; }
-FECHA Y HORA -> Mon Nov 28 11:52:44 2022
+
+function llamada_retorno() { echo '¡hola mundo!'; }
+
+FECHA Y HORA -> Mon Nov 28 11:52:44 2022
 
 
-function llamada_retorno { echo '¡hola mundo!'; }
-FECHA Y HORA -> Mon Nov 28 11:52:49 2022
+
+function llamada_retorno { echo '¡hola mundo!'; }
+
+FECHA Y HORA -> Mon Nov 28 11:52:49 2022
 
 
-function llamada_retorno {}
-FECHA Y HORA -> Mon Nov 28 11:52:54 2022
+
+function llamada_retorno {}
+
+FECHA Y HORA -> Mon Nov 28 11:52:54 2022
 
 
-$var=fopen(“C: \ \movies \ \matrix.txt”,” r”);
-FECHA Y HORA -> Mon Nov 28 11:53:16 2022
+
+$var=fopen(“C: \ \movies \ \matrix.txt”,” r”);
+
+FECHA Y HORA -> Mon Nov 28 11:53:16 2022
 
 
-$var=fopen("C: \ \movies \ \matrix.txt"," r");
-FECHA Y HORA -> Mon Nov 28 11:53:31 2022
+
+$var=fopen("C: \ \movies \ \matrix.txt"," r");
+
+FECHA Y HORA -> Mon Nov 28 11:53:31 2022
 
 
-$var = NULL;
-FECHA Y HORA -> Mon Nov 28 11:54:01 2022
+
+$var = NULL;
+
+FECHA Y HORA -> Mon Nov 28 11:54:01 2022
 
 
-#HOLA
-FECHA Y HORA -> Mon Nov 28 11:54:53 2022
+
+#HOLA
+
+FECHA Y HORA -> Mon Nov 28 11:54:53 2022
 
 
-#HOLA
-FECHA Y HORA -> Mon Nov 28 11:54:58 2022
+
+#HOLA
+
+FECHA Y HORA -> Mon Nov 28 11:54:58 2022
 
 
-define(´numeroPi´, ´3.14´);
-FECHA Y HORA -> Mon Nov 28 11:55:22 2022
+
+define(´numeroPi´, ´3.14´);
+
+FECHA Y HORA -> Mon Nov 28 11:55:22 2022
 
 
-define(´numeroPi´, ´3.14´);
-FECHA Y HORA -> Mon Nov 28 11:59:00 2022
+
+define(´numeroPi´, ´3.14´);
+
+FECHA Y HORA -> Mon Nov 28 11:59:00 2022
 
 
-define("numeroPi", "3.14");
-FECHA Y HORA -> Mon Nov 28 11:59:32 2022
+
+define("numeroPi", "3.14");
+
+FECHA Y HORA -> Mon Nov 28 11:59:32 2022
 
 
-define("numeroPi", "3.14").
-FECHA Y HORA -> Mon Nov 28 12:07:43 2022
+
+define("numeroPi", "3.14").
+
+FECHA Y HORA -> Mon Nov 28 12:07:43 2022
 
 
-define("numeroPi", "3.14").
-FECHA Y HORA -> Mon Nov 28 12:07:51 2022
+
+define("numeroPi", "3.14").
+
+FECHA Y HORA -> Mon Nov 28 12:07:51 2022
 
 
-define("numeroP", "3.14");
-FECHA Y HORA -> Mon Nov 28 12:08:38 2022
+
+define("numeroP", "3.14");
+
+FECHA Y HORA -> Mon Nov 28 12:08:38 2022
 
 
-define("numeroP", "3.14");
-FECHA Y HORA -> Mon Nov 28 12:08:57 2022
+
+define("numeroP", "3.14");
+
+FECHA Y HORA -> Mon Nov 28 12:08:57 2022
 
 
-define("numeroP", "3.14");
-FECHA Y HORA -> Mon Nov 28 12:11:04 2022
+
+define("numeroP", "3.14");
+
+FECHA Y HORA -> Mon Nov 28 12:11:04 2022
 
 
-define("numeroP", "3.14");
-FECHA Y HORA -> Mon Nov 28 12:12:23 2022
+
+define("numeroP", "3.14");
+
+FECHA Y HORA -> Mon Nov 28 12:12:23 2022
 
 
-define("numeroP", "3.14");
-FECHA Y HORA -> Mon Nov 28 12:12:23 2022
+
+define("numeroP", "3.14");
+
+FECHA Y HORA -> Mon Nov 28 12:12:23 2022
+
 >>>>>>> a3ad08fcceb1c4f4a0d8fa07b44415d1db127e7e
 
 
 for ($i = 1; $i <= 10; $i++) {
 echo $i;
-}
-FECHA Y HORA -> Mon Nov 28 20:24:46 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 20:24:46 2022
+
 
 
 for ($i = 1; $i <= 10; $i++) {
 echo $i;
-}
-FECHA Y HORA -> Mon Nov 28 20:24:48 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 20:24:48 2022
+
 
 
 for ($i = 1; $i <= 10; $i++) {
 echo $i;
-}
-FECHA Y HORA -> Mon Nov 28 20:24:49 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 20:24:49 2022
 
 
-$hola=array("a","b"); 
-FECHA Y HORA -> Mon Nov 28 20:26:44 2022
+
+$hola=array("a","b"); 
+
+FECHA Y HORA -> Mon Nov 28 20:26:44 2022
 
 
-$hola=array("a","b"); 
-FECHA Y HORA -> Mon Nov 28 20:26:46 2022
+
+$hola=array("a","b"); 
+
+FECHA Y HORA -> Mon Nov 28 20:26:46 2022
+
 
 
 for ($i = 1; $i <= 10; $i++) {
 echo $i;
-}
-FECHA Y HORA -> Mon Nov 28 20:28:03 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 20:28:03 2022
+
 
 
 for ($i = 1; $i <= 10; $i++) {
 echo $i;
-}
-FECHA Y HORA -> Mon Nov 28 20:29:24 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 20:29:24 2022
+
 
 
 for ($i = 1; $i <= 10; $i++) {
 echo $i;
-}
-FECHA Y HORA -> Mon Nov 28 20:36:26 2022
+}
 
-
-for ($i = 1; $i <= 10; $i++) {
-$var="2";
-echo $i;
-}
-FECHA Y HORA -> Mon Nov 28 20:39:13 2022
-
-
-
-for ($i = 1; $i <= 10; $i++) {
-$var="2";
-echo $i;
-}
-FECHA Y HORA -> Mon Nov 28 20:40:00 2022
-
-
-
-for ($i = 1; $i <= 10; $i++) {
-$var="2";
-echo $i;
-}
-FECHA Y HORA -> Mon Nov 28 20:41:11 2022
-
-
-
-for ($i = 1; $i <= 10; $i++) {
-$var="2";
-}
-FECHA Y HORA -> Mon Nov 28 20:41:35 2022
+FECHA Y HORA -> Mon Nov 28 20:36:26 2022
 
 
 
 for ($i = 1; $i <= 10; $i++) {
 $var="2";
 echo $i;
-}
-FECHA Y HORA -> Mon Nov 28 20:43:25 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 20:39:13 2022
+
+
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+FECHA Y HORA -> Mon Nov 28 20:40:00 2022
+
+
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+FECHA Y HORA -> Mon Nov 28 20:41:11 2022
+
+
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+}
+
+FECHA Y HORA -> Mon Nov 28 20:41:35 2022
+
+
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+FECHA Y HORA -> Mon Nov 28 20:43:25 2022
+
 
 
 
@@ -3212,23 +3420,29 @@ $var="2";
 echo $i;
 echo $i;
 $var=43.2;
-}
-FECHA Y HORA -> Mon Nov 28 20:43:54 2022
+}
 
-
-for ($i = 1; $i <= 10; $i++) {
-$var="2";
-echo $i;
-}
-FECHA Y HORA -> Mon Nov 28 20:46:58 2022
+FECHA Y HORA -> Mon Nov 28 20:43:54 2022
 
 
 
 for ($i = 1; $i <= 10; $i++) {
 $var="2";
 echo $i;
-}
-FECHA Y HORA -> Mon Nov 28 20:47:41 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 20:46:58 2022
+
+
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+FECHA Y HORA -> Mon Nov 28 20:47:41 2022
+
 
 
 
@@ -3236,8 +3450,10 @@ for ($i = 1; $i <= 10; $i++) {
 $var="2";
 echo $i;
 $var=3.4;
-}
-FECHA Y HORA -> Mon Nov 28 20:47:57 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 20:47:57 2022
+
 
 
 class JupilerLeague extends SplHeap
@@ -3249,8 +3465,10 @@ $values2 = array_values($array2);
 if ($values1[0] === $values2[0]) return 0;
 return $values1[0] < $values2[0] ? -1 : 1;
 }
-}
-FECHA Y HORA -> Mon Nov 28 20:51:22 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 20:51:22 2022
+
 
 
 class JupilerLeague extends SplHeap
@@ -3259,8 +3477,10 @@ public function compare($array1, $array2)
 {
 echo "hola";
 }
-}
-FECHA Y HORA -> Mon Nov 28 20:52:55 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 20:52:55 2022
+
 
 
 class JupilerLeague extends SplHeap
@@ -3269,8 +3489,10 @@ public function compare($array1, $array2)
 {
 echo "hola";
 }
-}
-FECHA Y HORA -> Mon Nov 28 20:53:00 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 20:53:00 2022
+
 
 
 class JupilerLeague extends SplHeap
@@ -3279,16 +3501,20 @@ public function compare($array1, $array2)
 {
 echo "hola";
 }
-}
-FECHA Y HORA -> Mon Nov 28 20:53:01 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 20:53:01 2022
+
 
 
 class JupilerLeague extends SplHeap
 {
 public function compare($array1, $array2)
 {$values1 = array_values($array1);
-}
-FECHA Y HORA -> Mon Nov 28 20:54:15 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 20:54:15 2022
+
 
 
 class JupilerLeague extends SplHeap
@@ -3298,32 +3524,10 @@ public function compare($array1, $array2)
 $values1 = array_values($array1);
 
 }
-}
-FECHA Y HORA -> Mon Nov 28 20:56:30 2022
-
-
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-return $values1[0] < $values2[0] ? -1 : 1;
 }
-}
-FECHA Y HORA -> Mon Nov 28 20:56:40 2022
 
+FECHA Y HORA -> Mon Nov 28 20:56:30 2022
 
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-}
-}
-FECHA Y HORA -> Mon Nov 28 20:56:48 2022
 
 
 class JupilerLeague extends SplHeap
@@ -3335,8 +3539,23 @@ $values2 = array_values($array2);
 if ($values1[0] === $values2[0]) return 0;
 return $values1[0] < $values2[0] ? -1 : 1;
 }
-}
-FECHA Y HORA -> Mon Nov 28 20:58:32 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 20:56:40 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 20:56:48 2022
+
 
 
 class JupilerLeague extends SplHeap
@@ -3348,151 +3567,10 @@ $values2 = array_values($array2);
 if ($values1[0] === $values2[0]) return 0;
 return $values1[0] < $values2[0] ? -1 : 1;
 }
-}
-FECHA Y HORA -> Mon Nov 28 21:00:09 2022
-
-
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
 }
-}
-FECHA Y HORA -> Mon Nov 28 21:00:13 2022
 
+FECHA Y HORA -> Mon Nov 28 20:58:32 2022
 
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-}
-}
-FECHA Y HORA -> Mon Nov 28 21:25:23 2022
-
-
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-}
-}
-FECHA Y HORA -> Mon Nov 28 21:30:18 2022
-
-
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-}
-}
-FECHA Y HORA -> Mon Nov 28 21:30:48 2022
-
-
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-}
-}
-FECHA Y HORA -> Mon Nov 28 21:31:28 2022
-
-
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-}
-}
-FECHA Y HORA -> Mon Nov 28 21:31:41 2022
-
-
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-}
-}
-FECHA Y HORA -> Mon Nov 28 21:33:48 2022
-
-
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-}
-}
-FECHA Y HORA -> Mon Nov 28 21:35:29 2022
-
-
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-}
-}
-FECHA Y HORA -> Mon Nov 28 21:35:34 2022
-
-
-if ($values1[0] === $values2[0]) return 0;
-FECHA Y HORA -> Mon Nov 28 21:35:50 2022
-
-
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-}
-}
-FECHA Y HORA -> Mon Nov 28 21:37:36 2022
-
-
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-
-}
-}
-FECHA Y HORA -> Mon Nov 28 21:37:53 2022
-
-
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-if ($values1[0] === $values2[0]) return 0;
-
-}
-}
-FECHA Y HORA -> Mon Nov 28 21:38:00 2022
 
 
 class JupilerLeague extends SplHeap
@@ -3504,8 +3582,36 @@ $values2 = array_values($array2);
 if ($values1[0] === $values2[0]) return 0;
 return $values1[0] < $values2[0] ? -1 : 1;
 }
-}
-FECHA Y HORA -> Mon Nov 28 21:40:09 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 21:00:09 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 21:00:13 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 21:25:23 2022
+
 
 
 class JupilerLeague extends SplHeap
@@ -3516,8 +3622,139 @@ $values1 = array_values($array1);
 $values2 = array_values($array2);
 if ($values1[0] === $values2[0]) return 0;
 }
-}
-FECHA Y HORA -> Mon Nov 28 21:40:27 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 21:30:18 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 21:30:48 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 21:31:28 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 21:31:41 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 21:33:48 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 21:35:29 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 21:35:34 2022
+
+
+
+if ($values1[0] === $values2[0]) return 0;
+
+FECHA Y HORA -> Mon Nov 28 21:35:50 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 21:37:36 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 21:37:53 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+if ($values1[0] === $values2[0]) return 0;
+
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 21:38:00 2022
+
 
 
 class JupilerLeague extends SplHeap
@@ -3529,8 +3766,24 @@ $values2 = array_values($array2);
 if ($values1[0] === $values2[0]) return 0;
 return $values1[0] < $values2[0] ? -1 : 1;
 }
-}
-FECHA Y HORA -> Mon Nov 28 21:49:41 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 21:40:09 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 21:40:27 2022
+
 
 
 class JupilerLeague extends SplHeap
@@ -3542,8 +3795,25 @@ $values2 = array_values($array2);
 if ($values1[0] === $values2[0]) return 0;
 return $values1[0] < $values2[0] ? -1 : 1;
 }
-}
-FECHA Y HORA -> Mon Nov 28 21:50:50 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 21:49:41 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 21:50:50 2022
+
 
 
 class JupilerLeague extends SplHeap
@@ -3559,22 +3829,10 @@ return $values1[0] < $values2[0] ? -1 : 1;
 $heap = new JupilerLeague();
 $heap->insert(array ('AA Gent' => 15));
 $heap->insert(array ('Anderlecht' => 20));
-$heap->insert(array ('Cercle Brugge' => 11));
-FECHA Y HORA -> Mon Nov 28 21:51:04 2022
+$heap->insert(array ('Cercle Brugge' => 11));
 
+FECHA Y HORA -> Mon Nov 28 21:51:04 2022
 
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-return $values1[0] < $values2[0] ? -1 : 1;
-}
-}
-$heap = new JupilerLeague();
-FECHA Y HORA -> Mon Nov 28 21:51:08 2022
 
 
 class JupilerLeague extends SplHeap
@@ -3587,35 +3845,10 @@ if ($values1[0] === $values2[0]) return 0;
 return $values1[0] < $values2[0] ? -1 : 1;
 }
 }
-$heap = new JupilerLeague();
-FECHA Y HORA -> Mon Nov 28 21:51:08 2022
+$heap = new JupilerLeague();
 
+FECHA Y HORA -> Mon Nov 28 21:51:08 2022
 
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-return $values1[0] < $values2[0] ? -1 : 1;
-}
-}
-$heap = new JupilerLeague();
-FECHA Y HORA -> Mon Nov 28 22:00:00 2022
-
-
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-return $values1[0] < $values2[0] ? -1 : 1;
-}
-}
-FECHA Y HORA -> Mon Nov 28 22:00:18 2022
 
 
 class JupilerLeague extends SplHeap
@@ -3628,12 +3861,10 @@ if ($values1[0] === $values2[0]) return 0;
 return $values1[0] < $values2[0] ? -1 : 1;
 }
 }
-$heap = new JupilerLeague();
-FECHA Y HORA -> Mon Nov 28 22:01:39 2022
+$heap = new JupilerLeague();
 
+FECHA Y HORA -> Mon Nov 28 21:51:08 2022
 
-$heap = new JupilerLeague();
-FECHA Y HORA -> Mon Nov 28 22:01:45 2022
 
 
 class JupilerLeague extends SplHeap
@@ -3646,21 +3877,10 @@ if ($values1[0] === $values2[0]) return 0;
 return $values1[0] < $values2[0] ? -1 : 1;
 }
 }
-$heap = new JupilerLeague();
-FECHA Y HORA -> Mon Nov 28 22:01:53 2022
+$heap = new JupilerLeague();
 
+FECHA Y HORA -> Mon Nov 28 22:00:00 2022
 
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-return $values1[0] < $values2[0] ? -1 : 1;
-}
-}
-FECHA Y HORA -> Mon Nov 28 22:02:27 2022
 
 
 class JupilerLeague extends SplHeap
@@ -3673,26 +3893,9 @@ if ($values1[0] === $values2[0]) return 0;
 return $values1[0] < $values2[0] ? -1 : 1;
 }
 }
-$heap = new JupilerLeague();
-FECHA Y HORA -> Mon Nov 28 22:02:31 2022
 
+FECHA Y HORA -> Mon Nov 28 22:00:18 2022
 
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-return $values1[0] < $values2[0] ? -1 : 1;
-}
-}
-$heap = new JupilerLeague();
-FECHA Y HORA -> Mon Nov 28 22:03:28 2022
-
-
-$heap = new JupilerLeague();
-FECHA Y HORA -> Mon Nov 28 22:03:36 2022
 
 
 class JupilerLeague extends SplHeap
@@ -3705,22 +3908,16 @@ if ($values1[0] === $values2[0]) return 0;
 return $values1[0] < $values2[0] ? -1 : 1;
 }
 }
-$heap = new JupilerLeague();
-FECHA Y HORA -> Mon Nov 28 22:03:45 2022
+$heap = new JupilerLeague();
+
+FECHA Y HORA -> Mon Nov 28 22:01:39 2022
 
 
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-return $values1[0] < $values2[0] ? -1 : 1;
-}
-}
-echo 2;
-FECHA Y HORA -> Mon Nov 28 22:03:53 2022
+
+$heap = new JupilerLeague();
+
+FECHA Y HORA -> Mon Nov 28 22:01:45 2022
+
 
 
 class JupilerLeague extends SplHeap
@@ -3733,23 +3930,132 @@ if ($values1[0] === $values2[0]) return 0;
 return $values1[0] < $values2[0] ? -1 : 1;
 }
 }
-$heap = new JupilerLeague();
-FECHA Y HORA -> Mon Nov 28 22:08:07 2022
+$heap = new JupilerLeague();
+
+FECHA Y HORA -> Mon Nov 28 22:01:53 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+
+FECHA Y HORA -> Mon Nov 28 22:02:27 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+
+FECHA Y HORA -> Mon Nov 28 22:02:31 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+
+FECHA Y HORA -> Mon Nov 28 22:03:28 2022
+
+
+
+$heap = new JupilerLeague();
+
+FECHA Y HORA -> Mon Nov 28 22:03:36 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+
+FECHA Y HORA -> Mon Nov 28 22:03:45 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+echo 2;
+
+FECHA Y HORA -> Mon Nov 28 22:03:53 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+
+FECHA Y HORA -> Mon Nov 28 22:08:07 2022
+
 
 
 $heap->insert(array ('Anderlecht' => 20));
-$heap->insert(array ('Cercle Brugge' => 11));
-FECHA Y HORA -> Mon Nov 28 22:20:01 2022
+$heap->insert(array ('Cercle Brugge' => 11));
 
+FECHA Y HORA -> Mon Nov 28 22:20:01 2022
 
-$heap->insert(array ('Anderlecht' => 20));
-$heap->insert(array ('Cercle Brugge' => 11));
-FECHA Y HORA -> Mon Nov 28 22:23:00 2022
 
 
 $heap->insert(array ('Anderlecht' => 20));
-$heap->insert(array ('Cercle Brugge' => 11));
-FECHA Y HORA -> Mon Nov 28 22:23:46 2022
+$heap->insert(array ('Cercle Brugge' => 11));
+
+FECHA Y HORA -> Mon Nov 28 22:23:00 2022
+
+
+
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+
+FECHA Y HORA -> Mon Nov 28 22:23:46 2022
+
 
 
 $class JupilerLeague extends SplHeap
@@ -3765,8 +4071,10 @@ return $values1[0] < $values2[0] ? -1 : 1;
 $heap = new JupilerLeague();
 $heap->insert(array ('AA Gent' => 15));
 $heap->insert(array ('Anderlecht' => 20));
-$heap->insert(array ('Cercle Brugge' => 11));
-FECHA Y HORA -> Mon Nov 28 22:23:59 2022
+$heap->insert(array ('Cercle Brugge' => 11));
+
+FECHA Y HORA -> Mon Nov 28 22:23:59 2022
+
 
 
 $class JupilerLeague extends SplHeap
@@ -3782,8 +4090,10 @@ return $values1[0] < $values2[0] ? -1 : 1;
 $heap = new JupilerLeague();
 $heap->insert(array ('AA Gent' => 15));
 $heap->insert(array ('Anderlecht' => 20));
-$heap->insert(array ('Cercle Brugge' => 11));
-FECHA Y HORA -> Mon Nov 28 22:24:03 2022
+$heap->insert(array ('Cercle Brugge' => 11));
+
+FECHA Y HORA -> Mon Nov 28 22:24:03 2022
+
 
 
 $class JupilerLeague extends SplHeap
@@ -3796,8 +4106,10 @@ if ($values1[0] === $values2[0]) return 0;
 return $values1[0] < $values2[0] ? -1 : 1;
 }
 }
-$heap = new JupilerLeague();
-FECHA Y HORA -> Mon Nov 28 22:24:14 2022
+$heap = new JupilerLeague();
+
+FECHA Y HORA -> Mon Nov 28 22:24:14 2022
+
 
 
 $class JupilerLeague extends SplHeap
@@ -3810,22 +4122,10 @@ if ($values1[0] === $values2[0]) return 0;
 return $values1[0] < $values2[0] ? -1 : 1;
 }
 }
-$heap = new JupilerLeague();
-FECHA Y HORA -> Mon Nov 28 22:24:23 2022
+$heap = new JupilerLeague();
 
+FECHA Y HORA -> Mon Nov 28 22:24:23 2022
 
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-return $values1[0] < $values2[0] ? -1 : 1;
-}
-}
-$heap = new JupilerLeague();
-FECHA Y HORA -> Mon Nov 28 22:24:36 2022
 
 
 class JupilerLeague extends SplHeap
@@ -3839,10 +4139,9 @@ return $values1[0] < $values2[0] ? -1 : 1;
 }
 }
 $heap = new JupilerLeague();
-$heap->insert(array ('AA Gent' => 15));
-$heap->insert(array ('Anderlecht' => 20));
-$heap->insert(array ('Cercle Brugge' => 11));
-FECHA Y HORA -> Mon Nov 28 22:24:42 2022
+
+FECHA Y HORA -> Mon Nov 28 22:24:36 2022
+
 
 
 class JupilerLeague extends SplHeap
@@ -3859,8 +4158,9 @@ $heap = new JupilerLeague();
 $heap->insert(array ('AA Gent' => 15));
 $heap->insert(array ('Anderlecht' => 20));
 $heap->insert(array ('Cercle Brugge' => 11));
-echo "hola";
-FECHA Y HORA -> Mon Nov 28 22:28:41 2022
+
+FECHA Y HORA -> Mon Nov 28 22:24:42 2022
+
 
 
 class JupilerLeague extends SplHeap
@@ -3877,8 +4177,10 @@ $heap = new JupilerLeague();
 $heap->insert(array ('AA Gent' => 15));
 $heap->insert(array ('Anderlecht' => 20));
 $heap->insert(array ('Cercle Brugge' => 11));
-echo 2;
-FECHA Y HORA -> Mon Nov 28 22:29:33 2022
+echo "hola";
+
+FECHA Y HORA -> Mon Nov 28 22:28:41 2022
+
 
 
 class JupilerLeague extends SplHeap
@@ -3894,8 +4196,30 @@ return $values1[0] < $values2[0] ? -1 : 1;
 $heap = new JupilerLeague();
 $heap->insert(array ('AA Gent' => 15));
 $heap->insert(array ('Anderlecht' => 20));
-$heap->insert(array ('Cercle Brugge' => 11));
-FECHA Y HORA -> Mon Nov 28 22:31:40 2022
+$heap->insert(array ('Cercle Brugge' => 11));
+echo 2;
+
+FECHA Y HORA -> Mon Nov 28 22:29:33 2022
+
+
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+
+FECHA Y HORA -> Mon Nov 28 22:31:40 2022
+
 
 
 <?php
@@ -3913,27 +4237,10 @@ $heap = new JupilerLeague();
 $heap->insert(array ('AA Gent' => 15));
 $heap->insert(array ('Anderlecht' => 20));
 $heap->insert(array ('Cercle Brugge' => 11));
->?
-FECHA Y HORA -> Mon Nov 28 22:32:12 2022
+>?
 
+FECHA Y HORA -> Mon Nov 28 22:32:12 2022
 
-<?php
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-return $values1[0] < $values2[0] ? -1 : 1;
-}
-}
-$heap = new JupilerLeague();
-$heap->insert(array ('AA Gent' => 15));
-$heap->insert(array ('Anderlecht' => 20));
-$heap->insert(array ('Cercle Brugge' => 11));
-?>
-FECHA Y HORA -> Mon Nov 28 22:32:20 2022
 
 
 <?php
@@ -3951,27 +4258,10 @@ $heap = new JupilerLeague();
 $heap->insert(array ('AA Gent' => 15));
 $heap->insert(array ('Anderlecht' => 20));
 $heap->insert(array ('Cercle Brugge' => 11));
-?>
-FECHA Y HORA -> Mon Nov 28 22:32:23 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 22:32:20 2022
 
-<?php
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-return $values1[0] < $values2[0] ? -1 : 1;
-}
-}
-$heap = new JupilerLeague();
-$heap->insert(array ('AA Gent' => 15));
-$heap->insert(array ('Anderlecht' => 20));
-$heap->insert(array ('Cercle Brugge' => 11));
-?>
-FECHA Y HORA -> Mon Nov 28 22:34:22 2022
 
 
 <?php
@@ -3989,8 +4279,52 @@ $heap = new JupilerLeague();
 $heap->insert(array ('AA Gent' => 15));
 $heap->insert(array ('Anderlecht' => 20));
 $heap->insert(array ('Cercle Brugge' => 11));
-?>
-FECHA Y HORA -> Mon Nov 28 22:36:05 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 22:32:23 2022
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+FECHA Y HORA -> Mon Nov 28 22:34:22 2022
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+FECHA Y HORA -> Mon Nov 28 22:36:05 2022
+
 
 
 <?php
@@ -4009,8 +4343,10 @@ $heap->insert(array ('AA Gent' => 15));
 $heap->insert(array ('Anderlecht' => 20));
 $heap->insert(array ('Cercle Brugge' => 11));
 echo "hola como estas";
-?>
-FECHA Y HORA -> Mon Nov 28 22:40:02 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 22:40:02 2022
+
 
 
 <?php
@@ -4040,8 +4376,10 @@ switch ($i) {
         echo "i es igual a 2";
         break;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 22:41:10 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 22:41:10 2022
+
 
 
 switch ($i) {
@@ -4054,8 +4392,10 @@ switch ($i) {
     case 2:
         echo "i es igual a 2";
         break;
-}
-FECHA Y HORA -> Mon Nov 28 22:42:10 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 22:42:10 2022
+
 
 
 <?php
@@ -4070,8 +4410,10 @@ switch ($i) {
         echo "i es igual a 2";
         break;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 22:42:29 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 22:42:29 2022
+
 
 
 <?php
@@ -4086,27 +4428,10 @@ switch ($i) {
         echo "i es igual a 2";
         break;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 22:42:30 2022
+?>
 
+FECHA Y HORA -> Mon Nov 28 22:42:30 2022
 
-<?php
-class JupilerLeague extends SplHeap
-{
-public function compare($array1, $array2)
-{
-$values1 = array_values($array1);
-$values2 = array_values($array2);
-if ($values1[0] === $values2[0]) return 0;
-return $values1[0] < $values2[0] ? -1 : 1;
-}
-}
-$heap = new JupilerLeague();
-$heap->insert(array ('AA Gent' => 15));
-$heap->insert(array ('Anderlecht' => 20));
-$heap->insert(array ('Cercle Brugge' => 11));
-?>
-FECHA Y HORA -> Mon Nov 28 22:43:56 2022
 
 
 <?php
@@ -4124,6 +4449,27 @@ $heap = new JupilerLeague();
 $heap->insert(array ('AA Gent' => 15));
 $heap->insert(array ('Anderlecht' => 20));
 $heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+FECHA Y HORA -> Mon Nov 28 22:43:56 2022
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
 switch ($i) {
     case 0:
         echo "i es igual a 0";
@@ -4135,8 +4481,10 @@ switch ($i) {
         echo "i es igual a 2";
         break;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 22:44:05 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 22:44:05 2022
+
 
 
 <?php
@@ -4168,8 +4516,10 @@ switch ($i) {
 for ($i = 1; $i <= 10; $i++) {
 echo $i;
 }
-?>
-FECHA Y HORA -> Mon Nov 28 22:45:55 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 22:45:55 2022
+
 
 
 function operaciones($n1, $n2, $operación) {
@@ -4177,24 +4527,30 @@ $resultado = 0;
 //
 }
 return $resultado; // Devolver el resultado
-}
-FECHA Y HORA -> Mon Nov 28 22:50:30 2022
+}
+
+FECHA Y HORA -> Mon Nov 28 22:50:30 2022
+
 
 
 function operaciones($n1, $n2, $operación) {
 $resultado = 0;
 //
 }
-return $resultado; // Devolver el resultado
-FECHA Y HORA -> Mon Nov 28 22:52:06 2022
+return $resultado; // Devolver el resultado
+
+FECHA Y HORA -> Mon Nov 28 22:52:06 2022
+
 
 
 function operaciones($n1, $n2, $operacion) {
 $resultado = 0;
 //
 }
-return $resultado; // Devolver el resultado
-FECHA Y HORA -> Mon Nov 28 22:52:50 2022
+return $resultado; // Devolver el resultado
+
+FECHA Y HORA -> Mon Nov 28 22:52:50 2022
+
 
 
 <?php
@@ -4203,8 +4559,10 @@ $resultado = 0;
 //
 }
 return $resultado; // Devolver el resultado
-?>
-FECHA Y HORA -> Mon Nov 28 22:53:14 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 22:53:14 2022
+
 
 
 <?php
@@ -4213,133 +4571,171 @@ $resultado = 0;
 //
 }
 return $resultado; // Devolver el resultado
-?>
-FECHA Y HORA -> Mon Nov 28 22:53:16 2022
+?>
+
+FECHA Y HORA -> Mon Nov 28 22:53:16 2022
+
 
 
 $numero3 = 0;
-echo $numero3."<br>";
-FECHA Y HORA -> Mon Nov 28 22:55:11 2022
+echo $numero3."<br>";
 
+FECHA Y HORA -> Mon Nov 28 22:55:11 2022
 
-$numero1 = -10;
-$numero2 = -5;
-$resultado = $numero1 + $numero2;
-echo $resultado;
-FECHA Y HORA -> Mon Nov 28 22:55:35 2022
 
 
 $numero1 = -10;
 $numero2 = -5;
 $resultado = $numero1 + $numero2;
-echo $resultado;
-FECHA Y HORA -> Tue Nov 29 00:43:56 2022
+echo $resultado;
+
+FECHA Y HORA -> Mon Nov 28 22:55:35 2022
+
+
+
+$numero1 = -10;
+$numero2 = -5;
+$resultado = $numero1 + $numero2;
+echo $resultado;
+
+FECHA Y HORA -> Tue Nov 29 00:43:56 2022
+
 
 
 explode ( $delimitador , $string [, $limite ] )
-$pizza = "porción1 porción2 porción3 porción4 porción5 porción6"; $porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 echo $porciones[1]; // porción2
-FECHA Y HORA -> Tue Nov 29 00:44:32 2022
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6"; $porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 echo $porciones[1]; // porción2
 
+FECHA Y HORA -> Tue Nov 29 00:44:32 2022
 
-explode ( $delimitador , $string [, $limite ] )
-$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
-$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 echo $porciones[1]; // porción2
-FECHA Y HORA -> Tue Nov 29 00:44:44 2022
 
 
 explode ( $delimitador , $string [, $limite ] )
 $pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
 $porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 echo $porciones[1]; // porción2
-count ($objeto, $modo);
-FECHA Y HORA -> Tue Nov 29 00:45:09 2022
+
+FECHA Y HORA -> Tue Nov 29 00:44:44 2022
+
+
+
+explode ( $delimitador , $string [, $limite ] )
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 echo $porciones[1]; // porción2
+count ($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 00:45:09 2022
+
 
 
 $pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
 $porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 echo $porciones[1]; // porción2
-count ($objeto, $modo);
-FECHA Y HORA -> Tue Nov 29 00:45:55 2022
+count ($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 00:45:55 2022
+
 
 
 $pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
 $porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
 echo $porciones[1]; // porción2
-count ($objeto, $modo);
-FECHA Y HORA -> Tue Nov 29 00:46:08 2022
+count ($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 00:46:08 2022
+
 
 
 $pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
 $porciones = explode(" ", $pizza); 
 echo $porciones[0]; // porción1 
 echo $porciones[1]; // porción2
-count ($objeto, $modo);
-FECHA Y HORA -> Tue Nov 29 00:48:29 2022
+count ($objeto, $modo);
 
+FECHA Y HORA -> Tue Nov 29 00:48:29 2022
 
-
-$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
-$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
-echo $porciones[1]; // porción2
-count ($objeto, $modo);
-FECHA Y HORA -> Tue Nov 29 00:50:55 2022
 
 
 
 $pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
 $porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
 echo $porciones[1]; // porción2
-count ($objeto, $modo);
-FECHA Y HORA -> Tue Nov 29 00:51:36 2022
+count ($objeto, $modo);
 
+FECHA Y HORA -> Tue Nov 29 00:50:55 2022
 
-
-$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
-$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
-echo $porciones[1]; // porción2
-count($objeto, $modo);
-FECHA Y HORA -> Tue Nov 29 00:51:49 2022
-
-
-
-$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
-$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
-echo $porciones[1]; // porción2
-FECHA Y HORA -> Tue Nov 29 00:52:08 2022
 
 
 
 $pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
 $porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
 echo $porciones[1]; // porción2
-count($objeto, $modo);
-FECHA Y HORA -> Tue Nov 29 00:52:11 2022
+count ($objeto, $modo);
 
+FECHA Y HORA -> Tue Nov 29 00:51:36 2022
 
-
-$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
-$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
-echo $porciones[1]; // porción2
-count ($objeto, $modo);
-FECHA Y HORA -> Tue Nov 29 00:52:41 2022
-
-
-$heap = new JupilerLeague();
-FECHA Y HORA -> Tue Nov 29 00:53:19 2022
 
 
 
 $pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
 $porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
 echo $porciones[1]; // porción2
-count ($objeto, $modo);
-FECHA Y HORA -> Tue Nov 29 00:53:25 2022
+count($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 00:51:49 2022
+
 
 
 
 $pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
 $porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
 echo $porciones[1]; // porción2
-count ($objeto, $modo);
-FECHA Y HORA -> Tue Nov 29 00:53:36 2022
+
+FECHA Y HORA -> Tue Nov 29 00:52:08 2022
+
+
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 00:52:11 2022
+
+
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 00:52:41 2022
+
+
+
+$heap = new JupilerLeague();
+
+FECHA Y HORA -> Tue Nov 29 00:53:19 2022
+
+
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 00:53:25 2022
+
+
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 00:53:36 2022
+
 
 
 <?php
@@ -4347,8 +4743,10 @@ $pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
 $porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
 echo $porciones[1]; // porción2
 count ($objeto, $modo);
-?>
-FECHA Y HORA -> Tue Nov 29 00:53:50 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 00:53:50 2022
+
 
 
 <?php
@@ -4356,148 +4754,206 @@ $pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
 $porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
 echo $porciones[1]; // porción2
 count ($objeto, $modo);
-?>
-FECHA Y HORA -> Tue Nov 29 00:53:52 2022
+?>
 
+FECHA Y HORA -> Tue Nov 29 00:53:52 2022
 
-$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
-echo count($comida, COUNT_RECURSIVE); // muestra 8 
-// Cuenta normal 
-echo count($comida); // muestra 2
-FECHA Y HORA -> Tue Nov 29 00:54:29 2022
-
-
-$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
-FECHA Y HORA -> Tue Nov 29 00:54:43 2022
 
 
 $comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
 echo count($comida, COUNT_RECURSIVE); // muestra 8 
 // Cuenta normal 
-echo count($comida); // muestra 2
-FECHA Y HORA -> Tue Nov 29 00:56:51 2022
+echo count($comida); // muestra 2
 
+FECHA Y HORA -> Tue Nov 29 00:54:29 2022
 
-$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
-echo count($comida, COUNT_RECURSIVE); // muestra 8 
-FECHA Y HORA -> Tue Nov 29 00:57:15 2022
 
 
 $comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
-echo count($comida, COUNT_RECURSIVE);
-FECHA Y HORA -> Tue Nov 29 00:57:28 2022
 
+FECHA Y HORA -> Tue Nov 29 00:54:43 2022
 
-$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
-echo count($comida, COUNT_RECURSIVE);
-FECHA Y HORA -> Tue Nov 29 00:57:54 2022
 
 
 $comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
 echo count($comida, COUNT_RECURSIVE); // muestra 8 
 // Cuenta normal 
-echo count($comida); // muestra 2
-FECHA Y HORA -> Tue Nov 29 00:58:38 2022
+echo count($comida); // muestra 2
+
+FECHA Y HORA -> Tue Nov 29 00:56:51 2022
 
 
-array_push ( $array , $valor1 ):
-FECHA Y HORA -> Tue Nov 29 00:58:58 2022
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+
+FECHA Y HORA -> Tue Nov 29 00:57:15 2022
 
 
-array_push( $array , $valor1 ):
-FECHA Y HORA -> Tue Nov 29 00:59:07 2022
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE);
+
+FECHA Y HORA -> Tue Nov 29 00:57:28 2022
 
 
-array_push( $array , $valor1 );
-FECHA Y HORA -> Tue Nov 29 00:59:18 2022
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE);
+
+FECHA Y HORA -> Tue Nov 29 00:57:54 2022
 
 
-array_push ( $array , $valor1 );
-FECHA Y HORA -> Tue Nov 29 01:00:19 2022
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+
+FECHA Y HORA -> Tue Nov 29 00:58:38 2022
 
 
-$pila = array("naranja", "plátano"); array_push($pila, "manzana", "arándano"); print_r($pila);
-FECHA Y HORA -> Tue Nov 29 01:00:36 2022
+
+array_push ( $array , $valor1 ):
+
+FECHA Y HORA -> Tue Nov 29 00:58:58 2022
+
+
+
+array_push( $array , $valor1 ):
+
+FECHA Y HORA -> Tue Nov 29 00:59:07 2022
+
+
+
+array_push( $array , $valor1 );
+
+FECHA Y HORA -> Tue Nov 29 00:59:18 2022
+
+
+
+array_push ( $array , $valor1 );
+
+FECHA Y HORA -> Tue Nov 29 01:00:19 2022
+
+
+
+$pila = array("naranja", "plátano"); array_push($pila, "manzana", "arándano"); print_r($pila);
+
+FECHA Y HORA -> Tue Nov 29 01:00:36 2022
+
 
 
 $pila = array("naranja", "plátano"); 
 array_push($pila, "manzana", "arándano"); 
-print_r($pila);
-FECHA Y HORA -> Tue Nov 29 01:00:45 2022
+print_r($pila);
+
+FECHA Y HORA -> Tue Nov 29 01:00:45 2022
 
 
-array_search(value, array, strict);
-FECHA Y HORA -> Tue Nov 29 01:02:07 2022
+
+array_search(value, array, strict);
+
+FECHA Y HORA -> Tue Nov 29 01:02:07 2022
 
 
-array_search($value, $array, $strict);
-FECHA Y HORA -> Tue Nov 29 01:02:20 2022
+
+array_search($value, $array, $strict);
+
+FECHA Y HORA -> Tue Nov 29 01:02:20 2022
 
 
-$array = array(0 => 'azul', 1 => 'rojo', 2 => 'verde', 3 => 'rojo');
-FECHA Y HORA -> Tue Nov 29 01:02:27 2022
+
+$array = array(0 => 'azul', 1 => 'rojo', 2 => 'verde', 3 => 'rojo');
+
+FECHA Y HORA -> Tue Nov 29 01:02:27 2022
 
 
-$clave = array_search('verde', $array); // $clave = 2; $clave = array_search('rojo', $array); // $clave = 1;
-FECHA Y HORA -> Tue Nov 29 01:02:41 2022
+
+$clave = array_search('verde', $array); // $clave = 2; $clave = array_search('rojo', $array); // $clave = 1;
+
+FECHA Y HORA -> Tue Nov 29 01:02:41 2022
+
 
 
 $clave = array_search('verde', $array); // 
-$clave = 2; $clave = array_search('rojo', $array); // $clave = 1;
-FECHA Y HORA -> Tue Nov 29 01:02:47 2022
+$clave = 2; $clave = array_search('rojo', $array); // $clave = 1;
+
+FECHA Y HORA -> Tue Nov 29 01:02:47 2022
+
 
 
 $clave = array_search('verde', $array); // 
 $clave = 2; 
-$clave = array_search('rojo', $array); // $clave = 1;
-FECHA Y HORA -> Tue Nov 29 01:02:52 2022
+$clave = array_search('rojo', $array); // $clave = 1;
+
+FECHA Y HORA -> Tue Nov 29 01:02:52 2022
+
 
 
 $clave = array_search('verde', $array); //
 $clave = 2; 
-$clave = array_search('rojo', $array); // $clave = 1;
-FECHA Y HORA -> Tue Nov 29 01:02:59 2022
+$clave = array_search('rojo', $array); // $clave = 1;
+
+FECHA Y HORA -> Tue Nov 29 01:02:59 2022
+
 
 
 $clave = array_search('verde', $array);
 $clave = 2; 
-$clave = array_search('rojo', $array); // $clave = 1;
-FECHA Y HORA -> Tue Nov 29 01:03:06 2022
+$clave = array_search('rojo', $array); // $clave = 1;
+
+FECHA Y HORA -> Tue Nov 29 01:03:06 2022
+
 
 
 $clave = array_search('verde', $array);
 $clave = 2; 
 $clave = array_search('rojo', $array);
-$clave = 1;
-FECHA Y HORA -> Tue Nov 29 01:03:12 2022
+$clave = 1;
+
+FECHA Y HORA -> Tue Nov 29 01:03:12 2022
 
 
-$clave = array_search('verde', $array); // $clave = 2; $clave = array_search('rojo', $array); // $clave = 1;
-FECHA Y HORA -> Tue Nov 29 01:04:05 2022
+
+$clave = array_search('verde', $array); // $clave = 2; $clave = array_search('rojo', $array); // $clave = 1;
+
+FECHA Y HORA -> Tue Nov 29 01:04:05 2022
 
 
-echo $numero3."<br>";
-FECHA Y HORA -> Tue Nov 29 01:04:20 2022
 
+echo $numero3."<br>";
 
-$numero3 = 0;
-echo $numero3."<br>";
-FECHA Y HORA -> Tue Nov 29 01:05:18 2022
+FECHA Y HORA -> Tue Nov 29 01:04:20 2022
 
-
-$numero3 = 0;
-echo $numero3."<br>";
-FECHA Y HORA -> Tue Nov 29 01:06:18 2022
 
 
 $numero3 = 0;
-echo $numero3."<br>";
-FECHA Y HORA -> Tue Nov 29 01:06:45 2022
+echo $numero3."<br>";
+
+FECHA Y HORA -> Tue Nov 29 01:05:18 2022
+
 
 
 $numero3 = 0;
-echo $numero3."<br>";
-FECHA Y HORA -> Tue Nov 29 01:09:07 2022
+echo $numero3."<br>";
+
+FECHA Y HORA -> Tue Nov 29 01:06:18 2022
+
+
+
+$numero3 = 0;
+echo $numero3."<br>";
+
+FECHA Y HORA -> Tue Nov 29 01:06:45 2022
+
+
+
+$numero3 = 0;
+echo $numero3."<br>";
+
+FECHA Y HORA -> Tue Nov 29 01:09:07 2022
+
 
 
 <?
@@ -4541,53 +4997,10 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?>
-FECHA Y HORA -> Tue Nov 29 14:05:15 2022
+?>
 
+FECHA Y HORA -> Tue Nov 29 14:05:15 2022
 
-<?
-function hacer_yogurt($sabor, $tipo=false)
-{
-	if ($tipo){
-		$a=5;
-	}
-	else {
-		$a=5;
-	}
-}
-echo hacer_yogurt("frambruesa");
-echo hacer_yogurt("frambruesa","mesofilo");
-switch ($i) {
-    case 0:
-        echo "i es igual a 0";
-		$array = array(
-    "foo" => "bar",
-    "bar" => "foo",
-);
-        break;
-    case 1:
-        echo "i es igual a 1";
-		$array = [
-    "foo" => "bar",
-    "bar" => "foo",
-];
-        break;
-    case 2:
-        echo "i es igual a 2";
-        break;
-}
-$array = array(
-    "foo" => "bar",
-    "bar" => "foo",
-);
-
-// a partir de PHP 5.4
-$array = [
-    "foo" => "bar",
-    "bar" => "foo",
-];
-?>
-FECHA Y HORA -> Tue Nov 29 14:05:30 2022
 
 
 <?
@@ -4631,8 +5044,57 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?>
-FECHA Y HORA -> Tue Nov 29 14:05:31 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:05:30 2022
+
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		$a=5;
+	}
+	else {
+		$a=5;
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+    "foo" => "bar",
+    "bar" => "foo",
+];
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+    "foo" => "bar",
+    "bar" => "foo",
+];
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:05:31 2022
+
 
 
 <?
@@ -4676,8 +5138,10 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?>
-FECHA Y HORA -> Tue Nov 29 14:06:38 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:06:38 2022
+
 
 
 <?
@@ -4721,8 +5185,10 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?>
-FECHA Y HORA -> Tue Nov 29 14:08:07 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:08:07 2022
+
 
 
 <?
@@ -4765,8 +5231,10 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?>
-FECHA Y HORA -> Tue Nov 29 14:09:04 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:09:04 2022
+
 
 
 <?
@@ -4801,8 +5269,10 @@ switch ($i) {
         break;
 }
 
-?>
-FECHA Y HORA -> Tue Nov 29 14:09:25 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:09:25 2022
+
 
 
 <?
@@ -4846,25 +5316,10 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?>
-FECHA Y HORA -> Tue Nov 29 14:10:24 2022
+?>
 
+FECHA Y HORA -> Tue Nov 29 14:10:24 2022
 
-<?
-function hacer_yogurt($sabor, $tipo=false)
-{
-	if ($tipo){
-		$a=5;
-	}
-	else {
-		$a=5
-	}
-}
-echo hacer_yogurt("frambruesa");
-echo hacer_yogurt("frambruesa","mesofilo");
-
-?>
-FECHA Y HORA -> Tue Nov 29 14:11:02 2022
 
 
 <?
@@ -4879,8 +5334,29 @@ function hacer_yogurt($sabor, $tipo=false)
 }
 echo hacer_yogurt("frambruesa");
 echo hacer_yogurt("frambruesa","mesofilo");
-?>
-FECHA Y HORA -> Tue Nov 29 14:11:06 2022
+
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:11:02 2022
+
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		$a=5;
+	}
+	else {
+		$a=5
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:11:06 2022
+
 
 
 <?
@@ -4894,8 +5370,10 @@ function hacer_yogurt($sabor, $tipo=false)
 	}
 }
 
-?>
-FECHA Y HORA -> Tue Nov 29 14:11:18 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:11:18 2022
+
 
 
 <?
@@ -4908,8 +5386,10 @@ function hacer_yogurt($sabor, $tipo=false)
 		$a=5
 	}
 }
-?>
-FECHA Y HORA -> Tue Nov 29 14:11:22 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:11:22 2022
+
 
 
 <?
@@ -4917,8 +5397,10 @@ function hacer_yogurt($sabor, $tipo=false)
 {
 	$a=5
 }
-?>
-FECHA Y HORA -> Tue Nov 29 14:12:12 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:12:12 2022
+
 
 
 <?
@@ -4926,98 +5408,10 @@ function hacer_yogurt($sabor, $tipo=false)
 {
 	$a=5;
 }
-?>
-FECHA Y HORA -> Tue Nov 29 14:12:20 2022
+?>
 
+FECHA Y HORA -> Tue Nov 29 14:12:20 2022
 
-<?
-function hacer_yogurt($sabor, $tipo=false)
-{
-	if ($tipo){
-		return "Tenemos Argumento $tipo de $sabor.<br/>";
-	}
-	else {
-		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
-	}
-}
-echo hacer_yogurt("frambruesa");
-echo hacer_yogurt("frambruesa","mesofilo");
-switch ($i) {
-    case 0:
-        echo "i es igual a 0";
-		$array = array(
-    "foo" => "bar",
-    "bar" => "foo",
-);
-        break;
-    case 1:
-        echo "i es igual a 1";
-		$array = [
-    "foo" => "bar",
-    "bar" => "foo",
-];
-        break;
-    case 2:
-        echo "i es igual a 2";
-        break;
-}
-$array = array(
-    "foo" => "bar",
-    "bar" => "foo",
-);
-
-// a partir de PHP 5.4
-$array = [
-    "foo" => "bar",
-    "bar" => "foo",
-];
-?>
-FECHA Y HORA -> Tue Nov 29 14:12:27 2022
-
-
-<?
-function hacer_yogurt($sabor, $tipo=false)
-{
-	if ($tipo){
-		$a=5;
-	}
-	else {
-		$a=5;
-	}
-}
-echo hacer_yogurt("frambruesa");
-echo hacer_yogurt("frambruesa","mesofilo");
-switch ($i) {
-    case 0:
-        echo "i es igual a 0";
-		$array = array(
-    "foo" => "bar",
-    "bar" => "foo",
-);
-        break;
-    case 1:
-        echo "i es igual a 1";
-		$array = [
-    "foo" => "bar",
-    "bar" => "foo",
-];
-        break;
-    case 2:
-        echo "i es igual a 2";
-        break;
-}
-$array = array(
-    "foo" => "bar",
-    "bar" => "foo",
-);
-
-// a partir de PHP 5.4
-$array = [
-    "foo" => "bar",
-    "bar" => "foo",
-];
-?>
-FECHA Y HORA -> Tue Nov 29 14:12:41 2022
 
 
 <?
@@ -5061,8 +5455,104 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?>
-FECHA Y HORA -> Tue Nov 29 14:14:23 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:12:27 2022
+
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		$a=5;
+	}
+	else {
+		$a=5;
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+    "foo" => "bar",
+    "bar" => "foo",
+];
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+    "foo" => "bar",
+    "bar" => "foo",
+];
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:12:41 2022
+
+
+
+<?
+function hacer_yogurt($sabor, $tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+echo hacer_yogurt("frambruesa");
+echo hacer_yogurt("frambruesa","mesofilo");
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+    "foo" => "bar",
+    "bar" => "foo",
+];
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+    "foo" => "bar",
+    "bar" => "foo",
+];
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:14:23 2022
+
 
 
 <?
@@ -5106,8 +5596,10 @@ $array = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-?>
-FECHA Y HORA -> Tue Nov 29 14:14:38 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:14:38 2022
+
 
 
 function calcularFondoReserva($var)
@@ -5115,8 +5607,10 @@ function calcularFondoReserva($var)
   $fondo=8.33;
   $tmp=$var*$fondo/100;
   return round($tmp,2);
-}
-FECHA Y HORA -> Tue Nov 29 14:20:37 2022
+}
+
+FECHA Y HORA -> Tue Nov 29 14:20:37 2022
+
 
 
 <?
@@ -5126,8 +5620,10 @@ function calcularFondoReserva($var)
   $tmp=$var*$fondo/100;
   return round($tmp,2);
 }
-?>
-FECHA Y HORA -> Tue Nov 29 14:20:51 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:20:51 2022
+
 
 
 <?
@@ -5137,8 +5633,10 @@ function calcularFondoReserva()
   $tmp=$var*$fondo/100;
   return round($tmp,2);
 }
-?>
-FECHA Y HORA -> Tue Nov 29 14:21:05 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:21:05 2022
+
 
 
 <?
@@ -5148,8 +5646,10 @@ function calcularFondoReserva($a)
   $tmp=$var*$fondo/100;
   return round($tmp,2);
 }
-?>
-FECHA Y HORA -> Tue Nov 29 14:21:19 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:21:19 2022
+
 
 
 <?
@@ -5159,8 +5659,10 @@ function calcularFondoReserva()
   $tmp=$var*$fondo/100;
   return round($tmp,2);
 }
-?>
-FECHA Y HORA -> Tue Nov 29 14:35:36 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 14:35:36 2022
+
 
 
 function calcularFondoReserva($var)
@@ -5168,8 +5670,10 @@ function calcularFondoReserva($var)
   $fondo=8.33;
   $tmp=$var*$fondo/100;
   return round($tmp,2);
-}
-FECHA Y HORA -> Tue Nov 29 15:04:39 2022
+}
+
+FECHA Y HORA -> Tue Nov 29 15:04:39 2022
+
 
 
 <?
@@ -5179,8 +5683,10 @@ function calcularFondoReserva($var)
   $tmp=$var*$fondo/100;
   return round($tmp,2);
 }
-?>
-FECHA Y HORA -> Tue Nov 29 15:04:51 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:04:51 2022
+
 
 
 <?
@@ -5189,8 +5695,10 @@ function calcularFondoReserva($var)
   $fondo=8.33;
   $tmp=$var*$fondo/100;  
 }
-?>
-FECHA Y HORA -> Tue Nov 29 15:05:00 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:05:00 2022
+
 
 
 function calcularFondoReserva($var)
@@ -5198,8 +5706,10 @@ function calcularFondoReserva($var)
   $fondo=8.33;
   $tmp=$var*$fondo/100;
   return round($tmp,2);
-}
-FECHA Y HORA -> Tue Nov 29 15:06:48 2022
+}
+
+FECHA Y HORA -> Tue Nov 29 15:06:48 2022
+
 
 
 <?
@@ -5209,8 +5719,10 @@ function calcularFondoReserva($var)
   $tmp=$var*$fondo/100;
   return round($tmp,2);
 }
-?>
-FECHA Y HORA -> Tue Nov 29 15:07:00 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:07:00 2022
+
 
 
 <?
@@ -5220,8 +5732,10 @@ function calcularFondoReserva($var,$var=false)
   $tmp=$var*$fondo/100;
   return round($tmp,2);
 }
-?>
-FECHA Y HORA -> Tue Nov 29 15:08:17 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:08:17 2022
+
 
 
 <?
@@ -5231,8 +5745,10 @@ function calcularFondoReserva($var,$var=false)
   $tmp=$var*$fondo/100;
   return round($tmp,2);
 }
-?>
-FECHA Y HORA -> Tue Nov 29 15:08:22 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:08:22 2022
+
 
 
 <?
@@ -5242,8 +5758,10 @@ function calcularFondoReserva($var,$var)
   $tmp=$var*$fondo/100;
   return round($tmp,2);
 }
-?>
-FECHA Y HORA -> Tue Nov 29 15:09:02 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:09:02 2022
+
 
 
 <?
@@ -5253,8 +5771,10 @@ function calcularFondoReserva($var,$var)
   $tmp=$var*$fondo/100;
   return round($tmp,2);
 }
-?>
-FECHA Y HORA -> Tue Nov 29 15:09:07 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:09:07 2022
+
 
 
 <?
@@ -5264,8 +5784,10 @@ function calcularFondoReserva($var,$var=false)
   $tmp=$var*$fondo/100;
   return round($tmp,2);
 }
-?>
-FECHA Y HORA -> Tue Nov 29 15:09:14 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:09:14 2022
+
 
 
 //funcion fondo de reserva
@@ -5299,7 +5821,7 @@ $rol->campo1;
 
 print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
 print "\n";
-print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
+print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
 print "\n";
 print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
 print "\n";
@@ -5308,8 +5830,10 @@ print "\n";
 print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
 print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-?>
-FECHA Y HORA -> Tue Nov 29 15:24:18 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:24:18 2022
+
 
 
 <?
@@ -5344,7 +5868,7 @@ $rol->campo1;
 
 print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
 print "\n";
-print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
+print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
 print "\n";
 print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
 print "\n";
@@ -5353,8 +5877,10 @@ print "\n";
 print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
 print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-?>
-FECHA Y HORA -> Tue Nov 29 15:24:30 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:24:30 2022
+
 
 
 <?
@@ -5387,8 +5913,10 @@ $dcs=calcularDCS();
 
 $rol->campo1;
 
-?>
-FECHA Y HORA -> Tue Nov 29 15:25:01 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:25:01 2022
+
 
 
 <?
@@ -5421,8 +5949,10 @@ $dts=calcularDTS($sueldo);
 
 $rol->campo1;
 
-?>
-FECHA Y HORA -> Tue Nov 29 15:25:07 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:25:07 2022
+
 
 
 <?
@@ -5451,8 +5981,10 @@ $edad   = recoge("edad");
 $sueldo   = recoge("sueldo");
 $rol->campo1;
 
-?>
-FECHA Y HORA -> Tue Nov 29 15:25:28 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:25:28 2022
+
 
 
 <?
@@ -5479,8 +6011,10 @@ function calcularDCS()
 
 $rol->campo1;
 
-?>
-FECHA Y HORA -> Tue Nov 29 15:25:40 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:25:40 2022
+
 
 
 <?
@@ -5506,8 +6040,10 @@ function calcularDCS()
 }
 
 
-?>
-FECHA Y HORA -> Tue Nov 29 15:25:45 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:25:45 2022
+
 
 
 <?
@@ -5532,9 +6068,11 @@ function calcularDCS()
 }
 
 
-?>
-FECHA Y HORA -> Tue Nov 29 15:28:57 2022
-<<<<<<< HEAD
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:28:57 2022
+
+
 
 
 new funcion()
@@ -5575,8 +6113,10 @@ function calcularDCS()
   $sueldo_basico=425;
   $tmp=$sueldo_basico/12;
   return round($tmp,2);
-}
-FECHA Y HORA -> Tue Nov 29 15:43:05 2022
+}
+
+FECHA Y HORA -> Tue Nov 29 15:43:05 2022
+
 
 
 <?
@@ -5586,114 +6126,10 @@ function calcularDCS()
   $tmp=$sueldo_basico/12;
   return round($tmp,2);
 }
-?>
-FECHA Y HORA -> Tue Nov 29 15:43:17 2022
+?>
 
+FECHA Y HORA -> Tue Nov 29 15:43:17 2022
 
-<?php
-function calcularFondoReserva($var)
-{
-  $fondo=8.33;
-  $tmp=$var*$fondo/100;
-  return round($tmp,2);
-}
-//funcion DTS
-function calcularDTS($var)
-{
-  $tmp=$var/12;
-  return round($tmp,2);
-}
-//funcion DCS
-function calcularDCS()
-{
-  $sueldo_basico=425;
-  $tmp=$sueldo_basico/12;
-  return round($tmp,2);
-}
-$nombre = recoge("nombre");
-$edad   = recoge("edad");
-$sueldo   = recoge("sueldo");
-$fondo= calcularFondoReserva($sueldo);
-$dts=calcularDTS($sueldo);
-$dcs=calcularDCS();
-
-$rol->campo1;
-
-print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
-print "\n";
-print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
-print "\n";
-print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
-print "\n";
-print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
-print "\n";
-print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
-print "\n";
-print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-?>
-FECHA Y HORA -> Tue Nov 29 15:43:47 2022
-
-
-<?php
-function calcularFondoReserva($var)
-{
-  $fondo=8.33;
-  $tmp=$var*$fondo/100;
-  return round($tmp,2);
-}
-//funcion DTS
-function calcularDTS($var)
-{
-  $tmp=$var/12;
-  return round($tmp,2);
-}
-//funcion DCS
-function calcularDCS()
-{
-  $sueldo_basico=425;
-  $tmp=$sueldo_basico/12;
-  return round($tmp,2);
-}
-$nombre = recoge("nombre");
-$edad   = recoge("edad");
-$sueldo   = recoge("sueldo");
-$fondo= calcularFondoReserva($sueldo);
-$dts=calcularDTS($sueldo);
-$dcs=calcularDCS();
-
-$rol->campo1;
-?>
-FECHA Y HORA -> Tue Nov 29 15:44:05 2022
-
-
-<?php
-function calcularFondoReserva($var)
-{
-  $fondo=8.33;
-  $tmp=$var*$fondo/100;
-  return round($tmp,2);
-}
-//funcion DTS
-function calcularDTS($var)
-{
-  $tmp=$var/12;
-  return round($tmp,2);
-}
-//funcion DCS
-function calcularDCS()
-{
-  $sueldo_basico=425;
-  $tmp=$sueldo_basico/12;
-  return round($tmp,2);
-}
-$nombre = recoge("nombre");
-$edad   = recoge("edad");
-$sueldo   = recoge("sueldo");
-$fondo= calcularFondoReserva($sueldo);
-$dts=calcularDTS($sueldo);
-$dcs=calcularDCS();
-?>
-FECHA Y HORA -> Tue Nov 29 15:44:23 2022
 
 
 <?php
@@ -5727,7 +6163,7 @@ $rol->campo1;
 
 print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
 print "\n";
-print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
+print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
 print "\n";
 print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
 print "\n";
@@ -5736,8 +6172,122 @@ print "\n";
 print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
 print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-?>
-FECHA Y HORA -> Tue Nov 29 15:48:03 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:43:47 2022
+
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:44:05 2022
+
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:44:23 2022
+
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:48:03 2022
+
 
 
 <?php
@@ -5770,7 +6320,7 @@ $dcs=calcularDCS();
 
 echo "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
 echo "\n";
-echo "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
+echo "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
 echo "\n";
 echo "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
 echo "\n";
@@ -5779,8 +6329,10 @@ echo "\n";
 echo "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 echo "\n";
 echo "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-?>
-FECHA Y HORA -> Tue Nov 29 15:48:38 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:48:38 2022
+
 
 
 <?php
@@ -5822,8 +6374,10 @@ echo "\n";
 echo $dts;
 echo "\n";
 echo $dcs;
-?>
-FECHA Y HORA -> Tue Nov 29 15:49:55 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:49:55 2022
+
 
 
 <?php
@@ -5860,76 +6414,42 @@ echo $sueldo;
 echo $fondo;
 echo $dts;
 echo $dcs;
-?>
-FECHA Y HORA -> Tue Nov 29 15:50:12 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:50:12 2022
+
 
 
 <?
 echo "hola";
-?>
-FECHA Y HORA -> Tue Nov 29 15:56:20 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:56:20 2022
+
 
 
 <?
 echo "hola\n";
-?>
-FECHA Y HORA -> Tue Nov 29 15:56:24 2022
+?>
 
+FECHA Y HORA -> Tue Nov 29 15:56:24 2022
 
-<?
-$a=array("a","b");
-?>
-FECHA Y HORA -> Tue Nov 29 15:56:59 2022
 
 
 <?
 $a=array("a","b");
-?>
-FECHA Y HORA -> Tue Nov 29 15:57:49 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:56:59 2022
 
 
-<?php
-function calcularFondoReserva($var)
-{
-  $fondo=8.33;
-  $tmp=$var*$fondo/100;
-  return round($tmp,2);
-}
-//funcion DTS
-function calcularDTS($var)
-{
-  $tmp=$var/12;
-  return round($tmp,2);
-}
-//funcion DCS
-function calcularDCS()
-{
-  $sueldo_basico=425;
-  $tmp=$sueldo_basico/12;
-  return round($tmp,2);
-}
-$nombre = recoge("nombre");
-$edad   = recoge("edad");
-$sueldo   = recoge("sueldo");
-$fondo= calcularFondoReserva($sueldo);
-$dts=calcularDTS($sueldo);
-$dcs=calcularDCS();
 
-$rol->campo1;
+<?
+$a=array("a","b");
+?>
 
-print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
-print "\n";
-print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
-print "\n";
-print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
-print "\n";
-print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
-print "\n";
-print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
-print "\n";
-print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-?>
-FECHA Y HORA -> Tue Nov 29 15:58:56 2022
+FECHA Y HORA -> Tue Nov 29 15:57:49 2022
+
 
 
 <?php
@@ -5963,7 +6483,7 @@ $rol->campo1;
 
 print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
 print "\n";
-print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
+print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
 print "\n";
 print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
 print "\n";
@@ -5972,8 +6492,10 @@ print "\n";
 print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
 print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-?>
-FECHA Y HORA -> Tue Nov 29 15:58:59 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:58:56 2022
+
 
 
 <?php
@@ -6007,7 +6529,7 @@ $rol->campo1;
 
 print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
 print "\n";
-print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
+print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
 print "\n";
 print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
 print "\n";
@@ -6016,50 +6538,10 @@ print "\n";
 print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
 print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-?>
-FECHA Y HORA -> Tue Nov 29 15:59:38 2022
+?>
 
+FECHA Y HORA -> Tue Nov 29 15:58:59 2022
 
-<?php
-print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
-?>
-FECHA Y HORA -> Tue Nov 29 15:59:54 2022
-
-
-<?php
-print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
-?>
-FECHA Y HORA -> Tue Nov 29 15:59:57 2022
-
-
-<?php
-print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
-print "\n";
-?>
-FECHA Y HORA -> Tue Nov 29 16:00:07 2022
-
-
-<?php
-print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
-print "\n";
-?>
-FECHA Y HORA -> Tue Nov 29 16:00:59 2022
-
-
-<?php
-print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
-print "\n";
-print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
-print "\n";
-print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
-print "\n";
-print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
-print "\n";
-print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
-print "\n";
-print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-?>
-FECHA Y HORA -> Tue Nov 29 16:01:16 2022
 
 
 <?php
@@ -6093,7 +6575,7 @@ $rol->campo1;
 
 print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
 print "\n";
-print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
+print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
 print "\n";
 print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
 print "\n";
@@ -6102,8 +6584,108 @@ print "\n";
 print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
 print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-?>
-FECHA Y HORA -> Tue Nov 29 16:01:39 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:59:38 2022
+
+
+
+<?php
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:59:54 2022
+
+
+
+<?php
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+?>
+
+FECHA Y HORA -> Tue Nov 29 15:59:57 2022
+
+
+
+<?php
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+?>
+
+FECHA Y HORA -> Tue Nov 29 16:00:07 2022
+
+
+
+<?php
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+?>
+
+FECHA Y HORA -> Tue Nov 29 16:00:59 2022
+
+
+
+<?php
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+
+FECHA Y HORA -> Tue Nov 29 16:01:16 2022
+
+
+
+<?php
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+
+FECHA Y HORA -> Tue Nov 29 16:01:39 2022
+
 
 
 <?php
@@ -6136,7 +6718,7 @@ $dcs=calcularDCS();
 
 print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
 print "\n";
-print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
+print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
 print "\n";
 print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
 print "\n";
@@ -6145,122 +6727,37 @@ print "\n";
 print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
 print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-?>
-FECHA Y HORA -> Tue Nov 29 16:01:43 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 16:01:43 2022
+
 <<<<<<< HEAD
 
 
-var =2;
-FECHA Y HORA -> Tue Nov 29 16:26:51 2022
+var =2;
 
+FECHA Y HORA -> Tue Nov 29 16:26:51 2022
 
-$var=2;
-FECHA Y HORA -> Tue Nov 29 16:27:07 2022
 
 
 $var=2;
-$var="hola";
-FECHA Y HORA -> Tue Nov 29 16:28:30 2022
+
+FECHA Y HORA -> Tue Nov 29 16:27:07 2022
+
+
+
+$var=2;
+$var="hola";
+
+FECHA Y HORA -> Tue Nov 29 16:28:30 2022
+
 
 
 var=2;
-var="hola";
-FECHA Y HORA -> Tue Nov 29 16:29:10 2022
+var="hola";
 
+FECHA Y HORA -> Tue Nov 29 16:29:10 2022
 
-// ALGORITMO-VIVIANA MUÑOZ
-<?php
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-?>
-// ALGORITMO-JOHANNA LOPEZ
-function recoge($var, $m = "")
-{
-    if (!isset($_REQUEST[$var])) {
-        $tmp = is_array($m) [] : "";
-    } elseif (!is_array($_REQUEST[$var])) {
-        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
-    } else {
-        $tmp = $_REQUEST[$var];
-        array_walk_recursive($tmp, function (&$valor) {
-            $valor = trim(htmlspecialchars($valor));
-        });
-    }
-    return $tmp;
-}
-//funcion fondo de reserva
-function calcularFondoReserva($var)
-{
-  $fondo=8.33;
-  $tmp=$var*$fondo/100;
-  return round($tmp,2);
-}
-//funcion DTS
-function calcularDTS($var)
-{
-  $tmp=$var/12;
-  return round($tmp,2);
-}
-//funcion DCS
-function calcularDCS()
-{
-  $sueldo_basico=425;
-  $tmp=$sueldo_basico/12;
-  return round($tmp,2);
-}
-$nombre = recoge("nombre");
-$edad   = recoge("edad");
-$sueldo   = recoge("sueldo");
-$fondo= calcularFondoReserva($sueldo);
-$dts=calcularDTS($sueldo);
-$dcs=calcularDCS();
-
-$rol->campo1;
-
-print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
-print "\n";
-print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
-print "\n";
-print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
-print "\n";
-print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
-print "\n";
-print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
-print "\n";
-print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-
-//ALGORITMO CINDY BOHORQUEZ
-//Crear clase
-class NombreClase {
-    // Declaración de una propiedad
-    public $variable = 'Un valor cualquiera';
-    // Declaración de un método
-    public function mostrarVariable(){
-        echo $this->variable;
-    }
-}
-//instanciar clase
-$a = new nombreClase();
-
-//operadores
-$a = (false && foo());
-$b = (true  || foo());
-$c = (false and foo());
-$d = (true  or  foo());
-
-//asignacion, operaciones
-$a = 3;
-$a += 5;
-$b = "Hola ";
-$b .= "ahí!";
-$f = 2.2;
-FECHA Y HORA -> Tue Nov 29 16:42:20 2022
 
 
 // ALGORITMO-VIVIANA MUÑOZ
@@ -6354,8 +6851,10 @@ $a = 3;
 $a += 5;
 $b = "Hola ";
 $b .= "ahí!";
-$f = 2.2;
-FECHA Y HORA -> Tue Nov 29 16:45:17 2022
+$f = 2.2;
+
+FECHA Y HORA -> Tue Nov 29 16:42:20 2022
+
 
 
 // ALGORITMO-VIVIANA MUÑOZ
@@ -6449,8 +6948,10 @@ $a = 3;
 $a += 5;
 $b = "Hola ";
 $b .= "ahí!";
-$f = 2.2;
-FECHA Y HORA -> Tue Nov 29 16:47:07 2022
+$f = 2.2;
+
+FECHA Y HORA -> Tue Nov 29 16:45:17 2022
+
 
 
 // ALGORITMO-VIVIANA MUÑOZ
@@ -6544,164 +7045,10 @@ $a = 3;
 $a += 5;
 $b = "Hola ";
 $b .= "ahí!";
-$f = 2.2;
-FECHA Y HORA -> Tue Nov 29 16:53:27 2022
+$f = 2.2;
 
+FECHA Y HORA -> Tue Nov 29 16:47:07 2022
 
-// ALGORITMO-VIVIANA MUÑOZ
-<?php
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-?>
-FECHA Y HORA -> Tue Nov 29 16:54:43 2022
-
-
-// ALGORITMO-VIVIANA MUÑOZ
-<?php
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-?>
-FECHA Y HORA -> Tue Nov 29 16:56:44 2022
-
-
-// ALGORITMO-VIVIANA MUÑOZ
-<?php
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-?>
-FECHA Y HORA -> Tue Nov 29 16:58:19 2022
-
-
-// ALGORITMO-VIVIANA MUÑOZ
-<?php
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-?>
-FECHA Y HORA -> Tue Nov 29 16:59:53 2022
-
-
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-FECHA Y HORA -> Tue Nov 29 16:59:59 2022
-
-
-// ALGORITMO-VIVIANA MUÑOZ
-<?php
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-?>
-FECHA Y HORA -> Tue Nov 29 17:00:12 2022
-
-
-// ALGORITMO-VIVIANA MUÑOZ
-<?php
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-?>
-FECHA Y HORA -> Tue Nov 29 17:01:01 2022
-
-
-// ALGORITMO-VIVIANA MUÑOZ
-<?php
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-?>
-FECHA Y HORA -> Tue Nov 29 17:03:46 2022
-
-
-// ALGORITMO-VIVIANA MUÑOZ
-<?php
-$dest = "destinatario@gmail.com"; //Email de destino
-
-?>
-FECHA Y HORA -> Tue Nov 29 17:06:03 2022
-
-
-// ALGORITMO-VIVIANA MUÑOZ
-<?php
-$dest = "destinatario@gmail.com"; //Email de destino
-?>
-FECHA Y HORA -> Tue Nov 29 17:06:05 2022
-
-
-// ALGORITMO-VIVIANA MUÑOZ
-<?php
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-?>
-FECHA Y HORA -> Tue Nov 29 17:07:56 2022
-
-
-// ALGORITMO-VIVIANA MUÑOZ
-<?php
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-?>
-FECHA Y HORA -> Tue Nov 29 17:08:56 2022
 
 
 // ALGORITMO-VIVIANA MUÑOZ
@@ -6729,8 +7076,287 @@ function recoge($var, $m = "")
         });
     }
     return $tmp;
-}
-FECHA Y HORA -> Tue Nov 29 17:09:12 2022
+}
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+class NombreClase {
+    // Declaración de una propiedad
+    public $variable = 'Un valor cualquiera';
+    // Declaración de un método
+    public function mostrarVariable(){
+        echo $this->variable;
+    }
+}
+//instanciar clase
+$a = new nombreClase();
+
+//operadores
+$a = (false && foo());
+$b = (true  || foo());
+$c = (false and foo());
+$d = (true  or  foo());
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahí!";
+$f = 2.2;
+
+FECHA Y HORA -> Tue Nov 29 16:53:27 2022
+
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+
+FECHA Y HORA -> Tue Nov 29 16:54:43 2022
+
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+
+FECHA Y HORA -> Tue Nov 29 16:56:44 2022
+
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+
+?>
+
+FECHA Y HORA -> Tue Nov 29 16:58:19 2022
+
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+
+?>
+
+FECHA Y HORA -> Tue Nov 29 16:59:53 2022
+
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+
+FECHA Y HORA -> Tue Nov 29 16:59:59 2022
+
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+
+FECHA Y HORA -> Tue Nov 29 17:00:12 2022
+
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+
+FECHA Y HORA -> Tue Nov 29 17:01:01 2022
+
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+
+FECHA Y HORA -> Tue Nov 29 17:03:46 2022
+
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+
+?>
+
+FECHA Y HORA -> Tue Nov 29 17:06:03 2022
+
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+?>
+
+FECHA Y HORA -> Tue Nov 29 17:06:05 2022
+
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+
+FECHA Y HORA -> Tue Nov 29 17:07:56 2022
+
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+
+FECHA Y HORA -> Tue Nov 29 17:08:56 2022
+
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+// ALGORITMO-JOHANNA LOPEZ
+function recoge($var, $m = "")
+{
+    if (!isset($_REQUEST[$var])) {
+        $tmp = is_array($m) [] : "";
+    } elseif (!is_array($_REQUEST[$var])) {
+        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
+    } else {
+        $tmp = $_REQUEST[$var];
+        array_walk_recursive($tmp, function (&$valor) {
+            $valor = trim(htmlspecialchars($valor));
+        });
+    }
+    return $tmp;
+}
+
+FECHA Y HORA -> Tue Nov 29 17:09:12 2022
+
 
 
 // ALGORITMO-VIVIANA MUÑOZ
@@ -6783,8 +7409,10 @@ print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
 print "\n";
 print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
-print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-FECHA Y HORA -> Tue Nov 29 17:09:48 2022
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+
+FECHA Y HORA -> Tue Nov 29 17:09:48 2022
+
 
 
 //funcion fondo de reserva
@@ -6826,8 +7454,10 @@ print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
 print "\n";
 print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
-print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-FECHA Y HORA -> Tue Nov 29 17:10:21 2022
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+
+FECHA Y HORA -> Tue Nov 29 17:10:21 2022
+
 
 
 print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
@@ -6840,40 +7470,10 @@ print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
 print "\n";
 print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
-print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-FECHA Y HORA -> Tue Nov 29 17:10:35 2022
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
 
+FECHA Y HORA -> Tue Nov 29 17:10:35 2022
 
-
-//funcion fondo de reserva
-function calcularFondoReserva($var)
-{
-  $fondo=8.33;
-  $tmp=$var*$fondo/100;
-  return round($tmp,2);
-}
-//funcion DTS
-function calcularDTS($var)
-{
-  $tmp=$var/12;
-  return round($tmp,2);
-}
-//funcion DCS
-function calcularDCS()
-{
-  $sueldo_basico=425;
-  $tmp=$sueldo_basico/12;
-  return round($tmp,2);
-}
-$nombre = recoge("nombre");
-$edad   = recoge("edad");
-$sueldo   = recoge("sueldo");
-$fondo= calcularFondoReserva($sueldo);
-$dts=calcularDTS($sueldo);
-$dcs=calcularDCS();
-
-$rol->campo1;
-FECHA Y HORA -> Tue Nov 29 17:10:48 2022
 
 
 
@@ -6904,39 +7504,11 @@ $fondo= calcularFondoReserva($sueldo);
 $dts=calcularDTS($sueldo);
 $dcs=calcularDCS();
 
-$rol->campo1;
-FECHA Y HORA -> Tue Nov 29 17:10:55 2022
+$rol->campo1;
+
+FECHA Y HORA -> Tue Nov 29 17:10:48 2022
 
 
-//funcion fondo de reserva
-function calcularFondoReserva($var)
-{
-  $fondo=8.33;
-  $tmp=$var*$fondo/100;
-  return round($tmp,2);
-}
-//funcion DTS
-function calcularDTS($var)
-{
-  $tmp=$var/12;
-  return round($tmp,2);
-}
-//funcion DCS
-function calcularDCS()
-{
-  $sueldo_basico=425;
-  $tmp=$sueldo_basico/12;
-  return round($tmp,2);
-}
-$nombre = recoge("nombre");
-$edad   = recoge("edad");
-$sueldo   = recoge("sueldo");
-$fondo= calcularFondoReserva($sueldo);
-$dts=calcularDTS($sueldo);
-$dcs=calcularDCS();
-
-$rol->campo1;
-FECHA Y HORA -> Tue Nov 29 17:11:06 2022
 
 
 //funcion fondo de reserva
@@ -6966,8 +7538,10 @@ $fondo= calcularFondoReserva($sueldo);
 $dts=calcularDTS($sueldo);
 $dcs=calcularDCS();
 
-$rol->campo1;
-FECHA Y HORA -> Tue Nov 29 17:11:09 2022
+$rol->campo1;
+
+FECHA Y HORA -> Tue Nov 29 17:10:55 2022
+
 
 
 //funcion fondo de reserva
@@ -6997,8 +7571,10 @@ $fondo= calcularFondoReserva($sueldo);
 $dts=calcularDTS($sueldo);
 $dcs=calcularDCS();
 
-$rol->campo1;
-FECHA Y HORA -> Tue Nov 29 17:11:14 2022
+$rol->campo1;
+
+FECHA Y HORA -> Tue Nov 29 17:11:06 2022
+
 
 
 //funcion fondo de reserva
@@ -7028,8 +7604,10 @@ $fondo= calcularFondoReserva($sueldo);
 $dts=calcularDTS($sueldo);
 $dcs=calcularDCS();
 
-$rol->campo1;
-FECHA Y HORA -> Tue Nov 29 17:11:37 2022
+$rol->campo1;
+
+FECHA Y HORA -> Tue Nov 29 17:11:09 2022
+
 
 
 //funcion fondo de reserva
@@ -7059,34 +7637,10 @@ $fondo= calcularFondoReserva($sueldo);
 $dts=calcularDTS($sueldo);
 $dcs=calcularDCS();
 
-$rol->campo1;
-FECHA Y HORA -> Tue Nov 29 17:11:43 2022
+$rol->campo1;
 
+FECHA Y HORA -> Tue Nov 29 17:11:14 2022
 
-//funcion fondo de reserva
-function calcularFondoReserva($var)
-{
-  $fondo=8.33;
-  $tmp=$var*$fondo/100;
-  return round($tmp,2);
-}
-FECHA Y HORA -> Tue Nov 29 17:12:29 2022
-
-
-//funcion fondo de reserva
-function calcularFondoReserva($var)
-{
-  $fondo=8.33;
-  $tmp=$var*$fondo/100;
-  return round($tmp,2);
-}
-//funcion DTS
-function calcularDTS($var)
-{
-  $tmp=$var/12;
-  return round($tmp,2);
-}
-FECHA Y HORA -> Tue Nov 29 17:12:39 2022
 
 
 //funcion fondo de reserva
@@ -7108,8 +7662,106 @@ function calcularDCS()
   $sueldo_basico=425;
   $tmp=$sueldo_basico/12;
   return round($tmp,2);
-}
-FECHA Y HORA -> Tue Nov 29 17:12:49 2022
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+FECHA Y HORA -> Tue Nov 29 17:11:37 2022
+
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+FECHA Y HORA -> Tue Nov 29 17:11:43 2022
+
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+
+FECHA Y HORA -> Tue Nov 29 17:12:29 2022
+
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+
+FECHA Y HORA -> Tue Nov 29 17:12:39 2022
+
+
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+
+FECHA Y HORA -> Tue Nov 29 17:12:49 2022
+
 
 
 $nombre = recoge("nombre");
@@ -7119,8 +7771,10 @@ $fondo= calcularFondoReserva($sueldo);
 $dts=calcularDTS($sueldo);
 $dcs=calcularDCS();
 
-$rol->campo1;
-FECHA Y HORA -> Tue Nov 29 17:12:57 2022
+$rol->campo1;
+
+FECHA Y HORA -> Tue Nov 29 17:12:57 2022
+
 
 
 $nombre = recoge("nombre");
@@ -7130,8 +7784,10 @@ $fondo= calcularFondoReserva($sueldo);
 $dts=calcularDTS($sueldo);
 $dcs=calcularDCS();
 
-$rol->campo1;
-FECHA Y HORA -> Tue Nov 29 17:15:04 2022
+$rol->campo1;
+
+FECHA Y HORA -> Tue Nov 29 17:15:04 2022
+
 
 
 $nombre = recoge("nombre");
@@ -7141,38 +7797,40 @@ $fondo= calcularFondoReserva($sueldo);
 $dts=calcularDTS($sueldo);
 $dcs=calcularDCS();
 
-$rol->campo1;
-FECHA Y HORA -> Tue Nov 29 17:15:42 2022
+$rol->campo1;
 
+FECHA Y HORA -> Tue Nov 29 17:15:42 2022
 
-$nombre = recoge("nombre");
-FECHA Y HORA -> Tue Nov 29 17:15:55 2022
 
 
 $nombre = recoge("nombre");
-$edad   = recoge("edad");
-FECHA Y HORA -> Tue Nov 29 17:16:01 2022
+
+FECHA Y HORA -> Tue Nov 29 17:15:55 2022
+
 
 
 $nombre = recoge("nombre");
 $edad   = recoge("edad");
-$sueldo   = recoge("sueldo");
-FECHA Y HORA -> Tue Nov 29 17:16:06 2022
+
+FECHA Y HORA -> Tue Nov 29 17:16:01 2022
+
 
 
 $nombre = recoge("nombre");
 $edad   = recoge("edad");
 $sueldo   = recoge("sueldo");
-$fondo= calcularFondoReserva($sueldo);
-FECHA Y HORA -> Tue Nov 29 17:16:11 2022
+
+FECHA Y HORA -> Tue Nov 29 17:16:06 2022
+
 
 
 $nombre = recoge("nombre");
 $edad   = recoge("edad");
 $sueldo   = recoge("sueldo");
 $fondo= calcularFondoReserva($sueldo);
-$dts=calcularDTS($sueldo);
-FECHA Y HORA -> Tue Nov 29 17:16:16 2022
+
+FECHA Y HORA -> Tue Nov 29 17:16:11 2022
+
 
 
 $nombre = recoge("nombre");
@@ -7180,13 +7838,27 @@ $edad   = recoge("edad");
 $sueldo   = recoge("sueldo");
 $fondo= calcularFondoReserva($sueldo);
 $dts=calcularDTS($sueldo);
-$dcs=calcularDCS();
-FECHA Y HORA -> Tue Nov 29 17:16:21 2022
+
+FECHA Y HORA -> Tue Nov 29 17:16:16 2022
 
 
 
-$rol->campo1;
-FECHA Y HORA -> Tue Nov 29 17:16:25 2022
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+FECHA Y HORA -> Tue Nov 29 17:16:21 2022
+
+
+
+
+$rol->campo1;
+
+FECHA Y HORA -> Tue Nov 29 17:16:25 2022
+
 
 
 // ALGORITMO-VIVIANA MUÑOZ
@@ -7240,8 +7912,10 @@ print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
 print "\n";
 print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
-print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-FECHA Y HORA -> Tue Nov 29 17:18:03 2022
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+
+FECHA Y HORA -> Tue Nov 29 17:18:03 2022
+
 
 
 
@@ -7269,8 +7943,10 @@ $a = 3;
 $a += 5;
 $b = "Hola ";
 $b .= "ahí!";
-$f = 2.2;
-FECHA Y HORA -> Tue Nov 29 17:18:50 2022
+$f = 2.2;
+
+FECHA Y HORA -> Tue Nov 29 17:18:50 2022
+
 
 
 
@@ -7291,23 +7967,10 @@ $a = 3;
 $a += 5;
 $b = "Hola ";
 $b .= "ahí!";
-$f = 2.2;
-FECHA Y HORA -> Tue Nov 29 17:19:11 2022
+$f = 2.2;
 
+FECHA Y HORA -> Tue Nov 29 17:19:11 2022
 
-
-//ALGORITMO CINDY BOHORQUEZ
-//Crear clase
-
-
-
-//asignacion, operaciones
-$a = 3;
-$a += 5;
-$b = "Hola ";
-$b .= "ahí!";
-$f = 2.2;
-FECHA Y HORA -> Tue Nov 29 17:19:23 2022
 
 
 
@@ -7321,8 +7984,27 @@ $a = 3;
 $a += 5;
 $b = "Hola ";
 $b .= "ahí!";
-$f = 2.2;
-FECHA Y HORA -> Tue Nov 29 17:19:40 2022
+$f = 2.2;
+
+FECHA Y HORA -> Tue Nov 29 17:19:23 2022
+
+
+
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+
+
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahí!";
+$f = 2.2;
+
+FECHA Y HORA -> Tue Nov 29 17:19:40 2022
+
 
 
 // ALGORITMO-VIVIANA MUÑOZ
@@ -7396,8 +8078,10 @@ $a = 3;
 $a += 5;
 $b = "Hola ";
 $b .= "ahí!";
-$f = 2.2;
-FECHA Y HORA -> Tue Nov 29 17:20:54 2022
+$f = 2.2;
+
+FECHA Y HORA -> Tue Nov 29 17:20:54 2022
+
 
 
 // ALGORITMO-VIVIANA MUÑOZ
@@ -7471,16 +8155,10 @@ $a = 3;
 $a += 5;
 $b = "Hola ";
 $b .= "ahI!";
-$f = 2.2;
-FECHA Y HORA -> Tue Nov 29 17:21:09 2022
+$f = 2.2;
 
+FECHA Y HORA -> Tue Nov 29 17:21:09 2022
 
-$a = 3;
-$a += 5;
-$b = "Hola ";
-$b .= "ahi!";
-$f = 2.2;
-FECHA Y HORA -> Tue Nov 29 17:21:46 2022
 
 
 $a = 3;
@@ -7488,15 +8166,29 @@ $a += 5;
 $b = "Hola ";
 $b .= "ahi!";
 $f = 2.2;
-$a = new nombreClase();
-FECHA Y HORA -> Tue Nov 29 17:21:54 2022
+
+FECHA Y HORA -> Tue Nov 29 17:21:46 2022
+
+
+
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahi!";
+$f = 2.2;
+$a = new nombreClase();
+
+FECHA Y HORA -> Tue Nov 29 17:21:54 2022
+
 
 
 $a = (false && foo());
 $b = (true  || foo());
 $c = (false and foo());
-$d = (true  or  foo());
-FECHA Y HORA -> Tue Nov 29 17:22:00 2022
+$d = (true  or  foo());
+
+FECHA Y HORA -> Tue Nov 29 17:22:00 2022
+
 
 
 // ALGORITMO-VIVIANA MUÑOZ
@@ -7568,8 +8260,10 @@ $a = 3;
 $a += 5;
 $b = "Hola ";
 $b .= "ahi!";
-$f = 2.2;
-FECHA Y HORA -> Tue Nov 29 17:22:32 2022
+$f = 2.2;
+
+FECHA Y HORA -> Tue Nov 29 17:22:32 2022
+
 
 
 // ALGORITMO-VIVIANA MUÑOZ
@@ -7635,8 +8329,72 @@ $a = 3;
 $a += 5;
 $b = "Hola ";
 $b .= "ahi!";
+$f = 2.2;
+
+FECHA Y HORA -> Tue Nov 29 17:22:51 2022
+
+
+
+// ALGORITMO-VIVIANA MUÑOZ
+<?php
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+?>
+// ALGORITMO-JOHANNA LOPEZ
+
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+
+$rol->campo1;
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahi!";
 $f = 2.2;
-FECHA Y HORA -> Tue Nov 29 17:22:51 2022
-=======
->>>>>>> 7643408c92eaa3f1d997187a0e02ce51138a1da3
->>>>>>> a74070c0ac28bd509f8d493ba3348a1699ba97ad
+FECHA Y HORA -> Tue Nov 29 17:32:56 2022
