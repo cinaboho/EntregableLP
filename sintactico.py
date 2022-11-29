@@ -169,18 +169,18 @@ def p_valores(p):
                   | FLOTANTE
                   | CADENA
                   | VARIABLE_PHP
-                  | BOOLEANO  
+                  | BOOLEANO
                   | aritmetica
                   | booleanos
                   | NOMBRE PARENIZQ  PARENDER
-                  | NOMBRE PARENIZQ valores PARENDER  
+                  | NOMBRE PARENIZQ valores PARENDER
                   | NOMBRE PARENIZQ valoresParametros PARENDER
-                  | crearArrayCorta                
+                  | crearArrayCorta
                   | crearArrayLarga
      '''
 
 def p_booleano(p):
-    '''booleano : BOOLEANO                
+    '''booleano : BOOLEANO
                 | comparacion
                 | OPERLOGICO_NOT booleanos
     '''
@@ -261,7 +261,7 @@ def p_operadores_aritmeticos(p):
     '''operadores_aritmeticos : MAS
                    | MENOS
                    | MULTIPLICA
-                   | DIVIDE                   
+                   | DIVIDE
     '''
 
 def p_aritmetica(p):
@@ -328,8 +328,8 @@ def p_casos_switch(p):
                     | caso_switch '''
 
 def p_valoresParametros(p):
-    '''valoresParametros : valores                 
-                        | valores repite_valores_parametro                
+    '''valoresParametros : valores
+                        | valores repite_valores_parametro
                         | VARIABLE_PHP IGUAL valores
                         | VARIABLE_PHP IGUAL valores repite_valores_parametro
     '''
@@ -337,7 +337,7 @@ def p_valoresParametros(p):
 def p_repite_valoresParametros(p):
     '''
     repite_valores_parametro : COMA valores
-                            | COMA VARIABLE_PHP IGUAL valores                  
+                            | COMA VARIABLE_PHP IGUAL valores
                             | COMA valores repite_valores_parametro
                             | COMA VARIABLE_PHP IGUAL valores repite_valores_parametro
     '''
