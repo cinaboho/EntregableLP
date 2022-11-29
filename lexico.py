@@ -195,17 +195,6 @@ def t_BOOLEANO(t):
     r'True|False|true|false|TRUE|FALSE'
     return t
 
-#Johanna puse al inicio para que identifique estos token de variable y nombre de metodo
-def t_VARIABLE_PHP(t):  
-    #r'\$[A-Za-z_][\w_]*'
-    r'((\$|\$_)[a-zA-Z_][a-zA-Z0-9_]*)'
-    t.type = reserved.get(t.value, "VARIABLE_PHP")
-    return t
-def t_NOMBRE(t):
-   r'([a-zA-Z][a-zA-Z0-9_]*)'
-   t.type = reserved.get(t.value, "NOMBRE")
-   return t
-
 #'OPEN_TAG_WITH_ECHO',
 #Fin Viviana
 
@@ -247,6 +236,17 @@ def t_HEAP(t):
 
 
 # Johanna
+
+def t_VARIABLE_PHP(t):  
+    #r'\$[A-Za-z_][\w_]*'
+    r'((\$|\$_)[a-zA-Z_][a-zA-Z0-9_]*)'
+    t.type = reserved.get(t.value, "VARIABLE_PHP")
+    return t
+    
+def t_NOMBRE(t):
+   r'([a-zA-Z][a-zA-Z0-9_]*)'
+   t.type = reserved.get(t.value, "NOMBRE")
+   return t
 
 def t_CADENA(t):
     #r'\"(.)+\" | \'(.)+\''
