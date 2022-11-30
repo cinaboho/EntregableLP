@@ -113,7 +113,6 @@ def p_funcion(p):
     | NEW NOMBRE PARENIZQ PARENDER
     | COUNT PARENIZQ parametros PARENDER PUNTOYCOMA
     | COUNT PARENIZQ VARIABLE_PHP COMA NOMBRE PARENDER PUNTOYCOMA
-    | COUNT PARENIZQ VARIABLE_PHP PARENDER PUNTOYCOMA
     | NOMBRE PARENIZQ parametros PARENDER PUNTOYCOMA
     '''
     log_sintactico_array.append("Función")
@@ -137,7 +136,7 @@ def p_insertheap(p):
 
 
 def p_asignaSplheap(p):
-    '''asignaSplheap : VARIABLE_PHP o_comparar INSERT PARENIZQ ARRAY PARENIZQ CADENA OPERASIG_ARRAY valores PARENDER PARENDER PUNTOYCOMA '''
+    '''asignaSplheap : HEAP o_comparar INSERT PARENIZQ ARRAY PARENIZQ CADENA OPERASIG_ARRAY valores PARENDER PARENDER PUNTOYCOMA '''
     log_sintactico_array.append("asignaSplheap")
 #----------Fin Cindy
 #----------------------- Inicio Johanna
@@ -157,7 +156,10 @@ def p_instruccion(p):
                     | for
                     | SplHeap
                     | function2
+                    | funcion
                     | final
+                    | clases
+                    | asignaSplheap
                      '''
 def p_valores(p):
     '''valores : ENTERO
@@ -223,6 +225,7 @@ def p_asignacion(p):
                     | VARIABLE_PHP IGUAL funcion
                     | VARIABLE_PHP o_comparar NOMBRE PUNTOYCOMA
                     | VARIABLE_PHP IGUAL operaciones PUNTOYCOMA
+                    | monticuloHEAP
                 '''
     log_sintactico_array.append("asignacion")
 
@@ -234,6 +237,7 @@ def p_difigual(p):
 
 def p_clases(p):
     '''clases : CLASS NOMBRE LLAVEIZQ LLAVEDER
+    | CLASS NOMBRE LLAVEIZQ instrucciones LLAVEDER
         '''
     log_sintactico_array.append("clases")
 
@@ -328,11 +332,13 @@ def p_valoresParametros(p):
                         | valores repite_valores_parametro
                         | VARIABLE_PHP IGUAL valores
                         | VARIABLE_PHP IGUAL valores repite_valores_parametro
+                        | VARIABLE_PHP
     '''
   
 def p_repite_valoresParametros(p):
     '''
     repite_valores_parametro : COMA valores
+                            | COMA VARIABLE_PHP
                             | COMA VARIABLE_PHP IGUAL valores
                             | COMA valores repite_valores_parametro
                             | COMA VARIABLE_PHP IGUAL valores repite_valores_parametro

@@ -10,6 +10,98 @@ $headers .= "X-Mailer: PHP5\n";
 $headers .= 'MIME-Version: 1.0' . "\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
 
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1
+echo $porciones[1]; // porcion2
+
+
+$comida = array('frutas' => array('naranja', 'platano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva
+echo count($comida, COUNT_RECURSIVE); // muestra 8
+// Cuenta normal
+echo count($comida); // muestra 2
+
+
+
 // ALGORITMO-JOHANNA LOPEZ
 function recoge($var, $m = "")
 {
