@@ -8396,290 +8396,735 @@ $a = 3;
 $a += 5;
 $b = "Hola ";
 $b .= "ahi!";
-$f = 2.2;
-FECHA Y HORA -> Tue Nov 29 17:32:56 2022
+$f = 2.2;
+
+FECHA Y HORA -> Tue Nov 29 17:32:56 2022
 
 
-$var= 2 + 3;
-FECHA Y HORA -> Tue Nov 29 18:03:08 2022
+
+$var= 2 + 3;
+
+FECHA Y HORA -> Tue Nov 29 18:03:08 2022
 
 
-$var= 2 - 3;
-FECHA Y HORA -> Tue Nov 29 18:03:15 2022
+
+$var= 2 - 3;
+
+FECHA Y HORA -> Tue Nov 29 18:03:15 2022
 
 
-$var= 2 - 3 + 4 - 5 * 4;
-FECHA Y HORA -> Tue Nov 29 18:03:31 2022
+
+$var= 2 - 3 + 4 - 5 * 4;
+
+FECHA Y HORA -> Tue Nov 29 18:03:31 2022
 
 
-$var= 2 - 3 + 4 - 5 * 4;
-FECHA Y HORA -> Tue Nov 29 18:03:46 2022
+
+$var= 2 - 3 + 4 - 5 * 4;
+
+FECHA Y HORA -> Tue Nov 29 18:03:46 2022
 
 
-$var = 2 + 3 * 5;
-FECHA Y HORA -> Tue Nov 29 18:07:54 2022
+
+$var = 2 + 3 * 5;
+
+FECHA Y HORA -> Tue Nov 29 18:07:54 2022
 
 
-$var = 2 + 3 * 5 / 8;
-FECHA Y HORA -> Tue Nov 29 18:08:36 2022
+
+$var = 2 + 3 * 5 / 8;
+
+FECHA Y HORA -> Tue Nov 29 18:08:36 2022
 
 
-$var = 2 + 3 * 5 / 8;
-FECHA Y HORA -> Tue Nov 29 18:09:32 2022
+
+$var = 2 + 3 * 5 / 8;
+
+FECHA Y HORA -> Tue Nov 29 18:09:32 2022
 
 
-$var = 2 + 3 * 5 / 8;
-FECHA Y HORA -> Tue Nov 29 18:11:05 2022
+
+$var = 2 + 3 * 5 / 8;
+
+FECHA Y HORA -> Tue Nov 29 18:11:05 2022
 
 
-$var = 2 + 3 * 5 + 8;
-FECHA Y HORA -> Tue Nov 29 18:11:15 2022
+
+$var = 2 + 3 * 5 + 8;
+
+FECHA Y HORA -> Tue Nov 29 18:11:15 2022
 
 
-$var = 2 + 3 * 5 + 8;
-FECHA Y HORA -> Tue Nov 29 18:12:45 2022
+
+$var = 2 + 3 * 5 + 8;
+
+FECHA Y HORA -> Tue Nov 29 18:12:45 2022
 
 
-$var= 2 + 3 - 5;
-FECHA Y HORA -> Tue Nov 29 18:15:49 2022
+
+$var= 2 + 3 - 5;
+
+FECHA Y HORA -> Tue Nov 29 18:15:49 2022
 
 
-$var= 2 + 3 - 5 / 8 - 5;
-FECHA Y HORA -> Tue Nov 29 18:15:58 2022
+
+$var= 2 + 3 - 5 / 8 - 5;
+
+FECHA Y HORA -> Tue Nov 29 18:15:58 2022
 
 
-$var= 2 + 3 - 5 / 8 - 5;
-FECHA Y HORA -> Tue Nov 29 18:16:05 2022
+
+$var= 2 + 3 - 5 / 8 - 5;
+
+FECHA Y HORA -> Tue Nov 29 18:16:05 2022
 
 
-$var= 2 + 3 - 5 / 8;
-FECHA Y HORA -> Tue Nov 29 18:16:12 2022
+
+$var= 2 + 3 - 5 / 8;
+
+FECHA Y HORA -> Tue Nov 29 18:16:12 2022
 
 
-$var= 2 + 3 - 5 ;
-FECHA Y HORA -> Tue Nov 29 18:16:14 2022
+
+$var= 2 + 3 - 5 ;
+
+FECHA Y HORA -> Tue Nov 29 18:16:14 2022
 
 
-$var= 2 + 3 - 5 + 5;
-FECHA Y HORA -> Tue Nov 29 18:16:20 2022
+
+$var= 2 + 3 - 5 + 5;
+
+FECHA Y HORA -> Tue Nov 29 18:16:20 2022
 
 
-$var= 2;
-FECHA Y HORA -> Tue Nov 29 18:16:28 2022
+
+$var= 2;
+
+FECHA Y HORA -> Tue Nov 29 18:16:28 2022
 
 
-$var= 2 + 4;
-FECHA Y HORA -> Tue Nov 29 18:16:34 2022
+
+$var= 2 + 4;
+
+FECHA Y HORA -> Tue Nov 29 18:16:34 2022
 
 
-$var= 2 + 4 + 4 - 4;
-FECHA Y HORA -> Tue Nov 29 18:16:43 2022
+
+$var= 2 + 4 + 4 - 4;
+
+FECHA Y HORA -> Tue Nov 29 18:16:43 2022
 
 
-$var= 2 + 4 + 4 - 4;
-FECHA Y HORA -> Tue Nov 29 18:18:16 2022
+
+$var= 2 + 4 + 4 - 4;
+
+FECHA Y HORA -> Tue Nov 29 18:18:16 2022
 
 
-$var= 2 + 4 + 4 - 4 ;
-FECHA Y HORA -> Tue Nov 29 18:18:22 2022
+
+$var= 2 + 4 + 4 - 4 ;
+
+FECHA Y HORA -> Tue Nov 29 18:18:22 2022
 
 
-$var= 2 + 4 + 4 - 4 ;
-FECHA Y HORA -> Tue Nov 29 18:18:23 2022
+
+$var= 2 + 4 + 4 - 4 ;
+
+FECHA Y HORA -> Tue Nov 29 18:18:23 2022
 
 
-$var= 2 + 4 + 4 - 4 ;
-FECHA Y HORA -> Tue Nov 29 18:18:55 2022
+
+$var= 2 + 4 + 4 - 4 ;
+
+FECHA Y HORA -> Tue Nov 29 18:18:55 2022
 
 
-$var= 2 + 4 + 4 - 4 ;
-FECHA Y HORA -> Tue Nov 29 18:19:31 2022
+
+$var= 2 + 4 + 4 - 4 ;
+
+FECHA Y HORA -> Tue Nov 29 18:19:31 2022
 
 
-$var= 2 + 4 + 4 - 4 ;
-FECHA Y HORA -> Tue Nov 29 18:19:49 2022
+
+$var= 2 + 4 + 4 - 4 ;
+
+FECHA Y HORA -> Tue Nov 29 18:19:49 2022
 
 
-$var= 2 + 4 + 4 - 4 * 5;
-FECHA Y HORA -> Tue Nov 29 18:19:57 2022
+
+$var= 2 + 4 + 4 - 4 * 5;
+
+FECHA Y HORA -> Tue Nov 29 18:19:57 2022
+
 
 
 <?php
 $resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:22:04 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:22:04 2022
+
 
 
 <?php
 $resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:23:52 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:23:52 2022
+
 
 
 <?php
 $resultado =( 3 * 4 / 7) - ( 43 % 3 );
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:25:04 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:25:04 2022
+
 
 
 <?php
 $resultado = ( 3 * 4 / 7) - ( 43 % 3 );
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:25:07 2022
+?>
 
+FECHA Y HORA -> Tue Nov 29 18:25:07 2022
 
-<?php
-$resultado = 4 - ( 3 * 4 / 7) - ( 43 % 3 );
-echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:25:12 2022
 
 
 <?php
 $resultado = 4 - ( 3 * 4 / 7) - ( 43 % 3 );
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:27:38 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:25:12 2022
+
 
 
 <?php
 $resultado = 4 - ( 3 * 4 / 7) - ( 43 % 3 );
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:28:25 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:27:38 2022
+
+
+
+<?php
+$resultado = 4 - ( 3 * 4 / 7) - ( 43 % 3 );
+echo $resultado;
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:28:25 2022
+
 
 
 <?php
 $resultado = 4 - ( 3 * 4) - ( 43 % 3 );
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:31:51 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:31:51 2022
+
 
 
 <?php
 $resultado = 4 - ( 3 * 4) - ( 43 % 3 );
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:32:28 2022
+?>
 
+FECHA Y HORA -> Tue Nov 29 18:32:28 2022
 
-<?php
-$resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
-echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:35:06 2022
 
 
 <?php
 $resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:35:09 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:35:06 2022
+
+
+
+<?php
+$resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
+echo $resultado;
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:35:09 2022
+
 
 
 <?php
 $resultado = 1 + ( 3 * 4 / 7) - ( 43 % 3 );
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:35:18 2022
+?>
 
+FECHA Y HORA -> Tue Nov 29 18:35:18 2022
 
-<?php
-$resultado = 1 + ( 3 * 4 / 7) - ( 43 % 3 );
-echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:35:53 2022
-
-
-<?php
-$resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
-echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:37:45 2022
 
 
 <?php
 $resultado = 1 + ( 3 * 4 / 7) - ( 43 % 3 );
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:37:51 2022
+?>
 
+FECHA Y HORA -> Tue Nov 29 18:35:53 2022
 
-<?php
-$resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
-echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:40:42 2022
-
-
-$resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
-FECHA Y HORA -> Tue Nov 29 18:40:55 2022
-
-
-$resultado = 1 + 2 + ( 3 * 4 ) - ( 43 % 3 );
-FECHA Y HORA -> Tue Nov 29 18:41:31 2022
-
-
-$resultado = ( 3 * 4 / 6);
-FECHA Y HORA -> Tue Nov 29 18:42:52 2022
-
-
-$resultado = 1 + ( 3 * 4 / 6);
-FECHA Y HORA -> Tue Nov 29 18:42:58 2022
-
-
-$resultado = 1 + ( 3 * 4 / 6);
-FECHA Y HORA -> Tue Nov 29 18:43:13 2022
-
-
-$resultado = ( 3 * 4 / 6) + 5;
-FECHA Y HORA -> Tue Nov 29 18:43:42 2022
-
-
-$resultado = ( 3 * 4 / 6) + 5 - 6;
-FECHA Y HORA -> Tue Nov 29 18:44:25 2022
-
-
-$resultado = 5 + ( 3 * 4 / 6);
-FECHA Y HORA -> Tue Nov 29 18:44:35 2022
 
 
 <?php
 $resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:45:48 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:37:45 2022
+
+
+
+<?php
+$resultado = 1 + ( 3 * 4 / 7) - ( 43 % 3 );
+echo $resultado;
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:37:51 2022
+
+
+
+<?php
+$resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
+echo $resultado;
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:40:42 2022
+
+
+
+$resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
+
+FECHA Y HORA -> Tue Nov 29 18:40:55 2022
+
+
+
+$resultado = 1 + 2 + ( 3 * 4 ) - ( 43 % 3 );
+
+FECHA Y HORA -> Tue Nov 29 18:41:31 2022
+
+
+
+$resultado = ( 3 * 4 / 6);
+
+FECHA Y HORA -> Tue Nov 29 18:42:52 2022
+
+
+
+$resultado = 1 + ( 3 * 4 / 6);
+
+FECHA Y HORA -> Tue Nov 29 18:42:58 2022
+
+
+
+$resultado = 1 + ( 3 * 4 / 6);
+
+FECHA Y HORA -> Tue Nov 29 18:43:13 2022
+
+
+
+$resultado = ( 3 * 4 / 6) + 5;
+
+FECHA Y HORA -> Tue Nov 29 18:43:42 2022
+
+
+
+$resultado = ( 3 * 4 / 6) + 5 - 6;
+
+FECHA Y HORA -> Tue Nov 29 18:44:25 2022
+
+
+
+$resultado = 5 + ( 3 * 4 / 6);
+
+FECHA Y HORA -> Tue Nov 29 18:44:35 2022
+
+
+
+<?php
+$resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
+echo $resultado;
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:45:48 2022
+
 
 
 <?php
 $resultado = 1 +  ( 3 * 4 / 7) - ( 43 % 3 );
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:45:57 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:45:57 2022
+
 
 
 <?php
 $resultado = 1 + ( 3 * 4 / 7) - ( 43 % 3 );
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:46:00 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:46:00 2022
+
 
 
 <?php
 $resultado = 1 + ( 3 * 4 / 7);
 echo $resultado;
-?>
-FECHA Y HORA -> Tue Nov 29 18:46:03 2022
+?>
+
+FECHA Y HORA -> Tue Nov 29 18:46:03 2022
 
 
-$resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
-FECHA Y HORA -> Tue Nov 29 18:48:13 2022
+
+$resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
+
+FECHA Y HORA -> Tue Nov 29 18:48:13 2022
 
 
+<<<<<<< HEAD
+
+$resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
+
+FECHA Y HORA -> Tue Nov 29 18:49:45 2022
+
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:28:09 2022
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:28:57 2022
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:28:58 2022
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:29:00 2022
+
+
+2+2;
+FECHA Y HORA -> Tue Nov 29 19:29:06 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+FECHA Y HORA -> Tue Nov 29 19:29:31 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+FECHA Y HORA -> Tue Nov 29 19:29:53 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:30:12 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:30:19 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:30:22 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:30:24 2022
+
+
+$heap = new JupilerLeague()
+FECHA Y HORA -> Tue Nov 29 19:31:14 2022
+
+
+$heap = new JupilerLeague()
+FECHA Y HORA -> Tue Nov 29 19:31:15 2022
+
+
+$heap = new JupilerLeague()
+FECHA Y HORA -> Tue Nov 29 19:31:16 2022
+
+
+$heap = new JupilerLeague()
+FECHA Y HORA -> Tue Nov 29 19:31:16 2022
+
+
+$heap = new JupilerLeague();
+$heap->insert($value);
+$heap->insert(19);
+FECHA Y HORA -> Tue Nov 29 19:31:55 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:32:10 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:32:11 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:32:22 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:32:23 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:32:24 2022
+
+
+$heap->insert(19);
+FECHA Y HORA -> Tue Nov 29 19:32:46 2022
+
+
+$heap->insert(19);
+FECHA Y HORA -> Tue Nov 29 19:32:49 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+FECHA Y HORA -> Tue Nov 29 19:33:53 2022
+
+
+foreach ($array as &$valor) {
+$valor = $valor * 2;
+}
+FECHA Y HORA -> Tue Nov 29 19:34:06 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:35:33 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:35:48 2022
+
+
+$heap = new jupilerLeague();
+$heap->insert($value);
+$heap->insert(19);
+FECHA Y HORA -> Tue Nov 29 19:38:14 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:38:25 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:38:27 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:38:29 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:38:34 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:38:37 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:39:50 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:40:55 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:23 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:24 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:24 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:24 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:25 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:25 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:35 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:12 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:12 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:13 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:18 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:19 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:19 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:19 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:19 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:20 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:20 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:26 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:27 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:27 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:27 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:28 2022
+
+
+$heap=insert($value);
+FECHA Y HORA -> Tue Nov 29 19:44:36 2022
+
+
+$var=
+FECHA Y HORA -> Tue Nov 29 19:45:20 2022
+
+
+$var=
+FECHA Y HORA -> Tue Nov 29 19:45:22 2022
+
+
+$var = 
+FECHA Y HORA -> Tue Nov 29 19:45:28 2022
+
+
+foreach ($array as &$valor) {
+$valor = $valor * 2;
+}
+FECHA Y HORA -> Tue Nov 29 19:46:28 2022
+
+
+foreach ($array as &$valor) {
+$valor = $valor * 2;
+}
+FECHA Y HORA -> Tue Nov 29 19:46:32 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:47:16 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:47:25 2022
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:49:15 2022
+
+
+"hola"
+FECHA Y HORA -> Tue Nov 29 19:49:24 2022
+
+
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+=======
 $resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
 FECHA Y HORA -> Tue Nov 29 18:49:45 2022
 
@@ -8963,329 +9408,7 @@ FECHA Y HORA -> Tue Nov 29 19:49:15 2022
 FECHA Y HORA -> Tue Nov 29 19:49:24 2022
 
 
-$foo = 10;   // $foo es un integer
-$bar = (boolean) $foo;   // $bar es un boolean
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;$foo = 10;   // $foo es un integer
-$bar = (boolean) $foo;   // $bar es un boolean
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:22:06 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-$foo = ( int ) $bar;
-$binary = (binary) $string;$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:22:51 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-$foo = ( int ) $bar;
-$binary = (binary) $string;$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:22:53 2022
-
-
-
-FECHA Y HORA -> Tue Nov 29 21:23:03 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-$foo = ( int ) $bar;
-$binary = (binary) $string;$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;$foo = 10;
-$bar = (boolean) $foo;
-$foo = ( int ) $bar;
-$binary = (binary) $string;$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:23:14 2022
-
-
-$foo = 10;   // $foo es un integer
-$bar = (boolean) $foo;   // $bar es un boolean
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;$foo = 10;   // $foo es un integer
-$bar = (boolean) $foo;   // $bar es un boolean
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:26:05 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:26:23 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:26:26 2022
-
-
-$foo = 10;
-FECHA Y HORA -> Tue Nov 29 21:26:33 2022
-
-
-$foo = 10;
-FECHA Y HORA -> Tue Nov 29 21:26:34 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-FECHA Y HORA -> Tue Nov 29 21:26:41 2022
-
-
-$foo = 10;   // $foo es un integer
-$bar = (boolean) $foo;   // $bar es un boolean
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;$foo = 10;   // $foo es un integer
-$bar = (boolean) $foo;   // $bar es un boolean
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:30:30 2022
-
-
-$foo = 10; 
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$foo = ( int ) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:30:48 2022
-
-
-$foo = 10; 
-$bar = (boolean) $foo;
-FECHA Y HORA -> Tue Nov 29 21:30:52 2022
-
-
-$foo = 10; 
-FECHA Y HORA -> Tue Nov 29 21:33:25 2022
-
-
-$bar=(boolean)$foo;
-FECHA Y HORA -> Tue Nov 29 21:33:33 2022
-
-
-$bar = (boolean) $foo;
-FECHA Y HORA -> Tue Nov 29 21:35:02 2022
-
-
-$bar = (boolean
-FECHA Y HORA -> Tue Nov 29 21:35:19 2022
-
-
-$bar = (boolean) $foo;
-FECHA Y HORA -> Tue Nov 29 21:35:57 2022
-
-
-$bar = (boolean) $foo;
-FECHA Y HORA -> Tue Nov 29 21:35:59 2022
-
-
-$foo = (int) $bar;$foo = (int) $bar;
-FECHA Y HORA -> Tue Nov 29 21:36:15 2022
-
-
-$foo = (int) $bar;
-FECHA Y HORA -> Tue Nov 29 21:36:20 2022
-
-
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:36:38 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:39:33 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:39:54 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:41:25 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:41:30 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:41:31 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:41:32 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:41:32 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:41:34 2022
-
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:42:08 2022
-
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:42:09 2022
-
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:42:09 2022
-
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:42:10 2022
-
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:42:10 2022
-
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:42:11 2022
-
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:42:12 2022
-
-
-$foo = 10;
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:42:30 2022
-
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:42:37 2022
-
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:43:53 2022
-
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 21:44:14 2022
-
-
 <?php
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-// ALGORITMO-JOHANNA LOPEZ
-function recoge($var, $m = "")
-{
-    if (!isset($_REQUEST[$var])) {
-        $tmp = is_array($m) [] : "";
-    } elseif (!is_array($_REQUEST[$var])) {
-        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
-    } else {
-        $tmp = $_REQUEST[$var];
-        array_walk_recursive($tmp, function (&$valor) {
-            $valor = trim(htmlspecialchars($valor));
-        });
-    }
-    return $tmp;
-}
 //funcion fondo de reserva
 function calcularFondoReserva($var)
 {
@@ -9299,6 +9422,22 @@ function calcularDTS($var)
   $tmp=$var/12;
   return round($tmp,2);
 }
+function generar_rol($tipo=true, $edad)
+{
+	if ($tipo){
+		return "Tiene beneficios";
+	}
+	else {
+		return "No tiene beneficios";
+	}
+}
+echo generar_rol("fecha");
+echo geenrar_rol("fecha","hora");
+for ($i = 1; $i <= 10; $i++) 
+{ 
+	echo $i;
+}
+
 //funcion DCS
 function calcularDCS()
 {
@@ -9306,18 +9445,903 @@ function calcularDCS()
   $tmp=$sueldo_basico/12;
   return round($tmp,2);
 }
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+			"foo" => "bar",
+			"bar" => "foo",
+		);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+			"foo" => "bar",
+			"bar" => "foo",
+		];
+>>>>>>> 310eba7f433825323dc8dd163d3bbd46734b8f82
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+<<<<<<< HEAD
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+
+FECHA Y HORA -> Tue Nov 29 21:39:08 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+$1var=1;
+$g frh=1;
+$=1;
+
+FECHA Y HORA -> Tue Nov 29 21:39:55 2022
+
+
+
+
+
+FECHA Y HORA -> Tue Nov 29 21:39:59 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+Var1=1;
+$1var=1;
+$g frh=1;
+$=1;
+
+FECHA Y HORA -> Tue Nov 29 21:40:03 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+FECHA Y HORA -> Tue Nov 29 21:40:11 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+function {}
+function 1foo{}
+foo123{}
+function const{}
+
+FECHA Y HORA -> Tue Nov 29 21:40:28 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+FECHA Y HORA -> Tue Nov 29 21:40:40 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+FECHA Y HORA -> Tue Nov 29 21:41:35 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+FECHA Y HORA -> Tue Nov 29 21:42:54 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+FECHA Y HORA -> Tue Nov 29 21:43:01 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+FECHA Y HORA -> Tue Nov 29 21:43:10 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+
+?>
+
+FECHA Y HORA -> Tue Nov 29 21:43:22 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+?>
+
+FECHA Y HORA -> Tue Nov 29 21:43:30 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+?>
+
+FECHA Y HORA -> Tue Nov 29 21:44:16 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+
+FECHA Y HORA -> Tue Nov 29 21:46:10 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+
+?>
+
+FECHA Y HORA -> Tue Nov 29 21:46:17 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+FECHA Y HORA -> Tue Nov 29 21:46:28 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+FECHA Y HORA -> Tue Nov 29 21:48:09 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+FECHA Y HORA -> Tue Nov 29 21:50:46 2022
+
+
+
+
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+
+FECHA Y HORA -> Tue Nov 29 21:51:01 2022
+
+
+
+
+$heap->insert(array ('AAGent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('CercleBrugge' => 11));
+
+FECHA Y HORA -> Tue Nov 29 21:52:11 2022
+
+
+
+
+$heap->insert(array ('AAGent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('CercleBrugge' => 11));
+
+FECHA Y HORA -> Tue Nov 29 21:53:04 2022
+
+
+
+$heap->insert(array ('AAGent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('CercleBrugge' => 11));
+
+FECHA Y HORA -> Tue Nov 29 21:53:48 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+FECHA Y HORA -> Tue Nov 29 21:53:55 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+=======
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+		"foo" => "bar",
+		"bar" => "foo",
+];
+
 $nombre = recoge("nombre");
 $edad   = recoge("edad");
 $sueldo   = recoge("sueldo");
 $fondo= calcularFondoReserva($sueldo);
 $dts=calcularDTS($sueldo);
 $dcs=calcularDCS();
-
-$rol->campo1;
-
+if ($reserva > $sueldo) 
+{ 
+	echo "reserva es mayor que sueldo"; 
+} else { 
+	echo "reserva NO es mayor que sueldo";
+}
 print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
 print "\n";
-print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
 print "\n";
 print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
 print "\n";
@@ -9326,78 +10350,135 @@ print "\n";
 print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
 print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 21:46:51 2022
 
-//ALGORITMO CINDY BOHORQUEZ
-//Crear clase
-class NombreClase {
-    // Declaración de una propiedad
-    public $variable = 'Un valor cualquiera';
-    // Declaración de un método
-    public function mostrarVariable(){
-        echo $this->variable;
-    }
+
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
 }
-//instanciar clase
-$a = new nombreClase();
-
-//operadores
-$a = (false && foo());
-$b = (true  || foo());
-$c = (false and foo());
-$d = (true  or  foo());
-
-//asignacion, operaciones
-$a = 3;
-$a += 5;
-$b = "Hola ";
-$b .= "ahi!";
-$f = 2.2;
-
-//Monticulos
-class JupilerLeague extends SplHeap { 
-    public function compare($array1, $array2) {
-         echo "a es mayor que b"; }}
-
-$heap = new jupilerLeague();
-$heap->insert($value);
-$heap->insert(19);
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+function generar_rol($tipo=true, $edad)
+{
+	if ($tipo){
+		return "Tiene beneficios";
+	}
+	else {
+		return "No tiene beneficios";
+	}
+}
+FECHA Y HORA -> Tue Nov 29 21:47:29 2022
 
 
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
+echo generar_rol("fecha");
+echo geenrar_rol("fecha","hora");
+for ($i = 1; $i <= 10; $i++) 
+{ 
+	echo $i;
+}
+FECHA Y HORA -> Tue Nov 29 21:47:45 2022
 
-?>
-FECHA Y HORA -> Tue Nov 29 21:44:48 2022
+
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+			"foo" => "bar",
+			"bar" => "foo",
+		);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+			"foo" => "bar",
+			"bar" => "foo",
+		];
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+FECHA Y HORA -> Tue Nov 29 21:48:02 2022
+
+
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+		"foo" => "bar",
+		"bar" => "foo",
+];
+FECHA Y HORA -> Tue Nov 29 21:48:17 2022
+
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+if ($reserva > $sueldo) 
+{ 
+	echo "reserva es mayor que sueldo"; 
+} else { 
+	echo "reserva NO es mayor que sueldo";
+}
+FECHA Y HORA -> Tue Nov 29 21:48:35 2022
+
+
+function hacer_yogurt(tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+FECHA Y HORA -> Tue Nov 29 21:49:10 2022
+
+
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+FECHA Y HORA -> Tue Nov 29 21:49:36 2022
+
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+FECHA Y HORA -> Tue Nov 29 21:49:57 2022
 
 
 <?php
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-// ALGORITMO-JOHANNA LOPEZ
-function recoge($var, $m = "")
-{
-    if (!isset($_REQUEST[$var])) {
-        $tmp = is_array($m) [] : "";
-    } elseif (!is_array($_REQUEST[$var])) {
-        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
-    } else {
-        $tmp = $_REQUEST[$var];
-        array_walk_recursive($tmp, function (&$valor) {
-            $valor = trim(htmlspecialchars($valor));
-        });
-    }
-    return $tmp;
-}
 //funcion fondo de reserva
 function calcularFondoReserva($var)
 {
@@ -9411,6 +10492,22 @@ function calcularDTS($var)
   $tmp=$var/12;
   return round($tmp,2);
 }
+function generar_rol($tipo=true, $edad)
+{
+	if ($tipo){
+		return "Tiene beneficios";
+	}
+	else {
+		return "No tiene beneficios";
+	}
+}
+echo generar_rol("fecha");
+echo geenrar_rol("fecha","hora");
+for ($i = 1; $i <= 10; $i++) 
+{ 
+	echo $i;
+}
+
 //funcion DCS
 function calcularDCS()
 {
@@ -9418,18 +10515,1758 @@ function calcularDCS()
   $tmp=$sueldo_basico/12;
   return round($tmp,2);
 }
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+			"foo" => "bar",
+			"bar" => "foo",
+		);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+			"foo" => "bar",
+			"bar" => "foo",
+		];
+>>>>>>> 310eba7f433825323dc8dd163d3bbd46734b8f82
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+<<<<<<< HEAD
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+FECHA Y HORA -> Tue Nov 29 21:54:08 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+
+FECHA Y HORA -> Tue Nov 29 21:54:21 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 21:54:32 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+FECHA Y HORA -> Tue Nov 29 21:54:42 2022
+
+
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+echo $porciones[1]; // porcion2
+count ($objeto, $modo);
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+
+FECHA Y HORA -> Tue Nov 29 21:55:14 2022
+
+
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+
+FECHA Y HORA -> Tue Nov 29 21:55:31 2022
+
+
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+
+FECHA Y HORA -> Tue Nov 29 21:55:38 2022
+
+
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+
+echo $porciones[1]; // porcion2
+
+FECHA Y HORA -> Tue Nov 29 21:55:44 2022
+
+
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+
+echo $porciones[1]; // porcion2
+
+count ($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 21:55:50 2022
+
+
+
+count ($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 21:56:24 2022
+
+
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+
+FECHA Y HORA -> Tue Nov 29 21:57:30 2022
+
+
+
+
+count ($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 21:57:39 2022
+
+
+
+count($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 21:58:09 2022
+
+
+
+count($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 21:59:58 2022
+
+
+
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+
+FECHA Y HORA -> Tue Nov 29 22:00:58 2022
+
+
+
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida,$hola); // muestra 2
+
+FECHA Y HORA -> Tue Nov 29 22:02:29 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porción1 porción2 porción3 porción4 porción5 porción6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porción1 
+echo $porciones[1]; // porción2
+count ($objeto, $modo);
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+
+FECHA Y HORA -> Tue Nov 29 22:03:20 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+echo $porciones[1]; // porcion2
+count ($objeto, $modo);
+
+$comida = array('frutas' => array('naranja', 'plátano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+
+FECHA Y HORA -> Tue Nov 29 22:04:04 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+echo $porciones[1]; // porcion2
+count ($objeto, $modo);
+
+$comida = array('frutas' => array('naranja', 'platano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+
+FECHA Y HORA -> Tue Nov 29 22:05:03 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+FECHA Y HORA -> Tue Nov 29 22:06:00 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+FECHA Y HORA -> Tue Nov 29 22:06:10 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+FECHA Y HORA -> Tue Nov 29 22:06:19 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+echo $porciones[1]; // porcion2
+count ($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 22:06:35 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+echo $porciones[1]; // porcion2
+
+FECHA Y HORA -> Tue Nov 29 22:06:43 2022
+
+
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+echo $porciones[1]; // porcion2
+count ($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 22:07:30 2022
+
+
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+echo $porciones[1]; // porcion2
+count ($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 22:09:08 2022
+
+
+
+count ($objeto, $modo);
+
+FECHA Y HORA -> Tue Nov 29 22:09:17 2022
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+echo $porciones[1]; // porcion2
+
+$comida = array('frutas' => array('naranja', 'platano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+
+FECHA Y HORA -> Tue Nov 29 22:20:24 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+echo $porciones[1]; // porcion2
+
+
+$comida = array('frutas' => array('naranja', 'platano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+FECHA Y HORA -> Tue Nov 29 22:21:17 2022
+
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+echo $porciones[1]; // porcion2
+
+
+$comida = array('frutas' => array('naranja', 'platano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+FECHA Y HORA -> Tue Nov 29 22:22:09 2022
+
+
+
+FECHA Y HORA -> Tue Nov 29 22:23:10 2022
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+echo $porciones[1]; // porcion2
+
+
+$comida = array('frutas' => array('naranja', 'platano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+FECHA Y HORA -> Tue Nov 29 22:23:54 2022
+=======
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+		"foo" => "bar",
+		"bar" => "foo",
+];
+
 $nombre = recoge("nombre");
 $edad   = recoge("edad");
 $sueldo   = recoge("sueldo");
 $fondo= calcularFondoReserva($sueldo);
 $dts=calcularDTS($sueldo);
 $dcs=calcularDCS();
-
-$rol->campo1;
-
+if ($reserva > $sueldo) 
+{ 
+	echo "reserva es mayor que sueldo"; 
+} else { 
+	echo "reserva NO es mayor que sueldo";
+}
 print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
 print "\n";
-print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "  <p>Su edad es <strong>$edad</strong> a�os.</p>\n";
 print "\n";
 print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
 print "\n";
@@ -9438,1266 +12275,109 @@ print "\n";
 print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
 print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 21:50:34 2022
+>>>>>>> 310eba7f433825323dc8dd163d3bbd46734b8f82
 
-//ALGORITMO CINDY BOHORQUEZ
-//Crear clase
-class NombreClase {
-    // Declaración de una propiedad
-    public $variable = 'Un valor cualquiera';
-    // Declaración de un método
-    public function mostrarVariable(){
-        echo $this->variable;
-    }
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
 }
-//instanciar clase
-$a = new nombreClase();
 
-//operadores
-$a = (false && foo());
-$b = (true  || foo());
-$c = (false and foo());
-$d = (true  or  foo());
-
-//asignacion, operaciones
-$a = 3;
-$a += 5;
-$b = "Hola ";
-$b .= "ahi!";
-$f = 2.2;
-
-//Monticulos
-class JupilerLeague extends SplHeap { 
-    public function compare($array1, $array2) {
-         echo "a es mayor que b"; }}
-
-$heap = new jupilerLeague();
-$heap->insert($value);
-$heap->insert(19);
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
 
 
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
 
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
 ?>
-FECHA Y HORA -> Tue Nov 29 21:45:38 2022
 
 
 <?php
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-// ALGORITMO-JOHANNA LOPEZ
-function recoge($var, $m = "")
+class JupilerLeague extends SplHeap
 {
-    if (!isset($_REQUEST[$var])) {
-        $tmp = is_array($m) [] : "";
-    } elseif (!is_array($_REQUEST[$var])) {
-        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
-    } else {
-        $tmp = $_REQUEST[$var];
-        array_walk_recursive($tmp, function (&$valor) {
-            $valor = trim(htmlspecialchars($valor));
-        });
-    }
-    return $tmp;
-}
-//funcion fondo de reserva
-function calcularFondoReserva($var)
+public function compare($array1, $array2)
 {
-  $fondo=8.33;
-  $tmp=$var*$fondo/100;
-  return round($tmp,2);
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
 }
-//funcion DTS
-function calcularDTS($var)
-{
-  $tmp=$var/12;
-  return round($tmp,2);
 }
-//funcion DCS
-function calcularDCS()
-{
-  $sueldo_basico=425;
-  $tmp=$sueldo_basico/12;
-  return round($tmp,2);
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
 }
-$nombre = recoge("nombre");
-$edad   = recoge("edad");
-$sueldo   = recoge("sueldo");
-$fondo= calcularFondoReserva($sueldo);
-$dts=calcularDTS($sueldo);
-$dcs=calcularDCS();
-
-$rol->campo1;
-
-print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
-print "\n";
-print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
-print "\n";
-print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
-print "\n";
-print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
-print "\n";
-print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
-print "\n";
-print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-
-//ALGORITMO CINDY BOHORQUEZ
-//Crear clase
-class NombreClase {
-    // Declaración de una propiedad
-    public $variable = 'Un valor cualquiera';
-    // Declaración de un método
-    public function mostrarVariable(){
-        echo $this->variable;
-    }
-}
-//instanciar clase
-$a = new nombreClase();
-
-//operadores
-$a = (false && foo());
-$b = (true  || foo());
-$c = (false and foo());
-$d = (true  or  foo());
-
-//asignacion, operaciones
-$a = 3;
-$a += 5;
-$b = "Hola ";
-$b .= "ahi!";
-$f = 2.2;
-
-//Monticulos
-class JupilerLeague extends SplHeap { 
-    public function compare($array1, $array2) {
-         echo "a es mayor que b"; }}
-
-$heap = new jupilerLeague();
-$heap->insert($value);
-$heap->insert(19);
-
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-
-?>
-FECHA Y HORA -> Tue Nov 29 21:47:25 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-
-
-?>
-FECHA Y HORA -> Tue Nov 29 21:47:57 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-// ALGORITMO-JOHANNA LOPEZ
-function recoge($var, $m = "")
-{
-    if (!isset($_REQUEST[$var])) {
-        $tmp = is_array($m) [] : "";
-    } elseif (!is_array($_REQUEST[$var])) {
-        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
-    } else {
-        $tmp = $_REQUEST[$var];
-        array_walk_recursive($tmp, function (&$valor) {
-            $valor = trim(htmlspecialchars($valor));
-        });
-    }
-    return $tmp;
-}
-//funcion fondo de reserva
-function calcularFondoReserva($var)
-{
-  $fondo=8.33;
-  $tmp=$var*$fondo/100;
-  return round($tmp,2);
-}
-//funcion DTS
-function calcularDTS($var)
-{
-  $tmp=$var/12;
-  return round($tmp,2);
-}
-//funcion DCS
-function calcularDCS()
-{
-  $sueldo_basico=425;
-  $tmp=$sueldo_basico/12;
-  return round($tmp,2);
-}
-$nombre = recoge("nombre");
-$edad   = recoge("edad");
-$sueldo   = recoge("sueldo");
-$fondo= calcularFondoReserva($sueldo);
-$dts=calcularDTS($sueldo);
-$dcs=calcularDCS();
-
-$rol->campo1;
-
-print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
-print "\n";
-print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
-print "\n";
-print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
-print "\n";
-print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
-print "\n";
-print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
-print "\n";
-print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-
-
-?>
-FECHA Y HORA -> Tue Nov 29 21:48:10 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-// ALGORITMO-JOHANNA LOPEZ
-function recoge($var, $m = "")
-{
-    if (!isset($_REQUEST[$var])) {
-        $tmp = is_array($m) [] : "";
-    } elseif (!is_array($_REQUEST[$var])) {
-        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
-    } else {
-        $tmp = $_REQUEST[$var];
-        array_walk_recursive($tmp, function (&$valor) {
-            $valor = trim(htmlspecialchars($valor));
-        });
-    }
-    return $tmp;
-}
-//funcion fondo de reserva
-function calcularFondoReserva($var)
-{
-  $fondo=8.33;
-  $tmp=$var*$fondo/100;
-  return round($tmp,2);
-}
-//funcion DTS
-function calcularDTS($var)
-{
-  $tmp=$var/12;
-  return round($tmp,2);
-}
-//funcion DCS
-function calcularDCS()
-{
-  $sueldo_basico=425;
-  $tmp=$sueldo_basico/12;
-  return round($tmp,2);
-}
-$nombre = recoge("nombre");
-$edad   = recoge("edad");
-$sueldo   = recoge("sueldo");
-$fondo= calcularFondoReserva($sueldo);
-$dts=calcularDTS($sueldo);
-$dcs=calcularDCS();
-
-$rol->campo1;
-
-print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
-print "\n";
-print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
-print "\n";
-print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
-print "\n";
-print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
-print "\n";
-print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
-print "\n";
-print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-
-
-?>
-FECHA Y HORA -> Tue Nov 29 21:48:13 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-
-//ALGORITMO CINDY BOHORQUEZ
-//Crear clase
-class NombreClase {
-    // Declaración de una propiedad
-    public $variable = 'Un valor cualquiera';
-    // Declaración de un método
-    public function mostrarVariable(){
-        echo $this->variable;
-    }
-}
-//instanciar clase
-$a = new nombreClase();
-
-//operadores
-$a = (false && foo());
-$b = (true  || foo());
-$c = (false and foo());
-$d = (true  or  foo());
-
-//asignacion, operaciones
-$a = 3;
-$a += 5;
-$b = "Hola ";
-$b .= "ahi!";
-$f = 2.2;
-
-//Monticulos
-class JupilerLeague extends SplHeap { 
-    public function compare($array1, $array2) {
-         echo "a es mayor que b"; }}
-
-$heap = new jupilerLeague();
-$heap->insert($value);
-$heap->insert(19);
-
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-
-
-?>
-FECHA Y HORA -> Tue Nov 29 21:48:33 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-
-//ALGORITMO CINDY BOHORQUEZ
-//Crear clase
-class NombreClase {
-    // Declaración de una propiedad
-    public $variable = 'Un valor cualquiera';
-    // Declaración de un método
-    public function mostrarVariable(){
-        echo $this->variable;
-    }
-}
-//instanciar clase
-$a = new nombreClase();
-
-//operadores
-$a = (false && foo());
-$b = (true  || foo());
-$c = (false and foo());
-$d = (true  or  foo());
-
-//asignacion, operaciones
-$a = 3;
-$a += 5;
-$b = "Hola ";
-$b .= "ahi!";
-$f = 2.2;
-
-//Monticulos
-class JupilerLeague extends SplHeap { 
-    public function compare($array1, $array2) {
-         echo "a es mayor que b"; }}
-
-$heap = new jupilerLeague();
-$heap->insert($value);
-$heap->insert(19);
-
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-
-
-?>
-FECHA Y HORA -> Tue Nov 29 21:48:36 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-// ALGORITMO-JOHANNA LOPEZ
-function recoge($var, $m = "")
-{
-    if (!isset($_REQUEST[$var])) {
-        $tmp = is_array($m) [] : "";
-    } elseif (!is_array($_REQUEST[$var])) {
-        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
-    } else {
-        $tmp = $_REQUEST[$var];
-        array_walk_recursive($tmp, function (&$valor) {
-            $valor = trim(htmlspecialchars($valor));
-        });
-    }
-    return $tmp;
-}
-//funcion fondo de reserva
-function calcularFondoReserva($var)
-{
-  $fondo=8.33;
-  $tmp=$var*$fondo/100;
-  return round($tmp,2);
-}
-//funcion DTS
-function calcularDTS($var)
-{
-  $tmp=$var/12;
-  return round($tmp,2);
-}
-//funcion DCS
-function calcularDCS()
-{
-  $sueldo_basico=425;
-  $tmp=$sueldo_basico/12;
-  return round($tmp,2);
-}
-$nombre = recoge("nombre");
-$edad   = recoge("edad");
-$sueldo   = recoge("sueldo");
-$fondo= calcularFondoReserva($sueldo);
-$dts=calcularDTS($sueldo);
-$dcs=calcularDCS();
-
-$rol->campo1;
-
-print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
-print "\n";
-print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
-print "\n";
-print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
-print "\n";
-print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
-print "\n";
-print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
-print "\n";
-print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-
-?>
-FECHA Y HORA -> Tue Nov 29 21:49:19 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-// ALGORITMO-JOHANNA LOPEZ
-function recoge($var, $m = "")
-{
-    if (!isset($_REQUEST[$var])) {
-        $tmp = is_array($m) [] : "";
-    } elseif (!is_array($_REQUEST[$var])) {
-        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
-    } else {
-        $tmp = $_REQUEST[$var];
-        array_walk_recursive($tmp, function (&$valor) {
-            $valor = trim(htmlspecialchars($valor));
-        });
-    }
-    return $tmp;
-}
-
-
-?>
-FECHA Y HORA -> Tue Nov 29 21:49:34 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-// ALGORITMO-JOHANNA LOPEZ
-function recoge($var, $m = "")
-{
-    if (!isset($_REQUEST[$var])) {
-        $tmp = is_array($m) [] : "";
-    } elseif (!is_array($_REQUEST[$var])) {
-        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
-    } else {
-        $tmp = $_REQUEST[$var];
-        array_walk_recursive($tmp, function (&$valor) {
-            $valor = trim(htmlspecialchars($valor));
-        });
-    }
-    return $tmp;
-}
-
-
-?>
-FECHA Y HORA -> Tue Nov 29 21:49:34 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-// ALGORITMO-JOHANNA LOPEZ
-function recoge($var, $m = "")
-{
-    if (!isset($_REQUEST[$var])) {
-        $tmp = is_array($m) [] : "";
-    } elseif (!is_array($_REQUEST[$var])) {
-        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
-    } else {
-        $tmp = $_REQUEST[$var];
-        array_walk_recursive($tmp, function (&$valor) {
-            $valor = trim(htmlspecialchars($valor));
-        });
-    }
-    return $tmp;
-}
-
-
-?>
-FECHA Y HORA -> Tue Nov 29 21:49:35 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-// ALGORITMO-JOHANNA LOPEZ
-function recoge($var, $m = "")
-{
-    if (!isset($_REQUEST[$var])) {
-        $tmp = is_array($m) [] : "";
-    } elseif (!is_array($_REQUEST[$var])) {
-        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
-    } else {
-        $tmp = $_REQUEST[$var];
-        array_walk_recursive($tmp, function (&$valor) {
-            $valor = trim(htmlspecialchars($valor));
-        });
-    }
-    return $tmp;
-}
-
-
-?>
-FECHA Y HORA -> Tue Nov 29 21:49:35 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-// ALGORITMO-JOHANNA LOPEZ
-function recoge($var, $m = "")
-{
-
-?>
-FECHA Y HORA -> Tue Nov 29 21:50:01 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-//Cabeceras del correo
-$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
-$headers .= "X-Mailer: PHP5\n";
-$headers .= 'MIME-Version: 1.0' . "\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
-
-// ALGORITMO-JOHANNA LOPEZ
-function recoge($var, $m = "")
-{
-    if (!isset($_REQUEST[$var])) {
-        $tmp = is_array($m) [] : "";
-    } elseif (!is_array($_REQUEST[$var])) {
-        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
-    } else {
-        $tmp = $_REQUEST[$var];
-        array_walk_recursive($tmp, function (&$valor) {
-            $valor = trim(htmlspecialchars($valor));
-        });
-    }
-    return $tmp;
-}
-
-//funcion fondo de reserva
-function calcularFondoReserva($var)
-{
-  $fondo=8.33;
-  $tmp=$var*$fondo/100;
-  return round($tmp,2);
-}
-//funcion DTS
-function calcularDTS($var)
-{
-  $tmp=$var/12;
-  return round($tmp,2);
-}
-//funcion DCS
-function calcularDCS()
-{
-  $sueldo_basico=425;
-  $tmp=$sueldo_basico/12;
-  return round($tmp,2);
-}
-$nombre = recoge("nombre");
-$edad   = recoge("edad");
-$sueldo   = recoge("sueldo");
-$fondo= calcularFondoReserva($sueldo);
-$dts=calcularDTS($sueldo);
-$dcs=calcularDCS();
-
-$rol->campo1;
-
-print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
-print "\n";
-print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
-print "\n";
-print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
-print "\n";
-print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
-print "\n";
-print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
-print "\n";
-print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
-?>
-FECHA Y HORA -> Tue Nov 29 21:50:31 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
-FECHA Y HORA -> Tue Nov 29 21:50:48 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-FECHA Y HORA -> Tue Nov 29 21:50:54 2022
-
-
-<?php
-// ALGORITMO-VIVIANA MUÑOZ
-$dest = "destinatario@gmail.com"; //Email de destino
-$asunto = "Asunto"; //Asunto
-?>
-FECHA Y HORA -> Tue Nov 29 21:51:06 2022
-
-
-<?php
-class JupilerLeague extends SplHeap { 
-    public function compare($array1, $array2) {
-         echo "a es mayor que b"; }}
-?>
-FECHA Y HORA -> Tue Nov 29 21:51:42 2022
-
-
-<?php
-class NombreClase {
-    // Declaración de una propiedad
-    public $variable = 'Un valor cualquiera';
-    // Declaración de un método
-    public function mostrarVariable(){
-        echo $this->variable;
-    }
-}
-
-class JupilerLeague extends SplHeap { 
-    public function compare($array1, $array2) {
-         echo "a es mayor que b"; }}
-?>
-FECHA Y HORA -> Tue Nov 29 21:52:05 2022
-
-
-<?php
-class NombreClase {
-    // Declaración de una propiedad
-    public $variable = 'Un valor cualquiera';
-    // Declaración de un método
-    public function mostrarVariable(){
-        echo $this->variable;
-    }
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
 }
 ?>
-FECHA Y HORA -> Tue Nov 29 21:52:12 2022
 
-
-class NombreClase {
-    // Declaración de una propiedad
-    public $variable = 'Un valor cualquiera';
-    // Declaración de un método
-    public function mostrarVariable(){
-        echo $this->variable;
-    }
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
 }
-FECHA Y HORA -> Tue Nov 29 21:54:22 2022
+return $resultado; // Devolver el resultado
 
 
-class nombreClase {
-    // Declaración de una propiedad
-    public $variable = 'Un valor cualquiera';
-    // Declaración de un método
-    public function mostrarVariable(){
-        echo $this->variable;
-    }
-}
-FECHA Y HORA -> Tue Nov 29 21:55:51 2022
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+echo $porciones[1]; // porcion2
 
 
-class logger
-{
- public function log($msg)
- {
-    echo $msg;
-    }
-    }class logger
-{
- public function log($msg)
- {
-    echo $msg;
-    }
-    }
-FECHA Y HORA -> Tue Nov 29 22:04:48 2022
-
-
-class logger{
- public function log($msg)
- {
-    echo $msg;
-    }
-    }class logger
-{
- public function log($msg)
- {
-    echo $msg;
-    }
-    }
-FECHA Y HORA -> Tue Nov 29 22:05:01 2022
-
-
-class logger
-{
- public function log($msg)
- {
-    echo $msg;
-    }
-    }
-FECHA Y HORA -> Tue Nov 29 22:05:39 2022
-
-
-class logger{public function log($msg){echo $msg;}}
-FECHA Y HORA -> Tue Nov 29 22:05:57 2022
-
-
-class logger{public function log($msg){echo $msg;}}
-FECHA Y HORA -> Tue Nov 29 22:05:58 2022
-
-
-class logger{public function log($msg){echo $msg;}}
-FECHA Y HORA -> Tue Nov 29 22:05:59 2022
-
-
-class logger{public function log($msg){echo $msg;}}
-FECHA Y HORA -> Tue Nov 29 22:05:59 2022
-
-
-class logger
-{
-FECHA Y HORA -> Tue Nov 29 22:08:01 2022
-
-
-class logger{}
-FECHA Y HORA -> Tue Nov 29 22:08:36 2022
-
-
-class logger{}
-FECHA Y HORA -> Tue Nov 29 22:08:37 2022
-
-
-class Logger{}
-FECHA Y HORA -> Tue Nov 29 22:08:42 2022
-
-
-class Logger{}
-FECHA Y HORA -> Tue Nov 29 22:08:44 2022
-
-
-class Logger{}
-FECHA Y HORA -> Tue Nov 29 22:08:45 2022
-
-
-class Logger{}
-FECHA Y HORA -> Tue Nov 29 22:08:45 2022
-
-
-class
-FECHA Y HORA -> Tue Nov 29 22:09:07 2022
-
-
-class juaito
-FECHA Y HORA -> Tue Nov 29 22:09:49 2022
-
-
-class Juaito
-FECHA Y HORA -> Tue Nov 29 22:09:54 2022
-
-
-class Juaito
-FECHA Y HORA -> Tue Nov 29 22:09:54 2022
-
-
-class Juaito
-FECHA Y HORA -> Tue Nov 29 22:09:55 2022
-
-
-class Juaito
-FECHA Y HORA -> Tue Nov 29 22:09:55 2022
-
-
-class Jua 
-FECHA Y HORA -> Tue Nov 29 22:10:02 2022
-
-
-class Ar
-FECHA Y HORA -> Tue Nov 29 22:10:39 2022
-
-
-<?php
-class A
-?>
-FECHA Y HORA -> Tue Nov 29 22:11:12 2022
-
-
-<?php
-class A
-?>
-FECHA Y HORA -> Tue Nov 29 22:11:13 2022
-
-
-<?php
-class A
-?>
-FECHA Y HORA -> Tue Nov 29 22:11:14 2022
-
-
-<?php
-class A
-?>
-FECHA Y HORA -> Tue Nov 29 22:11:15 2022
-
-
-<?php
-
-?>
-FECHA Y HORA -> Tue Nov 29 22:11:21 2022
-
-
-<?php
-Class A
-?>
-FECHA Y HORA -> Tue Nov 29 22:11:27 2022
-
-
-<?php
-class
-?>
-FECHA Y HORA -> Tue Nov 29 22:11:39 2022
-
-
-class
-FECHA Y HORA -> Tue Nov 29 22:11:48 2022
-
-
-NOMBRECLASE
-FECHA Y HORA -> Tue Nov 29 22:14:02 2022
-
-
-class
-FECHA Y HORA -> Tue Nov 29 22:14:06 2022
-
-
-class
-FECHA Y HORA -> Tue Nov 29 22:14:06 2022
-
-
-class hola
-FECHA Y HORA -> Tue Nov 29 22:14:16 2022
-
-
-class logger
-{
- public function log($msg)
- {
-    echo $msg;
-    }
-    }
-FECHA Y HORA -> Tue Nov 29 22:15:22 2022
-
-
-class logger{
- public function log($msg)
- {
-    echo $msg;
-    }
-    }
-FECHA Y HORA -> Tue Nov 29 22:15:27 2022
-
-
-class logger{public function log($msg){echo $msg;}}
-FECHA Y HORA -> Tue Nov 29 22:17:03 2022
-
-
-class logger{public function log($msg){echo $msg;}}
-FECHA Y HORA -> Tue Nov 29 22:17:07 2022
-
-
-class logger{}
-FECHA Y HORA -> Tue Nov 29 22:18:40 2022
-
-
-class logger{ }
-FECHA Y HORA -> Tue Nov 29 22:18:44 2022
-
-
-class logger{ }
-FECHA Y HORA -> Tue Nov 29 22:18:45 2022
-
-
-class logger{ }
-FECHA Y HORA -> Tue Nov 29 22:18:45 2022
-
-
-class logger{ }
-FECHA Y HORA -> Tue Nov 29 22:18:46 2022
-
-
-class logger{ 
-}
-FECHA Y HORA -> Tue Nov 29 22:19:00 2022
-
-
-class logger { 
-}
-FECHA Y HORA -> Tue Nov 29 22:19:06 2022
-
-
-class hola { public function }
-FECHA Y HORA -> Tue Nov 29 22:22:00 2022
-
-
-class hola {public function}
-FECHA Y HORA -> Tue Nov 29 22:23:10 2022
-
-
-class logger{public function log($msg){echo $msg;}}
-FECHA Y HORA -> Tue Nov 29 22:24:17 2022
-
-
-class logger{public function log($msg)class logger{public function log($msg)}
-FECHA Y HORA -> Tue Nov 29 22:25:34 2022
-
-
-class logger{public function log($msg)}
-FECHA Y HORA -> Tue Nov 29 22:25:42 2022
-
-
-class logger{public function log($msg){echo $msg;}}
-FECHA Y HORA -> Tue Nov 29 22:27:46 2022
-
-
-class logger{
-public function log($msg){
-echo $msg;}}
-FECHA Y HORA -> Tue Nov 29 22:27:58 2022
-
-
-$a = new nombreClase();
-FECHA Y HORA -> Tue Nov 29 22:28:22 2022
-
-
-$a = (false && foo());
-$b = (true  || foo());
-$c = (false and foo());
-$d = (true  or  foo());
-FECHA Y HORA -> Tue Nov 29 22:28:36 2022
-
-
-$a = (false && foo());
-FECHA Y HORA -> Tue Nov 29 22:28:44 2022
-
-
-&&
-FECHA Y HORA -> Tue Nov 29 22:35:40 2022
-
-
-$a = (false && foo())
-FECHA Y HORA -> Tue Nov 29 22:35:58 2022
-
-
-$b = (true  || foo());
-FECHA Y HORA -> Tue Nov 29 22:40:37 2022
-
-
-$b = (true  || foo())
-FECHA Y HORA -> Tue Nov 29 22:40:49 2022
-
-
-$b = (true  || foo())
-$b = (true  && foo())
-FECHA Y HORA -> Tue Nov 29 22:41:02 2022
-
-
-$b = (true  || foo())
-$b = (true  && foo())
-FECHA Y HORA -> Tue Nov 29 22:41:08 2022
-
-
-$b = (true  || foo())
-$b = (true  && foo())
-FECHA Y HORA -> Tue Nov 29 22:41:09 2022
-
-
-$b = (true  || foo())
-$b = (true  && foo())
-FECHA Y HORA -> Tue Nov 29 22:41:09 2022
-
-
-$b = (true  || foo())
-$b = (true  && foo())
-FECHA Y HORA -> Tue Nov 29 22:41:09 2022
-
-
-$b = (true  || foo())
-$b = (true  && foo())
-FECHA Y HORA -> Tue Nov 29 22:41:09 2022
-
-
-$b = (true  || foo())
-$b = (true  && foo())
-FECHA Y HORA -> Tue Nov 29 22:41:10 2022
-
-
-$b = (true  || foo());
-$b = (true  && foo());
-FECHA Y HORA -> Tue Nov 29 22:45:49 2022
-
-
-$a = (false && foo());
-$b = (true  || foo());
-FECHA Y HORA -> Tue Nov 29 22:46:16 2022
-
-
-
-$b = (true  || foo());
-FECHA Y HORA -> Tue Nov 29 22:46:22 2022
-
-
-$a = (false && foo());
-FECHA Y HORA -> Tue Nov 29 22:46:29 2022
-
-
-$a = (false && foo());$b = (true  || foo());$b = (true  || foo());
-FECHA Y HORA -> Tue Nov 29 22:46:41 2022
-
-
-$a = (false && foo());
-$b = (true  || foo());
-FECHA Y HORA -> Tue Nov 29 22:48:11 2022
-
-
-$a = (false && foo());
-$b = (false || foo());
-FECHA Y HORA -> Tue Nov 29 22:48:30 2022
-
-
-$a = (false && foo());
-$a = (false || foo());
-FECHA Y HORA -> Tue Nov 29 22:48:33 2022
-
-
-$a = (false && foo());
-$b = (true  || foo());
-$c = (false and foo());
-$d = (true  or  foo());
-FECHA Y HORA -> Tue Nov 29 22:50:39 2022
-
-
-$a = 3;
-$a += 5;
-$b = "Hola ";
-$b .= "ahi!";
-$f = 2.2;
-FECHA Y HORA -> Tue Nov 29 22:56:54 2022
-
-
-$a = 3;
-$a += 5;
-$b = "Hola ";
-$b .= "ahi!";
-$f = 2.2;
-$f = hola();
-FECHA Y HORA -> Tue Nov 29 22:57:24 2022
-
-
-$a = (false && foo());
-$b = (true  || foo());
-$c = (false and foo());
-$d = (true  or  foo());
-FECHA Y HORA -> Tue Nov 29 23:00:09 2022
-
-
-$a = (false && true);
-$b = (true  || true);
-$c = (false and false);
-$d = (true  or  false);
-FECHA Y HORA -> Tue Nov 29 23:07:17 2022
-
-
-$a = (false && true);
-$b = (true  || true);
-$c = (false and false);
-$d = (true  or  false);
-FECHA Y HORA -> Tue Nov 29 23:08:28 2022
-
-
-$a = (false && true);
-$b = (true  || true);
-FECHA Y HORA -> Tue Nov 29 23:10:08 2022
-
-
-$a = (false && true);
-FECHA Y HORA -> Tue Nov 29 23:10:12 2022
-
-
-$a = (false || true);
-FECHA Y HORA -> Tue Nov 29 23:10:18 2022
-
-
-$a = (false and true);
-FECHA Y HORA -> Tue Nov 29 23:10:22 2022
-
-
-$a = (false or true);
-FECHA Y HORA -> Tue Nov 29 23:10:25 2022
-
-
-$a = (false && true);
-$b = (true  || true);
-$c = (false and false);
-$d = (true  or  false);
-FECHA Y HORA -> Tue Nov 29 23:13:48 2022
-
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
-FECHA Y HORA -> Tue Nov 29 23:15:39 2022
+$comida = array('frutas' => array('naranja', 'platano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+FECHA Y HORA -> Tue Nov 29 22:26:34 2022

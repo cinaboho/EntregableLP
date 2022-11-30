@@ -229,7 +229,7 @@ def t_OPERLOGICO_NOT(t):
     return t
     
 def t_OPERASIG_ARRAY(t):
-    r'(\=){1}(\>){1}'
+    r'(\=){1}(>){1}'
     return t
 
 def t_HEAP(t):
