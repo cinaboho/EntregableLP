@@ -4,6 +4,8 @@ Unused terminals:
 
     ASTERISCOIGUAL
     BARRAIGUAL
+    BINARY
+    BOOLEAN
     CONST
     CONTINUE
     CURRENT
@@ -13,6 +15,7 @@ Unused terminals:
     END_WHILE
     ESPACIOENBLANCO
     GLOBAL
+    INT
     LIST
     OPEN_TAG_WITH_ECHO
     OPERACIONSUM
@@ -246,6 +249,8 @@ ARRAY                : 61 149
 AS                   : 50
 ASTERISCOIGUAL       : 
 BARRAIGUAL           : 
+BINARY               : 
+BOOLEAN              : 
 BOOLEANO             : 46 83 91 113 114
 BREAK                : 164 166
 CADENA               : 44 61 81 121 136 145 197
@@ -289,6 +294,7 @@ IGUAL                : 25 26 27 28 52 58 108 109 113 114 115 116 117 118 119 121
 IGUALIGUAL           : 99
 INICIO               : 198 199 200 201
 INSERT               : 59 60 61
+INT                  : 
 INTE                 : 188
 LIST                 : 
 LLAVEDER             : 50 129 130 131 132 133 134 135 160 161 161 163 164 179 181 181 184 206 207

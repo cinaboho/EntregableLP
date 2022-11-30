@@ -12381,3 +12381,48 @@ echo count($comida, COUNT_RECURSIVE); // muestra 8
 // Cuenta normal 
 echo count($comida); // muestra 2
 FECHA Y HORA -> Tue Nov 29 22:26:34 2022
+
+
+$a = (false && true);
+$b = (true  || true);
+$c = (false and false);
+$d = (true  or  false);$a = (false && true);
+$b = (true  || true);
+$c = (false and false);
+$d = (true  or  false);
+FECHA Y HORA -> Tue Nov 29 23:21:21 2022
+
+
+$a = (false && true);
+$b = (true  || true);
+$c = (false and false);
+$d = (true  or  false);
+FECHA Y HORA -> Tue Nov 29 23:21:28 2022
+
+
+$a = (false && true);
+$b = (true  || true);
+$c = (false and false);
+$d = (true  or  false);
+FECHA Y HORA -> Tue Nov 29 23:21:29 2022
+
+
+$a = (false && true);
+$b = (true  || true);
+$c = (false and false);
+$d = (true  or  false);
+FECHA Y HORA -> Tue Nov 29 23:21:31 2022
+
+
+$a = (false && true);
+$b = (true  || true);
+$c = (false and false);
+$d = (true  or  false);
+FECHA Y HORA -> Tue Nov 29 23:21:32 2022
+
+
+$a = (false && true);
+$b = (true  || true);
+$c = (false and false);
+$d = (true  or  false);
+FECHA Y HORA -> Tue Nov 29 23:21:34 2022
