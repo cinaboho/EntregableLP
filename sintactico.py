@@ -24,13 +24,23 @@ def p_sentencias(p):
                   | impresion
                   | programabasico
                   | for
-                  | SplHeap                  
+                  | SplHeap
                   | clases
                   | instrucciones
                   | insertheap
+                  | varCasting
+                  | casting
+                  | opOper
     '''
 
 #----------------------- Inicio Cindy
+# $a = (false && foo());
+# $b = (true  || foo());
+# $c = (false and foo());
+# $d = (true  or  foo());
+
+
+
 def p_operador(p):
     '''operador : MAS
                 | MENOS
@@ -115,10 +125,14 @@ def p_funcion(p):
     | COUNT PARENIZQ VARIABLE_PHP COMA NOMBRE PARENDER PUNTOYCOMA
     | COUNT PARENIZQ VARIABLE_PHP PARENDER PUNTOYCOMA
     | NOMBRE PARENIZQ parametros PARENDER PUNTOYCOMA
+    | NOMBRE PARENIZQ PARENDER
     '''
     log_sintactico_array.append("Función")
 
-
+def p_opOper(p):
+    '''opOper : VARIABLE_PHP IGUAL PARENIZQ booleanos PARENDER PUNTOYCOMA
+    '''
+    log_sintactico_array.append("Operacion Logica")
 
 #$heap = new jupilerLeague();
 def p_monticuloHEAP(p):
@@ -139,6 +153,29 @@ def p_insertheap(p):
 def p_asignaSplheap(p):
     '''asignaSplheap : VARIABLE_PHP o_comparar INSERT PARENIZQ ARRAY PARENIZQ CADENA OPERASIG_ARRAY valores PARENDER PARENDER PUNTOYCOMA '''
     log_sintactico_array.append("asignaSplheap")
+
+####  Semantico
+                    # $foo = 10;   // $foo es un integer
+                    # $bar = (boolean) $foo;   // $bar es un boolean
+
+                    # $foo = (int) $bar;
+                    # $foo = ( int ) $bar;
+
+                    # $binary = (binary) $string;
+                    # $binary = b"binary string";
+
+def p_varCasting(p):
+    '''varCasting : BOOLEAN
+                  | INT
+                  | BINARY
+    '''
+
+def p_casting(p):
+    '''casting : VARIABLE_PHP  IGUAL PARENIZQ varCasting PARENDER VARIABLE_PHP PUNTOYCOMA
+               | VARIABLE_PHP  IGUAL PARENIZQ varCasting PARENDER VARIABLE_PHP PUNTOYCOMA casting
+    '''
+    #p[0] = p[4]
+    log_sintactico_array.append("Casting")
 #----------Fin Cindy
 #----------------------- Inicio Johanna
 def p_instrucciones(p):
@@ -146,9 +183,9 @@ def p_instrucciones(p):
                      | instrucciones instruccion
                      '''
 def p_instruccion(p):
-    '''instruccion : asignacion                     
+    '''instruccion : asignacion
                     | echo
-                    | switchCase                    
+                    | switchCase
                     | verificacion_if
                     | retornoValor
                     | comentarios
@@ -160,7 +197,7 @@ def p_instruccion(p):
                     | final
                      '''
 def p_valores(p):
-    '''valores : ENTERO
+    '''valores    : ENTERO
                   | FLOTANTE
                   | CADENA
                   | VARIABLE_PHP
@@ -231,10 +268,16 @@ def p_difigual(p):
                       | MASIGUAL
                       | MENOSIGUAL
        '''
-
+# class logger
+# {
+#     public function log($msg)
+#     {
+#         echo $msg;
+#     }
+# }
 def p_clases(p):
-    '''clases : CLASS NOMBRE LLAVEIZQ LLAVEDER
-        '''
+    '''clases : CLASS NOMBRE LLAVEIZQ PUBLIC FUNCTION NOMBRE PARENIZQ VARIABLE_PHP PARENDER  LLAVEIZQ echo LLAVEDER LLAVEDER
+    '''
     log_sintactico_array.append("clases")
 
 def p_function(p):

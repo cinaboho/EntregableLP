@@ -37,6 +37,9 @@ reserved = {
     'return': 'RETURN',
     'class': 'CLASS',
     'new': 'NEW',
+    'binary': 'BINARY',
+    'int': 'INT',
+    'boolean': 'BOOLEAN',
     #Fin Cindy
 
     #Johanna
@@ -201,11 +204,11 @@ def t_BOOLEANO(t):
  #Cindy
 
 def t_OPERLOGICO_OR(t):
-    r'or'
+    r'or|\|\|'
     return t
      
 def t_OPERLOGICO_AND(t):
-    r'and'
+    r'and|&&'
     return t
     
 def t_OPERAMAPA(t):
@@ -247,6 +250,8 @@ def t_NOMBRE(t):
    r'([a-zA-Z][a-zA-Z0-9_]*)'
    t.type = reserved.get(t.value, "NOMBRE")
    return t
+
+
 
 def t_CADENA(t):
     #r'\"(.)+\" | \'(.)+\''
