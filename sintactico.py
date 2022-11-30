@@ -195,6 +195,11 @@ def p_instruccion(p):
                     | SplHeap
                     | function2
                     | final
+                    | opOper
+                    | casting
+                    | monticuloHEAP
+                    | clases
+                    | insertheap
                      '''
 def p_valores(p):
     '''valores    : ENTERO

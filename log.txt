@@ -10688,3 +10688,16 @@ FECHA Y HORA -> Tue Nov 29 23:10:22 2022
 
 $a = (false or true);
 FECHA Y HORA -> Tue Nov 29 23:10:25 2022
+
+
+$a = (false && true);
+$b = (true  || true);
+$c = (false and false);
+$d = (true  or  false);
+FECHA Y HORA -> Tue Nov 29 23:13:48 2022
+
+
+$bar = (boolean) $foo;
+$foo = (int) $bar;
+$binary = (binary) $string;
+FECHA Y HORA -> Tue Nov 29 23:15:39 2022
