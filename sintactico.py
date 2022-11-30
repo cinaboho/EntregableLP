@@ -69,14 +69,30 @@ def p_operacionMatematica(p):
      #----------------------- Semantico Cindy
 
 
+    # | PARENIZQ operaciones PARENDER
+                           # | operador PARENIZQ operaciones PARENDER operaciones
+                           # | PARENIZQ operaciones PARENDER operaciones
+                           # | operador PARENIZQ operaciones PARENDER
 def p_operaciones(p):
-    '''operaciones : tipoDevalorNumerico operador tipoDevalorNumerico
-                            | tipoDevalorNumerico operador tipoDevalorNumerico operador tipoDevalorNumerico
-                            | PARENIZQ operaciones PARENDER
-                            | operador PARENIZQ operaciones PARENDER operaciones
-                            | PARENIZQ operaciones PARENDER operaciones
-                            | operador PARENIZQ operaciones PARENDER
+    '''operaciones : operacionesx
+                    | operacionesx operador operaciones
         '''
+def p_operacionesx(p):
+    '''operacionesx : tipoDevalorNumerico
+                       | opedentro
+                       | tipoDevalorNumerico operador tipoDevalorNumerico
+                       | tipoDevalorNumerico operador opedentro
+                       | opedentro operador tipoDevalorNumerico
+                       | opedentro operador opedentro
+           '''
+def p_opedentro(p):
+    '''opedentro :  PARENIZQ  opeden PARENDER
+              '''
+def p_opeden(p):
+    '''opeden : tipoDevalorNumerico operador tipoDevalorNumerico
+                          |  opeden operador tipoDevalorNumerico
+              '''
+
 def p_tipoDevalorNumerico(p):
     '''tipoDevalorNumerico : ENTERO
                            | FLOTANTE
@@ -231,6 +247,7 @@ def p_asignacion(p):
                     | VARIABLE_PHP IGUAL EXPLODE PARENIZQ CADENA COMA VARIABLE_PHP PARENDER PUNTOYCOMA
                     | VARIABLE_PHP IGUAL funcion
                     | VARIABLE_PHP o_comparar NOMBRE PUNTOYCOMA
+                    | VARIABLE_PHP IGUAL operaciones PUNTOYCOMA
                 '''
     log_sintactico_array.append("asignacion")
 
