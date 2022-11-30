@@ -8682,3 +8682,282 @@ FECHA Y HORA -> Tue Nov 29 18:48:13 2022
 
 $resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
 FECHA Y HORA -> Tue Nov 29 18:49:45 2022
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:28:09 2022
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:28:57 2022
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:28:58 2022
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:29:00 2022
+
+
+2+2;
+FECHA Y HORA -> Tue Nov 29 19:29:06 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+FECHA Y HORA -> Tue Nov 29 19:29:31 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+FECHA Y HORA -> Tue Nov 29 19:29:53 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:30:12 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:30:19 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:30:22 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:30:24 2022
+
+
+$heap = new JupilerLeague()
+FECHA Y HORA -> Tue Nov 29 19:31:14 2022
+
+
+$heap = new JupilerLeague()
+FECHA Y HORA -> Tue Nov 29 19:31:15 2022
+
+
+$heap = new JupilerLeague()
+FECHA Y HORA -> Tue Nov 29 19:31:16 2022
+
+
+$heap = new JupilerLeague()
+FECHA Y HORA -> Tue Nov 29 19:31:16 2022
+
+
+$heap = new JupilerLeague();
+$heap->insert($value);
+$heap->insert(19);
+FECHA Y HORA -> Tue Nov 29 19:31:55 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:32:10 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:32:11 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:32:22 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:32:23 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:32:24 2022
+
+
+$heap->insert(19);
+FECHA Y HORA -> Tue Nov 29 19:32:46 2022
+
+
+$heap->insert(19);
+FECHA Y HORA -> Tue Nov 29 19:32:49 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+FECHA Y HORA -> Tue Nov 29 19:33:53 2022
+
+
+foreach ($array as &$valor) {
+$valor = $valor * 2;
+}
+FECHA Y HORA -> Tue Nov 29 19:34:06 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:35:33 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:35:48 2022
+
+
+$heap = new jupilerLeague();
+$heap->insert($value);
+$heap->insert(19);
+FECHA Y HORA -> Tue Nov 29 19:38:14 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:38:25 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:38:27 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:38:29 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:38:34 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:38:37 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:39:50 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:40:55 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:23 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:24 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:24 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:24 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:25 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:25 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:35 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:12 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:12 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:13 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:18 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:19 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:19 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:19 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:19 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:20 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:20 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:26 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:27 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:27 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:27 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:28 2022
+
+
+$heap=insert($value);
+FECHA Y HORA -> Tue Nov 29 19:44:36 2022
+
+
+$var=
+FECHA Y HORA -> Tue Nov 29 19:45:20 2022
+
+
+$var=
+FECHA Y HORA -> Tue Nov 29 19:45:22 2022
+
+
+$var = 
+FECHA Y HORA -> Tue Nov 29 19:45:28 2022
+
+
+foreach ($array as &$valor) {
+$valor = $valor * 2;
+}
+FECHA Y HORA -> Tue Nov 29 19:46:28 2022
+
+
+foreach ($array as &$valor) {
+$valor = $valor * 2;
+}
+FECHA Y HORA -> Tue Nov 29 19:46:32 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:47:16 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:47:25 2022
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:49:15 2022
+
+
+"hola"
+FECHA Y HORA -> Tue Nov 29 19:49:24 2022

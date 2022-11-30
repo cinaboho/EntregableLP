@@ -41,7 +41,6 @@ def p_sentencias(p):
                   | clases
                   | instrucciones
                   | insertheap
-                  | oop
     '''
 
 #----------------------- Inicio Cindy
@@ -65,14 +64,6 @@ def p_operacionMatematica(p):
                             | VARIABLE_PHP IGUAL tipoDevalorNumerico operador tipoDevalorNumerico operaciones PUNTOYCOMA
                                '''
     
-
-     #----------------------- Semantico Cindy
-
-
-    # | PARENIZQ operaciones PARENDER
-                           # | operador PARENIZQ operaciones PARENDER operaciones
-                           # | PARENIZQ operaciones PARENDER operaciones
-                           # | operador PARENIZQ operaciones PARENDER
 def p_operaciones(p):
     '''operaciones : operacionesx
                     | operacionesx operador operaciones
@@ -97,8 +88,7 @@ def p_tipoDevalorNumerico(p):
     '''tipoDevalorNumerico : ENTERO
                            | FLOTANTE
     '''
-    #----------------------- Semantico Cindy
-    #p[0]=nombres[p[1],p[2]]
+
 
 #tipoDeDato para poner dentro de una estructura ej: array{var1, var2, var3}
 def p_tipoDeDato(p):
@@ -109,7 +99,7 @@ def p_tipoDeDato(p):
                   | BOOLEANO
                   | NULL
     '''
-    #----------------------- Semantico Cindy
+
 
 def p_parametros(p):
     '''parametros : tipoDeDato
@@ -121,8 +111,6 @@ def p_foreach(p):
     '''foreach : FOREACH PARENIZQ VARIABLE_PHP AS AMPERSAND VARIABLE_PHP PARENDER LLAVEIZQ operacionMatematica LLAVEDER
     '''
     log_sintactico_array.append("Foreach")
-    #----------------------- Semantico Cindy
-    p[0]=p[9]
 
 
 # $b=array_map("cubo",$a);
@@ -145,21 +133,21 @@ def p_funcion(p):
 
 
 
-#$heap = new JupilerLeague();
+#$heap = new jupilerLeague();
 def p_monticuloHEAP(p):
-  '''monticuloHEAP : HEAP IGUAL funcion
+  '''monticuloHEAP : HEAP IGUAL funcion PUNTOYCOMA
   '''
   log_sintactico_array.append("Monticulo Heap")
-  p[0]=p[3]
+
 
 #$heap->insert($value);
 #$heap->insert(19);
 def p_insertheap(p):
-    '''insertheap : VARIABLE_PHP o_comparar INSERT PARENIZQ VARIABLE_PHP PARENDER PUNTOYCOMA
-                   | VARIABLE_PHP o_comparar INSERT PARENIZQ     ENTERO   PARENDER PUNTOYCOMA
+    '''insertheap : VARIABLE_PHP OPERALOGICO_MAP INSERT PARENIZQ VARIABLE_PHP PARENDER PUNTOYCOMA
+                  | VARIABLE_PHP OPERALOGICO_MAP INSERT PARENIZQ     ENTERO   PARENDER PUNTOYCOMA
     '''
     log_sintactico_array.append("Insert Heap")
-    p[0]=p[2]
+
 
 def p_asignaSplheap(p):
     '''asignaSplheap : VARIABLE_PHP o_comparar INSERT PARENIZQ ARRAY PARENIZQ CADENA OPERASIG_ARRAY valores PARENDER PARENDER PUNTOYCOMA '''
@@ -283,29 +271,11 @@ def p_operadores_aritmeticos(p):
                    | MULTIPLICA
                    | DIVIDE
     '''
-def p_oop(p):
-    '''oop : valores MAS valores
-            | valores MENOS valores
-            | valores MULTIPLICA valores
-            | valores DIVIDE valores
-    '''
-    if p[2] == '+':
-       p[0] = p[1] + p[3]
-    elif p[2] == '-':
-         p[0] = p[1] - p[3]
-    elif p[2] == '*':
-        p[0] = p[1] * p[3]
-    elif p[2] == '/':
-        p[0] = p[1] / p[3]
 
 
 def p_aritmetica(p):
-    '''aritmetica : oop
+    '''aritmetica : valores operadores_aritmeticos valores
                   | aritmetica operadores_aritmeticos valores'''
-
-# def p_aritmetica(p):
-#     '''aritmetica : valores operadores_aritmeticos valores
-#                   | aritmetica operadores_aritmeticos valores'''
 
 def p_echo(p):
     '''echo : ECHO valores PUNTOYCOMA
