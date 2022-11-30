@@ -8791,6 +8791,7 @@ $resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
 FECHA Y HORA -> Tue Nov 29 18:48:13 2022
 
 
+<<<<<<< HEAD
 
 $resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
 
@@ -9123,11 +9124,348 @@ switch ($i) {
         break;
     case 1:
         echo "i es igual a 1";
+=======
+$resultado = 1 + 2 + ( 3 * 4 / 7) - ( 43 % 3 );
+FECHA Y HORA -> Tue Nov 29 18:49:45 2022
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:28:09 2022
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:28:57 2022
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:28:58 2022
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:29:00 2022
+
+
+2+2;
+FECHA Y HORA -> Tue Nov 29 19:29:06 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+FECHA Y HORA -> Tue Nov 29 19:29:31 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+FECHA Y HORA -> Tue Nov 29 19:29:53 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:30:12 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:30:19 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:30:22 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:30:24 2022
+
+
+$heap = new JupilerLeague()
+FECHA Y HORA -> Tue Nov 29 19:31:14 2022
+
+
+$heap = new JupilerLeague()
+FECHA Y HORA -> Tue Nov 29 19:31:15 2022
+
+
+$heap = new JupilerLeague()
+FECHA Y HORA -> Tue Nov 29 19:31:16 2022
+
+
+$heap = new JupilerLeague()
+FECHA Y HORA -> Tue Nov 29 19:31:16 2022
+
+
+$heap = new JupilerLeague();
+$heap->insert($value);
+$heap->insert(19);
+FECHA Y HORA -> Tue Nov 29 19:31:55 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:32:10 2022
+
+
+$heap = new JupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:32:11 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:32:22 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:32:23 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:32:24 2022
+
+
+$heap->insert(19);
+FECHA Y HORA -> Tue Nov 29 19:32:46 2022
+
+
+$heap->insert(19);
+FECHA Y HORA -> Tue Nov 29 19:32:49 2022
+
+
+foreach ($array as &$valor) {$valor = $valor * 2;}
+FECHA Y HORA -> Tue Nov 29 19:33:53 2022
+
+
+foreach ($array as &$valor) {
+$valor = $valor * 2;
+}
+FECHA Y HORA -> Tue Nov 29 19:34:06 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:35:33 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:35:48 2022
+
+
+$heap = new jupilerLeague();
+$heap->insert($value);
+$heap->insert(19);
+FECHA Y HORA -> Tue Nov 29 19:38:14 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:38:25 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:38:27 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:38:29 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:38:34 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:38:37 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:39:50 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:40:55 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:23 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:24 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:24 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:24 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:25 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:25 2022
+
+
+$heap->insert($value);
+FECHA Y HORA -> Tue Nov 29 19:41:35 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:12 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:12 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:13 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:18 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:19 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:19 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:19 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:19 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:20 2022
+
+
+$heap -> insert($value);
+FECHA Y HORA -> Tue Nov 29 19:42:20 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:26 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:27 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:27 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:27 2022
+
+
+$heap -> insert(2);
+FECHA Y HORA -> Tue Nov 29 19:42:28 2022
+
+
+$heap=insert($value);
+FECHA Y HORA -> Tue Nov 29 19:44:36 2022
+
+
+$var=
+FECHA Y HORA -> Tue Nov 29 19:45:20 2022
+
+
+$var=
+FECHA Y HORA -> Tue Nov 29 19:45:22 2022
+
+
+$var = 
+FECHA Y HORA -> Tue Nov 29 19:45:28 2022
+
+
+foreach ($array as &$valor) {
+$valor = $valor * 2;
+}
+FECHA Y HORA -> Tue Nov 29 19:46:28 2022
+
+
+foreach ($array as &$valor) {
+$valor = $valor * 2;
+}
+FECHA Y HORA -> Tue Nov 29 19:46:32 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:47:16 2022
+
+
+$heap = new jupilerLeague();
+FECHA Y HORA -> Tue Nov 29 19:47:25 2022
+
+
+2+2
+FECHA Y HORA -> Tue Nov 29 19:49:15 2022
+
+
+"hola"
+FECHA Y HORA -> Tue Nov 29 19:49:24 2022
+
+
+<?php
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+function generar_rol($tipo=true, $edad)
+{
+	if ($tipo){
+		return "Tiene beneficios";
+	}
+	else {
+		return "No tiene beneficios";
+	}
+}
+echo generar_rol("fecha");
+echo geenrar_rol("fecha","hora");
+for ($i = 1; $i <= 10; $i++) 
+{ 
+	echo $i;
+}
+
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+			"foo" => "bar",
+			"bar" => "foo",
+		);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+			"foo" => "bar",
+			"bar" => "foo",
+		];
+>>>>>>> 310eba7f433825323dc8dd163d3bbd46734b8f82
         break;
     case 2:
         echo "i es igual a 2";
         break;
 }
+<<<<<<< HEAD
 for ($i = 1; $i <= 10; $i++) {
 echo $i;
 }
@@ -9977,11 +10315,227 @@ switch ($i) {
         break;
     case 1:
         echo "i es igual a 1";
+=======
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+		"foo" => "bar",
+		"bar" => "foo",
+];
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+if ($reserva > $sueldo) 
+{ 
+	echo "reserva es mayor que sueldo"; 
+} else { 
+	echo "reserva NO es mayor que sueldo";
+}
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 21:46:51 2022
+
+
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+function generar_rol($tipo=true, $edad)
+{
+	if ($tipo){
+		return "Tiene beneficios";
+	}
+	else {
+		return "No tiene beneficios";
+	}
+}
+FECHA Y HORA -> Tue Nov 29 21:47:29 2022
+
+
+echo generar_rol("fecha");
+echo geenrar_rol("fecha","hora");
+for ($i = 1; $i <= 10; $i++) 
+{ 
+	echo $i;
+}
+FECHA Y HORA -> Tue Nov 29 21:47:45 2022
+
+
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+			"foo" => "bar",
+			"bar" => "foo",
+		);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+			"foo" => "bar",
+			"bar" => "foo",
+		];
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+FECHA Y HORA -> Tue Nov 29 21:48:02 2022
+
+
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+		"foo" => "bar",
+		"bar" => "foo",
+];
+FECHA Y HORA -> Tue Nov 29 21:48:17 2022
+
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+if ($reserva > $sueldo) 
+{ 
+	echo "reserva es mayor que sueldo"; 
+} else { 
+	echo "reserva NO es mayor que sueldo";
+}
+FECHA Y HORA -> Tue Nov 29 21:48:35 2022
+
+
+function hacer_yogurt(tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+FECHA Y HORA -> Tue Nov 29 21:49:10 2022
+
+
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+FECHA Y HORA -> Tue Nov 29 21:49:36 2022
+
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+FECHA Y HORA -> Tue Nov 29 21:49:57 2022
+
+
+<?php
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+function generar_rol($tipo=true, $edad)
+{
+	if ($tipo){
+		return "Tiene beneficios";
+	}
+	else {
+		return "No tiene beneficios";
+	}
+}
+echo generar_rol("fecha");
+echo geenrar_rol("fecha","hora");
+for ($i = 1; $i <= 10; $i++) 
+{ 
+	echo $i;
+}
+
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+			"foo" => "bar",
+			"bar" => "foo",
+		);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+			"foo" => "bar",
+			"bar" => "foo",
+		];
+>>>>>>> 310eba7f433825323dc8dd163d3bbd46734b8f82
         break;
     case 2:
         echo "i es igual a 2";
         break;
 }
+<<<<<<< HEAD
 for ($i = 1; $i <= 10; $i++) {
 echo $i;
 }
@@ -11686,3 +12240,144 @@ echo count($comida, COUNT_RECURSIVE); // muestra 8
 // Cuenta normal 
 echo count($comida); // muestra 2
 FECHA Y HORA -> Tue Nov 29 22:23:54 2022
+=======
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+		"foo" => "bar",
+		"bar" => "foo",
+];
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+if ($reserva > $sueldo) 
+{ 
+	echo "reserva es mayor que sueldo"; 
+} else { 
+	echo "reserva NO es mayor que sueldo";
+}
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 21:50:34 2022
+>>>>>>> 310eba7f433825323dc8dd163d3bbd46734b8f82
+
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+
+class Prueba{}
+class _miPrueba{}
+class clase123{}
+
+function operaciones{}
+function mostrarTexto{}
+function foo123{}
+function _dias2{}
+
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1 
+echo $porciones[1]; // porcion2
+
+
+$comida = array('frutas' => array('naranja', 'platano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva 
+echo count($comida, COUNT_RECURSIVE); // muestra 8 
+// Cuenta normal 
+echo count($comida); // muestra 2
+FECHA Y HORA -> Tue Nov 29 22:26:34 2022
