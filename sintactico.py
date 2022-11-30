@@ -41,6 +41,7 @@ def p_sentencias(p):
                   | clases
                   | instrucciones
                   | insertheap
+                  | oop
     '''
 
 #----------------------- Inicio Cindy
@@ -144,6 +145,9 @@ def p_insertheap(p):
     log_sintactico_array.append("Insert Heap")
     p[0]=p[2]
 
+def p_asignaSplheap(p):
+    '''asignaSplheap : VARIABLE_PHP o_comparar INSERT PARENIZQ ARRAY PARENIZQ CADENA OPERASIG_ARRAY valores PARENDER PARENDER PUNTOYCOMA '''
+    log_sintactico_array.append("asignaSplheap")
 #----------Fin Cindy
 #----------------------- Inicio Johanna
 def p_instrucciones(p):
@@ -255,18 +259,36 @@ def p_define(p):
     log_sintactico_array.append("define")
 
 
-#def p_paramclases(p):
- #   '''paramclases :           '''
+
 def p_operadores_aritmeticos(p):
     '''operadores_aritmeticos : MAS
                    | MENOS
                    | MULTIPLICA
                    | DIVIDE
     '''
+def p_oop(p):
+    '''oop : valores MAS valores
+            | valores MENOS valores
+            | valores MULTIPLICA valores
+            | valores DIVIDE valores
+    '''
+    if p[2] == '+':
+       p[0] = p[1] + p[3]
+    elif p[2] == '-':
+         p[0] = p[1] - p[3]
+    elif p[2] == '*':
+        p[0] = p[1] * p[3]
+    elif p[2] == '/':
+        p[0] = p[1] / p[3]
+
 
 def p_aritmetica(p):
-    '''aritmetica : valores operadores_aritmeticos valores
+    '''aritmetica : oop
                   | aritmetica operadores_aritmeticos valores'''
+
+# def p_aritmetica(p):
+#     '''aritmetica : valores operadores_aritmeticos valores
+#                   | aritmetica operadores_aritmeticos valores'''
 
 def p_echo(p):
     '''echo : ECHO valores PUNTOYCOMA
@@ -369,7 +391,8 @@ def p_retornoValor(p):
 #----------------------- Inicio Viviana
 def p_comentarios(p):
     '''comentarios : COMENTARIO_UNA_LINEA
-                | COMENTARIO_LARGO'''
+                   | COMENTARIO_LARGO'''
+
 def p_impresion(p):
     '''impresion : ECHO tipoDeDato PUNTOYCOMA
         | PRINT tipoDeDato PUNTOYCOMA
@@ -406,21 +429,12 @@ def p_SplHeap(p):
     log_sintactico_array.append("Splheap")
 
 
-#class JupilerLeague extends SplHeap { public function compare($array1, $array2) { echo "a es mayor que b"; } }
-#POR AHORA funciona solo con impresion dentro
 
-def p_asignaSplheap(p):
-    '''asignaSplheap : VARIABLE_PHP o_comparar INSERT PARENIZQ ARRAY PARENIZQ CADENA OPERASIG_ARRAY valores PARENDER PARENDER PUNTOYCOMA '''
-    log_sintactico_array.append("asignaSplheap")
-#def p_newline(p):
-#    'newline : \n+'
+
+
 #----------------------- Fin Viviana
 #-----------------------Cindy
 
-
-
-
-#----------------------- error
 
 def p_error(p):
   if p:
