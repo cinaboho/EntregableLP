@@ -158,13 +158,10 @@ def p_instruccion(p):
                     | function2
                     | funcion
                     | final
-<<<<<<< HEAD
                     | count
                     | key
-=======
                     | clases
                     | asignaSplheap
->>>>>>> acb98f8820b5d17b8665fd16809d2f90b6852445
                      '''
 def p_valores(p):
     '''valores : ENTERO

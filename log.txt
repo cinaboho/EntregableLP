@@ -12523,3 +12523,722 @@ $c = (false and false);
 $d = (true  or  false);
 FECHA Y HORA -> Tue Nov 29 23:21:34 2022
 >>>>>>> acb98f8820b5d17b8665fd16809d2f90b6852445
+
+
+<?php
+// ALGORITMO-VIVIANA MUÑOZ
+
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1
+echo $porciones[1]; // porcion2
+
+
+$comida = array('frutas' => array('naranja', 'platano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva
+echo count($comida, COUNT_RECURSIVE); // muestra 8
+// Cuenta normal
+echo count($comida); // muestra 2
+
+
+
+// ALGORITMO-JOHANNA LOPEZ
+<?php
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+function generar_rol($tipo=true, $edad)
+{
+	if ($tipo){
+		return "Tiene beneficios";
+	}
+	else {
+		return "No tiene beneficios";
+	}
+}
+echo generar_rol("fecha");
+echo geenrar_rol("fecha","hora");
+for ($i = 1; $i <= 10; $i++) 
+{ 
+	echo $i;
+}
+
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+			"foo" => "bar",
+			"bar" => "foo",
+		);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+			"foo" => "bar",
+			"bar" => "foo",
+		];
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+		"foo" => "bar",
+		"bar" => "foo",
+];
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+if ($reserva > $sueldo) 
+{ 
+	echo "reserva es mayor que sueldo"; 
+} else { 
+	echo "reserva NO es mayor que sueldo";
+}
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+class logger{
+public function log($msg){
+echo $msg;}}
+//instanciar clase
+$a = new nombreClase();
+
+//operadores
+$a = (false && true);
+$b = (true  || true);
+$c = (false and false);
+$d = (true  or  false);
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahi!";
+$f = 2.2;
+
+//Monticulos
+class JupilerLeague extends SplHeap { 
+    public function compare($array1, $array2) {
+         echo "a es mayor que b"; }}
+
+$heap = new jupilerLeague();
+$heap->insert($value);
+$heap->insert(19);
+
+
+$bar = (boolean) $foo;
+$foo = (int) $bar;
+$binary = (binary) $string;
+
+?>
+FECHA Y HORA -> Tue Nov 29 23:29:59 2022
+
+
+<?php
+// ALGORITMO-VIVIANA MUÑOZ
+
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1
+echo $porciones[1]; // porcion2
+
+
+$comida = array('frutas' => array('naranja', 'platano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva
+echo count($comida, COUNT_RECURSIVE); // muestra 8
+// Cuenta normal
+echo count($comida); // muestra 2
+FECHA Y HORA -> Tue Nov 29 23:30:23 2022
+
+
+
+
+// ALGORITMO-JOHANNA LOPEZ
+<?php
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+function generar_rol($tipo=true, $edad)
+{
+	if ($tipo){
+		return "Tiene beneficios";
+	}
+	else {
+		return "No tiene beneficios";
+	}
+}
+echo generar_rol("fecha");
+echo geenrar_rol("fecha","hora");
+for ($i = 1; $i <= 10; $i++) 
+{ 
+	echo $i;
+}
+
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+			"foo" => "bar",
+			"bar" => "foo",
+		);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+			"foo" => "bar",
+			"bar" => "foo",
+		];
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+		"foo" => "bar",
+		"bar" => "foo",
+];
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+if ($reserva > $sueldo) 
+{ 
+	echo "reserva es mayor que sueldo"; 
+} else { 
+	echo "reserva NO es mayor que sueldo";
+}
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 23:30:55 2022
+
+
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+class logger{
+public function log($msg){
+echo $msg;}}
+//instanciar clase
+$a = new nombreClase();
+
+//operadores
+$a = (false && true);
+$b = (true  || true);
+$c = (false and false);
+$d = (true  or  false);
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahi!";
+$f = 2.2;
+
+//Monticulos
+class JupilerLeague extends SplHeap { 
+    public function compare($array1, $array2) {
+         echo "a es mayor que b"; }}
+
+$heap = new jupilerLeague();
+$heap->insert($value);
+$heap->insert(19);
+
+
+$bar = (boolean) $foo;
+$foo = (int) $bar;
+$binary = (binary) $string;
+
+?>
+FECHA Y HORA -> Tue Nov 29 23:31:05 2022
+
+
+
+//ALGORITMO CINDY BOHORQUEZ
+//Crear clase
+class logger{
+public function log($msg){
+echo $msg;}}
+//instanciar clase
+$a = new nombreClase();
+
+//operadores
+$a = (false && true);
+$b = (true  || true);
+$c = (false and false);
+$d = (true  or  false);
+
+//asignacion, operaciones
+$a = 3;
+$a += 5;
+$b = "Hola ";
+$b .= "ahi!";
+$f = 2.2;
+FECHA Y HORA -> Tue Nov 29 23:32:28 2022
+
+
+
+//Monticulos
+class JupilerLeague extends SplHeap { 
+    public function compare($array1, $array2) {
+         echo "a es mayor que b"; }}
+
+$heap = new jupilerLeague();
+$heap->insert($value);
+$heap->insert(19);
+
+
+$bar = (boolean) $foo;
+$foo = (int) $bar;
+$binary = (binary) $string;
+
+?>
+FECHA Y HORA -> Tue Nov 29 23:32:33 2022
+
+
+<?php
+// ALGORITMO-VIVIANA MUÑOZ
+
+$dest = "destinatario@gmail.com"; //Email de destino
+$asunto = "Asunto"; //Asunto
+$cuerpo = "Cuerpo del mensaje, puedes poner <b>HTML</b> aqui tambien"; //Cuerpo del mensaje
+//Cabeceras del correo
+$headers = "From: Juan juan@gmail.com\r\n"; //Quien envia?
+$headers .= "X-Mailer: PHP5\n";
+$headers .= 'MIME-Version: 1.0' . "\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
+
+$var =2;
+$VAR =2;
+$var123 =2;
+$_123 =2;
+$_ =2;
+$_var155_3 =2;
+
+for ($i = 1; $i <= 10; $i++) {
+$var="2";
+echo $i;
+}
+
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+}
+}
+
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+?>
+
+
+<?php
+class JupilerLeague extends SplHeap
+{
+public function compare($array1, $array2)
+{
+$values1 = array_values($array1);
+$values2 = array_values($array2);
+if ($values1[0] === $values2[0]) return 0;
+return $values1[0] < $values2[0] ? -1 : 1;
+}
+}
+$heap = new JupilerLeague();
+$heap->insert(array ('AA Gent' => 15));
+$heap->insert(array ('Anderlecht' => 20));
+$heap->insert(array ('Cercle Brugge' => 11));
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+        break;
+    case 1:
+        echo "i es igual a 1";
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+for ($i = 1; $i <= 10; $i++) {
+echo $i;
+}
+?>
+
+function operaciones($n1, $n2, $operacion) {
+$resultado = 0;
+//
+}
+return $resultado; // Devolver el resultado
+
+
+$pizza = "porcion1 porcion2 porcion3 porcion4 porcion5 porcion6";
+$porciones = explode(" ", $pizza); echo $porciones[0]; // porcion1
+echo $porciones[1]; // porcion2
+
+
+$comida = array('frutas' => array('naranja', 'platano', 'manzana'), 'verduras' => array('zanahoria', 'col', 'guisante')); // Cuenta recursiva
+echo count($comida, COUNT_RECURSIVE); // muestra 8
+// Cuenta normal
+echo count($comida); // muestra 2
+
+
+
+// ALGORITMO-JOHANNA LOPEZ
+<?php
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+function generar_rol($tipo=true, $edad)
+{
+	if ($tipo){
+		return "Tiene beneficios";
+	}
+	else {
+		return "No tiene beneficios";
+	}
+}
+echo generar_rol("fecha");
+echo geenrar_rol("fecha","hora");
+for ($i = 1; $i <= 10; $i++) 
+{ 
+	echo $i;
+}
+
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+			"foo" => "bar",
+			"bar" => "foo",
+		);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+			"foo" => "bar",
+			"bar" => "foo",
+		];
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+		"foo" => "bar",
+		"bar" => "foo",
+];
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+if ($reserva > $sueldo) 
+{ 
+	echo "reserva es mayor que sueldo"; 
+} else { 
+	echo "reserva NO es mayor que sueldo";
+}
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 23:33:48 2022
