@@ -197,17 +197,13 @@ print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
 
 //ALGORITMO CINDY BOHORQUEZ
 //Crear clase
+<?php
 class logger{
 public function log($msg){
 echo $msg;}}
 //instanciar clase
 $a = new nombreClase();
 
-//operadores
-$a = (false && true);
-$b = (true  || true);
-$c = (false and false);
-$d = (true  or  false);
 
 //asignacion, operaciones
 $a = 3;
@@ -225,9 +221,5 @@ $heap = new jupilerLeague();
 $heap->insert($value);
 $heap->insert(19);
 
-
-$bar = (boolean) $foo;
-$foo = (int) $bar;
-$binary = (binary) $string;
 
 ?>

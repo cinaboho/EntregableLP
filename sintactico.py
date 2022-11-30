@@ -136,7 +136,8 @@ def p_insertheap(p):
 
 
 def p_asignaSplheap(p):
-    '''asignaSplheap : HEAP o_comparar INSERT PARENIZQ ARRAY PARENIZQ CADENA OPERASIG_ARRAY valores PARENDER PARENDER PUNTOYCOMA '''
+    '''asignaSplheap : HEAP o_comparar INSERT PARENIZQ ARRAY PARENIZQ CADENA OPERASIG_ARRAY valores PARENDER PARENDER PUNTOYCOMA
+                    | HEAP o_comparar INSERT PARENIZQ valores PARENDER PUNTOYCOMA'''
     log_sintactico_array.append("asignaSplheap")
 #----------Fin Cindy
 #----------------------- Inicio Johanna
@@ -243,10 +244,11 @@ def p_clases(p):
         '''
     log_sintactico_array.append("clases")
 
-def p_function(p):
+def p_function2(p):
     '''function2 : FUNCTION NOMBRE LLAVEIZQ LLAVEDER
                 | FUNCTION NOMBRE PARENIZQ PARENDER LLAVEIZQ instrucciones LLAVEDER
                 | PUBLIC FUNCTION COMPARE PARENIZQ parametros PARENDER LLAVEIZQ instrucciones LLAVEDER
+                 | PUBLIC FUNCTION NOMBRE PARENIZQ parametros PARENDER LLAVEIZQ instrucciones LLAVEDER
                 | FUNCTION NOMBRE PARENIZQ parametros PARENDER LLAVEIZQ instrucciones LLAVEDER
                 | FUNCTION NOMBRE PARENIZQ valoresParametros PARENDER LLAVEIZQ instrucciones LLAVEDER
     '''
