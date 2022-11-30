@@ -8961,3 +8961,315 @@ FECHA Y HORA -> Tue Nov 29 19:49:15 2022
 
 "hola"
 FECHA Y HORA -> Tue Nov 29 19:49:24 2022
+
+
+<?php
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+function generar_rol($tipo=true, $edad)
+{
+	if ($tipo){
+		return "Tiene beneficios";
+	}
+	else {
+		return "No tiene beneficios";
+	}
+}
+echo generar_rol("fecha");
+echo geenrar_rol("fecha","hora");
+for ($i = 1; $i <= 10; $i++) 
+{ 
+	echo $i;
+}
+
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+			"foo" => "bar",
+			"bar" => "foo",
+		);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+			"foo" => "bar",
+			"bar" => "foo",
+		];
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+		"foo" => "bar",
+		"bar" => "foo",
+];
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+if ($reserva > $sueldo) 
+{ 
+	echo "reserva es mayor que sueldo"; 
+} else { 
+	echo "reserva NO es mayor que sueldo";
+}
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 21:46:51 2022
+
+
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+function generar_rol($tipo=true, $edad)
+{
+	if ($tipo){
+		return "Tiene beneficios";
+	}
+	else {
+		return "No tiene beneficios";
+	}
+}
+FECHA Y HORA -> Tue Nov 29 21:47:29 2022
+
+
+echo generar_rol("fecha");
+echo geenrar_rol("fecha","hora");
+for ($i = 1; $i <= 10; $i++) 
+{ 
+	echo $i;
+}
+FECHA Y HORA -> Tue Nov 29 21:47:45 2022
+
+
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+			"foo" => "bar",
+			"bar" => "foo",
+		);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+			"foo" => "bar",
+			"bar" => "foo",
+		];
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+FECHA Y HORA -> Tue Nov 29 21:48:02 2022
+
+
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+		"foo" => "bar",
+		"bar" => "foo",
+];
+FECHA Y HORA -> Tue Nov 29 21:48:17 2022
+
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+if ($reserva > $sueldo) 
+{ 
+	echo "reserva es mayor que sueldo"; 
+} else { 
+	echo "reserva NO es mayor que sueldo";
+}
+FECHA Y HORA -> Tue Nov 29 21:48:35 2022
+
+
+function hacer_yogurt(tipo=false)
+{
+	if ($tipo){
+		return "Tenemos Argumento $tipo de $sabor.<br/>";
+	}
+	else {
+		return "No tenemos el Argumento opcional. Hacer un tazon de yogurt $sabor.<br/>";
+	}
+}
+FECHA Y HORA -> Tue Nov 29 21:49:10 2022
+
+
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+FECHA Y HORA -> Tue Nov 29 21:49:36 2022
+
+
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+FECHA Y HORA -> Tue Nov 29 21:49:57 2022
+
+
+<?php
+//funcion fondo de reserva
+function calcularFondoReserva($var)
+{
+  $fondo=8.33;
+  $tmp=$var*$fondo/100;
+  return round($tmp,2);
+}
+//funcion DTS
+function calcularDTS($var)
+{
+  $tmp=$var/12;
+  return round($tmp,2);
+}
+function generar_rol($tipo=true, $edad)
+{
+	if ($tipo){
+		return "Tiene beneficios";
+	}
+	else {
+		return "No tiene beneficios";
+	}
+}
+echo generar_rol("fecha");
+echo geenrar_rol("fecha","hora");
+for ($i = 1; $i <= 10; $i++) 
+{ 
+	echo $i;
+}
+
+//funcion DCS
+function calcularDCS()
+{
+  $sueldo_basico=425;
+  $tmp=$sueldo_basico/12;
+  return round($tmp,2);
+}
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+			"foo" => "bar",
+			"bar" => "foo",
+		);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+			"foo" => "bar",
+			"bar" => "foo",
+		];
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+		"foo" => "bar",
+		"bar" => "foo",
+];
+
+$nombre = recoge("nombre");
+$edad   = recoge("edad");
+$sueldo   = recoge("sueldo");
+$fondo= calcularFondoReserva($sueldo);
+$dts=calcularDTS($sueldo);
+$dcs=calcularDCS();
+if ($reserva > $sueldo) 
+{ 
+	echo "reserva es mayor que sueldo"; 
+} else { 
+	echo "reserva NO es mayor que sueldo";
+}
+print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
+print "\n";
+print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
+print "\n";
+print "  <p>Su sueldo es <strong>$sueldo</strong> </p>\n";
+print "\n";
+print "  <p>Su Fondo es <strong>$fondo</strong> </p>\n";
+print "\n";
+print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
+print "\n";
+print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
+FECHA Y HORA -> Tue Nov 29 21:50:34 2022

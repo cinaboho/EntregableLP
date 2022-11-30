@@ -11,20 +11,7 @@ $headers .= 'MIME-Version: 1.0' . "\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //mail($dest,$asunto,$cuerpo,$headers);
 
 // ALGORITMO-JOHANNA LOPEZ
-function recoge($var, $m = "")
-{
-    if (!isset($_REQUEST[$var])) {
-        $tmp = is_array($m) [] : "";
-    } elseif (!is_array($_REQUEST[$var])) {
-        $tmp = trim(htmlspecialchars($_REQUEST[$var]));
-    } else {
-        $tmp = $_REQUEST[$var];
-        array_walk_recursive($tmp, function (&$valor) {
-            $valor = trim(htmlspecialchars($valor));
-        });
-    }
-    return $tmp;
-}
+<?php
 //funcion fondo de reserva
 function calcularFondoReserva($var)
 {
@@ -38,6 +25,22 @@ function calcularDTS($var)
   $tmp=$var/12;
   return round($tmp,2);
 }
+function generar_rol($tipo=true, $edad)
+{
+	if ($tipo){
+		return "Tiene beneficios";
+	}
+	else {
+		return "No tiene beneficios";
+	}
+}
+echo generar_rol("fecha");
+echo geenrar_rol("fecha","hora");
+for ($i = 1; $i <= 10; $i++) 
+{ 
+	echo $i;
+}
+
 //funcion DCS
 function calcularDCS()
 {
@@ -45,15 +48,48 @@ function calcularDCS()
   $tmp=$sueldo_basico/12;
   return round($tmp,2);
 }
+switch ($i) {
+    case 0:
+        echo "i es igual a 0";
+		$array = array(
+			"foo" => "bar",
+			"bar" => "foo",
+		);
+        break;
+    case 1:
+        echo "i es igual a 1";
+		$array = [
+			"foo" => "bar",
+			"bar" => "foo",
+		];
+        break;
+    case 2:
+        echo "i es igual a 2";
+        break;
+}
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// a partir de PHP 5.4
+$array = [
+		"foo" => "bar",
+		"bar" => "foo",
+];
+
 $nombre = recoge("nombre");
 $edad   = recoge("edad");
 $sueldo   = recoge("sueldo");
 $fondo= calcularFondoReserva($sueldo);
 $dts=calcularDTS($sueldo);
 $dcs=calcularDCS();
-
-$rol->campo1;
-
+if ($reserva > $sueldo) 
+{ 
+	echo "reserva es mayor que sueldo"; 
+} else { 
+	echo "reserva NO es mayor que sueldo";
+}
 print "  <p>Su nombre es <strong>$nombre</strong>.</p>\n";
 print "\n";
 print "  <p>Su edad es <strong>$edad</strong> años.</p>\n";
@@ -65,6 +101,7 @@ print "\n";
 print "  <p>Su DTS es <strong>$dts</strong> </p>\n";
 print "\n";
 print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
+?>
 
 //ALGORITMO CINDY BOHORQUEZ
 //Crear clase
