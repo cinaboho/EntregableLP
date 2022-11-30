@@ -9,19 +9,6 @@ log_sintactico_array=[]
 #----------------------- Fin Johanna
 
 
-#----------------------- Inicio Cindy
-procedence = (
-			  ('right', 'IGUAL'),
-			  ('left','MENORQUE','MENORQUEI','MAYORQUE','MAYORQUEI'),
-              ('left','ENTERO','DIVIDE'),
-			  ('left', 'PARENIZQ', 'PARENDER'),
-              ('left', 'LLAVEIZQ','LLAVEDER'),
-              ('left', 'CORCHIZQ','CORCHDER')
-
-)
-#----------------------- Fin Cindy
-nombres= {}
-
 def p_sentencias(p):
     '''sentencias : final
                   | operacionMatematica
@@ -415,12 +402,7 @@ def p_SplHeap(p):
     '''SplHeap : CLASS NOMBRE EXTENDS SPLHEAP LLAVEIZQ function2 LLAVEDER '''
     log_sintactico_array.append("Splheap")
 
-
-
-
-
 #----------------------- Fin Viviana
-#-----------------------Cindy
 
 
 def p_error(p):
