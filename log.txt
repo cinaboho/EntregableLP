@@ -9273,3 +9273,97 @@ print "\n";
 print "  <p>Su DCS es <strong>$dcs</strong> </p>\n";
 ?>
 FECHA Y HORA -> Tue Nov 29 21:50:34 2022
+
+
+<?PHP
+$variable=array(
+	"foo" => "bar",
+	"bar" => "foo",
+);
+count(Svariable);
+?>
+FECHA Y HORA -> Tue Nov 29 23:03:14 2022
+
+
+<?
+count(1,2,3);
+?>
+FECHA Y HORA -> Tue Nov 29 23:09:33 2022
+
+
+<?php
+count(1,2,3);
+?>
+FECHA Y HORA -> Tue Nov 29 23:09:39 2022
+
+
+<?php
+count(1,2,3);
+?>
+FECHA Y HORA -> Tue Nov 29 23:09:51 2022
+
+
+<?
+count(1,2,30);
+?>
+FECHA Y HORA -> Tue Nov 29 23:11:38 2022
+
+
+<?
+count ([1,2,3]);
+count (1);
+?>
+FECHA Y HORA -> Tue Nov 29 23:15:06 2022
+
+
+<?
+count ([1,2,3]);
+?>
+FECHA Y HORA -> Tue Nov 29 23:15:15 2022
+
+
+<?
+count ([1,2,3]);
+count (1);
+?>
+FECHA Y HORA -> Tue Nov 29 23:16:01 2022
+
+
+<?
+count ([1,2,3]);
+count ("foo" => "bar",
+		"bar" => "foo",);
+?>
+FECHA Y HORA -> Tue Nov 29 23:17:01 2022
+
+
+<?
+count ([1,2,3]);
+count (["foo" => "bar",
+		"bar" => "foo",]);
+?>
+FECHA Y HORA -> Tue Nov 29 23:17:15 2022
+
+
+<?
+count ([1,2,3]);
+count (1);
+key ([1,2,3]);
+key (1);
+?>
+FECHA Y HORA -> Tue Nov 29 23:21:06 2022
+
+
+<?
+count ([1,2,3]);
+key ([1,2,3]);
+key (1);
+?>
+FECHA Y HORA -> Tue Nov 29 23:21:16 2022
+
+
+<?
+count ([1,2,3]);
+key ([1,2,3]);
+?>
+FECHA Y HORA -> Tue Nov 29 23:21:22 2022

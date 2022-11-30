@@ -158,6 +158,8 @@ def p_instruccion(p):
                     | SplHeap
                     | function2
                     | final
+                    | count
+                    | key
                      '''
 def p_valores(p):
     '''valores : ENTERO
@@ -359,6 +361,18 @@ def p_retornoValor(p):
     | RETURN comparaciones o_comparar comparaciones INTE ENTERO DOSPUNTOS ENTERO PUNTOYCOMA
     '''
     log_sintactico_array.append("RETURN")
+
+#semantico count array
+def p_count(p):
+    '''count : COUNT PARENIZQ CORCHIZQ valoresArray CORCHDER PARENDER PUNTOYCOMA
+    '''
+    log_sintactico_array.append("COUNT ARRAY")
+
+def p_key(p):
+    '''key : KEY PARENIZQ CORCHIZQ valoresArray CORCHDER PARENDER PUNTOYCOMA
+    '''
+    log_sintactico_array.append("KEY ARRAY")
+
 
 #----------------------- Fin Johanna
 #

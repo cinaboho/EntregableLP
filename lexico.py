@@ -51,7 +51,9 @@ reserved = {
     'compare': 'COMPARE',
     'current': 'CURRENT',
     'list': 'LIST',
-    'empty': 'EMPTY'
+    'empty': 'EMPTY',
+    'count': 'COUNT',
+    'key': 'KEY'
     #Fin Johanna
     
 }
