@@ -213,7 +213,7 @@ $b .= "ahi!";
 $f = 2.2;
 
 //Monticulos
-class JupilerLeague extends SplHeap { 
+class JupilerLeague extends SplHeap {
     public function compare($array1, $array2) {
          echo "a es mayor que b"; }}
 
@@ -221,5 +221,8 @@ $heap = new jupilerLeague();
 $heap->insert($value);
 $heap->insert(19);
 
-
+//casting
+$foo = (int) $bar;
+$binary = (binary) $string;
+$fst = (string) $foo;
 ?>
