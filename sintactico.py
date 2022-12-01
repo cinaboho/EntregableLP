@@ -139,6 +139,24 @@ def p_asignaSplheap(p):
     '''asignaSplheap : HEAP o_comparar INSERT PARENIZQ ARRAY PARENIZQ CADENA OPERASIG_ARRAY valores PARENDER PARENDER PUNTOYCOMA
                     | HEAP o_comparar INSERT PARENIZQ valores PARENDER PUNTOYCOMA'''
     log_sintactico_array.append("asignaSplheap")
+
+# --ejemplos de casting
+#$foo = (int) $bar;
+#$binary = (binary) $string;
+#$fst = (string) $foo;
+def p_casting(p):
+    '''casting : VARIABLE_PHP IGUAL PARENIZQ BINARY PARENDER VARIABLE_PHP PUNTOYCOMA
+               | VARIABLE_PHP IGUAL PARENIZQ INT PARENDER VARIABLE_PHP PUNTOYCOMA
+               | VARIABLE_PHP IGUAL PARENIZQ STRING PARENDER VARIABLE_PHP PUNTOYCOMA
+    '''
+    log_sintactico_array.append("CASTING")
+    # if p[4] == "binary":
+    #     p[0] = p[1],p[2],p[3],p[4],p[5],p[6],p[7]
+    # elif p[4] == "int":
+    #     p[0] = p[1],p[2],p[3],p[4],p[5],p[6],p[7]
+    # elif p[4] == "string":
+    #     p[0] = p[1],p[2],p[3],p[4],p[5],p[6],p[7]
+
 #----------Fin Cindy
 #----------------------- Inicio Johanna
 def p_instrucciones(p):
@@ -163,6 +181,7 @@ def p_instruccion(p):
                     | key
                     | clases
                     | asignaSplheap
+                    | casting
                      '''
 def p_valores(p):
     '''valores : ENTERO

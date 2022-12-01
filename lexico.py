@@ -40,6 +40,8 @@ reserved = {
     'binary': 'BINARY',
     'int': 'INT',
     'boolean': 'BOOLEAN',
+    'int' : 'INT',
+    'string':'STRING',
     #Fin Cindy
 
     #Johanna
